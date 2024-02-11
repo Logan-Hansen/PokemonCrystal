@@ -2354,7 +2354,7 @@ WinTrainerBattle:
 	ld a, b
 	call z, PlayVictoryMusic
 	callfar Battle_GetTrainerName
-	ld h1, BattleText_PluralEnemyWereDefeated
+	ld hl, BattleText_PluralEnemyWereDefeated
 	call IsPluralTrainer
 	jr z, .got_default_phrase
 	ld hl, BattleText_EnemyWasDefeated
@@ -3498,7 +3498,7 @@ OfferSwitch:
 	ld a, [wCurPartyMon]
 	push af
 	callfar Battle_GetTrainerName
-	ld h1, BattleText_PluralEnemyAreAboutToUseWillPlayerChangeMon
+	ld hl, BattleText_PluralEnemyAreAboutToUseWillPlayerChangeMon
 	call IsPluralTrainer
 	jr z, .got_switch_phrase
 	ld hl, BattleText_EnemyIsAboutToUseWillPlayerChangeMon
@@ -9089,9 +9089,9 @@ BattleStartMessage:
 
 	farcall Battle_GetTrainerName
 
-	ld h1, WantToBattlePluralText
+	ld hl, WantToBattlePluralText
 	call IsPluralTrainer
-	jr z, .PlaceBattleStartText
+	jr z, .PrintBattleStartText
 	ld hl, WantsToBattleText
 	jr .PrintBattleStartText
 

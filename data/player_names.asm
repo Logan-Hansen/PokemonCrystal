@@ -29,7 +29,7 @@ KrisNameMenuHeader:
 	db 5 ; items
 	db "NEW NAME@"
 FemalePlayerNameArray:
-	db "KRISTYN@"
+	db "KAMI@"
 	db "STAUNEY@"
 	db "RYLEE@"
 	db "JONI@"

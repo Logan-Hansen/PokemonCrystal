@@ -109,7 +109,8 @@ TrainerCard_Page1_LoadGFX:
 	call WaitBGMap
 	ld b, SCGB_TRAINER_CARD
 	call GetSGBLayout
-	call SetPalettes
+	; call SetPalettes
+	; call SetPalettes ; tutorial says should be here, but breaks code
 	call WaitBGMap
 	ld de, CardStatusGFX
 	ld hl, vTiles2 tile $29
@@ -140,7 +141,8 @@ TrainerCard_Page2_LoadGFX:
 	call WaitBGMap
 	ld b, SCGB_TRAINER_CARD
 	call GetSGBLayout
-	call SetPalettes
+	; call SetPalettes
+	; call SetPalettes ; tutorial says should be here, but breaks code
 	call WaitBGMap
 	ld de, LeaderGFX
 	ld hl, vTiles2 tile $29
@@ -198,7 +200,8 @@ TrainerCard_Page3_LoadGFX:
 	call WaitBGMap
 	ld b, SCGB_TRAINER_CARD_KANTO
 	call GetSGBLayout
-	call SetPalettes
+	; call SetPalettes
+	; call SetPalettes ; tutorial says should be here, but breaks code
 	call WaitBGMap
 	ld de, LeaderGFX2
 	ld hl, vTiles2 tile $29
@@ -227,6 +230,11 @@ TrainerCard_Page3_Joypad:
 
 .pressed_left
 	ld a, TRAINERCARDSTATE_PAGE2_LOADGFX
+	ld [wJumptableIndex], a
+	ret
+
+.pressed_right
+	ld a, TRAINERCARDSTATE_QUIT
 	ld [wJumptableIndex], a
 	ret
 
@@ -620,16 +628,6 @@ TrainerCard_JohtoBadgesOAM:
 	db $80, $78, 7
 	db $1c,            $20, $24, $20 | (1 << 7)
 	db $1c | (1 << 7), $20, $24, $20 | (1 << 7)
-
-CardStatusGFX: INCBIN "gfx/trainer_card/card_status.2bpp"
-
-LeaderGFX:  INCBIN "gfx/trainer_card/johto_leaders.2bpp"
-LeaderGFX2: INCBIN "gfx/trainer_card/kanto_leaders.2bpp"
-BadgeGFX:   INCBIN "gfx/trainer_card/johto_badges.2bpp"
-BadgeGFX2:  INCBIN "gfx/trainer_card/kanto_badges.2bpp"
-
-CardRightCornerGFX: INCBIN "gfx/trainer_card/card_right_corner.2bpp"
-
 
 TrainerCard_KantoBadgesOAM:
 ; Template OAM data for each Kanto badge on the trainer card.

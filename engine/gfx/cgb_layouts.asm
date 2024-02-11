@@ -724,8 +724,7 @@ _CGB_TrainerCard:
 	ret
 
 .BadgePalettes:
-INCLUDE "gfx/trainer_card/badges.pal"
-
+INCLUDE "gfx/trainer_card/johto_badges.pal"
 
 _CGB_TrainerCardKanto:
 	ld de, wBGPals1
@@ -790,7 +789,8 @@ _CGB_TrainerCardKanto:
 	lb bc, 3, 3
 	ld a, $3 ; lt.surge / erika
 	call FillBoxCGB
-	hlcoord 15, 10, wAttrmap
+	;hlcoord 15, 10, wAttrmap ; edit to fix placement
+	hlcoord 14, 11, wAttrmap
 	lb bc, 3, 3
 	ld a, $3 ; erika / lt.surge
 	call FillBoxCGB
@@ -826,8 +826,7 @@ _CGB_TrainerCardKanto:
 	ret
 
 .BadgePalettes:
-INCLUDE "gfx/trainer_card/kanto_badges.pal"
-
+	INCLUDE "gfx/trainer_card/kanto_badges.pal"
 
 _CGB_MoveList:
 	ld de, wBGPals1

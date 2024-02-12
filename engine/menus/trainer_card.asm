@@ -109,8 +109,8 @@ TrainerCard_Page1_LoadGFX:
 	call WaitBGMap
 	ld b, SCGB_TRAINER_CARD
 	call GetSGBLayout
-	; call SetPalettes
-	; call SetPalettes ; tutorial says should be here, but breaks code
+	call SetDefaultBGPAndOBP
+	;call SetPalettes ;tutorial says should be here, but breaks code
 	call WaitBGMap
 	ld de, CardStatusGFX
 	ld hl, vTiles2 tile $29
@@ -141,8 +141,8 @@ TrainerCard_Page2_LoadGFX:
 	call WaitBGMap
 	ld b, SCGB_TRAINER_CARD
 	call GetSGBLayout
-	; call SetPalettes
-	; call SetPalettes ; tutorial says should be here, but breaks code
+	call SetDefaultBGPAndOBP
+	;call SetPalettes ; tutorial says should be here, but breaks code
 	call WaitBGMap
 	ld de, LeaderGFX
 	ld hl, vTiles2 tile $29
@@ -162,20 +162,23 @@ TrainerCard_Page2_Joypad:
 	call TrainerCard_Page2_3_AnimateBadges
 	ld hl, hJoyLast
 	ld a, [hl]
-	and D_LEFT
-	jr nz, .pressed_left
-	ld a, [wKantoBadges]
-	and a
-	jr nz, .has_kanto_badges
-	ld a, [hl]
+;	and D_LEFT
+;	jr nz, .pressed_left
+;	ld a, [wKantoBadges]
+;	and a
+;	jr nz, .has_kanto_badges
+;	ld a, [hl]
 	and A_BUTTON
 	jr nz, .Quit
+	ld a, [hl] ; put back in
+	and D_LEFT ; put back in
+	jr nz, .pressed_left ; put back in
 	ret
-.has_kanto_badges
-	ld a, [hl]
-	and D_RIGHT | A_BUTTON
-	jr nz, .pressed_right_a
-	ret
+;.has_kanto_badges
+;	ld a, [hl]
+;	and D_RIGHT | A_BUTTON
+;	jr nz, .pressed_right_a
+;	ret
 
 .pressed_left
 	ld a, TRAINERCARDSTATE_PAGE1_LOADGFX
@@ -200,8 +203,8 @@ TrainerCard_Page3_LoadGFX:
 	call WaitBGMap
 	ld b, SCGB_TRAINER_CARD_KANTO
 	call GetSGBLayout
-	; call SetPalettes
-	; call SetPalettes ; tutorial says should be here, but breaks code
+	call SetDefaultBGPAndOBP
+	;call SetPalettes ; tutorial says should be here, but breaks code 
 	call WaitBGMap
 	ld de, LeaderGFX2
 	ld hl, vTiles2 tile $29
@@ -217,15 +220,17 @@ TrainerCard_Page3_LoadGFX:
 	ret
 
 TrainerCard_Page3_Joypad:
-	ld hl, TrainerCard_KantoBadgesOAM
+	ld hl, TrainerCard_JohtoBadgesOAM
 	call TrainerCard_Page2_3_AnimateBadges
 	ld hl, hJoyLast
 	ld a, [hl]
 	and D_LEFT
 	jr nz, .pressed_left
 	ld a, [hl]
-	and A_BUTTON
-	jr nz, .pressed_a
+	and D_RIGHT ;added back
+	jr nz, .right ;added back
+;	and A_BUTTON
+;	jr nz, .pressed_a
 	ret
 
 .pressed_left
@@ -233,13 +238,10 @@ TrainerCard_Page3_Joypad:
 	ld [wJumptableIndex], a
 	ret
 
-.pressed_right
-	ld a, TRAINERCARDSTATE_QUIT
-	ld [wJumptableIndex], a
-	ret
-
-.pressed_a
-	ld a, TRAINERCARDSTATE_QUIT
+.right
+	ld a, TRAINERCARDSTATE_PAGE2_LOADGFX
+;.pressed_a
+;	ld a, TRAINERCARDSTATE_QUIT
 	ld [wJumptableIndex], a
 	ret
 

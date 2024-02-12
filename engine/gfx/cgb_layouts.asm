@@ -774,9 +774,6 @@ _CGB_TrainerCardKanto:
 	ld a, $1 ; kris
 .got_gender2
 	call FillBoxCGB
-	; top-right corner still uses the border's palette
-	hlcoord 18, 1, wAttrmap
-	ld [hl], $1
 	hlcoord 3, 10, wAttrmap
 	lb bc, 3, 3
 	ld a, $2 ; brock

@@ -1,13 +1,13 @@
 # Pokémon Crystal [![Build Status][ci-badge]][ci]
--[] Color Pokemon pictures shown in the overworld
--[] correct grammar for plural trainers
--[] top of gym leader heads back on trainer card
--[] colored badges on trainer card
--[] remove artificial save delay
--[] default player name options 
--[] GS Ball event on after elite four
--[] multiple fruit from trees
--[] Kurt doesn't make you wait to get balls made
+- [ ] Color Pokemon pictures shown in the overworld
+- [ ] correct grammar for plural trainers
+- [ ] top of gym leader heads back on trainer card
+- [ ] colored badges on trainer card
+- [ ] remove artificial save delay
+- [ ] default player name options 
+- [ ] GS Ball event on after elite four
+- [ ] multiple fruit from trees
+- [ ] Kurt doesn't make you wait to get balls made
 
 ## See also
 

@@ -1,13 +1,19 @@
 # Pokémon Crystal [![Build Status][ci-badge]][ci]
-- [ ] Color Pokemon pictures shown in the overworld
-- [ ] correct grammar for plural trainers
-- [ ] top of gym leader heads back on trainer card
-- [ ] colored badges on trainer card
-- [ ] remove artificial save delay
-- [ ] default player name options 
-- [ ] GS Ball event on after elite four
-- [ ] multiple fruit from trees
-- [ ] Kurt doesn't make you wait to get balls made
+Completed Tutorials
+--------------------
+- [X] [Color Pokemon pictures shown in the overworld](https://github.com/pret/pokecrystal/wiki/Color-Pok%C3%A9mon-pictures-shown-in-overworld)
+- [X] [correct grammar for plural trainers](https://github.com/pret/pokecrystal/wiki/Correct-grammar-for-plural-trainers-like-Twins)
+- [X] [top of gym leader heads back on trainer card](https://github.com/pret/pokecrystal/wiki/Show-the-tops-of-leaders-heads-on-the-trainer-card)
+- [X] [colored badges on trainer card](https://github.com/pret/pokecrystal/wiki/Colored-trainer-card-badges)
+- [X] [remove artificial save delay](https://github.com/pret/pokecrystal/wiki/Remove-the-artificial-save-delay)
+- [X] [default player name options](https://github.com/pret/pokecrystal/wiki/Change-the-default-Player-and-Rival-names)
+- [X] [GS Ball event on after elite four](https://github.com/pret/pokecrystal/wiki/Restore-the-GS-Ball-Celebi-Event)
+- [X] [multiple fruit from trees](https://github.com/pret/pokecrystal/wiki/Harvest-multiple-items-from-fruit-trees)
+- [X] [Kurt doesn't make you wait to get balls made](https://github.com/pret/pokecrystal/wiki/Kurt-Makes-Pokeballs-Instantly)
+
+In Progress
+--------------------
+- [ ] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
 
 ## See also
 

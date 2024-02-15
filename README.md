@@ -14,6 +14,7 @@ Completed Tutorials
 In Progress
 --------------------
 - [ ] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
+- [ ] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 
 ## See also
 

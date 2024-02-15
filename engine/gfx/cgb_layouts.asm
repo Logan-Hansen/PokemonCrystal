@@ -758,6 +758,7 @@ _CGB_TrainerCardKanto:
 	call FarCopyWRAM
 
 	; fill screen with opposite-gender palette for the card border
+	
 	hlcoord 0, 0, wAttrmap
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	ld a, [wPlayerGender]

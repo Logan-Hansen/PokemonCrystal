@@ -768,6 +768,9 @@ _CGB_TrainerCardKanto:
 	ld a, $0 ; chris
 .got_gender
 	call ByteFill
+	; fill trainer sprite area with same-gender palette
+	hlcoord 14, 1, wAttrmap
+	lb bc, 7, 5
 	ld a, [wPlayerGender]
 	and a
 	ld a, $0 ; chris

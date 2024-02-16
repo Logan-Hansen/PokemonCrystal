@@ -169,7 +169,7 @@ TrainerCard_Page2_Joypad:
 	and A_BUTTON
 	jr nz, .Quit
 	ret
-   .has_kanto_badges
+.has_kanto_badges
 	ld a, [hl]
 	and D_RIGHT | A_BUTTON
 	jr nz, .pressed_right_a
@@ -225,13 +225,13 @@ TrainerCard_Page3_Joypad:
 	jr nz, .pressed_a
 	ret
 
-   .pressed_left
+.pressed_left
 	ld a, TRAINERCARDSTATE_PAGE2_LOADGFX
 	ld [wJumptableIndex], a
 	ret
 
 
-   .pressed_a
+.pressed_a
 	ld a, TRAINERCARDSTATE_QUIT
 	ld [wJumptableIndex], a
 	ret

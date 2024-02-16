@@ -11,11 +11,11 @@ Completed Tutorials
 - [X] [multiple fruit from trees](https://github.com/pret/pokecrystal/wiki/Harvest-multiple-items-from-fruit-trees)
 - [X] [Kurt doesn't make you wait to get balls made](https://github.com/pret/pokecrystal/wiki/Kurt-Makes-Pokeballs-Instantly)
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
+- [X] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
 
 In Progress
 --------------------
-- [ ] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
-
+- [ ] [Remove Badge Boosts](https://github.com/pret/pokecrystal/wiki/Remove-the-gym-badges-boosts)
 
 Other Updates
 --------------------

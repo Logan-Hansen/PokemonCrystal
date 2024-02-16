@@ -10,11 +10,12 @@ Completed Tutorials
 - [X] [GS Ball event on after elite four](https://github.com/pret/pokecrystal/wiki/Restore-the-GS-Ball-Celebi-Event)
 - [X] [multiple fruit from trees](https://github.com/pret/pokecrystal/wiki/Harvest-multiple-items-from-fruit-trees)
 - [X] [Kurt doesn't make you wait to get balls made](https://github.com/pret/pokecrystal/wiki/Kurt-Makes-Pokeballs-Instantly)
+- [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 
 In Progress
 --------------------
 - [ ] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
-- [ ] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
+
 
 ## See also
 

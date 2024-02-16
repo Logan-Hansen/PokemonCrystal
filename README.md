@@ -17,6 +17,10 @@ In Progress
 - [ ] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
 
 
+Other Updates
+--------------------
+Ghost type is now Special and Dark is now Physical
+
 ## See also
 
 - [**FAQ**](FAQ.md)

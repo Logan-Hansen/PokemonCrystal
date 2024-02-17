@@ -39,6 +39,7 @@ features from different generations
 - [ ] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [ ] [revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
 - [ ] [Move reminder](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Reminder)
+      
 Custom features
 - [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
 - [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)

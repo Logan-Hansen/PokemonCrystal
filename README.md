@@ -3,8 +3,10 @@ Completed Tutorials
 --------------------
 Miscellaneous
 - [X] [Simplified Clock Reset](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
+      
 How to edit the...
 - [X] [default player name options](https://github.com/pret/pokecrystal/wiki/Change-the-default-Player-and-Rival-names)
+      
 Upgrades to existing features
 - [ ] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [ ] [icons colored by species](https://github.com/pret/pokecrystal/wiki/Color-party-menu-icons-by-species)
@@ -18,6 +20,7 @@ Upgrades to existing features
 - [X] [multiple fruit from trees](https://github.com/pret/pokecrystal/wiki/Harvest-multiple-items-from-fruit-trees)
 - [X] [Kurt doesn't make you wait to get balls made](https://github.com/pret/pokecrystal/wiki/Kurt-Makes-Pokeballs-Instantly)
 - [X] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
+      
 Removing features
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 - [X] [Remove Badge Boosts](https://github.com/pret/pokecrystal/wiki/Remove-the-gym-badges-boosts)

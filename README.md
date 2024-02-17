@@ -3,6 +3,8 @@ Completed Tutorials
 --------------------
 Miscellaneous
 - [X] [Simplified Clock Reset](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
+- [ ] [Fix design flaws](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
+      - [X] pc banks are offset by PICS_FIX
 
 How to add a new...
 - [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)

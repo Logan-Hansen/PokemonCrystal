@@ -915,6 +915,9 @@ RandomPhoneMon:
 	inc hl
 ; b = trainer type
 	ld b, a
+; TRAINERTYPE_NICKNAME has uneven length, so always use the first mon
+	bit TRAINERTYPE_NICKNAME_F, b
+	jr nz, .got_mon
 ; c = mon length
 ; All trainers use 2 bytes for level and species
 	ld c, 2

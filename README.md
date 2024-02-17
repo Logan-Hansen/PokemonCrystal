@@ -75,7 +75,7 @@ Other Updates & Changes
 - [ ] Simplify happiness evolutions
 - [ ] Speed up egg hatch rates
 - [ ] Safari Zone back
-- [ ] Bill cals to switch boxes when one is full
+- [ ] Bill calls to switch boxes when one is full
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
 - [ ] Updated movesets for Pokemon
 - [ ] Base stat changes to rebalance and increase usability

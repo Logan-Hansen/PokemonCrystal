@@ -121,7 +121,7 @@ GetFrontpicPointer:
 	call AddNTimes
 	ld a, d
 	call GetFarByte
-	call FixPicBank
+;	call FixPicBank
 	push af
 	inc hl
 	ld a, d
@@ -224,7 +224,7 @@ GetMonBackpic:
 	add hl, bc
 	ld a, d
 	call GetFarByte
-	call FixPicBank
+;	call FixPicBank
 	push af
 	inc hl
 	ld a, d
@@ -244,23 +244,23 @@ GetMonBackpic:
 	ldh [rSVBK], a
 	ret
 
-FixPicBank:
-; This is a thing for some reason.
+;FixPicBank:
+; This is a thing for some reason. removed to try and fix loading trainer images
 
-DEF PICS_FIX EQU $36
-EXPORT PICS_FIX
+;DEF PICS_FIX EQU $36
+;EXPORT PICS_FIX
 
-	push hl
-	push bc
-	sub BANK("Pics 1") - PICS_FIX
-	ld c, a
-	ld b, 0
-	ld hl, .PicsBanks
-	add hl, bc
-	ld a, [hl]
-	pop bc
-	pop hl
-	ret
+;	push hl
+;	push bc
+;	sub BANK("Pics 1") - PICS_FIX
+;	ld c, a
+;	ld b, 0
+;	ld hl, .PicsBanks
+;	add hl, bc
+;	ld a, [hl]
+;	pop bc
+;	pop hl
+;	ret
 
 .PicsBanks:
 	db BANK("Pics 1")  ; BANK("Pics 1") + 0
@@ -297,7 +297,7 @@ GSIntro_GetMonFrontpic: ; unreferenced
 	call AddNTimes
 	ld a, BANK(PokemonPicPointers)
 	call GetFarByte
-	call FixPicBank
+;	call FixPicBank
 	push af
 	inc hl
 	ld a, BANK(PokemonPicPointers)
@@ -328,7 +328,7 @@ GetTrainerPic:
 	push de
 	ld a, BANK(TrainerPicPointers)
 	call GetFarByte
-	call FixPicBank
+;	call FixPicBank
 	push af
 	inc hl
 	ld a, BANK(TrainerPicPointers)

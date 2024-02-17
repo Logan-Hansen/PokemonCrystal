@@ -6079,7 +6079,7 @@ LoadEnemyMon:
 	ld c, [hl]
 	jr .UpdateDVs
 
-+.WildDVs:
+.WildDVs:
 ; Wild DVs
 ; Here's where the fun starts
 

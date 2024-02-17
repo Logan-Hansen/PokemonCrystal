@@ -301,10 +301,10 @@ endr
 	pop hl
 .no_moves
 
-+; Custom DVs or stat experience affect stats,
-+; so recalculate them after TryAddMonToParty
+; Custom DVs or stat experience affect stats,
+; so recalculate them after TryAddMonToParty
 	ld a, [wOtherTrainerType]
-+	and TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP
+	and TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP
 	jr z, .no_stat_recalc
 
 	push hl

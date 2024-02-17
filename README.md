@@ -3,12 +3,24 @@ Completed Tutorials
 --------------------
 Miscellaneous
 - [X] [Simplified Clock Reset](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
+
+How to add a new...
+- [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
+- [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
+- [ ] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
+- [ ] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
+- [ ] [Mart (with new dialog and more items)](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
+- [ ] [New fishing rod](https://github.com/pret/pokecrystal/wiki/Add-a-new-fishing-rod)
+- [ ] [New battle transition for team rocket](https://github.com/pret/pokecrystal/wiki/Add-a-new-battle-transition)
+- [ ] [Additional wild pokemon slot on each route](https://github.com/pret/pokecrystal/wiki/Add-a-new-wild-Pok%C3%A9mon-slot)
+- [ ] [Instant text speed option](https://github.com/pret/pokecrystal/wiki/Add-a-new-text-scrolling-speed)
+- [ ] [New Move tutor and tutor moves](https://github.com/pret/pokecrystal/wiki/Move-Tutor-and-Tutor-Moves)
+- [ ] [NPC to give you items](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
       
 How to edit the...
 - [X] [default player name options](https://github.com/pret/pokecrystal/wiki/Change-the-default-Player-and-Rival-names)
       
 Upgrades to existing features
-- [ ] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [ ] [icons colored by species](https://github.com/pret/pokecrystal/wiki/Color-party-menu-icons-by-species)
 - [X] [Color Pokemon pictures shown in the overworld](https://github.com/pret/pokecrystal/wiki/Color-Pok%C3%A9mon-pictures-shown-in-overworld)
 - [X] [Allow more trainer parties, individual DVs, stat experience, nicknames, variable teams, etc](https://github.com/pret/pokecrystal/wiki/Allow-more-trainer-parties,-with-individual-DVs,-stat-experience,-nicknames,-variable-teams,-etc)
@@ -24,6 +36,7 @@ Upgrades to existing features
 Removing features
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 - [X] [Remove Badge Boosts](https://github.com/pret/pokecrystal/wiki/Remove-the-gym-badges-boosts)
+      
 features from different generations
 - [ ] [Don't gain experience at level 100](https://github.com/pret/pokecrystal/wiki/Don't-gain-experience-at-level-100)
 - [ ] [lose money proportional to badges and level](https://github.com/pret/pokecrystal/wiki/Lose-money-proportional-to-badges-and-level)
@@ -41,7 +54,8 @@ features from different generations
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [ ] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [ ] [revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
-- [ ] [Move reminder](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Reminder)
+- [ ] [Move Reminder](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Reminder)
+- [ ] [Move Relearner](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Relearner)
       
 Custom features
 - [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
@@ -63,6 +77,8 @@ Other Updates & Changes
 - [ ] Safari Zone back
 - [ ] Bill cals to switch boxes when one is full
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
+- [ ] Updated movesets for Pokemon
+- [ ] Base stat changes to rebalance and increase usability
 
 ## See also
 

@@ -25,22 +25,7 @@ SECTION "Enemy Trainer Parties 1", ROMX
 	db TRAINERTYPE_MOVES
 	db 7, PIDGEY, 		TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
 	db 9, PIDGEOTTO,	TACKLE, MUD_SLAP, GUST, NO_MOVE
-	db $fe ; delimiter
-
-	...
-
-	; Six badges
-	db TRAINERTYPE_ITEM_MOVES
-	db 33, PIDGEOTTO, NO_ITEM, 	MUD_SLAP, FLY, QUICK_ATTACK, WING_ATTACK
-	db 35, PIDGEOT, SHARP_BEAK,	MUD_SLAP, FLY, QUICK_ATTACK, WING_ATTACK
-	db $fe ; delimiter
-
-	...
-
-	; 16 badges
-	db TRAINERTYPE_ITEM_MOVES
-	db 58, PIDGEOT, NO_ITEM, 	MUD_SLAP, FLY, QUICK_ATTACK, WING_ATTACK
-	db 60, PIDGEOT, SHARP_BEAK, MUD_SLAP, FLY, QUICK_ATTACK, WING_ATTACK
+	;db $fe ; use this if you want to make another set after
 	db -1 ; end
 
 WhitneyGroup:

@@ -703,4 +703,8 @@ DEF KRIS EQU __trainer_class__
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
 
+	;constants for random generated parties - used to specify which list to use
+	const_def
+	const RANDOMLIST_0
+
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

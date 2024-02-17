@@ -15,6 +15,13 @@
 ;    * with TRAINERTYPE_MOVES:    db move 1, move 2, move 3, move 4
 ;    (TRAINERTYPE_ITEM_MOVES is just TRAINERTYPE_ITEM | TRAINERTYPE_MOVES)
 ; - db -1 ; end
+; Random Trainers:
+; - db "NAME@", TRAINERTYPE_RANDOM | other TRAINERTYPE_* constants, number of party pokémon, list constant (defined in constants/trainer_constants.asm)
+; - db -1 ; end
+; Lists of random Pokémon:
+; - db length of list
+; - Pokémon, separated by db $fe
+; - db -1 ; end
 
 SECTION "Enemy Trainer Parties 1", ROMX
 
@@ -3507,3 +3514,17 @@ MysticalmanGroup:
 	db 23, HAUNTER,    LICK, HYPNOSIS, MEAN_LOOK, CURSE
 	db 25, ELECTRODE,  SCREECH, SONICBOOM, THUNDER, ROLLOUT
 	db -1 ; end
+
+
+SECTION "Random Party Lists", ROMX
+;lists defined here, constants used to tell trainer which list to get from
+RandomPartyLists::
+; RANDOMLIST_0
+    db 6
+    db 10, BULBASAUR,  $fe
+    db 10, CHARMANDER, $fe
+    db 10, SQUIRTLE,   $fe
+    db 10, CHIKORITA,  $fe
+    db 10, CYNDAQUIL,  $fe
+    db 10, TOTODILE,   $fe
+    db -1 ; end

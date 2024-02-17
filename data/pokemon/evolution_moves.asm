@@ -250,6 +250,5 @@ EvolutionMoves::
     db NO_MOVE      ; LUGIA
     db NO_MOVE      ; HO-OH
 	db NO_MOVE      ; CELEBI
-    db NO_MOVE      ; Have to have 253
-    db NO_MOVE      ; Have to have 253
+    db NO_MOVE      ; Have to have an extra
 	assert_table_length NUM_POKEMON

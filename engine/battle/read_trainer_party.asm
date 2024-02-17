@@ -247,7 +247,28 @@ endr
 	dec c
 	jr nz, .stat_exp_loop
 .no_stat_exp
+; happpiness?
+	ld a, [wOtherTrainerType]
+	bit TRAINERTYPE_HAPPINESS_F, a
+	jr z, .no_happiness
 
+	push hl
+	ld a, [wOTPartyCount]
+	dec a
+	ld hl, wOTPartyMon1Happiness
+	call GetPartyLocation
+	ld d, h
+	ld e, l
+	pop hl
+
+	call GetNextTrainerDataByte
+	cp MAX_HAPPINESS
+	jr nz, .happiness_ok
+	ld a, $ff
+.happiness_ok
+	ld [de], a
+	
+.no_happiness
 ; item?
 	ld a, [wOtherTrainerType]
 	bit TRAINERTYPE_ITEM_F, a

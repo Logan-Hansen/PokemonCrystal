@@ -2832,6 +2832,7 @@ wScriptTextBank::
 wDeferredScriptAddr::
 wScriptTextAddr::
 	dw
+wWildBattlePanic:: db
 wWildEncounterCooldown:: db
 
 wXYComparePointer:: dw

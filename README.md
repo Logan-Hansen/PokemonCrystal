@@ -18,6 +18,8 @@ Completed Tutorials
 In Progress
 --------------------
 - [ ] [Allow more trainer parties, individual DVs, stat experience, nicknames, variable teams, etc](https://github.com/pret/pokecrystal/wiki/Allow-more-trainer-parties,-with-individual-DVs,-stat-experience,-nicknames,-variable-teams,-etc)
+- [ ] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
+- [ ] [icons colored by species](https://github.com/pret/pokecrystal/wiki/Color-party-menu-icons-by-species)
 
 Other Updates
 --------------------

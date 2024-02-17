@@ -13,6 +13,7 @@ Completed Tutorials
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 - [X] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
 - [X] [Remove Badge Boosts](https://github.com/pret/pokecrystal/wiki/Remove-the-gym-badges-boosts)
+- [X] [Simplified Clock Reset](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
 
 
 In Progress

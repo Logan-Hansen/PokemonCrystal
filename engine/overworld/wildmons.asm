@@ -920,6 +920,36 @@ RandomPhoneMon:
 	inc hl
 ; b = trainer type
 	ld b, a
+
+; TRAINERTYPE_VARIABLE increment trainer group.
+	bit TRAINERTYPE_VARIABLE_F, b
+	jr z, .no_variance
+	; get badge count in c
+	push hl
+	ld hl, wBadges
+	ld b, 2
+	call CountSetBits
+	pop hl
+	; Skip that many $fe delimiters
+.countbadges
+	ld a, c
+	and a
+	jr z, .lastincrement
+.find_delimiter ;Find delimiter then load next byte
+	ld a, [wTrainerGroupBank]
+	call GetFarByte
+	inc hl
+	cp $fe
+	jr nz, .find_delimiter
+	dec c
+	jr .countbadges
+.lastincrement
+	ld a, [wTrainerGroupBank]
+	call GetFarByte
+	inc hl
+	ld b, a
+.no_variance
+
 ; TRAINERTYPE_NICKNAME has uneven length, so always use the first mon
 	bit TRAINERTYPE_NICKNAME_F, b
 	jr nz, .got_mon
@@ -962,8 +992,11 @@ RandomPhoneMon:
 	add hl, bc
 	ld a, [wTrainerGroupBank]
 	call GetFarByte
+	cp $fe
+	jr z, .delimiter
 	cp -1
 	jr nz, .count_mon
+.delimiter
 	pop hl
 
 .rand

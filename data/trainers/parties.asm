@@ -1090,10 +1090,10 @@ BeautyGroup:
 	db -1 ; end
 
 	; BEAUTY (2)
-	db "SAMANTHA@", TRAINERTYPE_MOVES
-	db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
-	db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
-	db -1 ; end
+	;db "SAMANTHA@", TRAINERTYPE_MOVES
+	;db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
+	;db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
+	;db -1 ; end
 
 	; BEAUTY (3)
 	db "JULIE@", TRAINERTYPE_NORMAL
@@ -1154,11 +1154,11 @@ BeautyGroup:
 	db -1 ; end
 
 	; BEAUTY (14)
-	db "JULIA@", TRAINERTYPE_NORMAL
-	db 32, PARAS
-	db 32, EXEGGCUTE
-	db 35, PARASECT
-	db -1 ; end
+	;db "JULIA@", TRAINERTYPE_NORMAL
+	;db 32, PARAS
+	;db 32, EXEGGCUTE
+	;db 35, PARASECT
+	;db -1 ; end
 
 	; BEAUTY (15)
 	db "THERESA@", TRAINERTYPE_NORMAL
@@ -1175,6 +1175,22 @@ BeautyGroup:
 	db "OLIVIA@", TRAINERTYPE_NORMAL
 	db 19, CORSOLA
 	db -1 ; end
+
+Beauty2Group:
+
+	; BEAUTY (2)
+	db "SAMANTHA@", TRAINERTYPE_MOVES
+	db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
+	db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
+	db -1 ; end
+
+	; BEAUTY (14)
+	db "JULIA@", TRAINERTYPE_NORMAL
+	db 32, PARAS
+	db 32, EXEGGCUTE
+	db 35, PARASECT
+	db -1 ; end
+
 
 PokemaniacGroup:
 	; POKEMANIAC (1)

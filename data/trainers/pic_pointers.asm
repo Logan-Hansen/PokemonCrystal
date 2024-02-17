@@ -32,6 +32,7 @@ TrainerPicPointers::
 	dba CooltrainermPic
 	dba CooltrainerfPic
 	dba BeautyPic
+	dba Beauty2Pic
 	dba PokemaniacPic
 	dba GruntmPic
 	dba GentlemanPic
@@ -59,6 +60,7 @@ TrainerPicPointers::
 	dba CamperPic
 	dba ExecutivefPic
 	dba SagePic
+	dba Sage2Pic
 	dba MediumPic
 	dba BoarderPic
 	dba PokefanmPic

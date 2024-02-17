@@ -24,6 +24,7 @@ MaleTrainers:
 	db POKEFANM
 	db OFFICER
 	db SAGE
+	db SAGE2
 	db BIKER
 	db SCIENTIST
 .End
@@ -32,6 +33,7 @@ FemaleTrainers:
 	db MEDIUM
 	db LASS
 	db BEAUTY
+	db BEAUTY2
 	db SKIER
 	db TEACHER
 	db SWIMMERF

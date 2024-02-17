@@ -242,7 +242,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass BEAUTY ; 1d
 	const VICTORIA
-	const SAMANTHA
+	;const SAMANTHA ; moved to beauty2
 	const JULIE ; unused
 	const JACLYN ; unused
 	const BRENDA ; unused
@@ -254,10 +254,15 @@ DEF KRIS EQU __trainer_class__
 	const ANGELICA ; unused
 	const KENDRA ; unused
 	const VERONICA ; unused
-	const JULIA
+	;const JULIA ; moved to beauty2
 	const THERESA ; unused
 	const VALERIE
 	const OLIVIA
+
+	trainerclass BEAUTY2 ; this one uses the original sprite
+	const SAMANTHA
+	const JULIA
+
 
 	trainerclass POKEMANIAC ; 1e
 	const LARRY

@@ -711,8 +711,9 @@ SECTION "Pics 19", ROMX
 
 UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
-; moved these from 17 and 10 to make room for larger file size on original japanese trainer sprites
-
+; moved above from 17 and 10 to make room for larger file size on original japanese trainer sprites
+Beauty2Pic:          INCBIN "gfx/trainers/beauty2.2bpp.lz"
+Sage2Pic:            INCBIN "gfx/trainers/sage2.2bpp.lz"
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).

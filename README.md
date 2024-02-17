@@ -39,13 +39,26 @@ features from different generations
 - [ ] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [ ] [revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
 - [ ] [Move reminder](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Reminder)
-
+Custom features
+- [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
+- [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)
+- [ ] [Battle palettes for different times of day and environments](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)
+- [ ] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
+- [ ] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
+- [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
 
 --------------------
 
 Other Updates & Changes
 --------------------
-Ghost type is now Special and Dark is now Physical
+- [X] Ghost type is now Special and Dark is now Physical
+- [ ] Trade evolutions by level
+- [ ] Trade with item evolutions as if it was a stone
+- [ ] Simplify happiness evolutions
+- [ ] Speed up egg hatch rates
+- [ ] Safari Zone back
+- [ ] Bill cals to switch boxes when one is full
+- [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
 
 ## See also
 

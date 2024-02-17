@@ -79,6 +79,8 @@ Other Updates & Changes
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
 - [ ] Updated movesets for Pokemon
 - [ ] Base stat changes to rebalance and increase usability
+- [X] Added back in some of the japanese release trainer sprites
+- [ ] Make trainers with multiple sprite options
 
 ## See also
 

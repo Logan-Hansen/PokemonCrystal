@@ -45,7 +45,7 @@ features from different generations
 - [ ] [infinitely reusable TMs](https://github.com/pret/pokecrystal/wiki/Infinitely-reusable-TMs)
 - [ ] [Automatically reuse Repel](https://github.com/pret/pokecrystal/wiki/Automatically-reuse-Repel)
 - [ ] [Learn moves upon evolution](https://github.com/pret/pokecrystal/wiki/Evolution-moves)
-- [ ] [Running Shoes](https://github.com/pret/pokecrystal/wiki/Running-Shoes)
+- [X] [Running Shoes](https://github.com/pret/pokecrystal/wiki/Running-Shoes)
 - [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
 - [ ] [Make Sandstorm raise the special defense of rock type pokemon by 50%](https://github.com/pret/pokecrystal/wiki/Make-Sandstorm-raise-the-Special-Defense-of-Rock-type-Pok%C3%A9mon-by-50%25)
 - [ ] [Smashing rocks has a chance to contain items](https://github.com/pret/pokecrystal/wiki/Smashing-rocks-has-a-chance-to-contain-items)

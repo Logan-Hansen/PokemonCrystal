@@ -9,6 +9,7 @@ Marts:
 	dw MartGoldenrod2F1
 	dw MartGoldenrod2F2
 	dw MartGoldenrod3F
+	dw MartGoldenrod3F2
 	dw MartGoldenrod4F
 	dw MartGoldenrod5F1
 	dw MartGoldenrod5F2
@@ -122,6 +123,20 @@ MartGoldenrod3F:
 	db DIRE_HIT
 	db GUARD_SPEC
 	db X_ACCURACY
+	db -1 ; end
+
+MartGoldenrod3F2:
+	db 6 ; # items
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
+	db MOON_STONE
+	db SUN_STONE
+	db METAL_COAT
+	db KINGS_ROCK
+	db DRAGON_SCALE
+	db UP_GRADE
 	db -1 ; end
 
 MartGoldenrod4F:

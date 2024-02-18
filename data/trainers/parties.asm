@@ -1176,22 +1176,6 @@ BeautyGroup:
 	db 19, CORSOLA
 	db -1 ; end
 
-Beauty2Group:
-
-	; BEAUTY (2)
-	db "SAMANTHA@", TRAINERTYPE_MOVES
-	db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
-	db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
-	db -1 ; end
-
-	; BEAUTY (14)
-	db "JULIA@", TRAINERTYPE_NORMAL
-	db 32, PARAS
-	db 32, EXEGGCUTE
-	db 35, PARASECT
-	db -1 ; end
-
-
 PokemaniacGroup:
 	; POKEMANIAC (1)
 	db "LARRY@", TRAINERTYPE_NORMAL
@@ -3160,11 +3144,11 @@ SageGroup:
 	db -1 ; end
 
 	; SAGE (9)
-	db "LI@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, BELLSPROUT
-	db 10, HOOTHOOT
-	db -1 ; end
+	;db "LI@", TRAINERTYPE_NORMAL
+	;db  7, BELLSPROUT
+	;db  7, BELLSPROUT
+	;db 10, HOOTHOOT
+	;db -1 ; end
 
 	; SAGE (10)
 	db "GAKU@", TRAINERTYPE_NORMAL
@@ -3531,6 +3515,28 @@ MysticalmanGroup:
 	db 25, ELECTRODE,  SCREECH, SONICBOOM, THUNDER, ROLLOUT
 	db -1 ; end
 
+Beauty2Group:
+
+	; BEAUTY in Goldenrod gym
+	db "SAMANTHA@", TRAINERTYPE_MOVES
+	db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
+	db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
+	db -1 ; end
+
+	; BEAUTY in celadon gym
+	db "JULIA@", TRAINERTYPE_NORMAL
+	db 32, PARAS
+	db 32, EXEGGCUTE
+	db 35, PARASECT
+	db -1 ; end
+
+Sage2Group:
+	; SAGE boss of sprout tower
+	db "LI@", TRAINERTYPE_NORMAL
+	db  7, BELLSPROUT
+	db  7, BELLSPROUT
+	db 10, HOOTHOOT
+	db -1 ; end
 
 SECTION "Random Party Lists", ROMX
 ;lists defined here, constants used to tell trainer which list to get from

@@ -259,11 +259,6 @@ DEF KRIS EQU __trainer_class__
 	const VALERIE
 	const OLIVIA
 
-	trainerclass BEAUTY2 ; this one uses the original sprite
-	const SAMANTHA
-	const JULIA
-
-
 	trainerclass POKEMANIAC ; 1e
 	const LARRY
 	const ANDREW
@@ -625,7 +620,7 @@ DEF KRIS EQU __trainer_class__
 	const PING
 	const EDMOND
 	const NEAL
-	const LI
+	;const LI ;moving to sage2
 	const GAKU
 	const MASA
 	const KOJI
@@ -707,6 +702,13 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
+
+	trainerclass BEAUTY2 ; this one uses the original sprite
+	const SAMANTHA
+	const JULIA
+
+	trainerclass SAGE2 ; this one uses the original sprite
+	const LI 
 
 	;constants for random generated parties - used to specify which list to use
 	const_def

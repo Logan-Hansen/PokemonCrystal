@@ -32,7 +32,6 @@ TrainerPicPointers::
 	dba CooltrainermPic
 	dba CooltrainerfPic
 	dba BeautyPic
-	dba Beauty2Pic
 	dba PokemaniacPic
 	dba GruntmPic
 	dba GentlemanPic
@@ -60,7 +59,6 @@ TrainerPicPointers::
 	dba CamperPic
 	dba ExecutivefPic
 	dba SagePic
-	dba Sage2Pic
 	dba MediumPic
 	dba BoarderPic
 	dba PokefanmPic
@@ -72,4 +70,6 @@ TrainerPicPointers::
 	dba OfficerPic
 	dba GruntfPic
 	dba MysticalmanPic
+	dba Beauty2Pic
+	dba Sage2Pic
 	assert_table_length NUM_TRAINER_CLASSES

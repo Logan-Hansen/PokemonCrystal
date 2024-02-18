@@ -24,16 +24,15 @@ MaleTrainers:
 	db POKEFANM
 	db OFFICER
 	db SAGE
-	db SAGE2
 	db BIKER
 	db SCIENTIST
+	db SAGE2
 .End
 
 FemaleTrainers:
 	db MEDIUM
 	db LASS
 	db BEAUTY
-	db BEAUTY2
 	db SKIER
 	db TEACHER
 	db SWIMMERF
@@ -41,4 +40,5 @@ FemaleTrainers:
 	db KIMONO_GIRL
 	db POKEFANF
 	db COOLTRAINERF
+	db BEAUTY2
 .End

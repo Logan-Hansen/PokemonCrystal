@@ -32,7 +32,6 @@ TrainerGroups:
 	dba CooltrainerMGroup
 	dba CooltrainerFGroup
 	dba BeautyGroup
-	dba Beauty2Group
 	dba PokemaniacGroup
 	dba GruntMGroup
 	dba GentlemanGroup
@@ -60,7 +59,6 @@ TrainerGroups:
 	dba CamperGroup
 	dba ExecutiveFGroup
 	dba SageGroup
-	dba Sage2Group
 	dba MediumGroup
 	dba BoarderGroup
 	dba PokefanMGroup
@@ -72,4 +70,6 @@ TrainerGroups:
 	dba OfficerGroup
 	dba GruntFGroup
 	dba MysticalmanGroup
+	dba Beauty2Group
+	dba Sage2Group
 	assert_table_length NUM_TRAINER_CLASSES

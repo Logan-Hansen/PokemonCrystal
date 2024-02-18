@@ -36,16 +36,24 @@ GoldenrodCityMoveTutorCallback:
 	iffalse .MoveTutorDone
 	checkitem COIN_CASE
 	iffalse .MoveTutorDisappear
+	;changed to make MoveTutor always here
 	readvar VAR_WEEKDAY
+	ifequal MONDAY, .MoveTutorAppear
+	ifequal TUESDAY, .MoveTutorAppear
 	ifequal WEDNESDAY, .MoveTutorAppear
+	ifequal THURSDAY, .MoveTutorAppear
+	ifequal FRIDAY, .MoveTutorAppear
 	ifequal SATURDAY, .MoveTutorAppear
+	ifequal SUNDAY, .MoveTutorAppear
+
 .MoveTutorDisappear:
 	disappear GOLDENRODCITY_MOVETUTOR
 	endcallback
 
 .MoveTutorAppear:
-	checkflag ENGINE_DAILY_MOVE_TUTOR
-	iftrue .MoveTutorDone
+	; no more daily limit
+	;checkflag ENGINE_DAILY_MOVE_TUTOR
+	;iftrue .MoveTutorDone
 	appear GOLDENRODCITY_MOVETUTOR
 .MoveTutorDone:
 	endcallback
@@ -56,37 +64,38 @@ MoveTutorScript:
 	writetext GoldenrodCityMoveTutorAskTeachAMoveText
 	yesorno
 	iffalse .Refused
-	special DisplayCoinCaseBalance
+	;special DisplayCoinCaseBalance
 	writetext GoldenrodCityMoveTutorAsk4000CoinsOkayText
 	yesorno
 	iffalse .Refused2
-	checkcoins 4000
+	;checkcoins 4000
+	checkmoney YOUR_MONEY, 4000
 	ifequal HAVE_LESS, .NotEnoughMoney
 	writetext GoldenrodCityMoveTutorWhichMoveShouldITeachText
 	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
-	ifequal MOVETUTOR_FLAMETHROWER, .Flamethrower
-	ifequal MOVETUTOR_THUNDERBOLT, .Thunderbolt
-	ifequal MOVETUTOR_ICE_BEAM, .IceBeam
+	ifequal 1, .Flamethrower
+	ifequal 2, .Thunderbolt
+	ifequal 3, .IceBeam
 	sjump .Incompatible
 
 .Flamethrower:
-	setval MOVETUTOR_FLAMETHROWER
+	setval MT01_MOVE
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
 	sjump .Incompatible
 
 .Thunderbolt:
-	setval MOVETUTOR_THUNDERBOLT
+	setval MT02_MOVE
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
 	sjump .Incompatible
 
 .IceBeam:
-	setval MOVETUTOR_ICE_BEAM
+	setval MT03_MOVE
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
@@ -94,7 +103,7 @@ MoveTutorScript:
 
 .MoveMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	menu_coords 0, 2, 15, TEXTBOX_Y - 1 ;if add a 4th move remove the -1
 	dw .MenuData
 	db 1 ; default option
 
@@ -121,17 +130,20 @@ MoveTutorScript:
 .TeachMove:
 	writetext GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText
 	promptbutton
-	takecoins 4000
+	;takecoins 4000
+	takemoney YOUR_MONEY, 4000
 	waitsfx
 	playsound SFX_TRANSACTION
-	special DisplayCoinCaseBalance
+	;special DisplayCoinCaseBalance
 	writetext GoldenrodCityMoveTutorFarewellKidText
 	waitbutton
 	closetext
-	readvar VAR_FACING
-	ifequal LEFT, .WalkAroundPlayer
-	applymovement GOLDENRODCITY_MOVETUTOR, GoldenrodCityMoveTutorEnterGameCornerMovement
-	sjump .GoInside
+	; tutor nolonger goes inside so you can buy multiple
+	end
+	;readvar VAR_FACING
+	;ifequal LEFT, .WalkAroundPlayer
+	;applymovement GOLDENRODCITY_MOVETUTOR, GoldenrodCityMoveTutorEnterGameCornerMovement
+	;sjump .GoInside
 
 .WalkAroundPlayer:
 	applymovement GOLDENRODCITY_MOVETUTOR, GoldenrodCityMoveTutorWalkAroundPlayerThenEnterGameCornerMovement
@@ -499,7 +511,8 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
 	text "It will cost you"
-	line "4000 coins. Okay?"
+	;line "4000 coins. Okay?"
+	line "4000 ¥@. Okay?"
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
@@ -532,7 +545,8 @@ GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
 
 GoldenrodCityMoveTutorFarewellKidText:
 	text "Wahahah!"
-	line "Farewell, kid!"
+	text "Thanks, kid!"
+	;line "Farewell, kid!"
 	done
 
 GoldenrodCityMoveTutorBButText:
@@ -541,7 +555,8 @@ GoldenrodCityMoveTutorBButText:
 
 GoldenrodCityMoveTutorYouDontHaveEnoughCoinsText:
 	text "…You don't have"
-	line "enough coins here…"
+	;line "enough coins here…"
+	line "enough money here..."
 	done
 
 GoldenrodCityMoveTutorMoveText:

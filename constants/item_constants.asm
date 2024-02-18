@@ -301,6 +301,8 @@ MACRO add_mt
 	add_tmnum \1
 ENDM
 
+;any new move tutor moves need to be added here
+;move also needs to be in pokemon's TM/HM/TutorMove learnset
 DEF MT01 EQU const_value
 	add_mt FLAMETHROWER
 	add_mt THUNDERBOLT

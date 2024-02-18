@@ -29,7 +29,8 @@ DarkCaveBlackthornEntranceRevive:
 	itemball REVIVE
 
 DarkCaveBlackthornEntranceTMSnore:
-	itemball TM_SNORE
+	;itemball TM_SNORE
+	itemball AWAKENING ;put this in to make up for tms having infinite use
 
 DarkCaveBlackthornEntrancePharmacistText1:
 	text "Whoa! You startled"

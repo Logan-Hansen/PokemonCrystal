@@ -13,7 +13,7 @@ How to add a new...
 - [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
 - [ ] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [ ] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
-- [ ] [Mart (with new dialog and more items)](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
+- [ ] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
 - [ ] [New fishing rod](https://github.com/pret/pokecrystal/wiki/Add-a-new-fishing-rod)
 - [ ] [New battle transition for team rocket](https://github.com/pret/pokecrystal/wiki/Add-a-new-battle-transition)
 - [ ] [Additional wild pokemon slot on each route](https://github.com/pret/pokecrystal/wiki/Add-a-new-wild-Pok%C3%A9mon-slot)

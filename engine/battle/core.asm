@@ -6123,12 +6123,14 @@ LoadEnemyMon:
 ; (HP is initialized at the end of the battle)
 	call GetRoamMonDVs
 	inc hl
-	call BattleRandom
+	;call BattleRandom
 	ld [hld], a
-	ld c, a
-	call BattleRandom
+	;ld c, a
+	ld c, $FF ; give them perfect ATK and DEF DVs
+	;call BattleRandom
 	ld [hl], a
-	ld b, a
+	;ld b, a
+	ld b, $FF ; give them perfect SPD and DEF DVs
 ; We're done with DVs
 	jr .UpdateDVs
 
@@ -6146,10 +6148,12 @@ LoadEnemyMon:
 
 .GenerateDVs:
 ; Generate new random DVs
-	call BattleRandom
-	ld b, a
-	call BattleRandom
-	ld c, a
+	;call BattleRandom
+	;ld b, a
+	ld b, $FF ; perfect ATK and DEF DVs
+	;call BattleRandom
+	;ld c, a
+	ld c, $FF ; perfect SPD and SPC DVs
 
 .UpdateDVs:
 ; Input DVs in register bc

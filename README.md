@@ -89,6 +89,7 @@ Other Updates & Changes
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 - [X] Force perfect DVs for all pokemon (except shiny gyarados)
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
+- [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins
 
 ## See also
 

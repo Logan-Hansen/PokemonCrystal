@@ -202,12 +202,12 @@ endr
 	and a
 	jr nz, .copywildmonDVs
 
-	;call Random
-	;ld b, a
-	ld b, $FF ; giving starter perfect DVs for ATK and DEF
-	;call Random
-	;ld c, a
-	ld c, $FF ; giving starter perfect DVs for SPD and SPC
+	call Random
+	ld b, a
+	;ld b, $FF ; giving starter perfect DVs for ATK and DEF
+	call Random
+	ld c, a
+	;ld c, $FF ; giving starter perfect DVs for SPD and SPC
 .initializeDVs
 	ld a, b
 	ld [de], a

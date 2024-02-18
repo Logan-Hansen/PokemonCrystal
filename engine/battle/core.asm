@@ -6148,12 +6148,12 @@ LoadEnemyMon:
 
 .GenerateDVs:
 ; Generate new random DVs
-	;call BattleRandom
-	;ld b, a
-	ld b, $FF ; perfect ATK and DEF DVs
-	;call BattleRandom
-	;ld c, a
-	ld c, $FF ; perfect SPD and SPC DVs
+	call BattleRandom
+	ld b, a
+	;ld b, $FF ; perfect ATK and DEF DVs
+	call BattleRandom
+	ld c, a
+	;ld c, $FF ; perfect SPD and SPC DVs
 
 .UpdateDVs:
 ; Input DVs in register bc

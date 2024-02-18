@@ -47,7 +47,7 @@ features from different generations
 - [X] [lose money proportional to badges and level](https://github.com/pret/pokecrystal/wiki/Lose-money-proportional-to-badges-and-level)
 - [X] [surviving poison with 1 HP](https://github.com/pret/pokecrystal/wiki/Survive-poisoning-with-1-HP)
 - [X] [Show move names when you receive a TM or HM](https://github.com/pret/pokecrystal/wiki/Show-move-names-when-you-receive-a-TM-or-HM)
-- [ ] [infinitely reusable TMs](https://github.com/pret/pokecrystal/wiki/Infinitely-reusable-TMs)
+- [X] [infinitely reusable TMs](https://github.com/pret/pokecrystal/wiki/Infinitely-reusable-TMs)
 - [ ] [Automatically reuse Repel](https://github.com/pret/pokecrystal/wiki/Automatically-reuse-Repel)
 - [X] [Learn moves upon evolution](https://github.com/pret/pokecrystal/wiki/Evolution-moves)
 - [X] [Running Shoes](https://github.com/pret/pokecrystal/wiki/Running-Shoes)

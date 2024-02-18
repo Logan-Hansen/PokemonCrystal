@@ -56,7 +56,6 @@ features from different generations
 - [ ] [Smashing rocks has a chance to contain items](https://github.com/pret/pokecrystal/wiki/Smashing-rocks-has-a-chance-to-contain-items)
 - [ ] [Grass type immunity to powder/spore-based moves](https://github.com/pret/pokecrystal/wiki/Grant-Grass-type-Pok%C3%A9mon-immunity-to-Powder-Spore-based-moves)
 - [ ] [Add hail as a new weather condition](https://github.com/pret/pokecrystal/wiki/Add-Hail-as-a-new-weather-condition)
-- [ ] Make hail boost DEF of Ice type pokemon by 50%
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [ ] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [ ] [revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
@@ -70,6 +69,7 @@ Custom features
 - [ ] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [ ] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
+- [ ] Make hail boost DEF of Ice type pokemon by 50%
 
 --------------------
 

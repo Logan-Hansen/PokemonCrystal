@@ -581,7 +581,7 @@ ReadObjectEvents::
 	ld a, [wCurMapObjectEventCount]
 	call CopyMapObjectEvents
 
-+; get NUM_OBJECTS - [wCurMapObjectEventCount] - 1
+; get NUM_OBJECTS - [wCurMapObjectEventCount] - 1
 	ld a, [wCurMapObjectEventCount]
 	ld c, a
 	ld a, NUM_OBJECTS - 1

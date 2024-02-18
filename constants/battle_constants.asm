@@ -74,6 +74,7 @@ DEF MAX_STAT_VALUE EQU 999
 
 ; shiny dvs
 ; shiny if SPD, DEF, SPC all 10 and ATK is 2,3,6,7,10,11,14, or 15
+; guide says this is for Gyarados
 DEF ATKDEFDV_SHINY EQU $FA ; was EA, I think should still be shiny
 DEF SPDSPCDV_SHINY EQU $AA
 

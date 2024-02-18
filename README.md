@@ -3,13 +3,10 @@ Completed Tutorials
 --------------------
 Miscellaneous
 - [X] [Simplified Clock Reset](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
-- [ ] [Fix design flaws](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
 - [ ] [Fix bugs and glitches](https://github.com/pret/pokecrystal/blob/master/docs/bugs_and_glitches.md#rival2-has-lower-dvs-than-rival1)
+- [X] [Fix design flaws(except for the two below)](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
 - [ ] 6-bit caught level only records up to 63, fix by only using 1 bit for morning/day | night to free up a bit for level
 - [ ] Identical sine wave code and data is repeated 5 times
-- [ ] 
-      
-done - pc banks are offset by PICS_FIX
 
 How to add a new...
 - [X] [Trainer class - added beauty and sage varients between international and japanese sprites](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)

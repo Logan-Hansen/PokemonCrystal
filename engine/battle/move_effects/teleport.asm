@@ -66,7 +66,7 @@ BattleCommand_Teleport:
 	inc c
 	; Generate a number less than c
 .loop_enemy
-+; If a random number >= player level / 4, Teleport will succeed	call BattleRandom
+; If a random number >= player level / 4, Teleport will succeed	call BattleRandom
 	cp c
 	jr nc, .loop_enemy
 	; b = player level / 4

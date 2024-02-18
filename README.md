@@ -8,7 +8,7 @@ Miscellaneous
 done - pc banks are offset by PICS_FIX
 
 How to add a new...
-- [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
+- [X] [Trainer class - added beauty and sage varients between international and japanese sprites](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
 - [ ] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [ ] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
@@ -83,7 +83,8 @@ Other Updates & Changes
 - [ ] Updated movesets for Pokemon
 - [ ] Base stat changes to rebalance and increase usability
 - [X] Added back in some of the japanese release trainer sprites
-- [ ] Make trainers with multiple sprite options
+- [X] Make trainers with multiple sprite options
+- [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 
 ## See also
 

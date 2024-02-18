@@ -226,7 +226,7 @@ TrainerClassAttributes:
 
 ; Swimmerm
 	db NO_ITEM, NO_ITEM ; items
-	db 2 ; base reward
+	db 4 ; base reward with slight increase
 	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_OFFENSIVE | AI_STATUS
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
@@ -406,7 +406,7 @@ TrainerClassAttributes:
 
 ; Beauty2
 	db NO_ITEM, NO_ITEM ; items
-	db 22 ; base reward
+	db 24 ; base reward with slight increase from standard
 	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_CAUTIOUS | AI_STATUS
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 

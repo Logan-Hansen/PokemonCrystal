@@ -55,7 +55,7 @@ features from different generations
 - [X] [Make Sandstorm raise the special defense of rock type pokemon by 50%](https://github.com/pret/pokecrystal/wiki/Make-Sandstorm-raise-the-Special-Defense-of-Rock-type-Pok%C3%A9mon-by-50%25)
 - [X] [Smashing rocks has a chance to contain items](https://github.com/pret/pokecrystal/wiki/Smashing-rocks-has-a-chance-to-contain-items)
 - [X] [Grass type immunity to powder/spore-based moves](https://github.com/pret/pokecrystal/wiki/Grant-Grass-type-Pok%C3%A9mon-immunity-to-Powder-Spore-based-moves)
-- [ ] [Add hail as a new weather condition](https://github.com/pret/pokecrystal/wiki/Add-Hail-as-a-new-weather-condition)
+- [X] [Add hail as a new weather condition](https://github.com/pret/pokecrystal/wiki/Add-Hail-as-a-new-weather-condition)
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [X] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [ ] [revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))

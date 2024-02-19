@@ -61,7 +61,7 @@ JohtoGrassWildMons:
 	db 6, GASTLY
 	db 5, RATTATA
 	db 5, RATTATA
-	sb 5, GASTLY
+	db 5, GASTLY
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_2F

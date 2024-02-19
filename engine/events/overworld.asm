@@ -620,6 +620,8 @@ FlyFunction:
 	end
 
 .ReturnFromFly:
+	ld e, PAL_OW_RED
+	farcall SetFirstOBJPalette ; not compatible with overworld sprites darker at night
 	farcall RespawnPlayer
 	call DelayFrame
 	call UpdatePlayerSprite

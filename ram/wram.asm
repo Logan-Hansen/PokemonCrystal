@@ -2373,8 +2373,8 @@ wTempMon:: party_struct wTempMon
 wSpriteFlags:: db
 
 wHandlePlayerStep:: db
-
-	ds 1
+	;ds 1
+wCurIconMonHasItemOrMail:: db
 
 wPartyMenuActionText:: db
 

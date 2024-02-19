@@ -167,7 +167,7 @@ DEF NUM_HOF_TEAMS EQU 30
 ; wild data
 
 DEF NUM_GRASSMON EQU 7 ; data/wild/*_grass.asm table size
-DEF NUM_WATERMON EQU 3 ; data/wild/*_water.asm table size
+DEF NUM_WATERMON EQU 4 ; data/wild/*_water.asm table size ;increased from 3 to 4, couldn't increase grass as well because of memory overflow
 
 DEF GRASS_WILDDATA_LENGTH EQU 2 + 3 + NUM_GRASSMON * 2 * 3
 DEF WATER_WILDDATA_LENGTH EQU 2 + 1 + NUM_WATERMON * 2

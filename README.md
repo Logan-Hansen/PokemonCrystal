@@ -25,7 +25,7 @@ How to edit the...
 - [X] [default player name options](https://github.com/pret/pokecrystal/wiki/Change-the-default-Player-and-Rival-names)
       
 Upgrades to existing features
-- [ ] [icons colored by species](https://github.com/pret/pokecrystal/wiki/Color-party-menu-icons-by-species)
+- [X] [icons colored by species](https://github.com/pret/pokecrystal/wiki/Color-party-menu-icons-by-species)
 - [X] [Color Pokemon pictures shown in the overworld](https://github.com/pret/pokecrystal/wiki/Color-Pok%C3%A9mon-pictures-shown-in-overworld)
 - [X] [Allow more trainer parties, individual DVs, stat experience, nicknames, variable teams, etc](https://github.com/pret/pokecrystal/wiki/Allow-more-trainer-parties,-with-individual-DVs,-stat-experience,-nicknames,-variable-teams,-etc)
 - [X] [correct grammar for plural trainers](https://github.com/pret/pokecrystal/wiki/Correct-grammar-for-plural-trainers-like-Twins)

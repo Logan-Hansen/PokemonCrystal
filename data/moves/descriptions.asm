@@ -252,15 +252,16 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw HailDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFCDescription
+	;dw MoveFCDescription
 	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
-MoveFCDescription:
+;MoveFCDescription:
 MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
@@ -1270,3 +1271,7 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+HailDescription:
+	db   "Inflicts damage"
+	next "every turn.@"

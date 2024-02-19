@@ -69,7 +69,7 @@ Custom features
 - [ ] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [ ] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
-- [ ] Make hail boost DEF of Ice type pokemon by 50%
+- [X] Make hail boost DEF of Ice type pokemon by 50%
 
 --------------------
 

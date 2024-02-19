@@ -106,6 +106,7 @@ Other Updates & Changes
 - [ ] dragon's den tutor for extremespeed and barrier
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
+- [X] move changes - tackle has 100% accuracy
 
 ## See also
 

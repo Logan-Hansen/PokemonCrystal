@@ -76,7 +76,7 @@ Custom features
 Other Updates & Changes
 --------------------
 - [X] Ghost type is now Special and Dark is now Physical
-- [ ] Trade evolutions by level
+- [X] Trade evolutions by level - Machoke, Haunter, Graveler, Kadabra @ lvl 40
 - [ ] Trade with item evolutions as if it was a stone
 - [ ] Simplify happiness evolutions
 - [ ] Speed up egg hatch rates

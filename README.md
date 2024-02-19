@@ -11,7 +11,7 @@ Miscellaneous
 How to add a new...
 - [X] [Trainer class - added beauty and sage varients between international and japanese sprites](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
-- [ ] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
+- [X] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [ ] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
 - [ ] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
 - [ ] [New fishing rod](https://github.com/pret/pokecrystal/wiki/Add-a-new-fishing-rod)

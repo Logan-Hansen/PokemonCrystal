@@ -197,6 +197,8 @@ NeighborScript:
 .Main:
 	writetext NeighborText
 	waitbutton
+	;setval PICHU ; added for testing
+	;special ShowPokedexEntry ; added for testing
 	closetext
 	turnobject PLAYERSHOUSE1F_POKEFAN_F, RIGHT
 	end

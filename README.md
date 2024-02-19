@@ -57,7 +57,7 @@ features from different generations
 - [X] [Grass type immunity to powder/spore-based moves](https://github.com/pret/pokecrystal/wiki/Grant-Grass-type-Pok%C3%A9mon-immunity-to-Powder-Spore-based-moves)
 - [ ] [Add hail as a new weather condition](https://github.com/pret/pokecrystal/wiki/Add-Hail-as-a-new-weather-condition)
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
-- [ ] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
+- [X] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [ ] [revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
 - [ ] [Move Reminder](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Reminder)
 - [ ] [Move Relearner](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Relearner)
@@ -91,6 +91,17 @@ Other Updates & Changes
 - [X] Force perfect DVs for all pokemon (except shiny gyarados)
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
 - [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins
+- [ ] Have someone show you dex entries for Raikou and Entei to make tracking them easier. Use the following code with any NPC
+
+ .Main:
+        ; writetext NeighborText ; swap this for their normal text
+        waitbutton
+        setval RAIKOU
+        special ShowPokedexEntry
+        setval ENTEI
+        special ShowPokedexEntry
+        closetext
+        end
 
 ## See also
 

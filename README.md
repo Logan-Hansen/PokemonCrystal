@@ -91,17 +91,7 @@ Other Updates & Changes
 - [X] Force perfect DVs for all pokemon (except shiny gyarados)
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
 - [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins
-- [ ] Have someone show you dex entries for Raikou and Entei to make tracking them easier. Use the following code with any NPC
-
- .Main:
-        ; writetext NeighborText ; swap this for their normal text
-        waitbutton
-        setval RAIKOU
-        special ShowPokedexEntry
-        setval ENTEI
-        special ShowPokedexEntry
-        closetext
-        end
+- [ ] Have someone show you dex entries for Raikou and Entei to make tracking them easier.
 
 ## See also
 

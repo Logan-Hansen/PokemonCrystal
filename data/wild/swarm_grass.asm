@@ -59,3 +59,31 @@ SwarmGrassWildMons:
 	db 10, DITTO
 
 	db -1 ; end
+
+; Vulpix swarm
+	map_id ROUTE_37
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 13, LEDYBA
+	db 14, VULPIX
+	db 15, PIDGEY
+	db 16, VULPIX
+	db 15, PIDGEOTTO
+	db 15, VULPIX
+	db 15, LEDIAN
+	; day
+	db 13, PIDGEY
+	db 14, VULPIX
+	db 15, PIDGEY
+	db 16, VULPIX
+	db 15, PIDGEOTTO
+	db 15, VULPIX
+	db 15, PIDGEY
+	; nite
+	db 13, SPINARAK
+	db 14, VULPIX
+	db 15, HOOTHOOT
+	db 16, VULPIX
+	db 15, NOCTOWL
+	db 15, VULPIX
+	db 15, ARIADOS

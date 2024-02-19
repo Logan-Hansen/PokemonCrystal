@@ -682,8 +682,8 @@ Script_fruittree:
 	jp ScriptJump
 
 Script_swarm:
-	call GetScriptByte
-	ld c, a
+	;call GetScriptByte
+	;ld c, a
 	call GetScriptByte
 	ld d, a
 	call GetScriptByte

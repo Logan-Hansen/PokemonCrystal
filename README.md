@@ -92,6 +92,20 @@ Other Updates & Changes
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
 - [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins
 - [ ] Have someone show you dex entries for Raikou and Entei to make tracking them easier.
+- [ ] master ball in game corner
+- [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
+- [ ] stat exp updated when you use pokecenter as well as box
+- [ ] nurse joy turns you to face the other way when done
+- [ ] fishing has "keep fishing" prompt
+- [ ] increase haircut/massage happiness boost
+- [ ] name rater can change traded pokemon names
+- [ ] exp and stat exp gain increased once you have obtained enough badges
+- [ ] daycare man appears outside the fence
+- [ ] odd egg has decent dvs instead of all 0
+- [ ] more move tutors for event and gen1 moves
+- [ ] dragon's den tutor for extremespeed and barrier
+- [ ] roaming pokemon reset after beating the E4 if you have not caught them
+- [ ] stationary pokemon can be fought again as well
 
 ## See also
 

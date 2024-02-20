@@ -87,3 +87,32 @@ SwarmGrassWildMons:
 	db 15, NOCTOWL
 	db 15, VULPIX
 	db 15, ARIADOS
+
+
+; Starter swarm
+	map_id ROUTE_46
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db  5, CHIKORITA
+	db  5, BULBASAUR
+	db  5, TOTODILE
+	db  5, SQUIRTLE
+	db  5, CYNDAQUIL
+	db  5, CHARMANDER
+	db  5, OMANYTE
+	; day
+	db  5, CYNDAQUIL
+	db  5, CHARMANDER
+	db  5, CHIKORITA
+	db  5, BULBASAUR
+	db  5, TOTODILE
+	db  5, SQUIRTLE
+	db  5, AERODACTYL
+	; nite
+	db  5, TOTODILE
+	db  5, SQUIRTLE
+	db  5, CYNDAQUIL
+	db  5, CHARMANDER
+	db  5, CHIKORITA
+	db  5, BULBASAUR
+	db  5, KABUTO

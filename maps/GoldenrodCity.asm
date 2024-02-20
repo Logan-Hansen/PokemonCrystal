@@ -298,11 +298,12 @@ SwarmGrampsScript:
 	opentext
 	checkflag ENGINE_SWARM
 	iftrue .skiprandomswarm
-	random 4
+	random 5
 	ifequal 0, .dunsparce
 	ifequal 1, .yanma
     ifequal 2, .qwilfish
 	ifequal 3, .vulpix
+	ifequal 4, .rare
 
 .dunsparce
 	setflag ENGINE_SWARM
@@ -332,6 +333,14 @@ SwarmGrampsScript:
 	setflag ENGINE_SWARM
 	swarm ROUTE_37
 	writetext SwarmVulpixText
+	waitbutton
+	closetext
+	end
+
+.rare
+	setflag ENGINE_SWARM
+	swarm ROUTE_46
+	writetext SwarmRareText
 	waitbutton
 	closetext
 	end
@@ -379,6 +388,15 @@ SwarmVulpixText:
 	para "Oh yes! There's a"
 	line "swarm of VULPIX"
 	cont "on ROUTE 37."
+	done
+
+SwarmRareText:
+	text "Let me see…"
+	line "What did the news say?"
+
+	para "Oh how could I forget!"
+	line "Rare #MON"
+	cont "on ROUTE 46."
 	done
 
 SkipSwarmText:

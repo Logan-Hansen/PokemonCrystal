@@ -66,7 +66,7 @@ Custom features
 - [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
 - [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)
 - [ ] [Battle palettes for different times of day and environments](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)
-- [ ] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
+- [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [ ] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
 - [X] Make hail boost DEF of Ice type pokemon by 50%
@@ -107,6 +107,17 @@ Other Updates & Changes
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
 - [X] move changes - tackle has 100% accuracy
+- [X] Vulpix added - rare on route 36 & 37 with swarm on 37
+- [X] Mankey now on route 42 morn/day/night
+- [X] Mareep now on route 32 morn/day
+- [X] Murkrow now also on route 34 night
+- [X] Houndour now also on route 35 night
+- [X] Remoraid now in route 44 and 45 water
+- [X] Girafarig now on route 43 morn/day/night
+- [X] Kanto starters added - swarm on route 46
+- [X] Johto starters added - swarm on route 46
+- [ ] Kanto legendaries added
+- [X] Kanto fossils added - swarm on route 46 and in Qwilfish swarm
 
 ## See also
 

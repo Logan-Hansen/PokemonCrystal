@@ -222,7 +222,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 25, POLIWAG
 	db 20, POLIWAG
-	db 25, POLIWHIRL
+	db 25, REMORAID
 	db 25, POLIWHIRL
 	end_water_wildmons
 
@@ -231,7 +231,7 @@ JohtoWaterWildMons:
 	db 20, MAGIKARP
 	db 15, MAGIKARP
 	db 5, MAGIKARP
-	db 20, MAGIKARP
+	db 20, REMORAID
 	end_water_wildmons
 
 	def_water_wildmons NEW_BARK_TOWN

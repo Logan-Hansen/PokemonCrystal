@@ -1,4 +1,11 @@
 ; Johto Pokémon in grass
+; first  ; 30% chance
+; second ; 30% chance
+; third  ; 20% chance
+; fourth ; 10% chance
+; fifth  ;  5% chance
+; sixth  ;  4% chance
+; seventh;  1% chance
 
 JohtoGrassWildMons:
 
@@ -1323,16 +1330,16 @@ JohtoGrassWildMons:
 	; morn
 	db 4, EKANS
 	db 5, RATTATA
+	db 6, MAREEP
 	db 7, BELLSPROUT
-	db 6, HOPPIP
 	db 7, PIDGEY
 	db 7, HOPPIP
 	db 7, HOPPIP
 	; day
 	db 4, EKANS
 	db 5, RATTATA
+	db 6, MAREEP
 	db 7, BELLSPROUT
-	db 6, HOPPIP
 	db 7, PIDGEY
 	db 7, HOPPIP
 	db 7, HOPPIP
@@ -1394,7 +1401,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	; nite
 	db 12, DROWZEE
-	db 11, RATTATA
+	db 11, MURKROW
 	db 12, HOOTHOOT
 	db 10, ABRA
 	db 12, JIGGLYPUFF
@@ -1425,7 +1432,7 @@ JohtoGrassWildMons:
 	db 14, HOOTHOOT
 	db 13, PSYDUCK
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, HOUNDOUR
 	db 10, DITTO
 	db 12, YANMA
 	end_grass_wildmons
@@ -1439,7 +1446,7 @@ JohtoGrassWildMons:
 	db 5, GROWLITHE
 	db 5, PIDGEY
 	db 6, PIDGEY
-	db 6, PIDGEY
+	db 6, VULPIX
 	; day
 	db 4, PIDGEY
 	db 4, PIDGEY
@@ -1447,15 +1454,15 @@ JohtoGrassWildMons:
 	db 5, GROWLITHE
 	db 5, PIDGEY
 	db 6, PIDGEY
-	db 6, PIDGEY
+	db 6, VULPIX
 	; nite
 	db 4, SPINARAK
 	db 4, HOOTHOOT
 	db 5, BELLSPROUT
 	db 5, HOOTHOOT
-	db 5, HOOTHOOT
 	db 5, GASTLY
 	db 5, GASTLY
+	db 5, VULPIX
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_37
@@ -1467,7 +1474,7 @@ JohtoGrassWildMons:
 	db 16, GROWLITHE
 	db 15, PIDGEOTTO
 	db 15, LEDIAN
-	db 15, LEDIAN
+	db 15, VULPIX
 	; day
 	db 13, PIDGEY
 	db 14, GROWLITHE
@@ -1475,7 +1482,7 @@ JohtoGrassWildMons:
 	db 16, GROWLITHE
 	db 15, PIDGEOTTO
 	db 15, PIDGEY
-	db 15, PIDGEY
+	db 15, VULPIX
 	; nite
 	db 13, SPINARAK
 	db 14, STANTLER
@@ -1483,7 +1490,7 @@ JohtoGrassWildMons:
 	db 16, STANTLER
 	db 15, NOCTOWL
 	db 15, ARIADOS
-	db 15, ARIADOS
+	db 15, VULPIX
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_38
@@ -1547,7 +1554,7 @@ JohtoGrassWildMons:
 	; morn
 	db 13, EKANS
 	db 14, SPEAROW
-	db 15, RATTATA
+	db 15, MANKEY
 	db 16, RATICATE
 	db 15, ARBOK
 	db 16, FEAROW
@@ -1555,14 +1562,14 @@ JohtoGrassWildMons:
 	; day
 	db 13, EKANS
 	db 14, SPEAROW
-	db 15, RATTATA
+	db 15, MANKEY
 	db 16, RATICATE
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, FEAROW
 	; nite
-	db 13, RATTATA
-	db 14, ZUBAT
+	db 13, ZUBAT
+	db 14, MANKEY
 	db 15, RATICATE
 	db 16, GOLBAT
 	db 15, MARILL
@@ -1577,7 +1584,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
+	db 17, GIRAFARIG
 	db 17, FURRET
 	db 17, FURRET
 	; day
@@ -1585,13 +1592,13 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
+	db 17, GIRAFARIG
 	db 17, FURRET
 	db 17, FURRET
 	; nite
 	db 15, VENONAT
 	db 16, NOCTOWL
-	db 16, RATICATE
+	db 16, GIRAFARIG
 	db 17, VENONAT
 	db 17, RATICATE
 	db 17, VENOMOTH

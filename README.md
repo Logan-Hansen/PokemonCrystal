@@ -13,7 +13,7 @@ How to add a new...
 - [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
 - [X] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [ ] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
-- [ ] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
+- [X] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
 - [ ] [New fishing rod](https://github.com/pret/pokecrystal/wiki/Add-a-new-fishing-rod)
 - [X] [New battle transition for team rocket](https://github.com/pret/pokecrystal/wiki/Add-a-new-battle-transition)
 - [X] [Additional wild pokemon slot for water (memory overfilled if did grass too)](https://github.com/pret/pokecrystal/wiki/Add-a-new-wild-Pok%C3%A9mon-slot)
@@ -51,16 +51,18 @@ features from different generations
 - [X] [Automatically reuse Repel](https://github.com/pret/pokecrystal/wiki/Automatically-reuse-Repel)
 - [X] [Learn moves upon evolution](https://github.com/pret/pokecrystal/wiki/Evolution-moves)
 - [X] [Running Shoes](https://github.com/pret/pokecrystal/wiki/Running-Shoes)
-- [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
-- [X] [Make Sandstorm raise the special defense of rock type pokemon by 50%](https://github.com/pret/pokecrystal/wiki/Make-Sandstorm-raise-the-Special-Defense-of-Rock-type-Pok%C3%A9mon-by-50%25)
+- [X] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [X] [Smashing rocks has a chance to contain items](https://github.com/pret/pokecrystal/wiki/Smashing-rocks-has-a-chance-to-contain-items)
 - [X] [Grass type immunity to powder/spore-based moves](https://github.com/pret/pokecrystal/wiki/Grant-Grass-type-Pok%C3%A9mon-immunity-to-Powder-Spore-based-moves)
-- [X] [Add hail as a new weather condition](https://github.com/pret/pokecrystal/wiki/Add-Hail-as-a-new-weather-condition)
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
-- [X] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [ ] [revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
 - [ ] [Move Reminder](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Reminder)
 - [ ] [Move Relearner](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Relearner)
+- [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
+- [X] [Make Sandstorm raise the special defense of rock type pokemon by 50%](https://github.com/pret/pokecrystal/wiki/Make-Sandstorm-raise-the-Special-Defense-of-Rock-type-Pok%C3%A9mon-by-50%25)
+- [X] [Add hail as a new weather condition](https://github.com/pret/pokecrystal/wiki/Add-Hail-as-a-new-weather-condition)
+- [X] Make hail boost DEF of Ice type pokemon by 50%
+
       
 Custom features
 - [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
@@ -69,7 +71,6 @@ Custom features
 - [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [ ] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
-- [X] Make hail boost DEF of Ice type pokemon by 50%
 
 --------------------
 
@@ -78,6 +79,8 @@ Other Updates & Changes
 - [X] Ghost type is now Special and Dark is now Physical
 - [X] Trade evolutions by level - Machoke, Haunter, Graveler, Kadabra @ lvl 40
 - [X] Trade with item evolutions as if it was a stone
+- [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
+- [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins
 - [ ] Simplify happiness evolutions
 - [ ] Speed up egg hatch rates
 - [ ] Safari Zone back
@@ -85,12 +88,7 @@ Other Updates & Changes
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
 - [ ] Updated movesets for Pokemon
 - [ ] Base stat changes to rebalance and increase usability
-- [X] Added back in some of the japanese release trainer sprites
-- [X] Make trainers with multiple sprite options
-- [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
-- [X] Force perfect DVs for all pokemon (except shiny gyarados)
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
-- [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins
 - [ ] Have someone show you dex entries for Raikou and Entei to make tracking them easier.
 - [ ] master ball in game corner
 - [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
@@ -116,8 +114,8 @@ Other Updates & Changes
 - [X] Girafarig now on route 43 morn/day/night
 - [X] Kanto starters added - swarm on route 46
 - [X] Johto starters added - swarm on route 46
-- [ ] Kanto legendaries added
-- [X] Kanto fossils added - swarm on route 46 and in Qwilfish swarm
+- [X] Kanto fossils added - rare in swarm on route 46 and in Qwilfish swarm
+- [ ] Kanto legendaries 
 
 ## See also
 

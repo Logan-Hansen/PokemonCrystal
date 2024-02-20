@@ -1769,7 +1769,7 @@ PinsirEvosAttacks:
 	db 36, BODY_SLAM
 	db 37, SUBMISSION
 	db 43, SWORDS_DANCE
-	db 47, SLASh
+	db 47, SLASH
 	db 0 ; no more level-up moves
 
 TaurosEvosAttacks:

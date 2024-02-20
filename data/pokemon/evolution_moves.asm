@@ -63,7 +63,7 @@ EvolutionMoves::
     db NO_MOVE      ; POLIWHIRL
 	db SUBMISSION   ; POLIWRATH
     db NO_MOVE      ; ABRA
-	db KINESIS      ; KADABRA
+	db CONFUSION    ; KADABRA
 	db KINESIS      ; ALAKAZAM
     db NO_MOVE      ; MACHOP
     db NO_MOVE      ; MACHOKE

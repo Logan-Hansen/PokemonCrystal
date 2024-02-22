@@ -62,6 +62,7 @@ features from different generations
 - [X] [Make Sandstorm raise the special defense of rock type pokemon by 50%](https://github.com/pret/pokecrystal/wiki/Make-Sandstorm-raise-the-Special-Defense-of-Rock-type-Pok%C3%A9mon-by-50%25)
 - [X] [Add hail as a new weather condition](https://github.com/pret/pokecrystal/wiki/Add-Hail-as-a-new-weather-condition)
 - [X] Make hail boost DEF of Ice type pokemon by 50%
+- [X] Ghost and Dark hit Steel for normal effectiveness to match Gen 6 and on Type Matchups
 
       
 Custom features

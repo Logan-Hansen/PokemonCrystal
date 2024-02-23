@@ -72,6 +72,7 @@ Custom features
 - [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [ ] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
+- [X] Lots of base stat and move changes to try and improve viability and variety of pokemon you can use effectively. No type changes.
 
 --------------------
 

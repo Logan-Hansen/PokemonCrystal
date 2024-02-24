@@ -1819,13 +1819,17 @@ JynxEvosAttacks:
 	db 1, LOVELY_KISS
 	db 1, POWDER_SNOW
 	db 9, LOVELY_KISS
+	db 12, CONFUSION ;added
 	db 13, POWDER_SNOW
 	db 21, DOUBLESLAP
 	db 25, ICE_PUNCH
+	db 27, HAIL ; added
+	db 32, PSYWAVE ; added
 	db 35, MEAN_LOOK
 	db 41, BODY_SLAM
-	db 51, PERISH_SONG
-	db 57, BLIZZARD
+	db 46, PERISH_SONG
+	db 51, BLIZZARD
+	db 57, PSYCHIC_M ; added
 	db 0 ; no more level-up moves
 
 ElectabuzzEvosAttacks:
@@ -1836,6 +1840,7 @@ ElectabuzzEvosAttacks:
 	db 9, THUNDERPUNCH
 	db 17, LIGHT_SCREEN
 	db 25, SWIFT
+	db 32, LOW_KICK ; added
 	db 36, SCREECH
 	db 47, THUNDERBOLT
 	db 58, THUNDER
@@ -1852,6 +1857,7 @@ MagmarEvosAttacks:
 	db 19, FIRE_PUNCH
 	db 25, SMOKESCREEN
 	db 33, SUNNY_DAY
+	db 36, LOW_KICK ; added
 	db 41, FLAMETHROWER
 	db 49, CONFUSE_RAY
 	db 57, FIRE_BLAST
@@ -1872,6 +1878,7 @@ PinsirEvosAttacks:
 	db 37, SUBMISSION
 	db 43, SWORDS_DANCE
 	db 47, SLASH
+	db 57, MEGAHORN ; added
 	db 0 ; no more level-up moves
 
 TaurosEvosAttacks:
@@ -1885,14 +1892,16 @@ TaurosEvosAttacks:
 	db 34, REST
 	db 43, THRASH
 	db 53, TAKE_DOWN
+	db 69, DOUBLE_EDGE ; added
 	db 0 ; no more level-up moves
 
 MagikarpEvosAttacks:
 	db EVOLVE_LEVEL, 20, GYARADOS
 	db 0 ; no more evolutions
 	db 1, SPLASH
-	db 10, TACKLE
-	db 30, FLAIL
+	db 1, TACKLE
+	db 5, BUBBLE ; added
+	db 15, FLAIL
 	db 0 ; no more level-up moves
 
 GyaradosEvosAttacks:
@@ -1903,8 +1912,10 @@ GyaradosEvosAttacks:
 	db 30, LEER
 	db 35, TWISTER
 	db 40, HYDRO_PUMP
+	db 42, CRUNCH ; added
 	db 45, RAIN_DANCE
 	db 50, HYPER_BEAM
+	db 62, OUTRAGE ; added
 	db 0 ; no more level-up moves
 
 LaprasEvosAttacks:
@@ -1913,11 +1924,16 @@ LaprasEvosAttacks:
 	db 1, GROWL
 	db 1, SING
 	db 8, MIST
+	db 11, BUBBLEBEAM ; added
+	db 13, ICY_WIND ; added
 	db 15, BODY_SLAM
 	db 22, CONFUSE_RAY
 	db 29, PERISH_SONG
+	db 31, REFLECT ; added
 	db 36, ICE_BEAM
+	db 38, HAIL ; added
 	db 43, RAIN_DANCE
+	db 47, CURSE ; added
 	db 50, SAFEGUARD
 	db 57, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1931,26 +1947,33 @@ EeveeEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, VAPOREON
 	db EVOLVE_ITEM, FIRE_STONE, FLAREON
+	db EVOLVE_ITEM, SUN_STONE, ESPEON
+	db EVOLVE_ITEM, MOON_STONE, UMBREON
 	db EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
+	db 1, CHARM ; added
+	db 1, GROWTH ; added
+	db 5, BATON_PASS
 	db 8, SAND_ATTACK
-	db 10, REFLECT
+	db 10, REFLECT ; added
+	db 12, FOCUS_ENERGY ; added
 	db 16, GROWL
 	db 23, QUICK_ATTACK
-	db 27, BITE
-	db 29, BATON_PASS
+	db 25, BITE
+	db 30, SWIFT ; added
 	db 42, TAKE_DOWN
+	db 50, DOUBLE_EDGE ; added
 	db 0 ; no more level-up moves
 
 VaporeonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, WATER_GUN
 	db 8, SAND_ATTACK
-	db 16, WATER_GUN
+	db 17, BUBBLEBEAM
 	db 23, QUICK_ATTACK
 	db 30, BITE
 	db 36, AURORA_BEAM
@@ -1963,8 +1986,8 @@ JolteonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, THUNDERSHOCK
 	db 8, SAND_ATTACK
-	db 16, THUNDERSHOCK
 	db 23, QUICK_ATTACK
 	db 30, DOUBLE_KICK
 	db 36, PIN_MISSILE
@@ -1977,8 +2000,8 @@ FlareonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, EMBER
 	db 8, SAND_ATTACK
-	db 16, EMBER
 	db 23, QUICK_ATTACK
 	db 30, BITE
 	db 36, FIRE_SPIN

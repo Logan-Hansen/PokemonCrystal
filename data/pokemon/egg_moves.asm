@@ -431,6 +431,15 @@ AerodactylEggMoves:
 
 SnorlaxEggMoves:
 	db LICK
+	db HARDEN ; added - need to check if all of these are possible
+	db FISSURE ; added
+	db SELFDESTRUCT ; added
+	db REFLECT ; added
+	db TAKE_DOWN ; added
+	db MEGA_KICK ; added
+	db MEGA_PUNCH ; added
+	db SWEET_KISS ; added
+	db SUBSTITUTE ; added
 	db -1 ; end
 
 DratiniEggMoves:

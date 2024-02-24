@@ -2099,18 +2099,28 @@ KabutopsEvosAttacks:
 AerodactylEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WING_ATTACK
+	db 1, RAGE ; added
 	db 8, AGILITY
+	db 12, REFLECT ; added
 	db 15, BITE
 	db 22, SUPERSONIC
+	db 25, ROCK_THROW ; added
 	db 29, ANCIENTPOWER
+	db 33, PURSUIT ; added
 	db 36, SCARY_FACE
+	db 39, ROCK_SLIDE ; added
 	db 43, TAKE_DOWN
+	db 47, RAZOR_WIND ; added
 	db 50, HYPER_BEAM
+	db 57, SKY_ATTACK ; added
+	db 61, SUBSTITUTE ; added
+	db 67, DOUBLE_EDGE ; added
 	db 0 ; no more level-up moves
 
 SnorlaxEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 6, LOVELY_KISS ; added
 	db 8, AMNESIA
 	db 15, DEFENSE_CURL
 	db 22, BELLY_DRUM
@@ -2120,17 +2130,24 @@ SnorlaxEvosAttacks:
 	db 43, BODY_SLAM
 	db 50, ROLLOUT
 	db 57, HYPER_BEAM
+	db 63, DOUBLE_EDGE ; added
 	db 0 ; no more level-up moves
 
 ArticunoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GUST
 	db 1, POWDER_SNOW
+	db 7, WHIRLWIND ; added
 	db 13, MIST
+	db 17, PECK ; added
+	db 22, BUBBLEBEAM ; added
 	db 25, AGILITY
+	db 31, SUBSTITUTE ; added
 	db 37, MIND_READER
+	db 39, HAIL ; added
 	db 49, ICE_BEAM
-	db 61, REFLECT
+	db 61, REFLECT ; added
+	db 63, SKY_ATTACK ; added
 	db 73, BLIZZARD
 	db 0 ; no more level-up moves
 
@@ -2138,11 +2155,17 @@ ZapdosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, THUNDERSHOCK
+	db 7, WHIRLWIND ; added
 	db 13, THUNDER_WAVE
 	db 25, AGILITY
+	db 31, SUBSTITUTE ; added
 	db 37, DETECT
+	db 39, RAIN_DANCE ; added
+	db 44, THUNDERBOLT ; added
 	db 49, DRILL_PECK
-	db 61, LIGHT_SCREEN
+	db 61, LIGHT_SCREEN	
+	db 61, REFLECT ; added
+	db 63, SKY_ATTACK ; added
 	db 73, THUNDER
 	db 0 ; no more level-up moves
 
@@ -2150,12 +2173,17 @@ MoltresEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WING_ATTACK
 	db 1, EMBER
+	db 7, WHIRLWIND ; added
 	db 13, FIRE_SPIN
 	db 25, AGILITY
+	db 31, SUBSTITUTE ; added
 	db 37, ENDURE
+	db 39, SUNNY_DAY ; added
 	db 49, FLAMETHROWER
 	db 61, SAFEGUARD
-	db 73, SKY_ATTACK
+	db 61, REFLECT ; added
+	db 63, SKY_ATTACK
+	db 67, FIRE_BLAST ; added
 	db 0 ; no more level-up moves
 
 DratiniEvosAttacks:

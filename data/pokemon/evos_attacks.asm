@@ -1960,9 +1960,11 @@ EeveeEvosAttacks:
 	db 10, REFLECT ; added
 	db 12, FOCUS_ENERGY ; added
 	db 16, GROWL
+	db 19, SUBSTITUTE ; added
 	db 23, QUICK_ATTACK
 	db 25, BITE
 	db 30, SWIFT ; added
+	db 35, BODY_SLAM ; added
 	db 42, TAKE_DOWN
 	db 50, DOUBLE_EDGE ; added
 	db 0 ; no more level-up moves
@@ -1973,8 +1975,8 @@ VaporeonEvosAttacks:
 	db 1, TAIL_WHIP
 	db 1, WATER_GUN
 	db 8, SAND_ATTACK
-	db 17, BUBBLEBEAM
 	db 23, QUICK_ATTACK
+	db 27, BUBBLEBEAM ; added
 	db 30, BITE
 	db 36, AURORA_BEAM
 	db 42, HAZE
@@ -1989,6 +1991,7 @@ JolteonEvosAttacks:
 	db 1, THUNDERSHOCK
 	db 8, SAND_ATTACK
 	db 23, QUICK_ATTACK
+	db 27, THUNDERBOLT ; added
 	db 30, DOUBLE_KICK
 	db 36, PIN_MISSILE
 	db 42, THUNDER_WAVE
@@ -2003,10 +2006,13 @@ FlareonEvosAttacks:
 	db 1, EMBER
 	db 8, SAND_ATTACK
 	db 23, QUICK_ATTACK
+	db 27, FLAME_WHEEL ; added
 	db 30, BITE
 	db 36, FIRE_SPIN
+	db 39, LEER
 	db 42, SMOG
-	db 47, LEER
+	db 47, SCARY_FACE ; added
+	db 50, DOUBLE_EDGE ; added
 	db 52, FLAMETHROWER
 	db 0 ; no more level-up moves
 
@@ -2033,6 +2039,7 @@ OmanyteEvosAttacks:
 	db 1, WITHDRAW
 	db 13, BITE
 	db 19, WATER_GUN
+	db 23, ROCK_THROW ; added
 	db 31, LEER
 	db 37, PROTECT
 	db 49, ANCIENTPOWER
@@ -2046,9 +2053,11 @@ OmastarEvosAttacks:
 	db 1, BITE
 	db 13, BITE
 	db 19, WATER_GUN
+	db 23, ROCK_THROW ; added
 	db 31, LEER
 	db 37, PROTECT
 	db 39, SPIKE_CANNON
+	db 42, SPIKES
 	db 54, ANCIENTPOWER
 	db 65, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2060,7 +2069,9 @@ KabutoEvosAttacks:
 	db 1, HARDEN
 	db 10, ABSORB
 	db 19, LEER
+	db 23, ROCK_THROW ; added
 	db 28, SAND_ATTACK
+	db 34, FLAIL ; added
 	db 37, ENDURE
 	db 46, MEGA_DRAIN
 	db 55, ANCIENTPOWER
@@ -2073,11 +2084,16 @@ KabutopsEvosAttacks:
 	db 1, ABSORB
 	db 10, ABSORB
 	db 19, LEER
+	db 23, ROCK_THROW ; added
 	db 28, SAND_ATTACK
+	db 34, FLAIL ; added
 	db 37, ENDURE
 	db 39, SLASH
+	db 45, SWORDS_DANCE ; added
+	db 49, RAPID_SPIN ; added
 	db 51, MEGA_DRAIN
-	db 65, ANCIENTPOWER
+	db 55, ANCIENTPOWER
+	db 61, HYDRO_PUMP ; added
 	db 0 ; no more level-up moves
 
 AerodactylEvosAttacks:

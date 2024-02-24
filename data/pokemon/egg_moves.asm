@@ -447,6 +447,7 @@ DratiniEggMoves:
 	db MIST
 	db HAZE
 	db SUPERSONIC
+	db HYDRO_PUMP ; added
 	db -1 ; end
 
 ChikoritaEggMoves:

@@ -2192,12 +2192,15 @@ DratiniEvosAttacks:
 	db 1, WRAP
 	db 1, LEER
 	db 8, THUNDER_WAVE
+	db 12, REFLECT ; added
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
+	db 25, EXTREMESPEED ; added
 	db 29, SLAM
 	db 36, AGILITY
 	db 43, SAFEGUARD
 	db 50, OUTRAGE
+	db 53, DOUBLE_EDGE ; added
 	db 57, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -2209,12 +2212,15 @@ DragonairEvosAttacks:
 	db 1, THUNDER_WAVE
 	db 1, TWISTER
 	db 8, THUNDER_WAVE
+	db 12, REFLECT ; added
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
+	db 25, EXTREMESPEED ; added
 	db 29, SLAM
 	db 38, AGILITY
 	db 47, SAFEGUARD
 	db 56, OUTRAGE
+	db 59, DOUBLE_EDGE ; added
 	db 65, HYPER_BEAM
 	db 0 ; no more level-up moves
 
@@ -2225,13 +2231,16 @@ DragoniteEvosAttacks:
 	db 1, THUNDER_WAVE
 	db 1, TWISTER
 	db 8, THUNDER_WAVE
+	db 12, REFLECT ; added
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
+	db 25, EXTREMESPEED ; added
 	db 29, SLAM
 	db 38, AGILITY
 	db 47, SAFEGUARD
 	db 54, WING_ATTACK
 	db 61, OUTRAGE
+	db 65, DOUBLE_EDGE ; added
 	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
 

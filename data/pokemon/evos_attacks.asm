@@ -26,6 +26,7 @@ BulbasaurEvosAttacks:
 	db 10, VINE_WHIP
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
+	db 17, SLUDGE ; added
 	db 20, RAZOR_LEAF
 	db 25, SWEET_SCENT
 	db 32, GROWTH
@@ -44,6 +45,7 @@ IvysaurEvosAttacks:
 	db 10, VINE_WHIP
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
+	db 18, SLUDGE ; added
 	db 22, RAZOR_LEAF
 	db 29, SWEET_SCENT
 	db 38, GROWTH
@@ -62,6 +64,7 @@ VenusaurEvosAttacks:
 	db 10, VINE_WHIP
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
+	db 18, SLUDGE ; added
 	db 22, RAZOR_LEAF
 	db 29, SWEET_SCENT
 	db 41, GROWTH
@@ -76,6 +79,7 @@ CharmanderEvosAttacks:
 	db 1, GROWL
 	db 7, EMBER
 	db 13, SMOKESCREEN
+	db 14, METAL_CLAW ; added
 	db 19, RAGE
 	db 25, SCARY_FACE
 	db 31, FLAMETHROWER
@@ -92,6 +96,7 @@ CharmeleonEvosAttacks:
 	db 1, EMBER
 	db 7, EMBER
 	db 13, SMOKESCREEN
+	db 14, METAL_CLAW ; added
 	db 20, RAGE
 	db 27, SCARY_FACE
 	db 34, FLAMETHROWER
@@ -108,6 +113,7 @@ CharizardEvosAttacks:
 	db 1, SMOKESCREEN
 	db 7, EMBER
 	db 13, SMOKESCREEN
+	db 14, METAL_CLAW ; added
 	db 20, RAGE
 	db 27, SCARY_FACE
 	db 34, FLAMETHROWER
@@ -115,6 +121,7 @@ CharizardEvosAttacks:
 	db 44, SLASH
 	db 54, DRAGON_RAGE
 	db 64, FIRE_SPIN
+	db 73, OUTRAGE ; added
 	db 0 ; no more level-up moves
 
 SquirtleEvosAttacks:
@@ -185,14 +192,19 @@ MetapodEvosAttacks:
 ButterfreeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONFUSION
+	db 11, GUST ; added
 	db 13, POISONPOWDER
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
+	db 20, GIGA_DRAIN ; added
 	db 23, WHIRLWIND
-	db 28, GUST
-	db 34, PSYBEAM
+	; db 28, GUST
+	db 27, PSYBEAM
+	db 34, BATON_PASS
+	; db 34, PSYBEAM
 	db 40, SAFEGUARD
+	db 42, PSYCHIC_M ; added
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
@@ -211,11 +223,14 @@ KakunaEvosAttacks:
 BeedrillEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FURY_ATTACK
+	db 11, TWINEEDLE
 	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
-	db 25, RAGE
+	; db 20, TWINEEDLE
+	db 19, RAGE
+	; db 25, RAGE
+	db 25, PIN_MISSILE
 	db 30, PURSUIT
-	db 35, PIN_MISSILE
+	; db 35, PIN_MISSILE
 	db 40, AGILITY
 	db 0 ; no more level-up moves
 
@@ -224,7 +239,8 @@ PidgeyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, SAND_ATTACK
-	db 9, GUST
+	db 6, GUST
+	; db 9, GUST
 	db 15, QUICK_ATTACK
 	db 21, WHIRLWIND
 	db 29, WING_ATTACK
@@ -239,7 +255,8 @@ PidgeottoEvosAttacks:
 	db 1, SAND_ATTACK
 	db 1, GUST
 	db 5, SAND_ATTACK
-	db 9, GUST
+	db 6, GUST
+	; db 9, GUST
 	db 15, QUICK_ATTACK
 	db 23, WHIRLWIND
 	db 33, WING_ATTACK
@@ -254,7 +271,8 @@ PidgeotEvosAttacks:
 	db 1, GUST
 	db 1, QUICK_ATTACK
 	db 5, SAND_ATTACK
-	db 9, GUST
+	db 6, GUST
+	; db 9, GUST
 	db 15, QUICK_ATTACK
 	db 23, WHIRLWIND
 	db 33, WING_ATTACK
@@ -374,6 +392,7 @@ SandshrewEvosAttacks:
 	db 23, SLASH
 	db 30, SWIFT
 	db 37, FURY_SWIPES
+	db 42, EARTHQUAKE ; added
 	db 45, SANDSTORM
 	db 0 ; no more level-up moves
 
@@ -388,6 +407,7 @@ SandslashEvosAttacks:
 	db 24, SLASH
 	db 33, SWIFT
 	db 42, FURY_SWIPES
+	db 47, EARTHQUAKE ; added
 	db 52, SANDSTORM
 	db 0 ; no more level-up moves
 
@@ -401,6 +421,7 @@ NidoranFEvosAttacks:
 	db 17, POISON_STING
 	db 23, TAIL_WHIP
 	db 30, BITE
+	db 32, SUPER_FANG ; added
 	db 38, FURY_SWIPES
 	db 0 ; no more level-up moves
 
@@ -414,6 +435,7 @@ NidorinaEvosAttacks:
 	db 19, POISON_STING
 	db 27, TAIL_WHIP
 	db 36, BITE
+	db 42, SUPER_FANG ; added
 	db 46, FURY_SWIPES
 	db 0 ; no more level-up moves
 
@@ -436,6 +458,7 @@ NidoranMEvosAttacks:
 	db 17, POISON_STING
 	db 23, FOCUS_ENERGY
 	db 30, FURY_ATTACK
+	db 32, SUPER_FANG ; added
 	db 38, HORN_DRILL
 	db 0 ; no more level-up moves
 
@@ -449,6 +472,7 @@ NidorinoEvosAttacks:
 	db 19, POISON_STING
 	db 27, FOCUS_ENERGY
 	db 36, FURY_ATTACK
+	db 42, SUPER_FANG ; added
 	db 46, HORN_DRILL
 	db 0 ; no more level-up moves
 
@@ -480,6 +504,7 @@ ClefableEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, DOUBLESLAP
+	db 1, SOFTBOILED
 	db 1, METRONOME
 	db 1, MOONLIGHT
 	db 0 ; no more level-up moves
@@ -492,6 +517,7 @@ VulpixEvosAttacks:
 	db 7, QUICK_ATTACK
 	db 13, ROAR
 	db 19, CONFUSE_RAY
+	db 23, HYPNOSIS ; added
 	db 25, SAFEGUARD
 	db 31, FLAMETHROWER
 	db 37, FIRE_SPIN
@@ -509,9 +535,10 @@ NinetalesEvosAttacks:
 JigglypuffEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
 	db 0 ; no more evolutions
+	db 1, POUND
 	db 1, SING
 	db 4, DEFENSE_CURL
-	db 9, POUND
+	; db 9, POUND
 	db 14, DISABLE
 	db 19, ROLLOUT
 	db 24, DOUBLESLAP
@@ -534,6 +561,7 @@ ZubatEvosAttacks:
 	db 1, LEECH_LIFE
 	db 6, SUPERSONIC
 	db 12, BITE
+	db 17, HYPNOSIS ; added
 	db 19, CONFUSE_RAY
 	db 27, WING_ATTACK
 	db 36, MEAN_LOOK
@@ -548,6 +576,7 @@ GolbatEvosAttacks:
 	db 1, SUPERSONIC
 	db 6, SUPERSONIC
 	db 12, BITE
+	db 17, HYPNOSIS ; added
 	db 19, CONFUSE_RAY
 	db 30, WING_ATTACK
 	db 42, MEAN_LOOK
@@ -559,6 +588,7 @@ OddishEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 7, SWEET_SCENT
+	db 11, RAZOR_LEAF ; added
 	db 14, POISONPOWDER
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
@@ -575,6 +605,7 @@ GloomEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, POISONPOWDER
 	db 7, SWEET_SCENT
+	db 11, RAZOR_LEAF ; added
 	db 14, POISONPOWDER
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
@@ -585,7 +616,8 @@ GloomEvosAttacks:
 
 VileplumeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ABSORB
+	; db 1, ABSORB
+	db 1, MEGA_DRAIN
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
@@ -595,9 +627,10 @@ ParasEvosAttacks:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0 ; no more evolutions
 	db 1, SCRATCH
+	db 1, LEECH_LIFE
 	db 7, STUN_SPORE
 	db 13, POISONPOWDER
-	db 19, LEECH_LIFE
+	; db 19, LEECH_LIFE
 	db 25, SPORE
 	db 31, SLASH
 	db 37, GROWTH
@@ -608,10 +641,11 @@ ParasectEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, STUN_SPORE
+	db 1, LEECH_LIFE
 	db 1, POISONPOWDER
 	db 7, STUN_SPORE
 	db 13, POISONPOWDER
-	db 19, LEECH_LIFE
+	; db 19, LEECH_LIFE
 	db 28, SPORE
 	db 37, SLASH
 	db 46, GROWTH
@@ -630,8 +664,10 @@ VenonatEvosAttacks:
 	db 25, LEECH_LIFE
 	db 28, STUN_SPORE
 	db 33, PSYBEAM
+	db 34, BATON_PASS ; added
 	db 36, SLEEP_POWDER
 	db 41, PSYCHIC_M
+	db 47, SLUDGE_BOMB ; added
 	db 0 ; no more level-up moves
 
 VenomothEvosAttacks:
@@ -647,8 +683,10 @@ VenomothEvosAttacks:
 	db 28, STUN_SPORE
 	db 30, GUST
 	db 36, PSYBEAM
+	db 39, BATON_PASS ; added
 	db 42, SLEEP_POWDER
 	db 52, PSYCHIC_M
+	db 57, SLUDGE_BOMB ; added
 	db 0 ; no more level-up moves
 
 DiglettEvosAttacks:
@@ -696,6 +734,7 @@ PersianEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
+	db 1, HYPNOSIS ; added
 	db 1, BITE
 	db 1, SWIFT
 	db 11, BITE
@@ -717,6 +756,8 @@ PsyduckEvosAttacks:
 	db 31, PSYCH_UP
 	db 40, FURY_SWIPES
 	db 50, HYDRO_PUMP
+	db 52, HYPNOSIS ; added
+	db 60, PSYCHIC_M ; added
 	db 0 ; no more level-up moves
 
 GolduckEvosAttacks:
@@ -732,6 +773,8 @@ GolduckEvosAttacks:
 	db 31, PSYCH_UP
 	db 44, FURY_SWIPES
 	db 58, HYDRO_PUMP
+	db 60, HYPNOSIS ; added
+	db 68, PSYCHIC_M ; added
 	db 0 ; no more level-up moves
 
 MankeyEvosAttacks:
@@ -771,12 +814,15 @@ GrowlitheEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, ROAR
-	db 9, EMBER
+	db 6, EMBER
+	;db 9, EMBER
+	db 12, DOUBLE_KICK ; added
 	db 18, LEER
 	db 26, TAKE_DOWN
 	db 34, FLAME_WHEEL
 	db 42, AGILITY
-	db 50, FLAMETHROWER
+	db 44, FLAMETHROWER
+	;db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 ArcanineEvosAttacks:
@@ -794,6 +840,7 @@ PoliwagEvosAttacks:
 	db 1, BUBBLE
 	db 7, HYPNOSIS
 	db 13, WATER_GUN
+	db 16, MUD_SLAP ; added
 	db 19, DOUBLESLAP
 	db 25, RAIN_DANCE
 	db 31, BODY_SLAM
@@ -811,6 +858,7 @@ PoliwhirlEvosAttacks:
 	db 1, WATER_GUN
 	db 7, HYPNOSIS
 	db 13, WATER_GUN
+	db 16, MUD_SLAP ; added
 	db 19, DOUBLESLAP
 	db 27, RAIN_DANCE
 	db 35, BODY_SLAM
@@ -820,10 +868,11 @@ PoliwhirlEvosAttacks:
 
 PoliwrathEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DOUBLESLAP
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
-	db 1, DOUBLESLAP
 	db 1, SUBMISSION
+	db 23, ICE_PUNCH ; added
 	db 51, MIND_READER
 	db 0 ; no more level-up moves
 
@@ -836,7 +885,7 @@ AbraEvosAttacks:
 
 KadabraEvosAttacks:
 	db EVOLVE_TRADE, -1, ALAKAZAM
-	db EVOLVE_LEVEL, 40, ALAKAZAM ; can now evolve through level up
+	db EVOLVE_LEVEL, 36, ALAKAZAM ; can now evolve through level up
 	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 1, KINESIS
@@ -874,6 +923,7 @@ MachopEvosAttacks:
 	db 7, FOCUS_ENERGY
 	db 13, KARATE_CHOP
 	db 19, SEISMIC_TOSS
+	db 22, ROCK_THROW ; added
 	db 25, FORESIGHT
 	db 31, VITAL_THROW
 	db 37, CROSS_CHOP
@@ -883,7 +933,7 @@ MachopEvosAttacks:
 
 MachokeEvosAttacks:
 	db EVOLVE_TRADE, -1, MACHAMP
-	db EVOLVE_LEVEL, 40, MACHAMP ; can now evolve through level up
+	db EVOLVE_LEVEL, 36, MACHAMP ; can now evolve through level up
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER
@@ -891,6 +941,7 @@ MachokeEvosAttacks:
 	db 8, FOCUS_ENERGY
 	db 15, KARATE_CHOP
 	db 19, SEISMIC_TOSS
+	db 22, ROCK_THROW ; added
 	db 25, FORESIGHT
 	db 34, VITAL_THROW
 	db 43, CROSS_CHOP
@@ -906,6 +957,7 @@ MachampEvosAttacks:
 	db 8, FOCUS_ENERGY
 	db 15, KARATE_CHOP
 	db 19, SEISMIC_TOSS
+	db 22, ROCK_THROW ; added
 	db 25, FORESIGHT
 	db 27, STRENGTH
 	db 34, VITAL_THROW
@@ -920,13 +972,15 @@ BellsproutEvosAttacks:
 	db 1, VINE_WHIP
 	db 6, GROWTH
 	db 11, WRAP
+	db 13, RAZOR_LEAF ; added
 	db 15, SLEEP_POWDER
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
 	db 23, ACID
 	db 30, SWEET_SCENT
-	db 37, RAZOR_LEAF
-	db 45, SLAM
+	;db 37, RAZOR_LEAF
+	db 37, SLAM
+	;db 45, SLAM
 	db 0 ; no more level-up moves
 
 WeepinbellEvosAttacks:
@@ -937,13 +991,15 @@ WeepinbellEvosAttacks:
 	db 1, WRAP
 	db 6, GROWTH
 	db 11, WRAP
+	db 13, RAZOR_LEAF ; added
 	db 15, SLEEP_POWDER
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
 	db 24, ACID
 	db 33, SWEET_SCENT
-	db 42, RAZOR_LEAF
-	db 54, SLAM
+	;db 42, RAZOR_LEAF
+	db 42, SLAM
+	;db 54, SLAM
 	db 0 ; no more level-up moves
 
 VictreebelEvosAttacks:
@@ -952,6 +1008,7 @@ VictreebelEvosAttacks:
 	db 1, SLEEP_POWDER
 	db 1, SWEET_SCENT
 	db 1, RAZOR_LEAF
+	db 48, CRUNCH
 	db 0 ; no more level-up moves
 
 TentacoolEvosAttacks:
@@ -999,7 +1056,7 @@ GeodudeEvosAttacks:
 
 GravelerEvosAttacks:
 	db EVOLVE_TRADE, -1, GOLEM
-	db EVOLVE_LEVEL, 40, GOLEM ; can now evolve through level up
+	db EVOLVE_LEVEL, 36, GOLEM ; can now evolve through level up
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1038,10 +1095,12 @@ PonytaEvosAttacks:
 	db 8, TAIL_WHIP
 	db 13, EMBER
 	db 19, STOMP
+	db 22, DOUBLE_KICK ; added
 	db 26, FIRE_SPIN
 	db 34, TAKE_DOWN
 	db 43, AGILITY
 	db 53, FIRE_BLAST
+	db 54, JUMP_KICK ; added
 	db 0 ; no more level-up moves
 
 RapidashEvosAttacks:
@@ -1054,11 +1113,13 @@ RapidashEvosAttacks:
 	db 8, TAIL_WHIP
 	db 13, EMBER
 	db 19, STOMP
+	db 22, DOUBLE_KICK ; added
 	db 26, FIRE_SPIN
 	db 34, TAKE_DOWN
 	db 39, FURY_ATTACK
 	db 47, AGILITY
 	db 61, FIRE_BLAST
+	db 64, JUMP_KICK ; added
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -1102,6 +1163,7 @@ MagnemiteEvosAttacks:
 	db 16, SONICBOOM
 	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
+	db 31, THUNDERBOLT ; added
 	db 33, SWIFT
 	db 39, SCREECH
 	db 45, ZAP_CANNON
@@ -1119,6 +1181,7 @@ MagnetonEvosAttacks:
 	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
 	db 29, TRI_ATTACK
+	db 33, THUNDERBOLT ; added
 	db 35, SWIFT ; from G/S
 	db 43, SCREECH
 	db 53, ZAP_CANNON
@@ -1132,6 +1195,7 @@ FarfetchDEvosAttacks:
 	db 19, FURY_ATTACK
 	db 25, SWORDS_DANCE
 	db 31, AGILITY
+	db 35, WING_ATTACK ;added
 	db 37, SLASH
 	db 44, FALSE_SWIPE
 	db 0 ; no more level-up moves
@@ -1147,6 +1211,7 @@ DoduoEvosAttacks:
 	db 25, RAGE
 	db 33, DRILL_PECK
 	db 37, AGILITY
+	db 47, JUMP_KICK ; added
 	db 0 ; no more level-up moves
 
 DodrioEvosAttacks:
@@ -1162,6 +1227,7 @@ DodrioEvosAttacks:
 	db 30, TRI_ATTACK
 	db 38, DRILL_PECK
 	db 47, AGILITY
+	db 57, JUMP_KICK ; added
 	db 0 ; no more level-up moves
 
 SeelEvosAttacks:
@@ -1185,7 +1251,7 @@ DewgongEvosAttacks:
 	db 16, AURORA_BEAM
 	db 21, REST
 	db 32, TAKE_DOWN
-	db 36, HAIL
+	db 33, HAIL ; added
 	db 43, ICE_BEAM
 	db 50, BLIZZARD
 	db 60, SAFEGUARD
@@ -1203,6 +1269,7 @@ GrimerEvosAttacks:
 	db 31, SCREECH
 	db 40, ACID_ARMOR
 	db 50, SLUDGE_BOMB
+	db 54, CURSE ; added
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
@@ -1218,6 +1285,7 @@ MukEvosAttacks:
 	db 31, SCREECH
 	db 45, ACID_ARMOR
 	db 60, SLUDGE_BOMB
+	db 64, CURSE ; added
 	db 0 ; no more level-up moves
 
 ShellderEvosAttacks:
@@ -1225,10 +1293,11 @@ ShellderEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, WITHDRAW
+	db 1, BUBBLEBEAM ;added
 	db 9, SUPERSONIC
 	db 17, AURORA_BEAM
 	db 25, PROTECT
-	db 33, LEER
+	db 32, LEER
 	db 37, CLAMP
 	db 49, ICE_BEAM
 	db 0 ; no more level-up moves
@@ -1237,6 +1306,7 @@ CloysterEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WITHDRAW
 	db 1, SUPERSONIC
+	db 1, BUBBLEBEAM ;added
 	db 1, AURORA_BEAM
 	db 1, PROTECT
 	db 33, SPIKES
@@ -1257,6 +1327,8 @@ GastlyEvosAttacks:
 	db 28, CONFUSE_RAY
 	db 33, DREAM_EATER
 	db 36, DESTINY_BOND
+	db 38, ICY_WIND ; added
+	db 40, NIGHTMARE ; added
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
@@ -1273,6 +1345,8 @@ HaunterEvosAttacks:
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
 	db 48, DESTINY_BOND
+	db 52, ICY_WIND ; added
+	db 55, NIGHTMARE ; added
 	db 0 ; no more level-up moves
 
 GengarEvosAttacks:
@@ -1287,6 +1361,8 @@ GengarEvosAttacks:
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
 	db 48, DESTINY_BOND
+	db 52, ICY_WIND ; added
+	db 55, NIGHTMARE ; added
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
@@ -1310,8 +1386,10 @@ DrowzeeEvosAttacks:
 	db 1, HYPNOSIS
 	db 10, DISABLE
 	db 18, CONFUSION
+	db 22, DREAM_EATER ; added
 	db 25, HEADBUTT
 	db 31, POISON_GAS
+	db 34, NIGHTMARE ; added
 	db 36, MEDITATE
 	db 40, PSYCHIC_M
 	db 43, PSYCH_UP
@@ -1326,8 +1404,10 @@ HypnoEvosAttacks:
 	db 1, CONFUSION
 	db 10, DISABLE
 	db 18, CONFUSION
+	db 22, DREAM_EATER ; added
 	db 25, HEADBUTT
 	db 33, POISON_GAS
+	db 36, NIGHTMARE ; added
 	db 40, MEDITATE
 	db 49, PSYCHIC_M
 	db 55, PSYCH_UP
@@ -1341,10 +1421,12 @@ KrabbyEvosAttacks:
 	db 5, LEER
 	db 12, VICEGRIP
 	db 16, HARDEN
-	db 23, STOMP
+	db 21, STOMP
+	db 24, CRABHAMMER
 	db 27, GUILLOTINE
 	db 34, PROTECT
-	db 41, CRABHAMMER
+	db 39, METAL_CLAW ; added
+	;db 41, CRABHAMMER
 	db 0 ; no more level-up moves
 
 KinglerEvosAttacks:
@@ -1355,10 +1437,12 @@ KinglerEvosAttacks:
 	db 5, LEER
 	db 12, VICEGRIP
 	db 16, HARDEN
-	db 23, STOMP
+	db 21, STOMP
+	db 24, CRABHAMMER
 	db 27, GUILLOTINE
 	db 38, PROTECT
-	db 49, CRABHAMMER
+	db 47, METAL_CLAW ; added
+	;db 49, CRABHAMMER
 	db 0 ; no more level-up moves
 
 VoltorbEvosAttacks:
@@ -1366,6 +1450,7 @@ VoltorbEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 9, SCREECH
+	db 11, THUNDERSHOCK ; added
 	db 17, SONICBOOM
 	db 23, SELFDESTRUCT
 	db 29, ROLLOUT
@@ -1373,6 +1458,7 @@ VoltorbEvosAttacks:
 	db 37, SWIFT
 	db 39, EXPLOSION
 	db 41, MIRROR_COAT
+	 db 49, THUNDER ; added
 	db 0 ; no more level-up moves
 
 ElectrodeEvosAttacks:
@@ -1382,6 +1468,7 @@ ElectrodeEvosAttacks:
 	db 1, SONICBOOM
 	db 1, SELFDESTRUCT
 	db 9, SCREECH
+	db 11, THUNDERSHOCK ; added
 	db 17, SONICBOOM
 	db 23, SELFDESTRUCT
 	db 29, ROLLOUT
@@ -1389,6 +1476,7 @@ ElectrodeEvosAttacks:
 	db 40, SWIFT
 	db 44, EXPLOSION
 	db 48, MIRROR_COAT
+	db 52, THUNDER ; added
 	db 0 ; no more level-up moves
 
 ExeggcuteEvosAttacks:
@@ -1398,10 +1486,12 @@ ExeggcuteEvosAttacks:
 	db 1, HYPNOSIS
 	db 7, REFLECT
 	db 13, LEECH_SEED
+	db 17, ABSORB ; added
 	db 19, CONFUSION
 	db 25, STUN_SPORE
 	db 31, POISONPOWDER
-	db 37, SLEEP_POWDER
+	db 34, SLEEP_POWDER
+	db 37, MEGA_DRAIN ; added
 	db 43, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -1428,6 +1518,7 @@ CuboneEvosAttacks:
 	db 33, FALSE_SWIPE
 	db 37, THRASH
 	db 41, BONE_RUSH
+	db 49, PERISH_SONG ; added
 	db 0 ; no more level-up moves
 
 MarowakEvosAttacks:
@@ -1446,6 +1537,7 @@ MarowakEvosAttacks:
 	db 39, FALSE_SWIPE
 	db 46, THRASH
 	db 53, BONE_RUSH
+	db 59, PERISH_SONG ; added
 	db 0 ; no more level-up moves
 
 HitmonleeEvosAttacks:
@@ -1487,6 +1579,7 @@ LickitungEvosAttacks:
 	db 31, DISABLE
 	db 37, SLAM
 	db 43, SCREECH
+	db 49, BELLY_DRUM ; added
 	db 0 ; no more level-up moves
 
 KoffingEvosAttacks:
@@ -1501,6 +1594,7 @@ KoffingEvosAttacks:
 	db 33, HAZE
 	db 41, EXPLOSION
 	db 45, DESTINY_BOND
+	db 52, SLUDGE_BOMB ; added
 	db 0 ; no more level-up moves
 
 WeezingEvosAttacks:
@@ -1516,6 +1610,7 @@ WeezingEvosAttacks:
 	db 33, HAZE
 	db 44, EXPLOSION
 	db 51, DESTINY_BOND
+	db 55, SLUDGE_BOMB ; added
 	db 0 ; no more level-up moves
 
 RhyhornEvosAttacks:
@@ -1528,6 +1623,7 @@ RhyhornEvosAttacks:
 	db 31, SCARY_FACE
 	db 37, HORN_DRILL
 	db 49, TAKE_DOWN
+	db 53, CRUNCH ; added
 	db 55, EARTHQUAKE
 	db 0 ; no more level-up moves
 
@@ -1542,6 +1638,7 @@ RhydonEvosAttacks:
 	db 31, SCARY_FACE
 	db 37, HORN_DRILL
 	db 54, TAKE_DOWN
+	db 57, CRUNCH ; added
 	db 65, EARTHQUAKE
 	db 0 ; no more level-up moves
 
@@ -1553,10 +1650,11 @@ ChanseyEvosAttacks:
 	db 9, TAIL_WHIP
 	db 13, SOFTBOILED
 	db 17, DOUBLESLAP
+	db 21, DEFENSE_CURL
 	db 23, MINIMIZE
 	db 29, SING
 	db 35, EGG_BOMB
-	db 41, DEFENSE_CURL
+	db 38, SEISMIC_TOSS ; added
 	db 49, LIGHT_SCREEN
 	db 57, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -1573,6 +1671,7 @@ TangelaEvosAttacks:
 	db 34, STUN_SPORE
 	db 40, SLAM
 	db 46, GROWTH
+	db 52, GIGA_DRAIN ; added
 	db 0 ; no more level-up moves
 
 KangaskhanEvosAttacks:
@@ -1588,6 +1687,7 @@ KangaskhanEvosAttacks:
 	db 40, MEGA_KICK
 	db 43, DIZZY_PUNCH
 	db 49, REVERSAL
+	db 53, DOUBLE_EDGE ; added
 	db 55, SEISMIC_TOSS
 	db 0 ; no more level-up moves
 
@@ -1615,6 +1715,7 @@ SeadraEvosAttacks:
 	db 15, LEER
 	db 22, WATER_GUN
 	db 29, TWISTER
+	db 31, DRAGONBREATH ; added
 	db 40, AGILITY
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1661,6 +1762,7 @@ StaryuEvosAttacks:
 	db 7, WATER_GUN
 	db 13, RAPID_SPIN
 	db 19, RECOVER
+	db 21, CONFUSION ;added
 	db 25, SWIFT
 	db 31, BUBBLEBEAM
 	db 37, MINIMIZE
@@ -2357,6 +2459,7 @@ CrobatEvosAttacks:
 	db 1, SUPERSONIC
 	db 6, SUPERSONIC
 	db 12, BITE
+	db 17, HYPNOSIS ; added
 	db 19, CONFUSE_RAY
 	db 30, WING_ATTACK
 	db 42, MEAN_LOOK

@@ -86,7 +86,7 @@ EvolutionMoves::
     db NO_MOVE      ; DODUO
 	db TRI_ATTACK   ; DODRIO
     db NO_MOVE      ; SEEL
-    db NO_MOVE      ; DEWGONG
+    db HAIL         ; DEWGONG
     db NO_MOVE      ; GRIMER
     db NO_MOVE      ; MUK
     db NO_MOVE      ; SHELLDER
@@ -116,11 +116,11 @@ EvolutionMoves::
     db NO_MOVE      ; TANGELA
     db NO_MOVE      ; KANGASKHAN
     db NO_MOVE      ; HORSEA
-    db NO_MOVE      ; SEADRA
+    db DRAGONBREATH ; SEADRA
     db NO_MOVE      ; GOLDEEN
     db NO_MOVE      ; SEAKING
     db NO_MOVE      ; STARYU
-    db NO_MOVE      ; STARMIE
+    db PSYBEAM      ; STARMIE
     db NO_MOVE      ; MR. MIME
     db NO_MOVE      ; SCYTHER
     db NO_MOVE      ; JYNX

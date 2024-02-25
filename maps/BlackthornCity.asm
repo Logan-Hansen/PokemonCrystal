@@ -291,6 +291,7 @@ BlackthornGymSignText:
 
 MoveDeletersHouseSignText:
 	text "MOVE DELETER'S"
+	text "and REMINDER'S"
 	line "HOUSE"
 	done
 

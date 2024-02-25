@@ -781,14 +781,14 @@ GrowlitheEvosAttacks:
 	db EVOLVE_ITEM, FIRE_STONE, ARCANINE
 	db 0 
 	db 1, BITE
-	db 1, ROAR
 	db 6, EMBER
+	db 11, ROAR
 	db 12, DOUBLE_KICK
-	db 18, LEER
+	db 19, FLAME_WHEEL
 	db 26, TAKE_DOWN
-	db 34, FLAME_WHEEL
-	db 42, AGILITY
-	db 44, FLAMETHROWER
+	db 34, LEER
+	db 38, AGILITY
+	db 40, FLAMETHROWER
 	db 0 
 
 ArcanineEvosAttacks:

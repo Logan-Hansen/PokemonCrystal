@@ -116,7 +116,8 @@ Other Updates & Changes
 - [X] Kanto starters added - swarm on route 46
 - [X] Johto starters added - swarm on route 46
 - [X] Kanto fossils added - rare in swarm on route 46 and in Qwilfish swarm
-- [ ] Kanto legendaries 
+- [ ] Kanto legendaries
+- [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10
 
 ## See also
 

@@ -82,12 +82,10 @@ Other Updates & Changes
 - [X] Trade with item evolutions as if it was a stone
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 - [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins
-- [ ] Simplify happiness evolutions
-- [ ] Speed up egg hatch rates
 - [ ] Safari Zone back
 - [ ] Bill calls to switch boxes when one is full
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
-- [ ] Updated movesets for Pokemon
+- [X] Updated movesets for Pokemon
 - [ ] Base stat changes to rebalance and increase usability
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
 - [ ] Have someone show you dex entries for Raikou and Entei to make tracking them easier.
@@ -118,6 +116,8 @@ Other Updates & Changes
 - [X] Kanto fossils added - rare in swarm on route 46 and in Qwilfish swarm
 - [ ] Kanto legendaries
 - [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10
+- [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
+- [ ] Speed up egg hatch rates (twice as fast for everything)
 
 ## See also
 

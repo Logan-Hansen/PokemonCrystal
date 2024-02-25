@@ -44,9 +44,14 @@ MoveReminder:
 	ld hl, MoveReminderWhichMoveText
 	call PrintText
 
-	; Generates the Move Reminder's menu. Relative jump to the
-	; ".loop_party_menu" local jump if the player leaves
-	; the menu and continue if they do not.
+; This code falls through into the ".loop_move_menu" local jump.
+
+; This is where the move menu loop begins.
+
+; Generates the Move Reminder's menu. Relative jump to the
+; ".loop_party_menu" local jump if the player leaves
+; the menu and continue if they do not.
+.loop_move_menu
 	call ChooseMoveToLearn
 	jr c, .loop_party_menu
 
@@ -70,11 +75,16 @@ MoveReminder:
 	ld a, b
 	dec a
 	jr z, .move_learned
+; This code falls through into the ".recheck_for_moves" local jump.
 
-	; Exits the menu and goes back to the
-	; map with a speech text box open.
-	call ReturnToMapWithSpeechTextbox
-; This code falls through into the ".cancel" local jump.
+; Rechecks for any moves that can be learned. Relative
+; jump to the ".no_moves_to_learn" local jump if
+; there are none and relative jump to the
+; ".loop_move_menu" local jump if there are.
+.recheck_for_moves
+	call GetRemindableMoves
+	jr z, .no_moves_to_learn
+	jr .loop_move_menu
 
 ; Loads and prints the "MoveReminderCancelText" text.
 ; This ends the dialogue.
@@ -107,13 +117,15 @@ MoveReminder:
 	jr .loop_party_menu
 
 ; Exits the menu and goes back to the map with a
-; speech text box open and then loads and prints
-; the "MoveReminderMoveLearnedText" text.
-; This ends the dialogue.
+; speech text box open, loads and prints
+; the "MoveReminderMoveLearnedText"
+; text and relative jump to the
+; ".recheck_for_moves" local jump.
 .move_learned
 	call ReturnToMapWithSpeechTextbox
 	ld hl, MoveReminderMoveLearnedText
-	jp PrintText
+	call PrintText
+	jr .recheck_for_moves
 
 ; Checks for moves that can be learned and returns
 ; a zero flag if there are none.
@@ -742,4 +754,4 @@ MoveReminderMoveLearnedText:
 	text "Done! Your #MON"
 	line "remembered the"
 	cont "move."
-	done
+	prompt

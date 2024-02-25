@@ -12,10 +12,13 @@ MoveReminder:
 	; Loads and prints the "MoveReminderWhichMonText" text.
 	ld hl, MoveReminderWhichMonText
 	call PrintText
+; This code falls through into the ".loop_party_menu" local jump.
 
-	; Loads the party menu to select a Pokémon. Relative jump
-	; to the ".cancel" local jump if the player leaves
-	; the party menu without selecting anything.
+; This is where the party menu loop begins.
+; Loads the party menu to select a Pokémon. Relative jump
+; to the ".cancel" local jump if the player leaves
+; the party menu without selecting anything.
+.loop_party_menu
 	farcall SelectMonFromParty
 	jr c, .cancel
 
@@ -42,10 +45,10 @@ MoveReminder:
 	call PrintText
 
 	; Generates the Move Reminder's menu. Relative jump to the
-	; ".exit_menu" local jump if the player leaves
+	; ".loop_party_menu" local jump if the player leaves
 	; the menu and continue if they do not.
 	call ChooseMoveToLearn
-	jr c, .exit_menu
+	jr c, .loop_party_menu
 
 	; If the player selects a move, load the move's name and copy
 	; it for later. This is used for displaying the move's
@@ -67,11 +70,9 @@ MoveReminder:
 	ld a, b
 	dec a
 	jr z, .move_learned
-; This code falls through into the ".exit_menu" local jump.
 
-; Exits the menu and goes back to the
-; map with a speech text box open.
-.exit_menu
+	; Exits the menu and goes back to the
+	; map with a speech text box open.
 	call ReturnToMapWithSpeechTextbox
 ; This code falls through into the ".cancel" local jump.
 
@@ -81,23 +82,29 @@ MoveReminder:
 	ld hl, MoveReminderCancelText
 	jp PrintText
 
-; Loads and prints the "MoveReminderEggText" text.
-; This ends the dialogue.
+; Loads and prints the "MoveReminderEggText" text and then waits for
+; the player to press a button for the text to progress. Then
+; relative jump to the ".loop_party_menu" local jump.
 .is_an_egg
 	ld hl, MoveReminderEggText
-	jp PrintText
+	call PrintText
+	jr .loop_party_menu
 
-; Loads and prints the "MoveReminderNotaMonText" text.
-; This ends the dialogue.
+; Loads and prints the "MoveReminderNotaMonText" text and then waits
+; for the player to press a button for the text to progress. Then
+; relative jump to the ".loop_party_menu" local jump.
 .not_a_pokemon
 	ld hl, MoveReminderNotaMonText
-	jp PrintText
+	call PrintText
+	jr .loop_party_menu
 
-; Loads and prints the "MoveReminderNoMovesText" text.
-; This ends the dialogue.
+; Loads and prints the "MoveReminderNoMovesText" text and then waits
+; for the player to press a button for the text to progress. Then
+; relative jump to the ".loop_party_menu" local jump.
 .no_moves_to_learn
 	ld hl, MoveReminderNoMovesText
-	jp PrintText
+	call PrintText
+	jr .loop_party_menu
 
 ; Exits the menu and goes back to the map with a
 ; speech text box open and then loads and prints
@@ -283,6 +290,14 @@ ChooseMoveToLearn:
 	lb bc, 9, 18
 	call TextboxBorder
 
+	; Adds a gap in the move list's text box border
+	; that prevents clipping with some names.
+	hlcoord 2, 0
+	lb bc, 1, 16
+	call ClearBox
+
+
+
 	; This replaces the tile using the identifier
 	; of "$6e" with the fourteenth tile of the
 	; "FontBattleExtra gfx" font. Also, only 1
@@ -309,14 +324,15 @@ ChooseMoveToLearn:
 	ld a, [wCurPartySpecies]
 	ld [wNamedObjectIndex], a
 	call GetPokemonName
-	hlcoord  5, 0
+	hlcoord  3, 0
 	call PlaceString
 
 	; This displays the Pokémon's level
-	; right after the Pokémon's name.
-	push bc
+	; at the coordinates defined at
+	; "hlcoord". In this case that is
+	; the top right of the screen.
 	farcall CopyMonToTempMon
-	pop hl
+	hlcoord 14, 0
 	call PrintLevel
 
 	; Creates the menu, sets the "B_BUTTON"
@@ -698,7 +714,7 @@ MoveReminderCancelText:
 MoveReminderEggText:
 	text "An EGG can't learn"
 	line "any moves!"
-	done
+	prompt
 
 ; This is the text that displays if the player
 ; selects an entry in the party menu that
@@ -709,7 +725,7 @@ MoveReminderNotaMonText:
 	para "I'm sorry, but I"
 	line "can only teach"
 	cont "moves to #MON!"
-	done
+	prompt
 
 ; This is the text that displays if the player
 ; selects a Pokémon in the party menu that
@@ -718,7 +734,7 @@ MoveReminderNoMovesText:
 	text "There are no moves"
 	line "for this #MON"
 	cont "to learn."
-	done
+	prompt
 
 ; This is the text that displays after a
 ; Pokémon successfully learns a move.

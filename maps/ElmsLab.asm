@@ -304,6 +304,7 @@ ElmsLabHealingMachine:
 	yesorno
 	iftrue ElmsLabHealingMachine_HealParty
 	closetext
+	turnobject PLAYER, DOWN
 	end
 
 ElmsLabHealingMachine_HealParty:
@@ -315,6 +316,7 @@ ElmsLabHealingMachine_HealParty:
 	pause 30
 	special RestartMapMusic
 	closetext
+	turnobject PLAYER, DOWN
 	end
 
 ElmAfterTheftDoneScript:

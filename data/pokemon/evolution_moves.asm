@@ -44,7 +44,7 @@ EvolutionMoves::
     db NO_MOVE      ; GOLBAT
     db NO_MOVE      ; ODDISH
     db NO_MOVE      ; GLOOM
-    db NO_MOVE      ; VILEPLUME
+    db SLUDGE       ; VILEPLUME
     db NO_MOVE      ; PARAS
     db NO_MOVE      ; PARASECT
     db NO_MOVE      ; VENONAT
@@ -98,7 +98,7 @@ EvolutionMoves::
     db NO_MOVE      ; DROWZEE
     db NO_MOVE      ; HYPNO
     db NO_MOVE      ; KRABBY
-    db NO_MOVE      ; KINGLER
+    db CRABHAMMER   ; KINGLER
     db NO_MOVE      ; VOLTORB
     db NO_MOVE      ; ELECTRODE
     db NO_MOVE      ; EXEGGCUTE
@@ -163,7 +163,7 @@ EvolutionMoves::
     db NO_MOVE      ; SENTRET
 	db AGILITY      ; FURRET
     db NO_MOVE      ; HOOTHOOT
-    db NO_MOVE      ; NOCTOWL
+    db PSYBEAM      ; NOCTOWL
     db NO_MOVE      ; LEDYBA
     db NO_MOVE      ; LEDIAN
     db NO_MOVE      ; SPINARAK
@@ -175,12 +175,13 @@ EvolutionMoves::
     db NO_MOVE      ; CLEFFA
     db NO_MOVE      ; IGGLYBUFF
     db NO_MOVE      ; TOGEPI
+    db WING_ATTACK  ; TOGETIC
     db NO_MOVE      ; NATU
     db NO_MOVE      ; XATU
     db NO_MOVE      ; MAREEP
     db NO_MOVE      ; FLAAFFY
 	db THUNDERPUNCH ; AMPHAROS
-    db NO_MOVE      ; BELLOSSOM
+    db PETAL_DANCE  ; BELLOSSOM
     db NO_MOVE      ; MARILL
     db NO_MOVE      ; AZUMRILL
     db NO_MOVE      ; SUDOWOODO
@@ -190,7 +191,7 @@ EvolutionMoves::
     db NO_MOVE      ; JUMPLUFF
     db NO_MOVE      ; AIPOM
     db NO_MOVE      ; SUNKERN
-    db NO_MOVE      ; SUNFLORA
+    db RAZOR_LEAF   ; SUNFLORA
     db NO_MOVE      ; YANMA
     db NO_MOVE      ; WOOPER
     db NO_MOVE      ; QUAGSIRE
@@ -203,7 +204,7 @@ EvolutionMoves::
     db NO_MOVE      ; WOBBUFFET
     db NO_MOVE      ; GIRAFARIG
     db NO_MOVE      ; PINECO
-    db NO_MOVE      ; FORRETRESS
+    db SPIKE_CANNON ; FORRETRESS
     db NO_MOVE      ; DUNSPARCE
     db NO_MOVE      ; GLIGAR
 	db IRON_TAIL    ; STEELIX
@@ -227,8 +228,8 @@ EvolutionMoves::
     db NO_MOVE      ; MANTINE
     db NO_MOVE      ; SKARMORY
     db NO_MOVE      ; HOUNDOUR
-    db NO_MOVE      ; HOUNDOOM
-    db NO_MOVE      ; KINGDRA
+    db FLAME_WHEEL  ; HOUNDOOM
+    db DRAGONBREATH ; KINGDRA
     db NO_MOVE      ; PHANPY
 	db FURY_ATTACK  ; DONPHAN
     db NO_MOVE      ; PORGYON2
@@ -246,9 +247,8 @@ EvolutionMoves::
     db NO_MOVE      ; SUICUNE
     db NO_MOVE      ; LARVITAR
     db NO_MOVE      ; PUPITAR
-    db NO_MOVE      ; TYRANNITAR
+    db EARTHQUAKE   ; TYRANNITAR
     db NO_MOVE      ; LUGIA
     db NO_MOVE      ; HO-OH
 	db NO_MOVE      ; CELEBI
-    db NO_MOVE      ; Have to have an extra
 	assert_table_length NUM_POKEMON

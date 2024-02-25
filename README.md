@@ -97,7 +97,7 @@ Other Updates & Changes
 - [ ] name rater can change traded pokemon names
 - [ ] exp and stat exp gain increased once you have obtained enough badges
 - [X] daycare man appears outside the fence
-- [ ] odd egg has decent dvs instead of all 0
+- [X] odd egg has decent dvs - will either be 15/15/15/15 or 15/10/10/10 Shiny
 - [ ] more move tutors for event and gen1 moves
 - [ ] dragon's den tutor for extremespeed and barrier
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them

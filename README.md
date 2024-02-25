@@ -88,7 +88,7 @@ Other Updates & Changes
 - [X] Updated movesets for Pokemon
 - [ ] Base stat changes to rebalance and increase usability
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
-- [ ] Have someone show you dex entries for Raikou and Entei to make tracking them easier.
+- [X] Dex entries for Raikou, Entei, and Suicune marked as seen when you wake them up to make tracking them easier.
 - [ ] master ball in game corner
 - [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
 - [ ] stat exp updated when you use pokecenter as well as box
@@ -115,7 +115,7 @@ Other Updates & Changes
 - [X] Johto starters added - swarm on route 46
 - [X] Kanto fossils added - rare in swarm on route 46 and in Qwilfish swarm
 - [ ] Kanto legendaries
-- [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10
+- [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10 and works mondays
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
 - [X] Speed up egg hatch rates (twice as fast for everything)
 

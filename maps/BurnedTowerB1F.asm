@@ -39,18 +39,24 @@ ReleaseTheBeasts:
 	disappear BURNEDTOWERB1F_RAIKOU2
 	pause 15
 	cry RAIKOU
+	setval RAIKOU ;added
+	special ShowPokedexEntry ;added
 	appear BURNEDTOWERB1F_ENTEI1
 	turnobject PLAYER, UP
 	pause 5
 	disappear BURNEDTOWERB1F_ENTEI2
 	pause 15
 	cry ENTEI
+	setval ENTEI ;added
+	special ShowPokedexEntry ;added
 	appear BURNEDTOWERB1F_SUICUNE1
 	turnobject PLAYER, UP
 	pause 5
 	disappear BURNEDTOWERB1F_SUICUNE2
 	pause 15
 	cry SUICUNE
+	setval SUICUNE ;added
+	special ShowPokedexEntry ;added
 	pause 15
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, LEFT

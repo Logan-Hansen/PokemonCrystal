@@ -94,10 +94,9 @@ Other Updates & Changes
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] nurse joy turns you to face the other way when done
 - [ ] fishing has "keep fishing" prompt
-- [ ] increase haircut/massage happiness boost
 - [ ] name rater can change traded pokemon names
 - [ ] exp and stat exp gain increased once you have obtained enough badges
-- [ ] daycare man appears outside the fence
+- [X] daycare man appears outside the fence
 - [ ] odd egg has decent dvs instead of all 0
 - [ ] more move tutors for event and gen1 moves
 - [ ] dragon's den tutor for extremespeed and barrier

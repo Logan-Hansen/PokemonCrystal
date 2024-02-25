@@ -105,12 +105,12 @@ ChangeHappiness:
 INCLUDE "data/events/happiness_changes.asm"
 
 StepHappiness::
-; Raise the party's happiness by 1 point every other step cycle.
+; Raise the party's happiness by 2 points every other step cycle. (was 1)
 
 	ld hl, wHappinessStepCount
 	ld a, [hl]
 	inc a
-	and 1
+	and 2 ; was 1 before
 	ld [hl], a
 	ret nz
 

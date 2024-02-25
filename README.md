@@ -117,7 +117,7 @@ Other Updates & Changes
 - [ ] Kanto legendaries
 - [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
-- [ ] Speed up egg hatch rates (twice as fast for everything)
+- [X] Speed up egg hatch rates (twice as fast for everything)
 
 ## See also
 

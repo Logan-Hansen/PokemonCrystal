@@ -145,6 +145,7 @@ PokecenterNurseScript:
 
 	waitbutton
 	closetext
+	turnobject PLAYER, DOWN ;added
 	end
 
 .pokerus

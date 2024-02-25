@@ -92,7 +92,7 @@ Other Updates & Changes
 - [ ] master ball in game corner
 - [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
 - [ ] stat exp updated when you use pokecenter as well as box
-- [ ] nurse joy turns you to face the other way when done
+- [X] nurse joy turns you to face the other way when done
 - [ ] fishing has "keep fishing" prompt
 - [ ] name rater can change traded pokemon names
 - [ ] exp and stat exp gain increased once you have obtained enough badges

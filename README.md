@@ -126,11 +126,11 @@ Pokemon Availability
     - [X] Vulpix - route 36, and 37
     - [X] Mankey - route 33, to give fighting type options before goldenrod and route 42 to match gold
     - [X] Mareep - Route 32, 42, and 43 just like gold/silver. ALso 31 to give an electric option before Falkner.
-    - [ ] Remoraid
+    - [X] Remoraid - route 44
     - [X] Girafarig - route 43 like gold/silver
     - [ ] Kanto starters
     - [ ] Johto starters
-    - [ ] Kanto fossils
+    - [ ] Kanto fossils - Kabutops and Omastar in Silver Cave, fossils in rock smash
     - [ ] Kanto legendaries (as static encounters)
 
 - [ ] Improved availability of pokemon in the Johto region

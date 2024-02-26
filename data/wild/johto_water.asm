@@ -114,18 +114,18 @@ JohtoWaterWildMons:
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
 	db  0, TENTACOOL,  	  18, 19
-	db 15, TENTACRUEL, 	  21, 22
-	db 70, HORSEA,	 	  20, 22
-	db 15, SEADRA, 		  20, 22  
+	db 15, TENTACRUEL, 	  32, 34
+	db 70, HORSEA,	 	  27, 31
+	db 15, SEADRA, 		  32, 34  
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 20, GOLDEEN,  	 35,  36
-	db 40, SEAKING,	 	 35,  36
-	db 40, GOLDUCK,	 	 35,  35
-	db  0, QUAGSIRE, 	  5,   5
+	db 20, LAPRAS,  	 38,  41
+	db 30, GOLDUCK,	 	 38,  40
+	db 30, KABUTOPS, 	 40,  41
+	db 30, OMASTAR, 	 40,  41
 	end_water_wildmons
 
 	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
@@ -212,18 +212,18 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_40
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 80, TENTACOOL,  	  15, 19
+	db 60, TENTACOOL,  	  15, 19
 	db 20, TENTACRUEL, 	  21, 22
-	db  0, HORSEA,	 	  20, 22
+	db 20, SHELLDER, 	  15, 19
 	db  0, SEADRA, 		  20, 22 
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 80, TENTACOOL,  	  18, 20
+	db 60, TENTACOOL,  	  18, 20
 	db 20, TENTACRUEL, 	  21, 22
-	db  0, MANTINE,	 	  20, 22
+	db 20, HORSEA,	 	  18, 20
 	db  0, SEADRA, 		  20, 22 
 	end_water_wildmons
 
@@ -248,9 +248,9 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_44
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 60, POLIWAG,  	 20,  25
+	db 40, POLIWAG,  	 20,  25
 	db 40, POLIWHIRL, 	 25,  26
-	db  0, WOOPER,	 	  5,   5
+	db 20, REMORAID, 	 20,  24
 	db  0, QUAGSIRE, 	  5,   5
 	end_water_wildmons
 

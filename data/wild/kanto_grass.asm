@@ -600,7 +600,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 20, SKIPBLOOM, 	 23,  28
+	db 20, SKIPLOOM, 	 23,  28
 	db 25, HOPPIP, 	  	 23,  28
 	db 25, NIDORINA, 	 23,  28
 	db 25, NIDORINO, 	 23,  28
@@ -615,7 +615,7 @@ KantoGrassWildMons:
 	db 25, NIDORINA, 	 23,  28
 	db 25, NIDORINO, 	 23,  28
 	db  5, CHANSEY, 	 23,  28
-	db 10, SKIPBLOOM, 	 23,  28
+	db 10, SKIPLOOM, 	 23,  28
 	db  0, RATTATA, 	 23,  28
 
 	; nite
@@ -765,7 +765,7 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, MR_MIME, 	 30,  35
+	db 10, MR__MIME, 	 30,  35
 	db 50, TANGELA, 	 30,  35
 	db 20, RATTATA, 	 30,  35
 	db 20, RATICATE, 	 30,  35
@@ -775,7 +775,7 @@ KantoGrassWildMons:
 
 	; day
 	;  %, species,		min, max
-	db 10, MR_MIME, 	 30,  35
+	db 10, MR__MIME, 	 30,  35
 	db 50, TANGELA, 	 30,  35
 	db 20, RATTATA, 	 30,  35
 	db 20, RATICATE, 	 30,  35
@@ -785,7 +785,7 @@ KantoGrassWildMons:
 
 	; nite
 	;  %, species,		min, max
-	db  0, MR_MIME, 	 30,  35
+	db  0, MR__MIME, 	 30,  35
 	db 50, TANGELA, 	 30,  35
 	db 30, RATTATA, 	 30,  35
 	db 20, RATICATE, 	 30,  35
@@ -917,7 +917,7 @@ KantoGrassWildMons:
 
 	; nite
 	;  %, species,		min, max
-	db 40, NOTCTOWL, 	 28,  32
+	db 40, NOCTOWL, 	 28,  32
 	db 40, QUAGSIRE, 	 28,  32
 	db 20, RATICATE, 	 28,  32
 	db  0, RATTATA, 	 28,  32
@@ -950,7 +950,7 @@ KantoGrassWildMons:
 
 	; nite
 	;  %, species,		min, max
-	db 40, NOTCTOWL, 	 28,  32
+	db 40, NOCTOWL, 	 28,  32
 	db 40, QUAGSIRE, 	 28,  32
 	db 20, RATICATE, 	 28,  32
 	db  0, RATTATA, 	 28,  32

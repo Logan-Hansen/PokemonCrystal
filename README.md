@@ -37,6 +37,7 @@ Upgrades to existing features
 - [X] [Kurt doesn't make you wait to get balls made](https://github.com/pret/pokecrystal/wiki/Kurt-Makes-Pokeballs-Instantly)
 - [X] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
 - [X] [Fixed Gender calculation to be fair in stats to both](https://github.com/pret/pokecrystal/wiki/Modify-existing-gender-formula)
+- [X] [Make wild encounters vary in level](https://github.com/pret/pokecrystal/wiki/Make-wild-Pok%C3%A9mon-encounter-levels-vary)
       
 Removing features
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)

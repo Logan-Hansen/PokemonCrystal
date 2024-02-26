@@ -114,13 +114,13 @@ Other Updates & Changes
 
 Pokemon Availability
 --------------------
-- [ ] Standard Crystal avaliability 
+- [X] Standard Crystal avaliability 
     - [X] johto_grass areas
-    - [ ] kanto_grass areas
-    - [ ] johto_water areas
-    - [ ] kanto_water areas
-    - [ ] swarm_grass areas
-    - [ ] swarm_water areas
+    - [X] kanto_grass areas
+    - [X] johto_water areas
+    - [X] kanto_water areas
+    - [X] swarm_grass areas
+    - [X] swarm_water areas
 
 - [ ] Not avaliable in Crystal normally
     - [X] Vulpix - route 36, and 37
@@ -128,8 +128,8 @@ Pokemon Availability
     - [X] Mareep - Route 32, 42, and 43 just like gold/silver. ALso 31 to give an electric option before Falkner.
     - [X] Remoraid - route 44
     - [X] Girafarig - route 43 like gold/silver
-    - [ ] Kanto starters
-    - [ ] Johto starters
+    - [X] Kanto starters - route 26 grass (past Tohjo Falls and closer to champion road)
+    - [X] Johto starters - route 27 grass (will have to get past Tohjo Falls)
     - [ ] Kanto fossils - Kabutops, Omastar and Aerodactyl in Silver Cave, fossils in rock smash to get earlier
     - [ ] Kanto legendaries (as static encounters)
 

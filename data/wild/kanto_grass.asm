@@ -897,66 +897,66 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 50, SANDSLASH, 	 28,  32
-	db  5, ARBOK, 	  	 28,  32
+	db 40, SANDSLASH, 	 28,  32
+	db 10, ARBOK, 	  	 28,  32
 	db 15, DODUO, 	  	 28,  32
-	db 10, PONYTA, 	  	 28,  32
-	db 20, RATICATE, 	 28,  32
-	db  0, POLIWAG, 	 28,  32
-	db  0, RATTATA, 	 28,  32
+	db 20, PONYTA, 	  	 28,  32
+	db  5, CHARMANDER, 	  5,   5
+	db  5, SQUIRTLE, 	  5,   5
+	db  5, BULBASAUR, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db 50, SANDSLASH, 	 28,  32
-	db  5, ARBOK, 	  	 28,  32
+	db 40, SANDSLASH, 	 28,  32
+	db 10, ARBOK, 	  	 28,  32
 	db 15, DODUO, 	  	 28,  32
-	db 10, PONYTA, 	  	 28,  32
-	db 20, RATICATE, 	 28,  32
-	db  0, POLIWAG, 	 28,  32
-	db  0, RATTATA, 	 28,  32
+	db 20, PONYTA, 	  	 28,  32
+	db  5, CHARMANDER, 	  5,   5
+	db  5, SQUIRTLE, 	  5,   5
+	db  5, BULBASAUR, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
-	db 40, NOCTOWL, 	 28,  32
-	db 40, QUAGSIRE, 	 28,  32
-	db 20, RATICATE, 	 28,  32
-	db  0, RATTATA, 	 28,  32
-	db  0, RATTATA, 	 28,  32
-	db  0, RATTATA, 	 28,  32
-	db  0, RATTATA, 	 28,  32		
+	db 40, NOCTOWL,	  	 28,  32
+	db 30, QUAGSIRE,  	 28,  32
+	db 15, RATICATE,  	 28,  32
+	db  0, RATATA,  	  5,   5
+	db  5, CHARMANDER, 	  5,   5
+	db  5, SQUIRTLE, 	  5,   5
+	db  5, BULBASAUR, 	  5,   5		
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 50, SANDSLASH, 	 28,  32
-	db  5, ARBOK, 	  	 28,  32
+	db 45, SANDSLASH, 	 28,  32
+	db 15, ARBOK, 	  	 28,  32
 	db 15, DODUO, 	  	 28,  32
 	db 10, PONYTA, 	  	 28,  32
-	db 20, RATICATE, 	 28,  32
-	db  0, POLIWAG, 	 28,  32
-	db  0, RATTATA, 	 28,  32
+	db  5, CYNDAQUIL, 	  5,   5
+	db  5, TOTODILE, 	  5,   5
+	db  5, CHIKORITA, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db 50, SANDSLASH, 	 28,  32
-	db  5, ARBOK, 	  	 28,  32
+	db 45, SANDSLASH, 	 28,  32
+	db 15, ARBOK, 	  	 28,  32
 	db 15, DODUO, 	  	 28,  32
 	db 10, PONYTA, 	  	 28,  32
-	db 20, RATICATE, 	 28,  32
-	db  0, POLIWAG, 	 28,  32
-	db  0, RATTATA, 	 28,  32
+	db  5, CYNDAQUIL, 	  5,   5
+	db  5, TOTODILE, 	  5,   5
+	db  5, CHIKORITA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
-	db 40, NOCTOWL, 	 28,  32
-	db 40, QUAGSIRE, 	 28,  32
-	db 20, RATICATE, 	 28,  32
-	db  0, RATTATA, 	 28,  32
-	db  0, RATTATA, 	 28,  32
-	db  0, RATTATA, 	 28,  32
-	db  0, RATTATA, 	 28,  32
+	db 45, NOCTOWL, 	 28,  32
+	db 25, QUAGSIRE, 	 28,  32
+	db 15, RATICATE, 	 28,  32
+	db  0, RATATA, 	  	  5,   5
+	db  5, CYNDAQUIL, 	  5,   5
+	db  5, TOTODILE, 	  5,   5
+	db  5, CHIKORITA, 	  5,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_28
@@ -964,7 +964,7 @@ KantoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db 15, ARBOK, 	  	 41,  44
-	db 20, PONYTA, 	  	 41,  44
+	db 20, RAPIDASH,  	 41,  44
 	db 15, RAPIDASH, 	 41,  44
 	db 15, DODUO, 	  	 41,  44
 	db  5, DODRIO, 	  	 41,  44

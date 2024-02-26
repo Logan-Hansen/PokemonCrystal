@@ -408,7 +408,7 @@ JohtoGrassWildMons:
 	db  8, PIDGEY,	 	 12,  14
 	db 24, NIDORAN_F, 	 11,  13
 	db 36, NIDORAN_M, 	 11,  13
-	db  0, SUNKURN, 	 13,  15
+	db  0, SUNKERN, 	 13,  15
 
 	; day
 	;  %, species,		min, max
@@ -418,7 +418,7 @@ JohtoGrassWildMons:
 	db  8, PIDGEY,	 	 12,  14
 	db 24, NIDORAN_F, 	 11,  13
 	db 36, NIDORAN_M, 	 11,  13
-	db 16, SUNKURN, 	 13,  15
+	db 16, SUNKERN, 	 13,  15
 
 	; nite
 	;  %, species,		min, max

@@ -59,10 +59,11 @@ features from different generations
 - [X] [Add hail as a new weather condition](https://github.com/pret/pokecrystal/wiki/Add-Hail-as-a-new-weather-condition)
 - [X] Make hail boost DEF of Ice type pokemon by 50%
 - [X] Ghost and Dark hit Steel for normal effectiveness to match Gen 6 and on Type Matchups
+- [X] [Gen 6 EXP and EXP SHARE](https://github.com/pret/pokecrystal/wiki/Generation-6-Experience-System)
 - [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [ ] [Revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
-- [ ] [Gen 6 EXP and EXP SHARE](https://github.com/pret/pokecrystal/wiki/Generation-6-Experience-System)
+
 
       
 Custom features

@@ -70,7 +70,7 @@ ItemEffects:
 	dw CoinCaseEffect      ; COIN_CASE
 	dw ItemfinderEffect    ; ITEMFINDER
 	dw PokeFluteEffect     ; POKE_FLUTE
-	dw NoEffect            ; EXP_SHARE
+	dw ExpShareEffect      ; EXP_SHARE
 	dw OldRodEffect        ; OLD_ROD
 	dw GoodRodEffect       ; GOOD_ROD
 	dw NoEffect            ; SILVER_LEAF
@@ -1867,19 +1867,16 @@ LoadCurHPIntoBuffer3:
 	ld [wHPBuffer3], a
 	ret
 
-LoadHPIntoBuffer3: ; unreferenced
-	ld a, d
-	ld [wHPBuffer3 + 1], a
-	ld a, e
-	ld [wHPBuffer3], a
-	ret
+ExpShareEffect:
+	ld a, [wExpShareToggle]
+	xor 1
+	ld [wExpShareToggle], a
+	and a
+	ld hl, ExpShareToggleOn
+	jp nz, PrintText
 
-LoadHPFromBuffer3: ; unreferenced
-	ld a, [wHPBuffer3 + 1]
-	ld d, a
-	ld a, [wHPBuffer3]
-	ld e, a
-	ret
+	ld hl, ExpShareToggleOff
+	jp PrintText
 
 LoadCurHPIntoBuffer2:
 	ld a, MON_HP
@@ -2685,12 +2682,12 @@ ItemUsedText:
 	text_far _ItemUsedText
 	text_end
 
-ItemGotOnText: ; unreferenced
-	text_far _ItemGotOnText
+ExpShareToggleOff:
+	text_far _ExpShareToggleOff
 	text_end
-
-ItemGotOffText: ; unreferenced
-	text_far _ItemGotOffText
+ 
+ExpShareToggleOn:
+	text_far _ExpShareToggleOn
 	text_end
 
 ApplyPPUp:

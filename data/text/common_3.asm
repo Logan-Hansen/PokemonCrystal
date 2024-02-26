@@ -1390,19 +1390,14 @@ _ItemUsedText::
 	text "."
 	done
 
-_ItemGotOnText::
-	text "<PLAYER> got on the@"
-	text_low
-	text_ram wStringBuffer2
-	text "."
+_ExpShareToggleOn::
+	text "The EXP.SHARE was"
+	line "turned on."
 	prompt
 
-_ItemGotOffText::
-	text "<PLAYER> got off@"
-	text_low
-	text "the @"
-	text_ram wStringBuffer2
-	text "."
+_ExpShareToggleOff::
+	text "The EXP.SHARE was"
+	line "turned off."
 	prompt
 
 _KnowsMoveText::

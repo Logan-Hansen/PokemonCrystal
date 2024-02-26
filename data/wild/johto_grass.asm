@@ -1922,9 +1922,9 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 15, PHANPY, 	 	 20,  25
 	db 10, DONPHAN, 	 32,  36
-	db 10, SKARMORY, 	 32,  36
+	db 20, SKARMORY, 	 32,  36
 	db 20, GLIGAR, 		 32,  36
-	db 15, GEODUDE, 	 32,  36
+	db  5, GEODUDE, 	 32,  36
 	db 20, GRAVELER, 	 32,  36
 	db 10, RHYHORN, 	 32,  36
 
@@ -1932,9 +1932,9 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 0,  PHANPY, 	 	 20,  25
 	db 25, DONPHAN, 	 32,  36
-	db 10, SKARMORY, 	 32,  36
+	db 20, SKARMORY, 	 32,  36
 	db 20, GLIGAR, 		 32,  36
-	db 15, GEODUDE, 	 32,  36
+	db  5, GEODUDE, 	 32,  36
 	db 20, GRAVELER, 	 32,  36
 	db 10, RHYHORN, 	 32,  36
 

@@ -825,15 +825,15 @@ LeftoversDesc:
 
 OldAmberDesc:
 	db   "Fossilized genes"
-	next "trapped in amber."
+	next "trapped in amber.@"
 
 DomeFossilDesc:
 	db   "Fossilized genes"
-	next "in an old shell."
+	next "in an old shell.@"
 
 HelixFossilDesc:
 	db   "Fossilized genes"
-	next "in a seashell."
+	next "in a seashell.@"
 
 MysteryBerryDesc:
 	db   "A self-restore"

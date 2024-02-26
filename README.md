@@ -135,7 +135,7 @@ Pokemon Availability
 - [ ] Improved availability of pokemon in the Johto region
     - [X] Murkrow - national park at night
     - [X] Houndour - route 37 and burned tower basement night 
-    - [ ] Misdreavus
+    - [X] Misdreavus - burned tower at night
     - [X] Slugma - burned tower basement M/D/N
     - [X] Larvitar - 4% chance M/D/N in Dark cave
     - [X] Marill and Cubone in Union Cave
@@ -144,6 +144,7 @@ Pokemon Availability
     - [X] Rare chance for Scyther in National park M/D
     - [X] Put Yanma in bug catching contest with 6% chance
     - [X] Magmar back in the burned tower liked gold/silver
+    - [X] Ponyta on route 39 M/D/N
 
 
 ## See also

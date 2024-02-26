@@ -340,7 +340,7 @@ JohtoGrassWildMons:
 	db  5, RATICATE, 	 14,  15
 	db 15, ZUBAT, 		 11,  14
 	db 15, KOFFING, 	 12,  14
-	db  5, MAGMAR, 		 12,  16
+	db  5, SLUGMA, 		 12,  14
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
@@ -350,18 +350,18 @@ JohtoGrassWildMons:
 	db  5, RATICATE, 	 14,  15
 	db 15, ZUBAT, 		 11,  14
 	db 15, KOFFING, 	 12,  14
-	db 10, MAGMAR, 		 12,  16
+	db 10, SLUGMA, 		 12,  14
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
-	db 60, RATTATA, 	 11,  15
+	db 50, RATTATA, 	 11,  15
 	db  5, RATICATE, 	 14,  15
 	db 15, ZUBAT, 		 11,  14
 	db 15, KOFFING, 	 12,  14
-	db  5, MAGMAR, 		 12,  16
-	db  0, RATTATA, 	  5,   5
+	db  5, SLUGMA, 		 12,  14
+	db 10, MISDREAVUS, 	 13,  15	
 	db  0, RATTATA, 	  5,   5	
 	end_grass_wildmons
 
@@ -373,7 +373,7 @@ JohtoGrassWildMons:
 	db 15, ZUBAT, 		 12,  14
 	db 55, KOFFING, 	 13,  14
 	db  5, WEEZING, 	 16,  17
-	db 10, SLUGMA,	 	 12,  15
+	db 10, MAGMAR,	 	 13,  16
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
@@ -383,7 +383,7 @@ JohtoGrassWildMons:
 	db 15, ZUBAT, 		 12,  14
 	db 55, KOFFING, 	 13,  14
 	db  5, WEEZING, 	 16,  17
-	db 10, SLUGMA,	 	 12,  15
+	db 10, MAGMAR,	 	 13,  16
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
@@ -391,11 +391,11 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 15, RATTATA, 	 13,  15
 	db  5, ZUBAT, 		 12,  14
-	db 50, KOFFING, 	 13,  14
+	db 40, KOFFING, 	 13,  14
 	db  5, WEEZING, 	 16,  17
 	db 15, HOUNDOUR, 	 13,  15
-	db 10, SLUGMA,	 	 12,  15
-	db  0, RATTATA, 	  5,   5	
+	db 10, MAGMAR,	 	 13,  16
+	db 10, MISDREAVUS, 	 13,  15	
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_PARK
@@ -1791,28 +1791,28 @@ JohtoGrassWildMons:
 	db 10, TAUROS, 		 15,  16
 	db 10, MILTANK, 	 15,  16
 	db 10, RATTATA, 	 15,  16
-	db 40, RATICATE, 	 15,  16
+	db 20, RATICATE, 	 15,  16
 	db 20, MAGNEMITE, 	 15,  16
 	db  0, PIDGEOTTO, 	 16,  18
-	db  0, RATTATA, 	 15,  16
+	db 20, PONYTA,	 	 15,  16
 
 	; day
 	;  %, species,		min, max
 	db  5, TAUROS, 		 13,  16
 	db  5, MILTANK, 	 13,  16
 	db  5, RATTATA, 	 15,  16
-	db 40, RATICATE, 	 15,  16
+	db 20, RATICATE, 	 15,  16
 	db 20, MAGNEMITE, 	 15,  16
 	db 15, PIDGEOTTO, 	 15,  16
-	db  0, RATTATA, 	 13,  16
+	db 20, PONYTA,	 	 15,  16
 
 	; nite
 	;  %, species,		min, max
-	db 25, RATICATE, 	 15,  16
+	db 15, RATICATE, 	 15,  16
 	db 25, MAGNEMITE, 	 15,  16
-	db 40, MEOWTH, 	 	 16,  18
+	db 30, MEOWTH, 	 	 16,  18
 	db 10, NOCTOWL, 	 15,  16
-	db  0, RATTATA, 	 15,  16
+	db 20, PONYTA,	 	 15,  16
 	db  0, RATTATA, 	 15,  16
 	db  0, RATTATA, 	 15,  16	
 	end_grass_wildmons

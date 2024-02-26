@@ -130,11 +130,11 @@ Pokemon Availability
     - [X] Girafarig - route 43 like gold/silver
     - [ ] Kanto starters
     - [ ] Johto starters
-    - [ ] Kanto fossils - Kabutops and Omastar in Silver Cave, fossils in rock smash
+    - [ ] Kanto fossils - Kabutops, Omastar and Aerodactyl in Silver Cave, fossils in rock smash to get earlier
     - [ ] Kanto legendaries (as static encounters)
 
 - [ ] Improved availability of pokemon in the Johto region
-    - [X] Murkrow - national park at night
+    - [X] Murkrow - national park at night, and Yanma swarm at night
     - [X] Houndour - route 37 and burned tower basement night 
     - [X] Misdreavus - burned tower at night
     - [X] Slugma - burned tower basement M/D/N

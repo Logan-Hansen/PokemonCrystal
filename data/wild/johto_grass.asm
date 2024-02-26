@@ -1359,32 +1359,32 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 40, GOLBAT, 	 	 57,  61
-	db 60, PARASECT, 	 57,  61
-	db  0, RATTATA, 	 57,  61
-	db  0, RATTATA, 	 57,  61
-	db  0, RATTATA, 	 57,  61
+	db 20, GOLBAT, 	 	 57,  61
+	db 20, PARASECT, 	 57,  61
+	db 20, AERODACTYL, 	 57,  61
+	db 20, OMASTAR, 	 57,  61
+	db 20, KABUTOPS, 	 57,  61
 	db  0, RATTATA, 	 57,  61
 	db  0, RATTATA, 	 57,  61
 
 	; day
 	;  %, species,		min, max
-	db 40, GOLBAT, 	 	 57,  61
-	db 60, PARASECT, 	 57,  61
-	db  0, RATTATA, 	 57,  61
-	db  0, RATTATA, 	 57,  61
-	db  0, RATTATA, 	 57,  61
+	db 20, GOLBAT, 	 	 57,  61
+	db 20, PARASECT, 	 57,  61
+	db 20, AERODACTYL, 	 57,  61
+	db 20, OMASTAR, 	 57,  61
+	db 20, KABUTOPS, 	 57,  61
 	db  0, RATTATA, 	 57,  61
 	db  0, RATTATA, 	 57,  61
 
 	; nite
 	;  %, species,		min, max
-	db 30, GOLBAT, 	 	 57,  61
-	db 40, PARASECT, 	 57,  61
-	db 30, MISDREAVUS, 	 57,  61
-	db  0, RATTATA, 	 57,  61
-	db  0, RATTATA, 	 57,  61
-	db  0, RATTATA, 	 57,  61
+	db 15, GOLBAT, 	 	 57,  61
+	db 10, PARASECT, 	 57,  61
+	db 20, AERODACTYL, 	 57,  61
+	db 20, OMASTAR, 	 57,  61
+	db 20, KABUTOPS, 	 57,  61
+	db 15, MISDREAVUS, 	 57,  61
 	db  0, RATTATA, 	 57,  61	
 	end_grass_wildmons
 

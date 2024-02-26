@@ -112,17 +112,18 @@ Other Updates & Changes
 
 Pokemon Availability
 --------------------
-- [ ] Kanto legendaries
-- [X] Vulpix added - rare on route 36 & 37 with swarm on 37
-- [X] Mankey now on route 42 morn/day/night
-- [X] Mareep now on route 32 morn/day
-- [X] Murkrow now also on route 34 night
-- [X] Houndour now also on route 35 night
-- [X] Remoraid now in route 44 and 45 water
-- [X] Girafarig now on route 43 morn/day/night
-- [X] Kanto starters added - swarm on route 46
-- [X] Johto starters added - swarm on route 46
-- [X] Kanto fossils added - rare in swarm on route 46 and in Qwilfish swarm
+- [ ] Standard Crystal avaliability plus:
+    - [ ] Vulpix
+    - [ ] Mankey
+    - [ ] Mareep
+    - [ ] Murkrow
+    - [ ] Houndour
+    - [ ] Remoraid
+    - [ ] Girafarig
+    - [ ] Kanto starters
+    - [ ] Johto starters
+    - [ ] Kanto fossils
+    - [ ] Kanto legendaries as static encounters
 
 
 ## See also

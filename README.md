@@ -124,7 +124,7 @@ Pokemon Availability
 - [ ] Not avaliable in Crystal normally
     - [ ] Vulpix
     - [ ] Mankey
-    - [ ] Mareep
+    - [X] Mareep - Route 32, 42, and 43 just like gold/silver
     - [ ] Remoraid
     - [ ] Girafarig
     - [ ] Kanto starters

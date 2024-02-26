@@ -1560,9 +1560,9 @@ JohtoGrassWildMons:
 	db 16, EKANS,	  	  5,   7
 	db 20, HOPPIP, 	  	  5,   7
 	db  4, PIDGEY, 	 	  5,   7
-	db 40, RATTATA, 	  5,   7
+	db 20, RATTATA, 	  5,   7
 	db 20, BELLSPROUT, 	  5,   7
-	db  0, RATTATA, 	  5,   7
+	db 20, MAREEP, 		  5,   7
 	db  0, RATTATA, 	  5,   7
 
 	; day
@@ -1570,20 +1570,20 @@ JohtoGrassWildMons:
 	db 16, EKANS,	  	  5,   7
 	db 20, HOPPIP, 	  	  5,   7
 	db  4, PIDGEY, 	 	  5,   7
-	db 40, RATTATA, 	  5,   7
+	db 20, RATTATA, 	  5,   7
 	db 20, BELLSPROUT, 	  5,   7
-	db  0, RATTATA, 	  5,   7
+	db 20, MAREEP, 		  5,   7
 	db  0, RATTATA, 	  5,   7
 
 	; nite
 	;  %, species,		min, max
-	db 40, RATTATA, 	  5,   7
+	db 30, RATTATA, 	  5,   7
 	db 16, BELLSPROUT, 	  5,   7
 	db  8, WOOPER, 		  5,   7
 	db 16, ZUBAT, 		  5,   7
 	db  8, GASTLY, 		  5,   7
 	db 12, HOOTHOOT, 	  5,   7
-	db  0, RATTATA, 	  5,   7	
+	db 10, MAREEP, 		  5,   7	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_33
@@ -1825,61 +1825,61 @@ JohtoGrassWildMons:
 	db  5, FEAROW, 		 14,  17
 	db 15, EKANS, 		 14,  17
 	db  5, ARBOK, 		 14,  17
-	db 30, RATTATA, 	 14,  17
+	db 10, RATTATA, 	 14,  17
 	db 20, RATICATE, 	 14,  17
-	db  0, RATTATA, 	 14,  17
+	db 20, MAREEP,	 	 14,  16
 
 	; day
 	;  %, species,		min, max
 	db 25, SPEAROW, 	 14,  17
 	db  5, FEAROW, 		 14,  17
-	db 45, EKANS, 		 14,  17
+	db 35, EKANS, 		 14,  17
 	db  5, ARBOK, 		 14,  17
-	db 15, RATTATA, 	 14,  17
+	db  5, RATTATA, 	 14,  17
 	db  5, RATICATE, 	 14,  17
-	db  0, RATTATA, 	 14,  17
+	db 20, MAREEP,	 	 14,  16
 
 	; nite
 	;  %, species,		min, max
-	db 30, RATTATA, 	 14,  17
+	db 20, RATTATA, 	 14,  17
 	db 20, RATICATE, 	 14,  17
 	db 10, MARILL,	 	 14,  17
 	db 25, ZUBAT, 		 14,  17
 	db 15, GOLBAT, 		 14,  17
 	db  0, RATTATA, 	 14,  17
-	db  0, RATTATA, 	 14,  17	
+	db 10, MAREEP,	 	 14,  16	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 25, SENTRET, 	 16,  18
-	db 20, FURRET, 	  	 16,  18
+	db 15, SENTRET, 	 16,  18
+	db 10, FURRET, 	  	 16,  18
 	db 30, PIDGEOTTO, 	 16,  18
 	db 20, FARFETCH_D, 	 16,  18
 	db  5, RATICATE, 	 16,  18
-	db  0, RATTATA, 	 16,  18
-	db  0, RATTATA, 	 16,  18
+	db 10, MAREEP,	 	 14,  16
+	db 10, FLAAFFY, 	 16,  18
 
 	; day
 	;  %, species,		min, max
-	db 25, SENTRET, 	 16,  18
-	db 20, FURRET, 	  	 16,  18
-	db 30, PIDGEOTTO, 	 16,  18
+	db 15, SENTRET, 	 16,  18
+	db 10, FURRET, 	  	 16,  18
+	db 20, PIDGEOTTO, 	 16,  18
 	db 20, FARFETCH_D, 	 16,  18
 	db  5, RATICATE, 	 16,  18
-	db  0, RATTATA, 	 16,  18
-	db  0, RATTATA, 	 16,  18
+	db 10, MAREEP,	 	 14,  16
+	db 20, FLAAFFY, 	 16,  18
 
 	; nite
 	;  %, species,		min, max
-	db 30, RATICATE, 	 16,  18
+	db 10, RATICATE, 	 16,  18
 	db 35, VENONAT,	 	 16,  18
 	db  5, VENOMOTH, 	 16,  18
 	db 30, NOCTOWL, 	 16,  18
-	db  0, RATTATA, 	 16,  18
-	db  0, RATTATA, 	 16,  18
+	db 10, MAREEP,	 	 14,  16
+	db 10, FLAAFFY, 	 16,  18
 	db  0, RATTATA, 	 16,  18	
 	end_grass_wildmons
 

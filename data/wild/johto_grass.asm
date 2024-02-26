@@ -570,20 +570,20 @@ JohtoGrassWildMons:
 	db 15, GEODUDE, 	 19,  22
 	db 10, ONIX, 		 22,  24
 	db 10, RATICATE, 	 21,  23
-	db 40, ZUBAT,	 	 21,  22
+	db 25, ZUBAT,	 	 21,  22
 	db 25, GOLBAT, 		 22,  24
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 10, RHYHORN, 	 22,  24
+	db  5, KANGASKHAN, 	 23,  24
 
 	; day
 	;  %, species,		min, max
 	db 15, GEODUDE, 	 19,  22
 	db 10, ONIX, 		 22,  24
 	db 10, RATICATE, 	 21,  23
-	db 40, ZUBAT,	 	 21,  22
+	db 25, ZUBAT,	 	 21,  22
 	db 25, GOLBAT, 		 22,  24
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 10, RHYHORN, 	 22,  24
+	db  5, KANGASKHAN, 	 23,  24
 
 	; nite
 	;  %, species,		min, max
@@ -831,9 +831,9 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 40, SWINUB, 		 21,  23
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 23,  24
+	db 40, SWINUB, 		 27,  29
+	db 25, ZUBAT, 		 27,  29
+	db 35, GOLBAT,	 	 27,  29
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
@@ -841,9 +841,9 @@ JohtoGrassWildMons:
 
 	; day
 	;  %, species,		min, max
-	db 40, SWINUB, 		 21,  23
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 23,  24
+	db 40, SWINUB, 		 27,  29
+	db 25, ZUBAT, 		 27,  29
+	db 35, GOLBAT,	 	 27,  29
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
@@ -851,9 +851,9 @@ JohtoGrassWildMons:
 
 	; nite
 	;  %, species,		min, max
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 23,  24
-	db 40, DELIBIRD, 	 21,  23
+	db 25, ZUBAT, 		 27,  29
+	db 35, GOLBAT,	 	 27,  29
+	db 40, DELIBIRD, 	 27,  29
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
@@ -864,30 +864,30 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SWINUB, 		 21,  23
-	db 10, JYNX, 		 22,  24
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
+	db 30, SWINUB, 		 28,  30
+	db 10, JYNX, 		 28,  30
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db 30, SWINUB, 		 21,  23
-	db 10, JYNX, 		 22,  24
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
+	db 30, SWINUB, 		 28,  30
+	db 10, JYNX, 		 28,  30
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
-	db 30, DELIBIRD, 	 21,  23
-	db 10, SNEASEL, 	 21,  24
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
+	db 30, DELIBIRD, 	 28,  30
+	db 10, SNEASEL, 	 28,  30
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5	
@@ -897,63 +897,63 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SWINUB, 		 21,  23
-	db 10, JYNX, 		 22,  24
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 30, SWINUB, 		 28,  30
+	db 10, JYNX, 		 28,  30
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
+	db  0, RATTATA, 	 28,  30
+	db  0, RATTATA, 	 28,  30
+	db  0, RATTATA, 	 28,  30
 
 	; day
 	;  %, species,		min, max
-	db 30, SWINUB, 		 21,  23
-	db 10, JYNX, 		 22,  24
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 30, SWINUB, 		 28,  30
+	db 10, JYNX, 		 28,  30
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
+	db  0, RATTATA, 	 28,  30
+	db  0, RATTATA, 	 28,  30
+	db  0, RATTATA, 	 28,  30
 
 	; nite
 	;  %, species,		min, max
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
-	db 30, DELIBIRD, 	 21,  23
-	db 10, SNEASEL, 	 21,  24
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
+	db 30, DELIBIRD, 	 28,  30
+	db 10, SNEASEL, 	 28,  30
+	db  0, RATTATA, 	 28,  30
+	db  0, RATTATA, 	 28,  30
+	db  0, RATTATA, 	 28,  30	
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B2F_BLACKTHORN_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SWINUB, 		 21,  23
-	db 10, JYNX, 		 22,  24
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
+	db 30, SWINUB, 		 28,  30
+	db 10, JYNX, 		 28,  30
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db 30, SWINUB, 		 21,  23
-	db 10, JYNX, 		 22,  24
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
+	db 30, SWINUB, 		 28,  30
+	db 10, JYNX, 		 28,  30
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
-	db 25, ZUBAT, 		 21,  24
-	db 35, GOLBAT,	 	 24,  25
-	db 30, DELIBIRD, 	 21,  23
-	db 10, SNEASEL, 	 21,  24
+	db 25, ZUBAT, 		 28,  30
+	db 35, GOLBAT,	 	 28,  30
+	db 30, DELIBIRD, 	 28,  30
+	db 10, SNEASEL, 	 28,  30
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
@@ -963,30 +963,30 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SWINUB, 		 22,  23
-	db 10, JYNX, 		 23,  25
-	db 25, ZUBAT, 		 22,  24
-	db 35, GOLBAT,	 	 25,  27
+	db 30, SWINUB, 		 29,  31
+	db 10, JYNX, 		 29,  31
+	db 25, ZUBAT, 		 29,  31
+	db 35, GOLBAT,	 	 29,  31
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db 30, SWINUB, 		 22,  23
-	db 10, JYNX, 		 23,  25
-	db 25, ZUBAT, 		 22,  24
-	db 35, GOLBAT,	 	 25,  27
+	db 30, SWINUB, 		 29,  31
+	db 10, JYNX, 		 29,  31
+	db 25, ZUBAT, 		 29,  31
+	db 35, GOLBAT,	 	 29,  31
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
-	db 25, ZUBAT, 		 23,  24
-	db 35, GOLBAT,	 	 25,  27
-	db 30, DELIBIRD, 	 22,  25
-	db 10, SNEASEL, 	 24,  26
+	db 25, ZUBAT, 		 29,  31
+	db 35, GOLBAT,	 	 29,  31
+	db 30, DELIBIRD, 	 29,  31
+	db 10, SNEASEL, 	 29,  31
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5	
@@ -1261,32 +1261,32 @@ JohtoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db  5, LARVITAR, 	 15,  20
-	db 10, MAGMAR, 		 45,  47
-	db 40, URSARING, 	 44,  47
-	db 20, ONIX, 		 40,  44
-	db 20, GRAVELER, 	 42,  45
-	db  5, GOLBAT, 		 45,  47
-	db  0, GOLDUCK, 	 44,  47
+	db 10, MAGMAR, 		 53,  57
+	db 40, URSARING, 	 53,  57
+	db 20, ONIX, 		 53,  57
+	db 20, GRAVELER, 	 53,  57
+	db  5, GOLBAT, 		 53,  57
+	db  0, GOLDUCK, 	 53,  57
 
 	; day
 	;  %, species,		min, max
 	db  5, LARVITAR, 	 15,  20
-	db 10, MAGMAR, 		 45,  47
-	db 40, URSARING, 	 44,  47
-	db 20, ONIX, 		 40,  44
-	db 20, GRAVELER, 	 42,  45
-	db  5, GOLBAT, 		 45,  47
-	db  0, GOLDUCK, 	 44,  47
+	db 10, MAGMAR, 		 53,  57
+	db 40, URSARING, 	 53,  57
+	db 20, ONIX, 		 53,  57
+	db 20, GRAVELER, 	 53,  57
+	db  5, GOLBAT, 		 53,  57
+	db  0, GOLDUCK, 	 53,  57
 
 	; nite
 	;  %, species,		min, max
 	db  0, LARVITAR, 	 15,  20
-	db  0, MAGMAR, 		 45,  47
-	db  0, URSARING, 	 44,  47
-	db 20, ONIX, 		 40,  44
-	db 20, GRAVELER, 	 42,  45
-	db 50, GOLBAT, 		 45,  47
-	db 10, GOLDUCK, 	 44,  47	
+	db  0, MAGMAR, 		 53,  57
+	db  0, URSARING, 	 53,  57
+	db 20, ONIX, 		 53,  57
+	db 20, GRAVELER, 	 53,  57
+	db 50, GOLBAT, 		 53,  57
+	db 10, GOLDUCK, 	 53,  57	
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_2
@@ -1294,32 +1294,32 @@ JohtoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db  5, LARVITAR, 	 15,  20
-	db 40, MACHOKE, 	 46,  48
-	db 20, URSARING, 	 46,  48
-	db 20, GOLBAT, 		 47,  48
-	db 15, PARASECT, 	 47,  48
-	db  0, MISDREAVUS,	 45,  47
-	db  0, GOLDUCK, 	 44,  47
+	db 40, MACHOKE, 	 57,  61
+	db 20, URSARING, 	 57,  61
+	db 20, GOLBAT, 		 57,  61
+	db 15, PARASECT, 	 57,  61
+	db  0, MISDREAVUS,	 57,  61
+	db  0, GOLDUCK, 	 57,  61
 
 	; day
 	;  %, species,		min, max
 	db  5, LARVITAR, 	 15,  20
-	db 40, MACHOKE, 	 46,  48
-	db 20, URSARING, 	 46,  48
-	db 20, GOLBAT, 		 47,  48
-	db 15, PARASECT, 	 47,  48
-	db  0, MISDREAVUS,	 45,  47
-	db  0, GOLDUCK, 	 44,  47
+	db 40, MACHOKE, 	 57,  61
+	db 20, URSARING, 	 57,  61
+	db 20, GOLBAT, 		 57,  61
+	db 15, PARASECT, 	 57,  61
+	db  0, MISDREAVUS,	 57,  61
+	db  0, GOLDUCK, 	 57,  61
 
 	; nite
 	;  %, species,		min, max
 	db  0, LARVITAR, 	 15,  20
-	db  0, MACHOKE, 	 46,  48
-	db  0, URSARING, 	 46,  48
-	db 50, GOLBAT, 		 47,  48
-	db 15, PARASECT, 	 47,  48
-	db  5, MISDREAVUS,	 45,  47
-	db 30, GOLDUCK, 	 44,  47		
+	db  0, MACHOKE, 	 57,  61
+	db  0, URSARING, 	 57,  61
+	db 50, GOLBAT, 		 57,  61
+	db 15, PARASECT, 	 57,  61
+	db  5, MISDREAVUS,	 57,  61
+	db 30, GOLDUCK, 	 57,  61		
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_3
@@ -1327,65 +1327,65 @@ JohtoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db  5, LARVITAR, 	 15,  20
-	db 40, GOLBAT, 	 	 49,  51
-	db 20, ONIX, 	 	 47,  49
-	db 20, URSARING, 	 50,  51
-	db 15, PUPITAR, 	 20,  25
-	db  0, GRAVELER,	 47,  49
-	db  0, GOLDUCK, 	 45,  47
+	db 40, GOLBAT, 	 	 57,  61
+	db 20, ONIX, 	 	 57,  61
+	db 20, URSARING, 	 57,  61
+	db 15, PUPITAR, 	 30,  35
+	db  0, GRAVELER,	 57,  61
+	db  0, GOLDUCK, 	 57,  61
 
 	; day
 	;  %, species,		min, max
 	db  5, LARVITAR, 	 15,  20
-	db 40, GOLBAT, 	 	 49,  51
-	db 20, ONIX, 	 	 47,  49
-	db 20, URSARING, 	 50,  51
-	db 15, PUPITAR, 	 20,  25
-	db  0, GRAVELER,	 47,  49
-	db  0, GOLDUCK, 	 45,  47
+	db 40, GOLBAT, 	 	 57,  61
+	db 20, ONIX, 	 	 57,  61
+	db 20, URSARING, 	 57,  61
+	db 15, PUPITAR, 	 30,  35
+	db  0, GRAVELER,	 57,  61
+	db  0, GOLDUCK, 	 57,  61
 
 	; nite
 	;  %, species,		min, max
 	db  0, LARVITAR, 	 15,  20
-	db 40, GOLBAT, 	 	 49,  51
-	db 20, ONIX, 	 	 47,  49
-	db  0, URSARING, 	 50,  51
-	db  0, PUPITAR, 	 20,  25
-	db 20, GRAVELER,	 47,  49
-	db 20, GOLDUCK, 	 45,  47	
+	db 40, GOLBAT, 	 	 57,  61
+	db 20, ONIX, 	 	 57,  61
+	db  0, URSARING, 	 57,  61
+	db  0, PUPITAR, 	 30,  35
+	db 20, GRAVELER,	 57,  61
+	db 20, GOLDUCK, 	 57,  61	
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ITEM_ROOMS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 40, GOLBAT, 	 	 49,  51
-	db 60, PARASECT, 	 48,  51
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 40, GOLBAT, 	 	 57,  61
+	db 60, PARASECT, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
 
 	; day
 	;  %, species,		min, max
-	db 40, GOLBAT, 	 	 49,  51
-	db 60, PARASECT, 	 48,  51
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 40, GOLBAT, 	 	 57,  61
+	db 60, PARASECT, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
 
 	; nite
 	;  %, species,		min, max
-	db 30, GOLBAT, 	 	 49,  51
-	db 40, PARASECT, 	 48,  51
-	db 30, MISDREAVUS, 	 45,  49
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db 30, GOLBAT, 	 	 57,  61
+	db 40, PARASECT, 	 57,  61
+	db 30, MISDREAVUS, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61
+	db  0, RATTATA, 	 57,  61	
 	end_grass_wildmons
 
 	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE
@@ -1426,32 +1426,32 @@ JohtoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db  5, TEDDIURSA, 	 19,  23
-	db 10, URSARING, 	 23,  25
-	db 25, GEODUDE, 	 23,  24
-	db 25, GRAVELER, 	 25,  26
-	db 21, ZUBAT, 		 22,  24
-	db 10, GOLBAT, 		 23,  25
+	db 15, URSARING, 	 31,  35
+	db 10, GEODUDE, 	 31,  35
+	db 35, GRAVELER, 	 31,  35
+	db 11, ZUBAT, 		 31,  35
+	db 20, GOLBAT, 		 31,  35
 	db  4, LARVITAR, 	 19,  23
 
 	; day
 	;  %, species,		min, max
 	db  0, TEDDIURSA, 	 19,  23
-	db 15, URSARING, 	 23,  25
-	db 25, GEODUDE, 	 23,  24
-	db 25, GRAVELER, 	 25,  26
-	db 21, ZUBAT, 		 22,  24
-	db 10, GOLBAT, 		 23,  25
+	db 20, URSARING, 	 31,  35
+	db 10, GEODUDE, 	 31,  35
+	db 35, GRAVELER, 	 31,  35
+	db 11, ZUBAT, 		 31,  35
+	db 20, GOLBAT, 		 31,  35
 	db  4, LARVITAR, 	 19,  23
 
 	; nite
 	;  %, species,		min, max
 	db  4, LARVITAR, 	 19,  23
-	db  0, URSARING, 	 23,  25
-	db 25, GEODUDE, 	 23,  24
-	db 25, GRAVELER, 	 25,  26
-	db 21, ZUBAT, 		 22,  24
-	db 10, GOLBAT, 		 23,  25
-	db 15, WOBBUFFET, 	 20,  25	
+	db  0, URSARING, 	 31,  35
+	db 10, GEODUDE, 	 31,  35
+	db 35, GRAVELER, 	 31,  35
+	db 11, ZUBAT, 		 31,  35
+	db 20, GOLBAT, 		 31,  35
+	db 20, WOBBUFFET, 	 31,  35	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_29
@@ -1821,99 +1821,99 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 25, SPEAROW, 	 14,  17
-	db  5, FEAROW, 		 14,  17
-	db 15, EKANS, 		 14,  17
-	db  5, ARBOK, 		 14,  17
-	db 10, RATTATA, 	 14,  17
-	db 20, RATICATE, 	 14,  17
-	db 20, MAREEP,	 	 14,  16
+	db 25, SPEAROW, 	 17,  19
+	db  5, FEAROW, 		 17,  19
+	db 15, EKANS, 		 17,  19
+	db  5, ARBOK, 		 17,  19
+	db 20, MANKEY,	 	 17,  19
+	db 10, RATICATE, 	 17,  19
+	db 20, MAREEP,	 	 17,  19
 
 	; day
 	;  %, species,		min, max
-	db 25, SPEAROW, 	 14,  17
-	db  5, FEAROW, 		 14,  17
-	db 35, EKANS, 		 14,  17
-	db  5, ARBOK, 		 14,  17
-	db  5, RATTATA, 	 14,  17
-	db  5, RATICATE, 	 14,  17
-	db 20, MAREEP,	 	 14,  16
+	db 20, SPEAROW, 	 17,  19
+	db  5, FEAROW, 		 17,  19
+	db 25, EKANS, 		 17,  19
+	db  5, ARBOK, 		 17,  19
+	db 20, MANKEY, 		 17,  19
+	db  5, RATICATE, 	 17,  19
+	db 20, MAREEP,	 	 17,  19
 
 	; nite
 	;  %, species,		min, max
-	db 20, RATTATA, 	 14,  17
-	db 20, RATICATE, 	 14,  17
-	db 10, MARILL,	 	 14,  17
-	db 25, ZUBAT, 		 14,  17
-	db 15, GOLBAT, 		 14,  17
-	db  0, RATTATA, 	 14,  17
-	db 10, MAREEP,	 	 14,  16	
+	db 10, RATTATA, 	 17,  19
+	db 10, RATICATE, 	 17,  19
+	db 10, MARILL,	 	 17,  19
+	db 25, ZUBAT, 		 17,  19
+	db 15, GOLBAT, 		 17,  19
+	db 20, MANKEY,	 	 17,  19
+	db 10, MAREEP,	 	 17,  19	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 15, SENTRET, 	 16,  18
-	db 10, FURRET, 	  	 16,  18
-	db 30, PIDGEOTTO, 	 16,  18
-	db 20, FARFETCH_D, 	 16,  18
-	db  5, RATICATE, 	 16,  18
-	db 10, MAREEP,	 	 14,  16
-	db 10, FLAAFFY, 	 16,  18
+	db 25, GIRAFARIG, 	 19,  22
+	db 10, FURRET, 	  	 19,  22
+	db 20, PIDGEOTTO, 	 19,  22
+	db 20, FARFETCH_D, 	 19,  22
+	db  5, RATICATE, 	 19,  22
+	db 10, MAREEP,	 	 19,  22
+	db 10, FLAAFFY, 	 19,  22
 
 	; day
 	;  %, species,		min, max
-	db 15, SENTRET, 	 16,  18
-	db 10, FURRET, 	  	 16,  18
-	db 20, PIDGEOTTO, 	 16,  18
-	db 20, FARFETCH_D, 	 16,  18
-	db  5, RATICATE, 	 16,  18
-	db 10, MAREEP,	 	 14,  16
-	db 20, FLAAFFY, 	 16,  18
+	db 25, GIRAFARIG, 	 19,  22
+	db 10, FURRET, 	  	 19,  22
+	db 20, PIDGEOTTO, 	 19,  22
+	db 20, FARFETCH_D, 	 19,  22
+	db  5, RATICATE, 	 19,  22
+	db 10, MAREEP,	 	 19,  22
+	db 10, FLAAFFY, 	 19,  22
 
 	; nite
 	;  %, species,		min, max
-	db 10, RATICATE, 	 16,  18
-	db 35, VENONAT,	 	 16,  18
-	db  5, VENOMOTH, 	 16,  18
-	db 30, NOCTOWL, 	 16,  18
-	db 10, MAREEP,	 	 14,  16
-	db 10, FLAAFFY, 	 16,  18
-	db  0, RATTATA, 	 16,  18	
+	db  5, RATICATE, 	 19,  22
+	db 20, VENONAT,	 	 19,  22
+	db 10, VENOMOTH, 	 19,  22
+	db 20, NOCTOWL, 	 19,  22
+	db 10, MAREEP,	 	 19,  22
+	db 10, FLAAFFY, 	 19,  22
+	db 25, GIRAFARIG, 	 19,  22	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 35, LICKITUNG, 	 24,  27
-	db 30, TANGELA, 	 24,  27
-	db 20, BELLSPROUT, 	 24,  27
-	db 15, WEEPINBELL, 	 24,  27
-	db  0, RATTATA, 	 24,  27
-	db  0, RATTATA, 	 24,  27
-	db  0, RATTATA, 	 24,  27
+	db 35, LICKITUNG, 	 27,  29
+	db 30, TANGELA, 	 27,  29
+	db  5, CHANSEY, 	 27,  29
+	db 15, WEEPINBELL, 	 27,  29
+	db  5, SMOOCHUM, 	 24,  27
+	db  5, ELEKID, 		 24,  27
+	db  5, MAGBY, 		 24,  27
 
 	; day
 	;  %, species,		min, max
-	db 35, LICKITUNG, 	 24,  27
-	db 30, TANGELA, 	 24,  27
-	db 20, BELLSPROUT, 	 24,  27
-	db 15, WEEPINBELL, 	 24,  27
-	db  0, RATTATA, 	 24,  27
-	db  0, RATTATA, 	 24,  27
-	db  0, RATTATA, 	 24,  27
+	db 35, LICKITUNG, 	 27,  29
+	db 30, TANGELA, 	 27,  29
+	db  5, CHANSEY, 	 27,  29
+	db 15, WEEPINBELL, 	 27,  29
+	db  5, SMOOCHUM, 	 24,  27
+	db  5, ELEKID, 		 24,  27
+	db  5, MAGBY, 		 24,  27
 
 	; nite
 	;  %, species,		min, max
-	db 40, TANGELA, 	 24,  27
-	db 20, BELLSPROUT, 	 24,  27
-	db 15, WEEPINBELL, 	 24,  27
-	db 20, POLIWAG, 	 24,  27
-	db  5, POLIWHIRL, 	 24,  27
-	db  0, RATTATA, 	 24,  27
-	db  0, RATTATA, 	 24,  27	
+	db 40, TANGELA, 	 27,  29
+	db  5, CHANSEY, 	 27,  29
+	db 25, WEEPINBELL, 	 27,  29
+	db 10, POLIWAG, 	 27,  29
+	db 20, POLIWHIRL, 	 27,  29
+	db  0, RATTATA, 	 27,  29
+	db  0, RATTATA, 	 27,  29	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_45
@@ -1921,32 +1921,32 @@ JohtoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db 15, PHANPY, 	 	 20,  25
-	db 10, DONPHAN, 	 25,  30
-	db 10, SKARMORY, 	 25,  30
-	db 20, GLIGAR, 		 25,  30
-	db 15, GEODUDE, 	 25,  30
-	db 30, GRAVELER, 	 25,  30
-	db  0, RATTATA, 	 25,  30
+	db 10, DONPHAN, 	 32,  36
+	db 10, SKARMORY, 	 32,  36
+	db 20, GLIGAR, 		 32,  36
+	db 15, GEODUDE, 	 32,  36
+	db 20, GRAVELER, 	 32,  36
+	db 10, RHYHORN, 	 32,  36
 
 	; day
 	;  %, species,		min, max
 	db 0,  PHANPY, 	 	 20,  25
-	db 25, DONPHAN, 	 25,  30
-	db 10, SKARMORY, 	 25,  30
-	db 20, GLIGAR, 		 25,  30
-	db 15, GEODUDE, 	 25,  30
-	db 30, GRAVELER, 	 25,  30
-	db  0, RATTATA, 	 25,  30
+	db 25, DONPHAN, 	 32,  36
+	db 10, SKARMORY, 	 32,  36
+	db 20, GLIGAR, 		 32,  36
+	db 15, GEODUDE, 	 32,  36
+	db 20, GRAVELER, 	 32,  36
+	db 10, RHYHORN, 	 32,  36
 
 	; nite
 	;  %, species,		min, max
-	db 35, GLIGAR, 		 25,  30
-	db 30, GEODUDE, 	 25,  30
-	db 35, GRAVELER, 	 25,  30
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db 35, GLIGAR, 		 32,  36
+	db 30, GEODUDE, 	 32,  36
+	db 35, GRAVELER, 	 32,  36
+	db  0, RATTATA, 	 32,  36
+	db  0, RATTATA, 	 32,  36
+	db  0, RATTATA, 	 32,  36
+	db  0, RATTATA, 	 32,  36	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_46

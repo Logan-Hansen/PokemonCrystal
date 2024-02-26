@@ -95,6 +95,7 @@ Other Updates & Changes
 - [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10 and works mondays
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
 - [X] Speed up egg hatch rates (twice as fast for everything)
+- [X] Increased pokemon levels for everything east of Ecruteak
 - [ ] Safari Zone back
 - [ ] Bill calls to switch boxes when one is full
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
@@ -123,10 +124,10 @@ Pokemon Availability
 
 - [ ] Not avaliable in Crystal normally
     - [X] Vulpix - route 36, and 37
-    - [X] Mankey - route 33, to give fighting type options before goldenrod
+    - [X] Mankey - route 33, to give fighting type options before goldenrod and route 42 to match gold
     - [X] Mareep - Route 32, 42, and 43 just like gold/silver. ALso 31 to give an electric option before Falkner.
     - [ ] Remoraid
-    - [ ] Girafarig
+    - [X] Girafarig - route 43 like gold/silver
     - [ ] Kanto starters
     - [ ] Johto starters
     - [ ] Kanto fossils
@@ -144,6 +145,9 @@ Pokemon Availability
     - [X] Rare chance for Scyther in National park M/D
     - [X] Magmar back in the burned tower liked gold/silver
     - [X] Ponyta on route 39 M/D/N
+    - [X] Kangaskhan and Rhyhorn added to Union Cave B2F M/D
+    - [X] Rhyhorn on route 45 M/D as well
+    - [X] Hidden grass on route 43 now has chansey, smoochum, elekid, and magby at rare chances during morn/day
 
 
 ## See also

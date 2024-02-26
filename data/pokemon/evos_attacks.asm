@@ -2743,10 +2743,10 @@ PolitoedEvosAttacks:
 HoppipEvosAttacks:
 	db EVOLVE_LEVEL, 18, SKIPLOOM
 	db 0 
-	db 1, GUST
+	db 1, TACKLE
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
-	db 10, TACKLE
+	db 10, GUST
 	db 10, ABSORB
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
@@ -2761,10 +2761,10 @@ HoppipEvosAttacks:
 SkiploomEvosAttacks:
 	db EVOLVE_LEVEL, 27, JUMPLUFF
 	db 0 
-	db 1, GUST
+	db 1, TACKLE
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
-	db 10, TACKLE
+	db 10, GUST
 	db 10, ABSORB
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
@@ -2778,10 +2778,10 @@ SkiploomEvosAttacks:
 
 JumpluffEvosAttacks:
 	db 0 
-	db 1, GUST
+	db 1, TACKLE
 	db 5, SYNTHESIS
 	db 5, TAIL_WHIP
-	db 10, TACKLE
+	db 10, GUST
 	db 10, ABSORB
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE

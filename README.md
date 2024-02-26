@@ -122,7 +122,7 @@ Pokemon Availability
     - [ ] swarm_water areas
 
 - [ ] Not avaliable in Crystal normally
-    - [ ] Vulpix
+    - [X] Vulpix - route 36, and 37
     - [ ] Mankey
     - [X] Mareep - Route 32, 42, and 43 just like gold/silver
     - [ ] Remoraid
@@ -134,10 +134,10 @@ Pokemon Availability
 
 - [ ] Improved availability of Johto pokemon in the Johto region
     - [ ] Murkrow
-    - [ ] Houndour
+    - [X] Houndour - route 37 and burned tower basement night 
     - [ ] Misdreavus
-    - [ ] Slugma
-    - [ ] larvitar
+    - [X] Slugma - burned tower basement M/D/N
+    - [ ] Larvitar
 
 
 ## See also

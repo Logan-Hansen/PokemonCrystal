@@ -371,9 +371,9 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 15, RATTATA, 	 13,  15
 	db 15, ZUBAT, 		 12,  14
-	db 65, KOFFING, 	 13,  14
+	db 55, KOFFING, 	 13,  14
 	db  5, WEEZING, 	 16,  17
-	db  0, RATTATA, 	  5,   5
+	db 10, SLUGMA,	 	 12,  15
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
@@ -381,20 +381,20 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 15, RATTATA, 	 13,  15
 	db 15, ZUBAT, 		 12,  14
-	db 65, KOFFING, 	 13,  14
+	db 55, KOFFING, 	 13,  14
 	db  5, WEEZING, 	 16,  17
-	db  0, RATTATA, 	  5,   5
+	db 10, SLUGMA,	 	 12,  15
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
 	db 15, RATTATA, 	 13,  15
-	db 15, ZUBAT, 		 12,  14
-	db 65, KOFFING, 	 13,  14
+	db  5, ZUBAT, 		 12,  14
+	db 50, KOFFING, 	 13,  14
 	db  5, WEEZING, 	 16,  17
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 15, HOUNDOUR, 	 13,  15
+	db 10, SLUGMA,	 	 12,  15
 	db  0, RATTATA, 	  5,   5	
 	end_grass_wildmons
 
@@ -1691,19 +1691,19 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 35, LEDYBA, 	 	  4,   6
 	db 15, PIDGEY, 		  4,   6
-	db 35, GROWLITHE, 	  4,   6
+	db 25, GROWLITHE, 	  4,   6
 	db 15, BELLSPROUT, 	  4,   6
-	db  0, SPINARAK, 	  4,   6
+	db 10, VULPIX,	 	  4,   6
 	db  0, GASTLY, 		  4,   6
 	db  0, HOOTHOOT, 	  4,   6
 
 	; day
 	;  %, species,		min, max
 	db  0, LEDYBA, 	 	  4,   6
-	db 40, PIDGEY, 		  4,   6
+	db 30, PIDGEY, 		  4,   6
 	db 20, GROWLITHE, 	  4,   6
-	db 40, BELLSPROUT, 	  4,   6
-	db  0, SPINARAK, 	  4,   6
+	db 30, BELLSPROUT, 	  4,   6
+	db 20, VULPIX, 		  4,   6
 	db  0, GASTLY, 		  4,   6
 	db  0, HOOTHOOT, 	  4,   6
 
@@ -1711,11 +1711,11 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db  0, LEDYBA, 	 	  4,   6
 	db  0, PIDGEY, 		  4,   6
-	db  0, GROWLITHE, 	  4,   6
+	db 10, VULPIX,	 	  4,   6
 	db 20, BELLSPROUT, 	  4,   6
 	db 30, SPINARAK, 	  4,   6
 	db 20, GASTLY, 		  4,   6
-	db 30, HOOTHOOT, 	  4,   6	
+	db 20, HOOTHOOT, 	  4,   6	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_37
@@ -1724,10 +1724,10 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 20, LEDYBA, 	  	 13,  16
 	db  5, LEDIAN, 	 	 15,  16
-	db 50, GROWLITHE, 	 13,  16
+	db 30, GROWLITHE, 	 13,  16
 	db 20, PIDGEY, 	  	 13,  16
 	db  5, PIDGEOTTO, 	 15,  16
-	db  0, RATTATA, 	 13,  16
+	db 20, VULPIX, 	 	 13,  16
 	db  0, RATTATA, 	 13,  16
 
 	; day
@@ -1735,20 +1735,20 @@ JohtoGrassWildMons:
 	db  0, LEDYBA, 	  	 13,  16
 	db  0, LEDIAN, 	 	 15,  16
 	db 30, GROWLITHE, 	 13,  16
-	db 50, PIDGEY, 	  	 13,  16
+	db 30, PIDGEY, 	  	 13,  16
 	db 20, PIDGEOTTO, 	 15,  16
-	db  0, RATTATA, 	 13,  16
+	db 20, VULPIX, 	 	 13,  16
 	db  0, RATTATA, 	 13,  16
 
 	; nite
 	;  %, species,		min, max
 	db 20, SPINARAK, 	 13,  16
 	db  5, ARIADOS, 	 15,  16
-	db 20, HOOTHOOT, 	 13,  16
+	db 10, HOOTHOOT, 	 13,  16
 	db  5, NOCTOWL, 	 15,  16
-	db 50, STANTLER, 	 14,  16
-	db  0, RATTATA, 	 13,  16
-	db  0, RATTATA, 	 13,  16	
+	db 40, STANTLER, 	 14,  16
+	db 10, VULPIX, 	 	 13,  16
+	db 10, HOUNDOUR, 	 13,  16	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_38

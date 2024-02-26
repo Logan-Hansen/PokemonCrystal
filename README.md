@@ -113,18 +113,31 @@ Other Updates & Changes
 
 Pokemon Availability
 --------------------
-- [ ] Standard Crystal avaliability plus:
+- [ ] Standard Crystal avaliability 
+    - [X] johto_grass areas
+    - [ ] kanto_grass areas
+    - [ ] johto_water areas
+    - [ ] kanto_water areas
+    - [ ] swarm_grass areas
+    - [ ] swarm_water areas
+
+plus:
     - [ ] Vulpix
     - [ ] Mankey
     - [ ] Mareep
-    - [ ] Murkrow
-    - [ ] Houndour
     - [ ] Remoraid
     - [ ] Girafarig
     - [ ] Kanto starters
     - [ ] Johto starters
     - [ ] Kanto fossils
     - [ ] Kanto legendaries as static encounters
+
+- [ ] improved availability of Johto pokemon in the Johto region
+    - [ ] Murkrow
+    - [ ] Houndour
+    - [ ] Misdreavus
+    - [ ] Slugma
+    - [ ] larvitar
 
 
 ## See also

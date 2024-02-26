@@ -142,7 +142,6 @@ Pokemon Availability
     - [X] Machop on route 34 so you don't have to trade for one
     - [X] Heracross and Chansey replace cubone and wobuffet in game corner
     - [X] Rare chance for Scyther in National park M/D
-    - [X] Put Yanma in bug catching contest with 6% chance
     - [X] Magmar back in the burned tower liked gold/silver
     - [X] Ponyta on route 39 M/D/N
 

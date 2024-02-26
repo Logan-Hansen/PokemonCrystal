@@ -123,8 +123,8 @@ Pokemon Availability
 
 - [ ] Not avaliable in Crystal normally
     - [X] Vulpix - route 36, and 37
-    - [ ] Mankey
-    - [X] Mareep - Route 32, 42, and 43 just like gold/silver
+    - [X] Mankey - route 33, to give fighting type options before goldenrod
+    - [X] Mareep - Route 32, 42, and 43 just like gold/silver. ALso 31 to give an electric option before Falkner.
     - [ ] Remoraid
     - [ ] Girafarig
     - [ ] Kanto starters
@@ -132,12 +132,18 @@ Pokemon Availability
     - [ ] Kanto fossils
     - [ ] Kanto legendaries (as static encounters)
 
-- [ ] Improved availability of Johto pokemon in the Johto region
-    - [ ] Murkrow
+- [ ] Improved availability of pokemon in the Johto region
+    - [X] Murkrow - national park at night
     - [X] Houndour - route 37 and burned tower basement night 
     - [ ] Misdreavus
     - [X] Slugma - burned tower basement M/D/N
-    - [ ] Larvitar
+    - [X] Larvitar - 4% chance M/D/N in Dark cave
+    - [X] Marill and Cubone in Union Cave
+    - [X] Machop on route 34 so you don't have to trade for one
+    - [X] Heracross and Chansey replace cubone and wobuffet in game corner
+    - [X] Rare chance for Scyther in National park M/D
+    - [X] Put Yanma in bug catching contest with 6% chance
+    - [X] Magmar back in the burned tower liked gold/silver
 
 
 ## See also

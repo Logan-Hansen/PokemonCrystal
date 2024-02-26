@@ -121,7 +121,7 @@ Pokemon Availability
     - [ ] swarm_grass areas
     - [ ] swarm_water areas
 
-plus:
+- [ ] Not avaliable in Crystal normally
     - [ ] Vulpix
     - [ ] Mankey
     - [ ] Mareep
@@ -130,9 +130,9 @@ plus:
     - [ ] Kanto starters
     - [ ] Johto starters
     - [ ] Kanto fossils
-    - [ ] Kanto legendaries as static encounters
+    - [ ] Kanto legendaries (as static encounters)
 
-- [ ] improved availability of Johto pokemon in the Johto region
+- [ ] Improved availability of Johto pokemon in the Johto region
     - [ ] Murkrow
     - [ ] Houndour
     - [ ] Misdreavus

@@ -920,7 +920,7 @@ KantoGrassWildMons:
 	db 40, NOCTOWL,	  	 28,  32
 	db 30, QUAGSIRE,  	 28,  32
 	db 15, RATICATE,  	 28,  32
-	db  0, RATATA,  	  5,   5
+	db  0, RATTATA,  	  5,   5
 	db  5, CHARMANDER, 	  5,   5
 	db  5, SQUIRTLE, 	  5,   5
 	db  5, BULBASAUR, 	  5,   5		
@@ -953,7 +953,7 @@ KantoGrassWildMons:
 	db 45, NOCTOWL, 	 28,  32
 	db 25, QUAGSIRE, 	 28,  32
 	db 15, RATICATE, 	 28,  32
-	db  0, RATATA, 	  	  5,   5
+	db  0, RATTATA,	  	  5,   5
 	db  5, CYNDAQUIL, 	  5,   5
 	db  5, TOTODILE, 	  5,   5
 	db  5, CHIKORITA, 	  5,   5

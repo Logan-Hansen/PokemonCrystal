@@ -2109,6 +2109,7 @@ DratiniEvosAttacks:
 	db 1, LEER
 	db 8, THUNDER_WAVE
 	db 12, REFLECT
+	db 14, BARRIER
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
 	db 25, EXTREMESPEED
@@ -2129,6 +2130,7 @@ DragonairEvosAttacks:
 	db 1, TWISTER
 	db 8, THUNDER_WAVE
 	db 12, REFLECT
+	db 14, BARRIER
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
 	db 25, EXTREMESPEED
@@ -2148,6 +2150,7 @@ DragoniteEvosAttacks:
 	db 1, TWISTER
 	db 8, THUNDER_WAVE
 	db 12, REFLECT
+	db 14, BARRIER
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
 	db 25, EXTREMESPEED

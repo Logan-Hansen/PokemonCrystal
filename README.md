@@ -107,7 +107,6 @@ Other Updates & Changes
 - [ ] name rater can change traded pokemon names
 - [ ] exp and stat exp gain increased once you have obtained enough badges
 - [ ] more move tutors for event and gen1 moves
-- [ ] dragon's den tutor for extremespeed and barrier
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
 

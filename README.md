@@ -66,9 +66,8 @@ Custom features
 - [X] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
 - [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
 - [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)
-- [ ] [Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
-
+- [X] ~~[Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)~~ Decided not to implement, it glitches a little as the battle starts and I don't think the darker color palette actually looks good.
 
 --------------------
 
@@ -106,8 +105,6 @@ Updates to Johto to build on HGSS additions
 - [ ] Add in Rocket Admins (Proton, Petrel, Ariana and Archer), additional Rocket sidequests, and perhaps Giovanni?
 - [ ] Early grass on Route 32 (instead of having to put Mareep in route 31)
 - [ ] Sprout tower mandatory before Falkner
-- [ ] Kimono girl sidequests
-
 
 
 Updates to Kanto to make it feel less empty

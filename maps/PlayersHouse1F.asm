@@ -35,7 +35,9 @@ MeetMomRightScript:
 MeetMomScript:
 	opentext
 	; adding in some code here to test badges
-	giveitem OLD_AMBER
+	;giveitem OLD_AMBER
+	;giveitem HELIX_FOSSIL
+	;giveitem DOME_FOSSIL
 	;setflag ENGINE_HIVEBADGE
 	;setflag ENGINE_BOULDERBADGE
 	;setflag ENGINE_ZEPHYRBADGE

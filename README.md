@@ -103,7 +103,7 @@ Other Updates & Changes
 Updates to Johto to build on HGSS additions
 --------------------
 - [ ] Add in Rocket Admins (Proton, Petrel, Ariana and Archer), additional Rocket sidequests, and perhaps Giovanni?
-- [ ] Early grass on Route 32 (instead of having to put Mareep in route 31)
+- [X] Early grass on Route 32 (instead of having to put Mareep in route 31)
 - [ ] Sprout tower mandatory before Falkner
 
 

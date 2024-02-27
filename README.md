@@ -74,7 +74,7 @@ Custom features
 Other Updates & Changes
 --------------------
 - [X] Ghost type is now Special and Dark is now Physical
-- [X] Trade evolutions by level - Machoke, Haunter, Graveler, Kadabra @ lvl 40
+- [X] Trade evolutions by level - Machoke, Haunter, Graveler, Kadabra @ lvl 36
 - [X] Trade with item evolutions as if it was a stone
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 - [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins

@@ -97,6 +97,7 @@ Other Updates & Changes
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
 - [X] Speed up egg hatch rates (twice as fast for everything)
 - [X] Increased pokemon levels for everything east of Ecruteak
+- [X] Slightly improved fishing odds of getting something other than a magikarp
 - [ ] Bill calls to switch boxes when one is full
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red

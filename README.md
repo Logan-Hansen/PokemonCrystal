@@ -1,15 +1,6 @@
 # Pokémon Crystal [![Build Status][ci-badge]][ci]
 Completed Tutorials
 --------------------
-Miscellaneous
-- [X] [Simplified Clock Reset](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
-- [X] [Tips and Tricks](https://github.com/pret/pokecrystal/wiki/Tips-and-tricks)
-    - [X] can use brakes while biking on cycling road
-    - [X] animate water, flowers, whirlpools, waterfalls, etc. even when textboxes are open
-- [X] [Fix bugs and glitches](https://github.com/pret/pokecrystal/blob/master/docs/bugs_and_glitches.md#rival2-has-lower-dvs-than-rival1)
-- [X] [Fix design flaws(except for the two below)](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
-    - [ ] 6-bit caught level only records up to 63, fix by only using 1 bit for morning/day | night to free up a bit for level
-    - [ ] Identical sine wave code and data is repeated 5 times
 
 How to add a new...
 - [X] [Trainer class - added beauty and sage varients between international and japanese sprites](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
@@ -69,8 +60,6 @@ features from different generations
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 
 
-
-      
 Custom features
 - [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [X] Lots of base stat and move changes to try and improve viability and variety of pokemon you can use effectively. NO TYPE CHANGES.
@@ -166,6 +155,17 @@ Pokemon Availability
     - [X] Kangaskhan and Rhyhorn added to Union Cave B2F M/D
     - [X] Rhyhorn on route 45 M/D as well
     - [X] Hidden grass on route 43 now has chansey, smoochum, elekid, and magby at rare chances during morn/day
+
+
+Miscellaneous
+- [X] [Simplified Clock Reset](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
+- [X] [Tips and Tricks](https://github.com/pret/pokecrystal/wiki/Tips-and-tricks)
+    - [X] can use brakes while biking on cycling road
+    - [X] animate water, flowers, whirlpools, waterfalls, etc. even when textboxes are open
+- [X] [Fix bugs and glitches](https://github.com/pret/pokecrystal/blob/master/docs/bugs_and_glitches.md#rival2-has-lower-dvs-than-rival1)
+- [X] [Fix design flaws(except for the two below)](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
+    - [ ] 6-bit caught level only records up to 63, fix by only using 1 bit for morning/day | night to free up a bit for level
+    - [ ] Identical sine wave code and data is repeated 5 times
 
 
 ## See also

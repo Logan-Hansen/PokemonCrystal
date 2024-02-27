@@ -1710,10 +1710,10 @@ JohtoGrassWildMons:
 	; nite
 	;  %, species,		min, max
 	db  0, LEDYBA, 	 	  4,   6
-	db  0, PIDGEY, 		  4,   6
+	db 10, HOUNDOUR,	  4,   6
 	db 10, VULPIX,	 	  4,   6
 	db 20, BELLSPROUT, 	  4,   6
-	db 30, SPINARAK, 	  4,   6
+	db 20, SPINARAK, 	  4,   6
 	db 20, GASTLY, 		  4,   6
 	db 20, HOOTHOOT, 	  4,   6	
 	end_grass_wildmons

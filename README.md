@@ -149,7 +149,7 @@ Pokemon Availability
 
 - [X] Improved availability of pokemon in the Johto region
     - [X] Murkrow - national park at night, and Yanma swarm at night
-    - [X] Houndour - route 37 and burned tower basement night 
+    - [X] Houndour - route 36, 37 and burned tower basement night 
     - [X] Misdreavus - burned tower at night
     - [X] Slugma - burned tower basement M/D/N
     - [X] Larvitar - 4% chance M/D/N in Dark cave

@@ -97,19 +97,33 @@ Other Updates & Changes
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
 - [X] Speed up egg hatch rates (twice as fast for everything)
 - [X] Increased pokemon levels for everything east of Ecruteak
-- [ ] Safari Zone back
-- [ ] Cinnabar Island restored
 - [ ] Bill calls to switch boxes when one is full
+- [ ] stat exp updated when you use pokecenter as well as box
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
-- [ ] master ball in game corner
-- [ ] stat exp updated when you use pokecenter as well as box
 - [ ] fishing has "keep fishing" prompt
 - [ ] name rater can change traded pokemon names
-- [ ] exp and stat exp gain increased once you have obtained enough badges
 - [ ] more move tutors for event and gen1 moves
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
+- [ ] can fly anywhere from either region
+
+Updates to Johto to build on HGSS additions
+--------------------
+- [ ] Add in Rocket Admins (Proton, Petrel, Ariana and Archer), additional Rocket sidequests, and perhaps Giovanni?
+- [ ] Early grass on Route 32 (instead of having to put Mareep in route 31)
+- [ ] Sprout tower mandatory before Falkner
+- [ ] Kimono girl sidequests
+
+
+
+Updates to Kanto to make it feel less empty
+--------------------
+- [ ] Safari Zone back
+- [ ] Viridian Forest back
+- [ ] Cinnabar Island restored
+- [ ] master ball and other new prizes in Celadon Game Corner
+- [ ] Mr. Fuji sidequest
 
 
 Pokemon Availability

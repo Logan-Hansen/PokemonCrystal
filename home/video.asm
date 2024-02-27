@@ -271,12 +271,13 @@ Serve1bppRequest::
 	and a
 	ret z
 
+; comment out these to animate tiles even when textboxes are open
 ; Back out if we're too far into VBlank
-	ldh a, [rLY]
-	cp LY_VBLANK
-	ret c
-	cp LY_VBLANK + 2
-	ret nc
+;	ldh a, [rLY]
+;	cp LY_VBLANK
+;	ret c
+;	cp LY_VBLANK + 2
+;	ret nc
 
 ; Copy [wRequested1bppSize] 1bpp tiles from [wRequested1bppSource] to [wRequested1bppDest]
 

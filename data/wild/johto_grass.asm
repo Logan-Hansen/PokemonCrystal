@@ -1527,20 +1527,20 @@ JohtoGrassWildMons:
 	db  5, LEDYBA, 	      4,   5
 	db 10, HOPPIP,	 	  4,   5
 	db 30, PIDGEY, 	 	  4,   5
-	db  5, WEEDLE, 	 	  4,   5
-	db 20, CATERPIE, 	  4,   5
+	db 10, WEEDLE, 	 	  4,   5
+	db 25, CATERPIE, 	  4,   5
 	db 20, BELLSPROUT, 	  4,   5
-	db 10, MAREEP, 		  4,   5
+	db  0, MAREEP, 		  4,   5
 
 	; day
 	;  %, species,		min, max
 	db  0, LEDYBA, 	      4,   5
 	db 10, HOPPIP,	 	  4,   5
 	db 30, PIDGEY, 	 	  4,   5
-	db  5, WEEDLE, 	 	  4,   5
-	db 20, CATERPIE, 	  4,   5
+	db 10, WEEDLE, 	 	  4,   5
+	db 25, CATERPIE, 	  4,   5
 	db 25, BELLSPROUT, 	  4,   5
-	db 10, MAREEP, 		  4,   5
+	db  0, MAREEP, 		  4,   5
 
 	; nite
 	;  %, species,		min, max
@@ -1548,9 +1548,9 @@ JohtoGrassWildMons:
 	db 30, SPINARAK, 	  4,   5
 	db  5, ZUBAT, 	 	  4,   5
 	db 25, POLIWAG, 	  4,   5
-	db 15, HOOTHOOT, 	  4,   5
+	db 20, HOOTHOOT, 	  4,   5
 	db  5, GASTLY, 		  4,   5
-	db  5, MAREEP, 		  4,   5
+	db  0, MAREEP, 		  4,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_32
@@ -1560,9 +1560,9 @@ JohtoGrassWildMons:
 	db 16, EKANS,	  	  5,   7
 	db 20, HOPPIP, 	  	  5,   7
 	db  4, PIDGEY, 	 	  5,   7
-	db 20, RATTATA, 	  5,   7
+	db 15, RATTATA, 	  5,   7
 	db 20, BELLSPROUT, 	  5,   7
-	db 20, MAREEP, 		  5,   7
+	db 25, MAREEP, 		  5,   7
 	db  0, RATTATA, 	  5,   7
 
 	; day
@@ -1570,20 +1570,20 @@ JohtoGrassWildMons:
 	db 16, EKANS,	  	  5,   7
 	db 20, HOPPIP, 	  	  5,   7
 	db  4, PIDGEY, 	 	  5,   7
-	db 20, RATTATA, 	  5,   7
+	db 15, RATTATA, 	  5,   7
 	db 20, BELLSPROUT, 	  5,   7
-	db 20, MAREEP, 		  5,   7
+	db 25, MAREEP, 		  5,   7
 	db  0, RATTATA, 	  5,   7
 
 	; nite
 	;  %, species,		min, max
-	db 30, RATTATA, 	  5,   7
+	db 20, RATTATA, 	  5,   7
 	db 16, BELLSPROUT, 	  5,   7
 	db  8, WOOPER, 		  5,   7
 	db 16, ZUBAT, 		  5,   7
 	db  8, GASTLY, 		  5,   7
 	db 12, HOOTHOOT, 	  5,   7
-	db 10, MAREEP, 		  5,   7	
+	db 20, MAREEP, 		  5,   7	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_33

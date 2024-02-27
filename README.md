@@ -5,8 +5,8 @@ Miscellaneous
 - [X] [Simplified Clock Reset](https://github.com/pret/pokecrystal/wiki/Simplify-the-Clock-Reset-Procedure)
 - [X] [Fix bugs and glitches](https://github.com/pret/pokecrystal/blob/master/docs/bugs_and_glitches.md#rival2-has-lower-dvs-than-rival1)
 - [X] [Fix design flaws(except for the two below)](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
-- [ ] 6-bit caught level only records up to 63, fix by only using 1 bit for morning/day | night to free up a bit for level
-- [ ] Identical sine wave code and data is repeated 5 times
+    - [ ] 6-bit caught level only records up to 63, fix by only using 1 bit for morning/day | night to free up a bit for level
+    - [ ] Identical sine wave code and data is repeated 5 times
 
 How to add a new...
 - [X] [Trainer class - added beauty and sage varients between international and japanese sprites](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
@@ -16,10 +16,10 @@ How to add a new...
 - [X] [New battle transition for team rocket](https://github.com/pret/pokecrystal/wiki/Add-a-new-battle-transition)
 - [X] [Additional wild pokemon slot for water (memory overfilled if did grass too)](https://github.com/pret/pokecrystal/wiki/Add-a-new-wild-Pok%C3%A9mon-slot)
 - [X] [Instant text speed option](https://github.com/pret/pokecrystal/wiki/Add-a-new-text-scrolling-speed)
-- [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
 - [ ] [New Move tutor and tutor moves](https://github.com/pret/pokecrystal/wiki/Move-Tutor-and-Tutor-Moves)
 - [ ] [NPC to give you items](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
-- [ ] [New fishing rod](https://github.com/pret/pokecrystal/wiki/Add-a-new-fishing-rod)
+- [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
+- [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
       
 How to edit the...
 - [X] [default player name options](https://github.com/pret/pokecrystal/wiki/Change-the-default-Player-and-Rival-names)
@@ -61,9 +61,10 @@ features from different generations
 - [X] Make hail boost DEF of Ice type pokemon by 50%
 - [X] Ghost and Dark hit Steel for normal effectiveness to match Gen 6 and on Type Matchups
 - [X] [Gen 6 EXP and EXP SHARE](https://github.com/pret/pokecrystal/wiki/Generation-6-Experience-System)
+- [X] [Revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
 - [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
-- [ ] [Revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
+
 
 
       
@@ -73,7 +74,7 @@ Custom features
 - [X] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
 - [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
 - [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)
-- [ ] [Battle palettes for different times of day and environments](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)
+- [ ] [Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
 
 
@@ -97,11 +98,11 @@ Other Updates & Changes
 - [X] Speed up egg hatch rates (twice as fast for everything)
 - [X] Increased pokemon levels for everything east of Ecruteak
 - [ ] Safari Zone back
+- [ ] Cinnabar Island restored
 - [ ] Bill calls to switch boxes when one is full
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
 - [ ] master ball in game corner
-- [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] fishing has "keep fishing" prompt
 - [ ] name rater can change traded pokemon names
@@ -129,10 +130,10 @@ Pokemon Availability
     - [X] Girafarig - route 43 like gold/silver
     - [X] Kanto starters - route 26 grass (past Tohjo Falls and closer to champion road)
     - [X] Johto starters - route 27 grass (will have to get past Tohjo Falls)
-    - [ ] Kanto fossils - Kabutops, Omastar and Aerodactyl in Silver Cave, fossils in rock smash to get earlier
+    - [X] Kanto fossils - Kabutops, Omastar and Aerodactyl in Silver Cave, fossils in rock smash to get earlier
     - [ ] Kanto legendaries (as static encounters)
 
-- [ ] Improved availability of pokemon in the Johto region
+- [X] Improved availability of pokemon in the Johto region
     - [X] Murkrow - national park at night, and Yanma swarm at night
     - [X] Houndour - route 37 and burned tower basement night 
     - [X] Misdreavus - burned tower at night

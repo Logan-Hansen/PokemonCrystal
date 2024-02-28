@@ -92,6 +92,7 @@ Other Updates & Changes
 - [X] Increased pokemon levels for everything east of Ecruteak
 - [X] Slightly improved fishing odds of getting something other than a magikarp
 - [X] Starter Pokeballs now color coded - no more guess and check to decide!
+- [X] Pokedex can search for seen, instead of only caught, pokemon
 - [ ] Bill calls to switch boxes when one is full
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red

@@ -62,8 +62,8 @@ BillPhoneNearlyFullText:
 	text_ram wStringBuffer3
 	text " more #MON."
 
-	para "Maybe you should"
-	line "switch your BOX."
+;	para "Maybe you should"
+;	line "switch your BOX."
 	done
 
 BillPhoneFullText:
@@ -73,11 +73,11 @@ BillPhoneFullText:
 	para "<PLAY_G>, your BOX"
 	line "is full!"
 
-	para "You'll have to"
-	line "switch BOXES if"
+;	para "You'll have to"
+;	line "switch BOXES if"
 
-	para "you want to catch"
-	line "more #MON."
+;	para "you want to catch"
+;	line "more #MON."
 	done
 
 BillPhoneNewlyFullText:
@@ -90,12 +90,56 @@ BillPhoneNewlyFullText:
 	para "That last #MON"
 	line "you sent filled"
 	cont "your BOX up."
+	done
+
+BillPhoneAskChangeBoxText:
+	text "Would you like me"
+	line "to switch your BOX"
+	cont "for you?"
+	done
+
+BillPhoneConfirmChangeBoxText:
+	text "Great! Your new"
+	line "BOX will have room"
+
+	para "for @"
+	text_ram wStringBuffer3
+	text " more #-"
+	line "MON."
+
+	para "Get out there and"
+	line "fill it up!"
+	done
+
+BillPhoneChangeBoxAllFullText:
+	text "Uh oh, <PLAY_G>…"
+
+	para "You don't seem to"
+	line "have much free"
+
+	para "space in any of"
+	line "your BOXES."
+
 
 	para "You'll have to"
-	line "switch BOXES if"
+;	line "switch BOXES if"
+	line "reach me from a PC"
 
-	para "you want to catch"
-	line "more #MON."
+	para "so we can sort"
+	line "this all out, OK?"
+	done
 
-	para "Bye now!"
+;	para "you want to catch"
+;	line "more #MON."
+
+BillPhoneDenyChangeBoxText:
+	text "Just let me know"
+	line "when you'd like to"
+
+	para "have your BOX"
+	line "switched, OK?"
+	done
+
+BillPhoneHangUpText:
+	text "Bye now!"
 	done

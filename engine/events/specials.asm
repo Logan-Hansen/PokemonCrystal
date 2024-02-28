@@ -448,3 +448,57 @@ TrainerHouse:
 	ld a, [sMysteryGiftTrainerHouseFlag]
 	ld [wScriptVar], a
 	jp CloseSRAM
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SwitchNextPCBox:
+; Switch to the next PC Box that has 6+ empty slots.
+	ld a, [wPokegearPhoneCursorPosition]
+	ld d, a
+	ld a, [wPokegearPhoneScrollPosition]
+	ld e, a
+	push de
+
+	ld a, [wCurBox]
+	inc a
+	ld b, a
+.loop
+	ld a, b
+	cp 14
+	jr c, .loop2
+;	We need to jump from Box 14 to Box 1.
+	ld a, 0
+	ld b, a
+.loop2
+	inc a
+	ld [wMenuSelection], a
+	push bc
+	farcall GetBoxCount
+	pop bc
+	cp 20 - PARTY_LENGTH + 1
+	jr c, .switchbox
+
+	ld a, [wCurBox]
+	inc b
+	cp b
+	jr nz, .loop
+; We've checked every Box and could not find one empty enough.
+.done
+	ld a, TRUE
+	ld [wScriptVar], a
+.done2
+	pop de
+	ld a, d
+	ld [wPokegearPhoneCursorPosition], a
+	ld a, e
+	ld [wPokegearPhoneScrollPosition], a
+	ret
+
+.switchbox
+	ld a, b
+	ld e, a
+	farcall ChangeBoxSaveGame
+	jr nc, .done
+; The player refuses to save the game.
+	ld a, FALSE
+	ld [wScriptVar], a
+	jr .done2

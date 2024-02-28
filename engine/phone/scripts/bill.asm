@@ -29,13 +29,46 @@ BillPhoneCalleeScript:
 
 .nearlyfull
 	farwritetext BillPhoneNearlyFullText
-	end
+;	end
+	promptbutton
+	sjump BillPhoneSwitchBoxScript
 
 .full
 	farwritetext BillPhoneFullText
-	end
+;	end
+	promptbutton
+	sjump BillPhoneSwitchBoxScript
 
 BillPhoneCallerScript:
 	farwritetext BillPhoneNewlyFullText
 	waitbutton
+;	end
+	promptbutton
+	; fallthrough
+
+BillPhoneSwitchBoxScript:
+	farwritetext BillPhoneAskChangeBoxText
+	yesorno
+	iffalse .denyswitch
+	special SwitchNextPCBox
+	iffalse .denyswitch
+
+	readvar VAR_BOXSPACE
+	getnum STRING_BUFFER_3
+	ifless PARTY_LENGTH, .cantswitch
+
+	farwritetext BillPhoneConfirmChangeBoxText
+	promptbutton
+	sjump .hangup
+
+.cantswitch
+	farwritetext BillPhoneChangeBoxAllFullText
+	promptbutton
+	sjump .hangup
+
+.denyswitch
+	farwritetext BillPhoneDenyChangeBoxText
+	promptbutton
+.hangup
+	farwritetext BillPhoneHangUpText
 	end

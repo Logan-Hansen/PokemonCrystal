@@ -134,6 +134,7 @@ Pokemon Availability
     - [X] Remoraid - route 44
     - [X] Girafarig - route 43 like gold/silver
     - [X] Kanto starters - route 26 grass (past Tohjo Falls and closer to champion road)
+        - Bulbasaur also in Viridian Forest, which is back!
     - [X] Johto starters - route 27 grass (will have to get past Tohjo Falls)
     - [X] Kanto fossils - Kabutops, Omastar and Aerodactyl in Silver Cave, fossils in rock smash to get earlier
     - [ ] Kanto legendaries (as static encounters)

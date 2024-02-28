@@ -992,4 +992,37 @@ KantoGrassWildMons:
 	db  0, RATTATA, 	 41,  44
 	end_grass_wildmons
 
+	def_grass_wildmons VIRIDIAN_FOREST
+	db 10 percent, 8 percent, 12 percent ; encounter rates: morn/day/nite
+	; morn
+	;  %, species,		min, max
+	db 20, BUTTERFREE, 	 37,  44
+	db 20, BEEDRILL,  	 37,  44
+	db 20, PIDGEOT, 	 37,  44
+	db 15, PIKACHU,	  	 30,  40
+	db 15, FEAROW,  	 42,  44
+	db  0, RATICATE, 	 37,  44
+	db 10, BULBASAUR, 	 5,    5
+
+	; day
+	;  %, species,		min, max
+	db 20, BUTTERFREE, 	 37,  44
+	db 20, BEEDRILL,  	 37,  44
+	db 20, PIDGEOT, 	 37,  44
+	db 15, PIKACHU,	  	 30,  40
+	db 15, FEAROW,  	 42,  44
+	db  0, RATICATE, 	 37,  44
+	db 10, BULBASAUR, 	 5,    5
+
+	; nite
+	;  %, species,		min, max
+	db  0, BUTTERFREE, 	 37,  44
+	db 20, PERSIAN,  	 37,  44
+	db 25, NOCTOWL, 	 37,  44
+	db 15, PIKACHU,	  	 30,  40
+	db 30, VENOMOTH,  	 37,  44
+	db  5, GLOOM,		 37,  44
+	db  5, BULBASAUR, 	 5,    5
+	end_grass_wildmons
+		
 	db -1 ; end

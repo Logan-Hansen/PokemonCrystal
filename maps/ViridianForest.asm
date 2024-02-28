@@ -32,7 +32,7 @@ ViridianForest_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  3,  0, ROUTE_2, 6
+	warp_event  3,  5, ROUTE_2, 6
 	warp_event 21, 35, ROUTE_2, 7
 
 	def_coord_events

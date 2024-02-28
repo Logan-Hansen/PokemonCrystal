@@ -93,7 +93,7 @@ Other Updates & Changes
 - [X] Slightly improved fishing odds of getting something other than a magikarp
 - [X] Starter Pokeballs now color coded - no more guess and check to decide!
 - [X] Pokedex can search for seen, instead of only caught, pokemon
-- [ ] Bill calls to switch boxes when one is full
+- [X] Bill calls to switch boxes when one is full
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
@@ -109,13 +109,13 @@ Updates to Johto to build on HGSS additions
 --------------------
 - [ ] Add in Rocket Admins (Proton, Petrel, Ariana and Archer), additional Rocket sidequests, and perhaps Giovanni?
 - [X] Early grass on Route 32 (instead of having to put Mareep in route 31)
-- [ ] Sprout tower mandatory before Falkner
+- [ ] More swarms that focus on Johto pokemon avaliability
 
 
 Updates to Kanto to make it feel less empty
 --------------------
 - [ ] Safari Zone back
-- [ ] Viridian Forest back
+- [X] Viridian Forest back
 - [ ] Cinnabar Island restored
 - [ ] master ball and other new prizes in Celadon Game Corner
 - [ ] Mr. Fuji sidequest

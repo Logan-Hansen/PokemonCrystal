@@ -34,8 +34,9 @@ ViridianForest_MapEvents:
 	def_warp_events
 	warp_event  2,  0, ROUTE_2, 6
 	warp_event  3,  0, ROUTE_2, 7
-	warp_event 21, 35, ROUTE_2, 8
 	warp_event 20, 35, ROUTE_2, 8
+	warp_event 21, 35, ROUTE_2, 8
+	
 
 	def_coord_events
 

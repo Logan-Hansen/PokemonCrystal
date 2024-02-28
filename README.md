@@ -91,6 +91,7 @@ Other Updates & Changes
 - [X] Speed up egg hatch rates (twice as fast for everything)
 - [X] Increased pokemon levels for everything east of Ecruteak
 - [X] Slightly improved fishing odds of getting something other than a magikarp
+- [X] Starter Pokeballs now color coded - no more guess and check to decide!
 - [ ] Bill calls to switch boxes when one is full
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
@@ -101,6 +102,7 @@ Other Updates & Changes
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
 - [ ] can fly anywhere from either region
+- [ ] Color TM/HMs when in overworld pokeball to help people know which items are worth going after
 
 Updates to Johto to build on HGSS additions
 --------------------

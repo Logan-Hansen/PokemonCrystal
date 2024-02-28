@@ -191,6 +191,7 @@ DEF KRIS EQU __trainer_class__
 	const DANA3
 	const DANA4
 	const DANA5
+	const STAUNEY ;custom
 
 	trainerclass JANINE ; 1a
 	const JANINE1

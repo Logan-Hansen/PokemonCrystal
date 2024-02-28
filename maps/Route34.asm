@@ -531,9 +531,9 @@ StauneyBeatText:
 	done
 
 StauneyAfterBattleText:
-	text "I should have"
-	line "spent more time"
-	cont "training..."
+	text "I'll have to"
+	line "have Logan"
+	cont "buff my team."
 	done
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	

@@ -1899,7 +1899,8 @@ Pokedex_SearchForMons:
 	jr z, .next_mon
 	ld [wTempSpecies], a
 	ld [wCurSpecies], a
-	call Pokedex_CheckCaught
+;	call Pokedex_CheckCaught
+	call Pokedex_CheckSeen ; searching now possible for seen
 	jr z, .next_mon
 	push hl
 	push de

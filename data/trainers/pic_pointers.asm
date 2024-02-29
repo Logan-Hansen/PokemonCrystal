@@ -70,6 +70,4 @@ TrainerPicPointers::
 	dba OfficerPic
 	dba GruntfPic
 	dba MysticalmanPic
-	dba Beauty2Pic
-	dba Sage2Pic
 	assert_table_length NUM_TRAINER_CLASSES

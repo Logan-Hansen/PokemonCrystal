@@ -710,8 +710,6 @@ SECTION "Pics 19", ROMX
 UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
 ; moved above from 17 and 10 to make room for larger file size on original japanese trainer sprites
-Beauty2Pic:          INCBIN "gfx/trainers/beauty2.2bpp.lz"
-Sage2Pic:            INCBIN "gfx/trainers/sage2.2bpp.lz"
 PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
 OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
 ; moved these two pokemon to make room for additional trainers in TrainerPicPointers

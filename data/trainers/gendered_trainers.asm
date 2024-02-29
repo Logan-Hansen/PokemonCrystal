@@ -26,7 +26,6 @@ MaleTrainers:
 	db SAGE
 	db BIKER
 	db SCIENTIST
-	db SAGE2
 .End
 
 FemaleTrainers:
@@ -40,5 +39,4 @@ FemaleTrainers:
 	db KIMONO_GIRL
 	db POKEFANF
 	db COOLTRAINERF
-	db BEAUTY2
 .End

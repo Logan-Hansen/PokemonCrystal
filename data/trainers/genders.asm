@@ -70,6 +70,4 @@ BTTrainerClassGenders:
 	db MALE   ; OFFICER
 	db FEMALE ; GRUNTF
 	db MALE   ; MYSTICALMAN
-	db FEMALE ; BEAUTY2
-	db MALE   ; SAGE2
 	assert_table_length NUM_TRAINER_CLASSES

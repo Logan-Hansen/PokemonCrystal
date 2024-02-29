@@ -243,7 +243,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass BEAUTY ; 1d
 	const VICTORIA
-	;const SAMANTHA ; moved to beauty2
+	const SAMANTHA
 	const JULIE ; unused
 	const JACLYN ; unused
 	const BRENDA ; unused
@@ -255,7 +255,7 @@ DEF KRIS EQU __trainer_class__
 	const ANGELICA ; unused
 	const KENDRA ; unused
 	const VERONICA ; unused
-	;const JULIA ; moved to beauty2
+	const JULIA
 	const THERESA ; unused
 	const VALERIE
 	const OLIVIA
@@ -621,7 +621,7 @@ DEF KRIS EQU __trainer_class__
 	const PING
 	const EDMOND
 	const NEAL
-	;const LI ;moving to sage2
+	const LI
 	const GAKU
 	const MASA
 	const KOJI
@@ -703,13 +703,6 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
-
-	trainerclass BEAUTY2 ; this one uses the original sprite
-	const SAMANTHA
-	const JULIA
-
-	trainerclass SAGE2 ; this one uses the original sprite
-	const LI 
 
 	;constants for random generated parties - used to specify which list to use
 	const_def

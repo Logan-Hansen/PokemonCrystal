@@ -1100,10 +1100,10 @@ BeautyGroup:
 	db -1 ; end
 
 	; BEAUTY (2)
-	;db "SAMANTHA@", TRAINERTYPE_MOVES
-	;db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
-	;db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
-	;db -1 ; end
+	db "SAMANTHA@", TRAINERTYPE_MOVES
+	db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
+	db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
+	db -1 ; end
 
 	; BEAUTY (3)
 	db "JULIE@", TRAINERTYPE_NORMAL
@@ -1164,11 +1164,11 @@ BeautyGroup:
 	db -1 ; end
 
 	; BEAUTY (14)
-	;db "JULIA@", TRAINERTYPE_NORMAL
-	;db 32, PARAS
-	;db 32, EXEGGCUTE
-	;db 35, PARASECT
-	;db -1 ; end
+	db "JULIA@", TRAINERTYPE_NORMAL
+	db 32, PARAS
+	db 32, EXEGGCUTE
+	db 35, PARASECT
+	db -1 ; end
 
 	; BEAUTY (15)
 	db "THERESA@", TRAINERTYPE_NORMAL
@@ -3154,11 +3154,11 @@ SageGroup:
 	db -1 ; end
 
 	; SAGE (9)
-	;db "LI@", TRAINERTYPE_NORMAL
-	;db  7, BELLSPROUT
-	;db  7, BELLSPROUT
-	;db 10, HOOTHOOT
-	;db -1 ; end
+	db "LI@", TRAINERTYPE_NORMAL
+	db  7, BELLSPROUT
+	db  7, BELLSPROUT
+	db 10, HOOTHOOT
+	db -1 ; end
 
 	; SAGE (10)
 	db "GAKU@", TRAINERTYPE_NORMAL
@@ -3523,29 +3523,6 @@ MysticalmanGroup:
 	db 23, DROWZEE,    DREAM_EATER, HYPNOSIS, DISABLE, CONFUSION
 	db 23, HAUNTER,    LICK, HYPNOSIS, MEAN_LOOK, CURSE
 	db 25, ELECTRODE,  SCREECH, SONICBOOM, THUNDER, ROLLOUT
-	db -1 ; end
-
-Beauty2Group:
-
-	; BEAUTY in Goldenrod gym
-	db "SAMANTHA@", TRAINERTYPE_MOVES
-	db 16, MEOWTH,     SCRATCH, GROWL, BITE, PAY_DAY
-	db 16, MEOWTH,     SCRATCH, GROWL, BITE, SLASH
-	db -1 ; end
-
-	; BEAUTY in celadon gym
-	db "JULIA@", TRAINERTYPE_NORMAL
-	db 32, PARAS
-	db 32, EXEGGCUTE
-	db 35, PARASECT
-	db -1 ; end
-
-Sage2Group:
-	; SAGE boss of sprout tower
-	db "LI@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, BELLSPROUT
-	db 10, HOOTHOOT
 	db -1 ; end
 
 SECTION "Random Party Lists", ROMX

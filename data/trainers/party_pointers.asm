@@ -70,6 +70,4 @@ TrainerGroups:
 	dba OfficerGroup
 	dba GruntFGroup
 	dba MysticalmanGroup
-	dba Beauty2Group
-	dba Sage2Group
 	assert_table_length NUM_TRAINER_CLASSES

@@ -70,7 +70,7 @@ TrainerPicnickerTanya:
 	end
 
 TrainerBeautyJulia:
-	trainer BEAUTY2, JULIA, EVENT_BEAT_BEAUTY_JULIA, BeautyJuliaSeenText, BeautyJuliaBeatenText, 0, .Script
+	trainer BEAUTY, JULIA, EVENT_BEAT_BEAUTY_JULIA, BeautyJuliaSeenText, BeautyJuliaBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled

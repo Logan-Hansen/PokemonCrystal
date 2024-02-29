@@ -68,6 +68,4 @@ TrainerClassNames::
 	li "OFFICER"
 	li "ROCKET"
 	li "MYSTICALMAN"
-	li "BEAUTY"
-	li "SAGE"
 	assert_list_length NUM_TRAINER_CLASSES

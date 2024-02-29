@@ -69,7 +69,5 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; OFFICER
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn 10,  8,  8, 10 ; MYSTICALMAN slightly stronger
-	dn  8,  9, 12, 10 ; BEAUTY2 slightly stronger
-	dn  12, 8,  8, 13 ; SAGE2 slightly stronger
 
 	assert_table_length NUM_TRAINER_CLASSES

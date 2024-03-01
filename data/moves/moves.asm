@@ -223,7 +223,7 @@ Moves:
 	move SWAGGER,      EFFECT_SWAGGER,             0, NORMAL,        90, 15, 100
 	move MILK_DRINK,   EFFECT_HEAL,                0, NORMAL,       100, 10,   0
 	move SPARK,        EFFECT_PARALYZE_HIT,       65, ELECTRIC,     100, 20,  30
-	move FURY_CUTTER,  EFFECT_FURY_CUTTER,        10, BUG,           95, 20,   0
+	move FURY_CUTTER,  EFFECT_FURY_CUTTER,        40, BUG,           95, 20,   0
 	move STEEL_WING,   EFFECT_DEFENSE_UP_HIT,     70, STEEL,        100, 25,  10
 	move MEAN_LOOK,    EFFECT_MEAN_LOOK,           0, NORMAL,       100, 10,   0
 	move ATTRACT,      EFFECT_ATTRACT,             0, NORMAL,       100, 15,   0
@@ -259,7 +259,7 @@ Moves:
 	move MIRROR_COAT,  EFFECT_MIRROR_COAT,         1, PSYCHIC_TYPE, 100, 20,   0
 	move PSYCH_UP,     EFFECT_PSYCH_UP,            0, NORMAL,       100, 10,   0
 	move EXTREMESPEED, EFFECT_PRIORITY_HIT,       80, NORMAL,       100, 10,   0
-	move ANCIENTPOWER, EFFECT_ALL_UP_HIT,         60, ROCK,         100, 10,  10
+	move ANCIENTPOWER, EFFECT_ALL_UP_HIT,         60, ROCK,         100, 10,  15
 	move SHADOW_BALL,  EFFECT_SP_DEF_DOWN_HIT,    80, GHOST,        100, 15,  20
 	move FUTURE_SIGHT, EFFECT_FUTURE_SIGHT,      125, PSYCHIC_TYPE, 100, 15,   0
 	move ROCK_SMASH,   EFFECT_DEFENSE_DOWN_HIT,   60, FIGHTING,     100, 15,  20

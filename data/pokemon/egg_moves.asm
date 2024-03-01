@@ -106,6 +106,7 @@ VulpixEggMoves:
 ZubatEggMoves:
 	db QUICK_ATTACK
 	db PURSUIT
+	db RAGE
 	db FAINT_ATTACK
 	db GUST
 	db WHIRLWIND
@@ -255,6 +256,7 @@ SeelEggMoves:
 	db LICK
 	db PERISH_SONG
 	db DISABLE
+	db HAIL
 	db PECK
 	db SLAM
 	db ENCORE
@@ -680,6 +682,7 @@ HeracrossEggMoves:
 	db HARDEN
 	db BIDE
 	db FLAIL
+	db SWORDS_DANCE
 	db -1 ; end
 
 SneaselEggMoves:
@@ -743,7 +746,7 @@ MantineEggMoves:
 	db -1 ; end
 
 SkarmoryEggMoves:
-	db DRILL_PECK
+	db WING_ATTACK
 	db PURSUIT
 	db WHIRLWIND
 	db SKY_ATTACK

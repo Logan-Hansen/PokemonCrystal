@@ -2931,6 +2931,7 @@ MisdreavusEvosAttacks:
 	db 0 
 	db 1, GROWL
 	db 1, PSYWAVE
+	db 1, LICK
 	db 6, SPITE
 	db 12, CONFUSE_RAY
 	db 19, MEAN_LOOK
@@ -3296,6 +3297,7 @@ OctilleryEvosAttacks:
 DelibirdEvosAttacks:
 	db 0 
 	db 1, PRESENT
+	db 28, HAIL
 	db 0 
 
 MantineEvosAttacks:

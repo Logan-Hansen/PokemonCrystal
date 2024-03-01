@@ -123,17 +123,14 @@ MartGoldenrod3F:
 	db -1 ; end
 
 MartGoldenrod3F2:
-	db 6 ; # items
+	db 7 ; # items
 	db FIRE_STONE
 	db THUNDERSTONE
 	db WATER_STONE
 	db LEAF_STONE
 	db MOON_STONE
 	db SUN_STONE
-	db METAL_COAT
-	db KINGS_ROCK
-	db DRAGON_SCALE
-	db UP_GRADE
+	db EVERSTONE
 	db -1 ; end
 
 MartGoldenrod4F:
@@ -188,13 +185,14 @@ MartMahogany1:
 	db -1 ; end
 
 MartMahogany2:
-	db 9 ; # items
+	db 10 ; # items
 	db RAGECANDYBAR
 	db GREAT_BALL
-	db SUPER_POTION
 	db HYPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
+	db DRAGON_SCALE
+	db UP_GRADE
+	db METAL_COAT
+	db KINGS_ROCK
 	db SUPER_REPEL
 	db REVIVE
 	db FLOWER_MAIL

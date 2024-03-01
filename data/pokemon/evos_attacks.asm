@@ -2343,8 +2343,6 @@ FeraligatrEvosAttacks:
 	db 0 
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, RAGE
-	db 1, WATER_GUN
 	db 7, RAGE
 	db 13, WATER_GUN
 	db 21, BITE
@@ -2393,7 +2391,7 @@ HoothootEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 6, FORESIGHT
-	db 11, PECK
+	db 8, PECK
 	db 16, HYPNOSIS
 	db 22, REFLECT
 	db 26, WING_ATTACK
@@ -2407,10 +2405,8 @@ NoctowlEvosAttacks:
 	db 0 
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, FORESIGHT
-	db 1, PECK
 	db 6, FORESIGHT
-	db 11, PECK
+	db 8, PECK
 	db 16, HYPNOSIS
 	db 19, PSYBEAM
 	db 25, REFLECT
@@ -2427,7 +2423,7 @@ LedybaEvosAttacks:
 	db 0 
 	db 1, TACKLE
 	db 8, SUPERSONIC
-	db 15, COMET_PUNCH
+	db 14, COMET_PUNCH
 	db 22, LIGHT_SCREEN
 	db 22, REFLECT
 	db 22, BARRIER
@@ -2442,9 +2438,8 @@ LedybaEvosAttacks:
 LedianEvosAttacks:
 	db 0 
 	db 1, TACKLE
-	db 1, SUPERSONIC
 	db 8, SUPERSONIC
-	db 15, COMET_PUNCH
+	db 14, COMET_PUNCH
 	db 24, LIGHT_SCREEN
 	db 24, REFLECT
 	db 24, BARRIER
@@ -2935,6 +2930,7 @@ MisdreavusEvosAttacks:
 	db 6, SPITE
 	db 12, CONFUSE_RAY
 	db 19, MEAN_LOOK
+	db 23, SHADOW_BALL
 	db 27, PSYBEAM
 	db 36, PAIN_SPLIT
 	db 46, PERISH_SONG

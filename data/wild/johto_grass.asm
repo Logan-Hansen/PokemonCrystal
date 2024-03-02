@@ -666,32 +666,32 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 20, CATERPIE, 	  4,   5
-	db 20, METAPOD, 	  7,   7
-	db 36, WEEDLE, 		  4,   5
-	db 12, KAKUNA, 		  7,   7
-	db  4, PIDGEY, 		  5,   7
-	db  8, PARAS, 		  5,   6
+	db 20, CATERPIE, 	  6,   7
+	db 20, METAPOD, 	  7,   9
+	db 36, WEEDLE, 		  6,   7
+	db 12, KAKUNA, 		  7,   9
+	db  4, PIDGEY, 		  8,   9
+	db  8, PARAS, 		  7,   9
 	db  0, RATTATA, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db 20, CATERPIE, 	  4,   5
-	db 20, METAPOD, 	  7,   7
-	db 36, WEEDLE, 		  4,   5
-	db 12, KAKUNA, 		  7,   7
-	db  4, PIDGEY, 		  5,   7
-	db  8, PARAS, 		  5,   6
+	db 20, CATERPIE, 	  6,   7
+	db 20, METAPOD, 	  7,   9
+	db 36, WEEDLE, 		  6,   7
+	db 12, KAKUNA, 		  7,   9
+	db  4, PIDGEY, 		  8,   9
+	db  8, PARAS, 		  7,   9
 	db  0, RATTATA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
-	db  8, PARAS, 		  5,   6
-	db 16, PSYDUCK, 	  5,   7
-	db 28, VENONAT, 	  4,   6
-	db 44, ODDISH, 		  4,   7
-	db  4, HOOTHOOT, 	  6,   7
-	db  0, RATTATA, 	  5,   5
+	db  8, PARAS, 		  7,   9
+	db 16, PSYDUCK, 	  7,   9
+	db 28, VENONAT, 	  6,   7
+	db 44, ODDISH, 		  6,   8
+	db  4, HOOTHOOT, 	  8,   9
+	db  0, RATTATA, 	  7,   9
 	db  0, RATTATA, 	  5,   5	
 	end_grass_wildmons
 

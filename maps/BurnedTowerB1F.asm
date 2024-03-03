@@ -39,24 +39,18 @@ ReleaseTheBeasts:
 	disappear BURNEDTOWERB1F_RAIKOU2
 	pause 15
 	cry RAIKOU
-	setval RAIKOU ;added
-	special ShowPokedexEntry ;added
 	appear BURNEDTOWERB1F_ENTEI1
 	turnobject PLAYER, UP
 	pause 5
 	disappear BURNEDTOWERB1F_ENTEI2
 	pause 15
 	cry ENTEI
-	setval ENTEI ;added
-	special ShowPokedexEntry ;added
 	appear BURNEDTOWERB1F_SUICUNE1
 	turnobject PLAYER, UP
 	pause 5
 	disappear BURNEDTOWERB1F_SUICUNE2
 	pause 15
 	cry SUICUNE
-	setval SUICUNE ;added
-	special ShowPokedexEntry ;added
 	pause 15
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, LEFT
@@ -107,6 +101,14 @@ BurnedTowerB1FEusine:
 	faceplayer
 	opentext
 	writetext BurnedTowerB1FEusineText
+	waitbutton
+	setval SUICUNE ;added
+	special ShowPokedexEntry ;added
+	setval ENTEI ;added
+	special ShowPokedexEntry ;added
+	setval RAIKOU ;added
+	special ShowPokedexEntry ;added
+	writetext BurnedTowerB1FEusineText2
 	waitbutton
 	closetext
 	readvar VAR_FACING
@@ -233,6 +235,16 @@ BurnedTowerB1FEusineText:
 	para "I'm going to track"
 	line "SUICUNE."
 
+	para "Don't forget to"
+	line "update your"
+	cont "#DEX"
+
+	para "Maybe you will get"
+	line "another glimpse of"
+	cont "them sometime!"
+
+
+BurnedTowerB1FEusineText2:
 	para "<PLAYER>, let's"
 	line "meet again!"
 

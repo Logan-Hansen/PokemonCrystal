@@ -12,7 +12,7 @@ TypeNames:
 	dw Bug
 	dw Ghost
 	dw Steel
-     dw Dark
+         dw Dark
 	assert_table_length UNUSED_TYPES
 
 rept UNUSED_TYPES_END - UNUSED_TYPES - 1 ; discount CURSE_TYPE

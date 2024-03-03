@@ -10,7 +10,6 @@ TypeNames:
 	dw Rock
 	dw Bird
 	dw Bug
-	dw Ghost
 	dw Steel
 	dw Dark
 	assert_table_length UNUSED_TYPES
@@ -28,6 +27,7 @@ endr
 	dw Psychic
 	dw Ice
 	dw Dragon
+	dw Ghost
 	assert_table_length TYPES_END
 
 Normal:    db "NORMAL@"

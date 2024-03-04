@@ -298,7 +298,7 @@ SwarmGrampsScript:
 	opentext
 	checkflag ENGINE_SWARM
 	iftrue .skiprandomswarm
-	random 5
+	random 4
 	ifequal 0, .dunsparce
 	ifequal 1, .yanma
     ifequal 2, .qwilfish

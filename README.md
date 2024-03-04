@@ -64,12 +64,15 @@ features from different generations
 Custom features
 - [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [X] Lots of base stat and move changes to try and improve viability and variety of pokemon you can use effectively. NO TYPE CHANGES.
+- [X] Updated sprite and graphics for Lance so his walking sprite matches his pictured hair color
+- [X] ~~[Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)~~ Decided not to implement, it glitches a little as the battle starts and I don't think the darker color palette actually looks good.
 - [X] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
     - [X] Since you don't have to know the HM, lets make it easier to forget the ones you have learned!
 - [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
 - [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
-- [X] ~~[Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)~~ Decided not to implement, it glitches a little as the battle starts and I don't think the darker color palette actually looks good.
+- [ ] Way to obtain mystery gift only items - possibly decoration vendor in goldenrod, or improved purchases by mom when you earn enough money
+
 
 --------------------
 
@@ -77,12 +80,12 @@ Other Updates & Changes
 --------------------
 - [X] Ghost type is now Special and Dark is now Physical
 - [X] Trade evolutions by level - Machoke, Haunter, Graveler, Kadabra @ lvl 36
-- [X] Trade with item evolutions as if it was a stone
+- [X] Trade evolutions that require item now work as if it was a stone
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
-- [X] Goldenrod Move Tutor now there every day, allows unlimited purchases, and charges money instead of coins
+- [X] Goldenrod Move Tutor now there every day once you beat elite four, allows unlimited purchases, and charges money instead of coins
 - [X] Updated movesets for Pokemon
 - [X] Base stat changes to rebalance and increase usability
-- [X] Dex entries for Raikou, Entei, and Suicune marked as seen when you wake them up to make tracking them easier.
+- [X] Dex entries for Raikou, Entei, and Suicune marked as seen by Eusine when you wake them up to make tracking them easier.
 - [X] nurse joy turns you to face the other way when done
 - [X] daycare man appears outside the fence
 - [X] odd egg has decent dvs - will either be 15/15/15/15 or 15/10/10/10 Shiny

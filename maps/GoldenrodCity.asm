@@ -345,31 +345,31 @@ SwarmGrampsScript:
 SwarmDunsparceText:
 	text "Let me see…"
 	line "What did the news"
-	cont "say?"
+	para "say?"
 
 	para "Oh yes! There's a"
-	line "swarm of DUNSPARCE"
-	cont "at DARK CAVE."
+	para "swarm of DUNSPARCE"
+	line "at DARK CAVE."
 	done
 	
 SwarmYanmaText:
 	text "Let me see…"
 	line "What did the news"
-	cont "say?"
+	para "say?"
 
 	para "Oh yes! There's a"
-	line "swarm of YANMA"
-	cont "on ROUTE 35."
+	para "swarm of YANMA"
+	line "on ROUTE 35."
 	done
 	
 SwarmQwilfishText:
 	text "Let me see…"
 	line "What did the news"
-	cont "say?"
+	para "say?"
 
 	para "Oh yes! There's a"
-	line "swarm of QWILFISH"
-	cont "on ROUTE 32."
+	para "swarm of QWILFISH"
+	line "on ROUTE 32."
 	done
 
 SwarmRareText:
@@ -377,8 +377,8 @@ SwarmRareText:
 	line "What did the news say?"
 
 	para "How could I forget!"
-	line "Rare #MON"
-	cont "on ROUTE 39!"
+	para "Rare #MON"
+	line "on ROUTE 39!"
 	done
 
 SkipSwarmText:

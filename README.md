@@ -3,7 +3,6 @@ Completed Tutorials
 --------------------
 
 How to add a new...
-- [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [X] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [X] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
 - [X] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store and trade evolution items in mahogony post rocket store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
@@ -12,6 +11,7 @@ How to add a new...
 - [X] [Instant text speed option](https://github.com/pret/pokecrystal/wiki/Add-a-new-text-scrolling-speed)
 - [ ] [New Move tutor and tutor moves](https://github.com/pret/pokecrystal/wiki/Move-Tutor-and-Tutor-Moves)
 - [ ] [NPC to give you items](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
+- [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
 - [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
       
@@ -60,8 +60,9 @@ features from different generations
 - [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
 - [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 
-
-Custom features
+--------------------
+Other Updates & Changes
+--------------------
 - [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [X] Updated sprite and graphics for Lance so his walking sprite matches his pictured hair color
 - [X] ~~[Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)~~ Decided not to implement, it glitches a little as the battle starts and I don't think the darker color palette actually looks good.
@@ -71,13 +72,6 @@ Custom features
 - [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
 - [ ] Way to obtain mystery gift only items - possibly decoration vendor in goldenrod, or improved purchases by mom when you earn enough money
-
-
-
---------------------
-
-Other Updates & Changes
---------------------
 - [X] Trade evolutions by level - 36 for Haunter, Machoke, Graveler, and Kadabra. Can also still trade to evolve early
 - [X] Trade evolutions that require item now work as if it was a stone, or can still trade while holding
 - [ ] Updated movesets for Pokemon

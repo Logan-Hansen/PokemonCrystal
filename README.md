@@ -63,7 +63,6 @@ features from different generations
 
 Custom features
 - [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
-- [X] Lots of base stat changes to try and improve viability and variety of pokemon you can use effectively. NO TYPE CHANGES.
 - [X] Updated sprite and graphics for Lance so his walking sprite matches his pictured hair color
 - [X] ~~[Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)~~ Decided not to implement, it glitches a little as the battle starts and I don't think the darker color palette actually looks good.
 - [X] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
@@ -74,24 +73,29 @@ Custom features
 - [ ] Way to obtain mystery gift only items - possibly decoration vendor in goldenrod, or improved purchases by mom when you earn enough money
 
 
+
 --------------------
 
 Other Updates & Changes
 --------------------
 - [X] Ghost type is now Special and Dark is now Physical
-- [X] Trade evolutions by level - Machoke, Haunter, Graveler, Kadabra @ lvl 36
-- [X] Trade evolutions that require item now work as if it was a stone
+- [ ] Trade evolutions by level
+- [ ] Trade evolutions that require item now work as if it was a stone
+- [ ] Updated movesets for Pokemon
+    - [ ] Improved egg move options (check that all are possible)
+    - [ ] More evolution move options
+    - [ ] Hail and other new moves added to learnsets
+- [ ] Gen 1 transfer moves with tutor in Kanto
+- [ ] Base stat changes to rebalance and increase usability
+- [ ] Speed up egg hatch rates (twice as fast for everything)
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 - [X] Goldenrod Move Tutor now there every day once you beat elite four, allows unlimited purchases, and charges money instead of coins
-- [X] Updated movesets for Pokemon
-- [X] Base stat changes to rebalance and increase usability
 - [X] Dex entries for Raikou, Entei, and Suicune marked as seen by Eusine when you wake them up to make tracking them easier.
 - [X] nurse joy turns you to face the other way when done
 - [X] daycare man appears outside the fence
 - [X] odd egg has decent dvs - will either be 15/15/15/15 or 15/10/10/10 Shiny
 - [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10 and works mondays
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
-- [X] Speed up egg hatch rates (twice as fast for everything)
 - [X] Increased pokemon levels for everything east of Ecruteak
 - [X] Slightly improved fishing odds of getting something other than a magikarp
 - [X] Starter Pokeballs now color coded - no more guess and check to decide!
@@ -100,9 +104,8 @@ Other Updates & Changes
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
-- [ ] fishing has "keep fishing" prompt
+- [ ] fishing has 100% success rate
 - [ ] name rater can change traded pokemon names
-- [ ] more move tutors for event and gen1 moves
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
 - [ ] can fly anywhere from either region

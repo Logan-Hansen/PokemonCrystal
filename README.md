@@ -6,7 +6,7 @@ How to add a new...
 - [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [X] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [X] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
-- [X] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
+- [X] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store and trade evolution items in mahogony post rocket store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
 - [X] [New battle transition for team rocket](https://github.com/pret/pokecrystal/wiki/Add-a-new-battle-transition)
 - [X] [Additional wild pokemon slot for water (memory overfilled if did grass too)](https://github.com/pret/pokecrystal/wiki/Add-a-new-wild-Pok%C3%A9mon-slot)
 - [X] [Instant text speed option](https://github.com/pret/pokecrystal/wiki/Add-a-new-text-scrolling-speed)

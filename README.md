@@ -78,8 +78,8 @@ Custom features
 
 Other Updates & Changes
 --------------------
-- [ ] Trade evolutions by level
-- [ ] Trade evolutions that require item now work as if it was a stone
+- [X] Trade evolutions by level - 36 for Haunter, Machoke, Graveler, and Kadabra. Can also still trade to evolve early
+- [X] Trade evolutions that require item now work as if it was a stone, or can still trade while holding
 - [ ] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)
     - [ ] More evolution move options

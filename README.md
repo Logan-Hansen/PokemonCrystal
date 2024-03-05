@@ -63,7 +63,7 @@ features from different generations
 
 Custom features
 - [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
-- [X] Lots of base stat and move changes to try and improve viability and variety of pokemon you can use effectively. NO TYPE CHANGES.
+- [X] Lots of base stat changes to try and improve viability and variety of pokemon you can use effectively. NO TYPE CHANGES.
 - [X] Updated sprite and graphics for Lance so his walking sprite matches his pictured hair color
 - [X] ~~[Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)~~ Decided not to implement, it glitches a little as the battle starts and I don't think the darker color palette actually looks good.
 - [X] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)

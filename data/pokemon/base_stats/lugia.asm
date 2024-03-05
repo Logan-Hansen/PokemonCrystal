@@ -4,12 +4,12 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, FLYING ; type
-	db 10 ; catch rate
+	db 3 ; catch rate
 	db 220 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
-	db 60 ; step cycles to hatch
+	db 120 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/lugia/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

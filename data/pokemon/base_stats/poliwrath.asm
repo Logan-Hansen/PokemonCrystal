@@ -1,6 +1,6 @@
 	db POLIWRATH ; 062
 
-	db  90,  95, 100,  70,  70,  90
+	db  90,  95,  95,  70,  70,  90
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FIGHTING ; type
@@ -9,7 +9,7 @@
 	db NO_ITEM, KINGS_ROCK ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 10 ; step cycles to hatch
+	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/poliwrath/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

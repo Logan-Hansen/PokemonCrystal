@@ -1,6 +1,6 @@
 	db SUDOWOODO ; 185
 
-	db  80, 115, 130,  30,  30,  70
+	db  70, 100, 115,  30,  30,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ROCK ; type
@@ -9,7 +9,7 @@
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 10 ; step cycles to hatch
+	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/sudowoodo/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

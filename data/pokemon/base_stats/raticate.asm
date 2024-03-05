@@ -1,6 +1,6 @@
 	db RATICATE ; 020
 
-	db  65,  91,  60, 107,  50,  70
+	db  55,  81,  60,  97,  50,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
@@ -9,7 +9,7 @@
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 7 ; step cycles to hatch
+	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/raticate/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

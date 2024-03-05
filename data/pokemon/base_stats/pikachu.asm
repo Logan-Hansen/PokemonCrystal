@@ -1,6 +1,6 @@
 	db PIKACHU ; 025
 
-	db  35,  65,  40,  95,  65,  50
+	db  35,  55,  40,  90,  50,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type
@@ -9,7 +9,7 @@
 	db NO_ITEM, BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 5 ; step cycles to hatch
+	db 10 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/pikachu/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

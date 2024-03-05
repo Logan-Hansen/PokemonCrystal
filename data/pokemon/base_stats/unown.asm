@@ -1,6 +1,6 @@
 	db UNOWN ; 201
 
-	db  68,  92,  68,  68,  92,  68
+	db  48,  72,  48,  48,  72,  48
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
@@ -9,7 +9,7 @@
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
+	db 40 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/unown_a/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

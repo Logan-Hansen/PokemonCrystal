@@ -3,7 +3,7 @@ Completed Tutorials
 --------------------
 
 How to add a new...
-- [ ] [Trainer class - added beauty and sage varients between international and japanese sprites](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
+- [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [X] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [X] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
 - [X] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)

@@ -78,7 +78,6 @@ Custom features
 
 Other Updates & Changes
 --------------------
-- [X] Ghost type is now Special and Dark is now Physical
 - [ ] Trade evolutions by level
 - [ ] Trade evolutions that require item now work as if it was a stone
 - [ ] Updated movesets for Pokemon
@@ -88,28 +87,30 @@ Other Updates & Changes
 - [ ] Gen 1 transfer moves with tutor in Kanto
 - [ ] Base stat changes to rebalance and increase usability
 - [ ] Speed up egg hatch rates (twice as fast for everything)
+- [X] odd egg has decent dvs - will either be 15/15/15/15 or 15/10/10/10 Shiny
+- [X] daycare man appears outside the fence
+- [ ] stat exp updated when you use pokecenter as well as box
+- [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
+- [X] Slightly improved fishing odds of getting something other than a magikarp
+- [ ] fishing has 100% success rate
+- [ ] name rater can change traded pokemon names
+- [ ] can fly anywhere from either region
+- [ ] Color TM/HMs when in overworld pokeball to help people know which items are worth going after
+- [X] Starter Pokeballs now color coded - no more guess and check to decide!
+- [X] Ghost type is now Special and Dark is now Physical
+- [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
+- [ ] roaming pokemon reset after beating the E4 if you have not caught them
+- [ ] stationary pokemon can be fought again as well
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 - [X] Goldenrod Move Tutor now there every day once you beat elite four, allows unlimited purchases, and charges money instead of coins
 - [X] Dex entries for Raikou, Entei, and Suicune marked as seen by Eusine when you wake them up to make tracking them easier.
 - [X] nurse joy turns you to face the other way when done
-- [X] daycare man appears outside the fence
-- [X] odd egg has decent dvs - will either be 15/15/15/15 or 15/10/10/10 Shiny
 - [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10 and works mondays
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
-- [X] Increased pokemon levels for everything east of Ecruteak
-- [X] Slightly improved fishing odds of getting something other than a magikarp
-- [X] Starter Pokeballs now color coded - no more guess and check to decide!
+- [X] Increased wild pokemon levels for everything east of Ecruteak
 - [X] Pokedex can search for seen, instead of only caught, pokemon
 - [X] Bill calls to switch boxes when one is full
-- [ ] stat exp updated when you use pokecenter as well as box
-- [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
-- [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
-- [ ] fishing has 100% success rate
-- [ ] name rater can change traded pokemon names
-- [ ] roaming pokemon reset after beating the E4 if you have not caught them
-- [ ] stationary pokemon can be fought again as well
-- [ ] can fly anywhere from either region
-- [ ] Color TM/HMs when in overworld pokeball to help people know which items are worth going after
+
 
 Updates to Johto to build on HGSS additions
 --------------------

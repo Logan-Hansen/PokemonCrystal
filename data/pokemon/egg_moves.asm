@@ -106,7 +106,6 @@ VulpixEggMoves:
 ZubatEggMoves:
 	db QUICK_ATTACK
 	db PURSUIT
-	db RAGE
 	db FAINT_ATTACK
 	db GUST
 	db WHIRLWIND
@@ -256,7 +255,6 @@ SeelEggMoves:
 	db LICK
 	db PERISH_SONG
 	db DISABLE
-	db HAIL
 	db PECK
 	db SLAM
 	db ENCORE
@@ -433,15 +431,6 @@ AerodactylEggMoves:
 
 SnorlaxEggMoves:
 	db LICK
-	db HARDEN ; added - need to check if all of these are possible
-	db FISSURE ; added
-	db SELFDESTRUCT ; added
-	db REFLECT ; added
-	db TAKE_DOWN ; added
-	db MEGA_KICK ; added
-	db MEGA_PUNCH ; added
-	db SWEET_KISS ; added
-	db SUBSTITUTE ; added
 	db -1 ; end
 
 DratiniEggMoves:
@@ -449,7 +438,6 @@ DratiniEggMoves:
 	db MIST
 	db HAZE
 	db SUPERSONIC
-	db HYDRO_PUMP ; added
 	db -1 ; end
 
 ChikoritaEggMoves:
@@ -682,7 +670,6 @@ HeracrossEggMoves:
 	db HARDEN
 	db BIDE
 	db FLAIL
-	db SWORDS_DANCE
 	db -1 ; end
 
 SneaselEggMoves:
@@ -746,7 +733,7 @@ MantineEggMoves:
 	db -1 ; end
 
 SkarmoryEggMoves:
-	db WING_ATTACK
+	db DRILL_PECK
 	db PURSUIT
 	db WHIRLWIND
 	db SKY_ATTACK

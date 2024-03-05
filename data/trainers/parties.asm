@@ -6,13 +6,13 @@
 ;    * for TRAINERTYPE_MOVES:      db level, species, 4 moves
 ;    * for TRAINERTYPE_ITEM:       db level, species, item
 ;    * for TRAINERTYPE_ITEM_MOVES: db level, species, item, 4 moves
-;    * in all cases:              db level, species
-;    * with TRAINERTYPE_NICKNAME: db "NICKNAME@"
-;    * with TRAINERTYPE_DVS:      db atk|def dv, spd|spc dv
-;    * with TRAINERTYPE_STAT_EXP: dw hp, atk, def, spd, spc
-;    * with TRAINERTYPE_HAPPINESS db happiness 
-;    * with TRAINERTYPE_ITEM:     db item
-;    * with TRAINERTYPE_MOVES:    db move 1, move 2, move 3, move 4
+;    * in all cases:               db level, species
+;    * with TRAINERTYPE_NICKNAME:  db "NICKNAME@"
+;    * with TRAINERTYPE_DVS:       db atk|def dv, spd|spc dv
+;    * with TRAINERTYPE_STAT_EXP:  dw hp, atk, def, spd, spc
+;    * with TRAINERTYPE_HAPPINESS  db happiness 
+;    * with TRAINERTYPE_ITEM:      db item
+;    * with TRAINERTYPE_MOVES:     db move 1, move 2, move 3, move 4
 ;    (TRAINERTYPE_ITEM_MOVES is just TRAINERTYPE_ITEM | TRAINERTYPE_MOVES)
 ; - db -1 ; end
 ; Random Trainers:
@@ -29,11 +29,22 @@ SECTION "Enemy Trainer Parties 1", ROMX
 	; FALKNER (1)
 	db "Falkner@", TRAINERTYPE_VARIABLE
 
-	; No badges 
+	; No badges ; ; loadtrainer FALKNER, FALKNER1
 	db TRAINERTYPE_MOVES
 	db 7, PIDGEY, 		TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
 	db 9, PIDGEOTTO,	TACKLE, MUD_SLAP, GUST, NO_MOVE
-	;db $fe ; use this if you want to make another set after
+	db $fe ; use this if you want to make another set after
+
+	; loadtrainer FALKNER, FALKNER2
+	db TRAINERTYPE_ITEM_MOVES
+	db 33, PIDGEOTTO, NO_ITEM, 	MUD_SLAP, FLY, QUICK_ATTACK, WING_ATTACK
+	db 35, PIDGEOT, SHARP_BEAK,	MUD_SLAP, FLY, QUICK_ATTACK, WING_ATTACK
+	db $fe ; delimiter
+
+	; loadtrainer FALKNER, FALKNER3
+	db TRAINERTYPE_ITEM_MOVES
+	db 58, PIDGEOT, NO_ITEM, 	MUD_SLAP, FLY, QUICK_ATTACK, WING_ATTACK
+	db 60, PIDGEOT, SHARP_BEAK, MUD_SLAP, FLY, QUICK_ATTACK, WING_ATTACK
 	db -1 ; end
 
 WhitneyGroup:

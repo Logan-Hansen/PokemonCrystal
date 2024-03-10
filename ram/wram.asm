@@ -2939,9 +2939,11 @@ endr
 
 wCmdQueue:: ds CMDQUEUE_CAPACITY * CMDQUEUE_ENTRY_SIZE
 
+; each new object needs 17 bytes of space. I am pulling 34 bytes for
+; two new objects from the map scene ids
 wMapObjects::
 wPlayerObject:: map_object wPlayer ; player is map object 0
-; wMap1Object - wMap15Object
+; wMap1Object - wMap17Object
 for n, 1, NUM_OBJECTS
 wMap{d:n}Object:: map_object wMap{d:n}
 endr
@@ -3122,7 +3124,9 @@ wMountMoonSquareSceneID::                         db
 wMobileTradeRoomSceneID::                         db
 wMobileBattleRoomSceneID::                        db
 
-	ds 49
+; taking some space here for extra map objects
+	ds 15
+   ;ds 49
 
 ; fight counts
 wJackFightCount::    db

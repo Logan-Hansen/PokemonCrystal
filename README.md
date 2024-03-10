@@ -13,7 +13,10 @@ How to add a new...
 - [ ] [NPC to give you items](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
 - [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [ ] [Pokemon stat page - if possible show base stats, stat experience, and/or DVs](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
+      - [ ] [expanded stats screen page](https://github.com/Nayru62/pokecrystal/commit/0d7f56453df33e35d9fa84a6ae2736bdced91a23)
 - [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
+- [ ] [Allow more than 15 object events per map](https://github.com/pret/pokecrystal/wiki/Allow-more-than-15-object_events-per-map)
+- [ ] [additional pokedex functionality - movesets, evolutions, sprites, etc](https://github.com/Nayru62/pokecrystal/commit/1c4befcb98d6d30306b8ba1bd81e263824ac39d3)
       
 How to edit the...
 - [X] [default player name options](https://github.com/pret/pokecrystal/wiki/Change-the-default-Player-and-Rival-names)
@@ -32,6 +35,11 @@ Upgrades to existing features
 - [X] [3rd page for Kanto Badges](https://github.com/pret/pokecrystal/wiki/Add-a-third-trainer-card-page-for-Kanto-badges)
 - [X] [Fixed Gender calculation to be fair in stats to both](https://github.com/pret/pokecrystal/wiki/Modify-existing-gender-formula)
 - [X] [Make wild encounters vary in level](https://github.com/pret/pokecrystal/wiki/Make-wild-Pok%C3%A9mon-encounter-levels-vary)
+- [ ] [improve outdoor sprite system](https://github.com/pret/pokecrystal/wiki/Improve-the-outdoor-sprite-system)
+- [ ] [Show icon for current weather](https://github.com/pret/pokecrystal/wiki/Show-an-icon-for-the-current-weather)
+- [ ] [Unique colors for each thrown pokeball](https://github.com/pret/pokecrystal/wiki/Use-unique-colors-for-each-thrown-Pok%C3%A9-Ball)
+- [ ] [Customizable pokedex colors](https://github.com/pret/pokecrystal/wiki/Customizable-Pok%C3%A9dex-Color)
+
       
 Removing features
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)

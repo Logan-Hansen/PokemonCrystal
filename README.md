@@ -64,12 +64,14 @@ features from different generations
 - [X] Ghost and Dark hit Steel for normal effectiveness to match Gen 6 and on Type Matchups
 - [X] [Gen 6 EXP and EXP SHARE](https://github.com/pret/pokecrystal/wiki/Generation-6-Experience-System)
 - [X] [Revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
+- [X] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
-- [ ] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 
 --------------------
 Other Updates & Changes
 --------------------
+- [X] Starter Pokeballs now color coded - no more guess and check to decide!
+- [X] Ghost type is now Special and Dark is now Physical
 - [X] [Improved swarm system](https://github.com/pret/pokecrystal/wiki/Improving-the-Swarm-System)
 - [X] Updated sprite and graphics for Lance so his walking sprite matches his pictured hair color
 - [X] ~~[Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)~~ Decided not to implement, it glitches a little as the battle starts and I don't think the darker color palette actually looks good.
@@ -81,27 +83,8 @@ Other Updates & Changes
 - [ ] Way to obtain mystery gift only items - possibly decoration vendor in goldenrod, or improved purchases by mom when you earn enough money
 - [X] Trade evolutions by level - 36 for Haunter, Machoke, Graveler, and Kadabra. Can also still trade to evolve early
 - [X] Trade evolutions that require item now work as if it was a stone, or can still trade while holding
-- [ ] Updated movesets for Pokemon
-    - [ ] Improved egg move options (check that all are possible)
-    - [ ] More evolution move options
-    - [ ] Hail and other new moves added to learnsets
-- [ ] Gen 1 transfer moves with tutor in Kanto
-- [ ] Base stat changes to rebalance and increase usability
-- [ ] Speed up egg hatch rates (twice as fast for everything)
 - [X] odd egg has decent dvs - will either be 15/15/15/15 or 15/10/10/10 Shiny
 - [X] daycare man appears outside the fence
-- [ ] stat exp updated when you use pokecenter as well as box
-- [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
-- [X] Slightly improved fishing odds of getting something other than a magikarp
-- [ ] fishing has 100% success rate
-- [ ] name rater can change traded pokemon names
-- [ ] can fly anywhere from either region
-- [ ] Color TM/HMs when in overworld pokeball to help people know which items are worth going after
-- [X] Starter Pokeballs now color coded - no more guess and check to decide!
-- [X] Ghost type is now Special and Dark is now Physical
-- [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
-- [ ] roaming pokemon reset after beating the E4 if you have not caught them
-- [ ] stationary pokemon can be fought again as well
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 - [X] Goldenrod Move Tutor now there every day once you beat elite four, allows unlimited purchases, and charges money instead of coins
 - [X] Dex entries for Raikou, Entei, and Suicune marked as seen by Eusine when you wake them up to make tracking them easier.
@@ -111,6 +94,23 @@ Other Updates & Changes
 - [X] Increased wild pokemon levels for everything east of Ecruteak
 - [X] Pokedex can search for seen, instead of only caught, pokemon
 - [X] Bill calls to switch boxes when one is full
+- [X] Slightly improved fishing odds of getting something other than a magikarp
+- [ ] fishing has 100% success rate
+- [ ] Updated movesets for Pokemon
+    - [ ] Improved egg move options (check that all are possible)
+    - [ ] More evolution move options
+    - [ ] Hail and other new moves added to learnsets
+- [ ] Gen 1 transfer moves with tutor in Kanto
+- [ ] Base stat changes to rebalance and increase usability
+- [ ] Speed up egg hatch rates (twice as fast for everything)
+- [ ] stat exp updated when you use pokecenter as well as box
+- [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
+- [ ] name rater can change traded pokemon names
+- [ ] can fly anywhere from either region
+- [ ] Color TM/HMs when in overworld pokeball to help people know which items are worth going after
+- [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
+- [ ] roaming pokemon reset after beating the E4 if you have not caught them
+- [ ] stationary pokemon can be fought again as well
 
 
 Updates to Johto to build on HGSS additions
@@ -142,7 +142,7 @@ Pokemon Availability
 - [ ] Not avaliable in Crystal normally
     - [X] Vulpix - route 36, and 37
     - [X] Mankey - route 33, to give fighting type options before goldenrod and route 42 to match gold
-    - [X] Mareep - Route 32, 42, and 43 just like gold/silver. ALso 31 to give an electric option before Falkner.
+    - [X] Mareep - Route 32, 42, and 43 just like gold/silver.
     - [X] Remoraid - route 44
     - [X] Girafarig - route 43 like gold/silver
     - [X] Kanto starters - route 26 grass (past Tohjo Falls and closer to champion road)
@@ -173,7 +173,7 @@ Miscellaneous
 - [X] [Tips and Tricks](https://github.com/pret/pokecrystal/wiki/Tips-and-tricks)
     - [X] can use brakes while biking on cycling road
 - [X] [Fix bugs and glitches](https://github.com/pret/pokecrystal/blob/master/docs/bugs_and_glitches.md#rival2-has-lower-dvs-than-rival1)
-- [X] [Fix design flaws(except for the two below)](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
+- [X] [Fix design flaws(all except for the two below as of 3.10.24)](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
     - [ ] 6-bit caught level only records up to 63, fix by only using 1 bit for morning/day | night to free up a bit for level
     - [ ] Identical sine wave code and data is repeated 5 times
 

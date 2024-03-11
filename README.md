@@ -96,7 +96,7 @@ Other Updates & Changes
 - [X] Bill calls to switch boxes when one is full
 - [X] [Print text when you lose a trainer battle](https://github.com/pret/pokecrystal/wiki/Print-text-when-you-lose-a-trainer-battle)
 - [X] Slightly improved fishing odds of getting something other than a magikarp
-- [ ] [Lottery corner gives lucky number daily instead of weekly](https://github.com/pret/pokecrystal/wiki/Make-the-Lottery-Corner-generate-a-lucky-number-daily-instead-of-weekly)
+- [X] [Lottery corner gives lucky number daily instead of weekly](https://github.com/pret/pokecrystal/wiki/Make-the-Lottery-Corner-generate-a-lucky-number-daily-instead-of-weekly)
 - [ ] fishing has 100% success rate
 - [ ] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)

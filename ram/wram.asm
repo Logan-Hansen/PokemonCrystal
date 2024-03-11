@@ -2937,8 +2937,11 @@ for n, 1, NUM_OBJECT_STRUCTS
 wObject{d:n}Struct:: object_struct wObject{d:n}
 endr
 
-wCmdQueue:: ds CMDQUEUE_CAPACITY * CMDQUEUE_ENTRY_SIZE
-
+wStoneTableAddress:: dw
+	
+	ds 22
+; reduce command queue system freed up some space here
+	
 ; each new object needs 17 bytes of space. I am pulling 34 bytes for
 ; two new objects from the map scene ids
 wMapObjects::

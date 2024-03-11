@@ -56,6 +56,8 @@ features from different generations
 - [X] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [X] [Smashing rocks has a chance to contain items](https://github.com/pret/pokecrystal/wiki/Smashing-rocks-has-a-chance-to-contain-items)
 - [X] [Grass type immunity to powder/spore-based moves](https://github.com/pret/pokecrystal/wiki/Grant-Grass-type-Pok%C3%A9mon-immunity-to-Powder-Spore-based-moves)
+- [X] [Steel type can't be poisoned by twineedle](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
+- [X] [Electric types can't be paralyzed](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
 - [X] [Forest biome that allows for tall grass instead of cave style battles](https://github.com/pret/pokecrystal/wiki/Allow-tall-grass-in-forests)
 - [X] [Move Reminder](https://github.com/pret/pokecrystal/wiki/Add-a-Move-Reminder)
 - [X] [Make Sandstorm raise the special defense of rock type pokemon by 50%](https://github.com/pret/pokecrystal/wiki/Make-Sandstorm-raise-the-Special-Defense-of-Rock-type-Pok%C3%A9mon-by-50%25)

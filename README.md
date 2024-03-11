@@ -130,6 +130,8 @@ Updates to Kanto to make it feel less empty
 - [ ] Cinnabar Island restored
 - [ ] master ball and other new prizes in Celadon Game Corner
 - [ ] Mr. Fuji sidequest
+- [X] [Headbutt works on Kanto trees - need to add each route/city to data/wild/treemon_maps.asm still](https://github.com/pret/pokecrystal/wiki/Make-the-field-move-Headbutt-work-with-Kanto-trees)
+    - [X] Cerulean City
 
 
 Pokemon Availability

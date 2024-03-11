@@ -449,7 +449,7 @@ PlaceNonFaintStatus:
 SlpString: db "SLP@"
 PsnString: db "PSN@"
 BrnString: db "BRN@"
-FrzString: db "FRB@"
+FrbString: db "FRB@"
 ParString: db "PAR@"
 
 ListMoves:

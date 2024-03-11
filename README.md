@@ -14,9 +14,8 @@ How to add a new...
 - [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [X] [4th Pokemon info page - show caught location/time and level met at](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
     - [ ] [expanded stats screen page - possibly add DVs, stat exp, etc.](https://github.com/Nayru62/pokecrystal/commit/0d7f56453df33e35d9fa84a6ae2736bdced91a23)
-- [ ] dex shows base stats, evolution data, learnset information including egg moves, tmhm, and tutor moves. (similar to crystal clear)
 - [X] [Allow more than 15 object events per map - I increase to 17](https://github.com/pret/pokecrystal/wiki/Allow-more-than-15-object_events-per-map)
-- [ ] [additional pokedex functionality - movesets, evolutions, sprites, etc](https://github.com/Nayru62/pokecrystal/commit/1c4befcb98d6d30306b8ba1bd81e263824ac39d3)
+- [ ] [additional pokedex functionality - movesets, evolutions, sprites,base stats, etc](https://github.com/Nayru62/pokecrystal/commit/1c4befcb98d6d30306b8ba1bd81e263824ac39d3)
       
 How to edit the...
 - [X] [default player name options](https://github.com/pret/pokecrystal/wiki/Change-the-default-Player-and-Rival-names)

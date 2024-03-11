@@ -94,6 +94,7 @@ Other Updates & Changes
 - [X] Increased wild pokemon levels for everything east of Ecruteak
 - [X] Pokedex can search for seen, instead of only caught, pokemon
 - [X] Bill calls to switch boxes when one is full
+- [X] [Print text when you lose a trainer battle](https://github.com/pret/pokecrystal/wiki/Print-text-when-you-lose-a-trainer-battle)
 - [X] Slightly improved fishing odds of getting something other than a magikarp
 - [ ] fishing has 100% success rate
 - [ ] Updated movesets for Pokemon

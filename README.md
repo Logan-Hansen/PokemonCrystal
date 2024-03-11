@@ -36,7 +36,7 @@ Upgrades to existing features
 - [X] [Fixed Gender calculation to be fair in stats to both](https://github.com/pret/pokecrystal/wiki/Modify-existing-gender-formula)
 - [X] [Make wild encounters vary in level](https://github.com/pret/pokecrystal/wiki/Make-wild-Pok%C3%A9mon-encounter-levels-vary)
 - [ ] [improve outdoor sprite system](https://github.com/pret/pokecrystal/wiki/Improve-the-outdoor-sprite-system)
-- [ ] [Show icon for current weather](https://github.com/pret/pokecrystal/wiki/Show-an-icon-for-the-current-weather)
+- [X] [Show icon for current weather](https://github.com/pret/pokecrystal/wiki/Show-an-icon-for-the-current-weather)
 - [X] [Unique colors for each thrown pokeball](https://github.com/pret/pokecrystal/wiki/Use-unique-colors-for-each-thrown-Pok%C3%A9-Ball)
 - [ ] [Customizable pokedex colors](https://github.com/pret/pokecrystal/wiki/Customizable-Pok%C3%A9dex-Color)
 

@@ -9128,7 +9128,7 @@ GetWeatherImage:
 	cp WEATHER_SANDSTORM ;tutorial says could optimze this as dec a instead
 	jr z, .done
 	ld de, HailWeatherImage
-	ld b, PAL_BATTLE_OB_BLUE, 4
+	ld bc, PAL_BATTLE_OB_BLUE, 4
 	cp WEATHER_HAIL ;tutorial says could optimze this as dec a instead, so long as new weather effect is one more than the last
 	ret nz
 	

@@ -604,9 +604,9 @@ wWildMonPP:: ds NUM_MOVES
 wAmuletCoin:: db
 
 wSomeoneIsRampaging:: db
+	; took out freeze for frostbite
+	ds 2
 
-wPlayerJustGotFrozen:: db
-wEnemyJustGotFrozen:: db
 wBattleEnd::
 
 

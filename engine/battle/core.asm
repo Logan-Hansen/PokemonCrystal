@@ -2928,7 +2928,7 @@ LostBattle:
 	call ClearBGPalettes
 	ret
 
-..no_loss_text
+.no_loss_text
 	ld a, [wLinkMode]
 	and a
 	jr nz, .LostLinkBattle

@@ -96,6 +96,7 @@ Other Updates & Changes
 - [X] Bill calls to switch boxes when one is full
 - [X] [Print text when you lose a trainer battle](https://github.com/pret/pokecrystal/wiki/Print-text-when-you-lose-a-trainer-battle)
 - [X] Slightly improved fishing odds of getting something other than a magikarp
+- [ ] [Lottery corner gives lucky number daily instead of weekly](https://github.com/pret/pokecrystal/wiki/Make-the-Lottery-Corner-generate-a-lucky-number-daily-instead-of-weekly)
 - [ ] fishing has 100% success rate
 - [ ] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)
@@ -110,6 +111,7 @@ Other Updates & Changes
 - [ ] can fly anywhere from either region
 - [ ] Color TM/HMs when in overworld pokeball to help people know which items are worth going after
 - [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
+- [ ] [improve trainer rematch system](https://github.com/pret/pokecrystal/wiki/Improve-the-trainer-rematch-system)
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
 

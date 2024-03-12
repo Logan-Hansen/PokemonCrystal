@@ -249,6 +249,12 @@ _CGB_StatsScreenHPPals:
 	ld a, $6 ; orange page palette
 	call FillBoxCGB
 
+; Heart Icon
+	hlcoord 1, 15, wAttrmap
+	ld bc, 1
+	ld a, $2 ; exp palette
+	call ByteFill
+
 	call ApplyAttrmap
 	call ApplyPals
 	ld a, TRUE

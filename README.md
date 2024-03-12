@@ -13,7 +13,7 @@ How to add a new...
 - [ ] [NPC to give you items](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
 - [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [X] [4th Pokemon info page - show caught location/time and level met at](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
-    - [ ] [expanded stats screen page - possibly add DVs, stat exp, etc.](https://github.com/Nayru62/pokecrystal/commit/0d7f56453df33e35d9fa84a6ae2736bdced91a23)
+    - [X] [expanded stats screen page - shows DVs, hidden power, happiness](https://github.com/Nayru62/pokecrystal/commit/0d7f56453df33e35d9fa84a6ae2736bdced91a23)
 - [X] [Allow more than 15 object events per map - I increase to 17](https://github.com/pret/pokecrystal/wiki/Allow-more-than-15-object_events-per-map)
 - [ ] [additional pokedex functionality - movesets, evolutions, sprites,base stats, etc](https://github.com/Nayru62/pokecrystal/commit/1c4befcb98d6d30306b8ba1bd81e263824ac39d3)
       

@@ -36,7 +36,7 @@ Upgrades to existing features
 - [X] [Fixed Gender calculation to be fair in stats to both](https://github.com/pret/pokecrystal/wiki/Modify-existing-gender-formula)
 - [X] [Make wild encounters vary in level](https://github.com/pret/pokecrystal/wiki/Make-wild-Pok%C3%A9mon-encounter-levels-vary)
 - [ ] [Expand tilesets from 192 to 255 tiles](https://github.com/pret/pokecrystal/wiki/Expand-tilesets-from-192-to-255-tiles)
-- [ ] [improve outdoor sprite system](https://github.com/pret/pokecrystal/wiki/Improve-the-outdoor-sprite-system)
+- [X] [improve outdoor sprite system](https://github.com/pret/pokecrystal/wiki/Improve-the-outdoor-sprite-system)
 - [ ] [improve event initialization system](https://github.com/pret/pokecrystal/wiki/Improve-the-event-initialization-system)
 - [ ] [increase pokemon sprite animation size](https://github.com/pret/pokecrystal/wiki/Increase-Pok%C3%A9mon-sprite-animation-size)
 - [X] [Show icon for current weather](https://github.com/pret/pokecrystal/wiki/Show-an-icon-for-the-current-weather)

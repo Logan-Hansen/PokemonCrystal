@@ -45,15 +45,20 @@ Upgrades to existing features
 - [X] [Steel type can't be poisoned by twineedle](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
 - [X] [Electric types can't be paralyzed](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
 - [X] [Expanding the limit of evo attacks](https://github.com/pret/pokecrystal/wiki/Expanding-the-limit-of-evo-attacks)
+- [ ] [short beeping noise for low HP](https://github.com/pret/pokecrystal/wiki/Short-beeping-noise-for-low-HP)
+- [ ] [Force set battle style or forbit item usage in battle](https://github.com/pret/pokecrystal/wiki/Force-Set-battle-style-or-forbid-item-usage-in-battle)
+- [ ] [make new battle text to distinguish status move misses and fails](https://github.com/pret/pokecrystal/wiki/Make-new-battle-text-to-distinguish-status-move-misses-and-fails)
 
       
 Removing features
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 - [X] [Remove Badge Boosts](https://github.com/pret/pokecrystal/wiki/Remove-the-gym-badges-boosts)
 - [X] [Reduce the command queue system to just stone tables](https://github.com/pret/pokecrystal/wiki/Reduce-the-command-queue-system-to-just-stone-tables)
+- [ ] [remove redudant move grammar table](https://github.com/pret/pokecrystal/wiki/Remove-the-redundant-move-grammar-table)
       
 features from different generations
 - [X] [Don't gain experience at level 100](https://github.com/pret/pokecrystal/wiki/Don't-gain-experience-at-level-100)
+- [ ] [Gain exp from catching](https://github.com/pret/pokecrystal/wiki/Gain-experience-from-catching-Pok%C3%A9mon)
 - [X] [lose money proportional to badges and level](https://github.com/pret/pokecrystal/wiki/Lose-money-proportional-to-badges-and-level)
 - [X] [surviving poison with 1 HP](https://github.com/pret/pokecrystal/wiki/Survive-poisoning-with-1-HP)
 - [X] [Show move names when you receive a TM or HM](https://github.com/pret/pokecrystal/wiki/Show-move-names-when-you-receive-a-TM-or-HM)
@@ -61,6 +66,7 @@ features from different generations
 - [X] [Automatically reuse Repel](https://github.com/pret/pokecrystal/wiki/Automatically-reuse-Repel)
 - [X] [Learn moves upon evolution](https://github.com/pret/pokecrystal/wiki/Evolution-moves)
 - [X] [Running Shoes](https://github.com/pret/pokecrystal/wiki/Running-Shoes)
+- [ ] [Rock Climb as HM08](https://github.com/pret/pokecrystal/wiki/Rock-Climb)
 - [X] [Make Pokedex seen from overworld event](https://github.com/pret/pokecrystal/wiki/Splash-a-Pok%C3%A9dex-Entry-from-an-Overworld-Event-(Generation-I))
 - [X] [Smashing rocks has a chance to contain items](https://github.com/pret/pokecrystal/wiki/Smashing-rocks-has-a-chance-to-contain-items)
 - [X] [Grass type immunity to powder/spore-based moves](https://github.com/pret/pokecrystal/wiki/Grant-Grass-type-Pok%C3%A9mon-immunity-to-Powder-Spore-based-moves)
@@ -74,6 +80,8 @@ features from different generations
 - [X] [Revive pokemon from fossils](https://github.com/pret/pokecrystal/wiki/Reviving-Pok%C3%A9mon-from-Fossils-(Gen-I))
 - [X] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
+- [ ] [Add Gen 1 style Rocket Hideout spinner tiles](https://github.com/pret/pokecrystal/wiki/Add-spinner-tiles-from-Generation-I-Rocket-Hideout)
+- [ ] [Battle Text Autoprompts](https://github.com/pret/pokecrystal/wiki/Battle-Autoprompts)
 
 --------------------
 Other Updates & Changes
@@ -89,8 +97,10 @@ Other Updates & Changes
 - [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
 - [ ] Way to obtain mystery gift only items - possibly decoration vendor in goldenrod, or improved purchases by mom when you earn enough money
+- [ ] [Tradeback NPC](https://github.com/pret/pokecrystal/wiki/adding-a-tradeback-npc)
 - [X] Trade evolutions by level - 36 for Haunter, Machoke, Graveler, and Kadabra. Can also still trade to evolve early
 - [X] Trade evolutions that require item now work as if it was a stone, or can still trade while holding
+- [ ] [evolve while holding an item](https://github.com/pret/pokecrystal/wiki/Evolve-while-holding-an-item)
 - [X] odd egg has decent dvs - will either be 15/15/15/15 or 15/10/10/10 Shiny
 - [X] daycare man appears outside the fence
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
@@ -105,7 +115,10 @@ Other Updates & Changes
 - [X] [Print text when you lose a trainer battle](https://github.com/pret/pokecrystal/wiki/Print-text-when-you-lose-a-trainer-battle)
 - [X] Slightly improved fishing odds of getting something other than a magikarp
 - [X] [Lottery corner gives lucky number daily instead of weekly](https://github.com/pret/pokecrystal/wiki/Make-the-Lottery-Corner-generate-a-lucky-number-daily-instead-of-weekly)
-- [ ] fishing has 100% success rate
+- [ ] [Level Caps as you get gym badges - (maybe)](https://github.com/pret/pokecrystal/wiki/Level-cap)
+- [ ] fishing has increased success rate
+- [ ] [Show clock on pause menu](https://github.com/pret/pokecrystal/wiki/Replace-Menu-Account-with-a-small-clock-in-the-corner-of-the-screen)
+- [ ] [Display more information on move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
 - [ ] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)
     - [ ] More evolution move options

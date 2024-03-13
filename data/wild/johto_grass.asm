@@ -39,8 +39,8 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 100, RATTATA, 	  3,   6
-	db  0, RATTATA, 	  5,   5
+	db 95, RATTATA, 	  3,   6
+	db  5, GASTLY, 	      3,   5 ;slight chance during morn now
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
@@ -49,8 +49,8 @@ JohtoGrassWildMons:
 
 	; day
 	;  %, species,		min, max
-	db 100, RATTATA, 	  3,   6
-	db  0, RATTATA, 	  5,   5
+	db 95, RATTATA, 	  3,   6
+	db  5, GASTLY, 	      3,   5 ;slight chance during day now
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
@@ -59,8 +59,8 @@ JohtoGrassWildMons:
 
 	; nite
 	;  %, species,		min, max
-	db 70, RATTATA, 	  3,   6
-	db 30, GASTLY, 	 	  3,   5
+	db 50, RATTATA, 	  3,   6
+	db 50, GASTLY, 	 	  3,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
@@ -501,66 +501,66 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, SANDSHREW, 	  5,   6
-	db 15, RATTATA, 	  4,   5
-	db 30, GEODUDE, 	  4,   6
-	db 10, ONIX, 		  5,   6
-	db 25, ZUBAT,	 	  4,   7
-	db 10, CUBONE,	 	  4,   5
-	db  0, RATTATA, 	  5,   5
+	db 15, SANDSHREW, 	  6,   8
+	db 30, GEODUDE, 	  6,   8
+	db 15, ONIX, 		  6,   9
+	db 25, ZUBAT,	 	  6,   8
+	db 15, CUBONE,	 	  6,   8
+	db  0, RATTATA, 	  6,   8
+	db  0, RATTATA, 	  6,   8
 
 	; day
 	;  %, species,		min, max
-	db 20, SANDSHREW, 	  5,   6
-	db 15, RATTATA, 	  4,   5
-	db 30, GEODUDE, 	  4,   6
-	db 10, ONIX, 		  5,   6
-	db 15, ZUBAT,	 	  4,   7
-	db 10, CUBONE,	 	  4,   5
-	db  0, RATTATA, 	  5,   5
+	db 20, SANDSHREW, 	  6,   8
+	db 30, GEODUDE, 	  6,   8
+	db 15, ONIX, 		  6,   9
+	db 20, ZUBAT,	 	  6,   8
+	db 15, CUBONE,	 	  6,   8
+	db  0, RATTATA, 	  6,   8
+	db  0, RATTATA, 	  6,   8
 
 	; nite
 	;  %, species,		min, max
-	db 50, RATTATA, 	  4,   5
-	db 15, GEODUDE, 	  4,   6
-	db 10, ONIX, 		  5,   6
-	db 15, ZUBAT,	 	  4,   7
-	db 10, WOOPER, 		  4,   6
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db 25, GEODUDE, 	  6,   8
+	db 15, ONIX, 		  6,   9
+	db 25, ZUBAT,	 	  6,   8
+	db 20, WOOPER, 		  6,   8
+	db 15, CUBONE,	 	  6,   8
+	db  0, RATTATA, 	  6,   8
+	db  0, RATTATA, 	  6,   8	
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, SANDSHREW, 	  5,   6
-	db 20, RATTATA, 	  4,   5
-	db 30, GEODUDE, 	  4,   6
-	db 10, ONIX, 		  5,   6
-	db 30, ZUBAT,	 	  4,   7
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 10, SANDSHREW, 	  6,   8
+	db 20, MARILL,	 	  6,   8
+	db 30, GEODUDE, 	  6,   8
+	db 10, ONIX, 		  6,   8
+	db 20, ZUBAT,	 	  6,   8
+	db 10, MARILL, 		  6,   8
+	db  0, RATTATA, 	  6,   8
 
 	; day
 	;  %, species,		min, max
-	db 20, SANDSHREW, 	  5,   6
-	db 20, RATTATA, 	  4,   5
-	db 30, GEODUDE, 	  4,   6
-	db 10, ONIX, 		  5,   6
-	db 20, ZUBAT,	 	  4,   7
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 20, SANDSHREW, 	  6,   8
+	db 20, MARILL,	 	  6,   8
+	db 30, GEODUDE, 	  6,   8
+	db 10, ONIX, 		  6,   8
+	db 10, ZUBAT,	 	  6,   8
+	db 10, MARILL, 		  6,   8
+	db  0, RATTATA, 	  6,   8
 
 	; nite
 	;  %, species,		min, max
-	db 30, RATTATA, 	  4,   5
-	db 15, GEODUDE, 	  4,   6
-	db 10, ONIX, 		  5,   6
-	db 15, ZUBAT,	 	  4,   7
-	db 15, WOOPER, 		  4,   6
-	db 15, MARILL, 		  5,   5
-	db  0, RATTATA, 	  5,   5		
+	db  0, SANDSHREW, 	  6,   8
+	db 20, MARILL,	 	  6,   8
+	db 30, GEODUDE, 	  6,   8
+	db 10, ONIX, 		  6,   8
+	db 20, ZUBAT,	 	  6,   8
+	db 10, MARILL, 		  6,   8
+	db 10, WOOPER,	 	  6,   8		
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
@@ -1392,31 +1392,31 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db  4, TEDDIURSA, 	  2,   4
+	db  5, TEDDIURSA, 	  2,   4
 	db 35, GEODUDE, 	  2,   4
-	db 56, ZUBAT, 		  2,   4
-	db  1, DUNSPARCE, 	  2,   4
-	db  4, LARVITAR, 	  5,   5
+	db 50, ZUBAT, 		  2,   4
+	db  5, DUNSPARCE, 	  2,   4
+	db  5, LARVITAR, 	  5,   5 ; added
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db  0, TEDDIURSA, 	  2,   4
+	db  1, TEDDIURSA, 	  2,   4
 	db 39, GEODUDE, 	  2,   4
-	db 56, ZUBAT, 		  2,   4
-	db  1, DUNSPARCE, 	  2,   4
-	db  4, LARVITAR, 	  5,   5
+	db 50, ZUBAT, 		  2,   4
+	db  5, DUNSPARCE, 	  2,   4
+	db  5, LARVITAR, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
 	db  0, TEDDIURSA, 	  2,   4
-	db 39, GEODUDE, 	  2,   4
-	db 56, ZUBAT, 		  2,   4
-	db  1, DUNSPARCE, 	  2,   4
-	db  4, LARVITAR, 	  5,   5
+	db 40, GEODUDE, 	  2,   4
+	db 50, ZUBAT, 		  2,   4
+	db  5, DUNSPARCE, 	  2,   4
+	db  5, LARVITAR, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5	
 	end_grass_wildmons
@@ -1458,9 +1458,9 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, HOPPIP, 		  2,   3
+	db 20, HOPPIP, 		  2,   3
 	db 30, SENTRET, 	  2,   3
-	db 50, PIDGEY, 		  2,   3
+	db 40, PIDGEY, 		  2,   3
 	db 10, RATTATA, 	  2,   3
 	db  0, HOOTHOOT, 	  2,   3
 	db  0, RATTATA, 	  5,   5
@@ -1468,9 +1468,9 @@ JohtoGrassWildMons:
 
 	; day
 	;  %, species,		min, max
-	db 10, HOPPIP, 		  2,   3
-	db 40, SENTRET, 	  2,   3
-	db 40, PIDGEY, 		  2,   3
+	db 20, HOPPIP, 		  2,   3
+	db 35, SENTRET, 	  2,   3
+	db 35, PIDGEY, 		  2,   3
 	db 10, RATTATA, 	  2,   3
 	db  0, HOOTHOOT, 	  2,   3
 	db  0, RATTATA, 	  5,   5
@@ -1492,29 +1492,29 @@ JohtoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db 12, LEDYBA, 		  3,   4
-	db  4, HOPPIP, 		  3,   4
 	db 40, PIDGEY,	 	  3,   4
-	db  4, WEEDLE,	 	  3,   4
+	db  8, WEEDLE,	 	  3,   4
 	db 40, CATERPIE, 	  3,   4
+	db  0, RATTATA, 	  3,   4
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db  0, LEDYBA, 		  3,   4
-	db 16, HOPPIP, 		  3,   4
+	db 12, LEDYBA, 		  3,   4 ; removed hoppip, ledyba now during day
 	db 40, PIDGEY,	 	  3,   4
-	db  4, WEEDLE,	 	  3,   4
+	db  8, WEEDLE,	 	  3,   4
 	db 40, CATERPIE, 	  3,   4
+	db  0, RATTATA, 	  3,   4
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
-	db  8, SPINARAK, 	  3,   4
+	db 18, SPINARAK, 	  3,   4
 	db 16, ZUBAT, 	 	  3,   4
 	db 16, POLIWAG, 	  3,   4
-	db 60, HOOTHOOT, 	  3,   4
+	db 50, HOOTHOOT, 	  3,   4
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5	
@@ -1528,19 +1528,19 @@ JohtoGrassWildMons:
 	db 10, HOPPIP,	 	  4,   5
 	db 30, PIDGEY, 	 	  4,   5
 	db 10, WEEDLE, 	 	  4,   5
-	db 25, CATERPIE, 	  4,   5
+	db 20, CATERPIE, 	  4,   5
 	db 20, BELLSPROUT, 	  4,   5
-	db  0, MAREEP, 		  4,   5
+	db  5, PICHU,		  4,   5
 
 	; day
 	;  %, species,		min, max
 	db  0, LEDYBA, 	      4,   5
 	db 10, HOPPIP,	 	  4,   5
-	db 30, PIDGEY, 	 	  4,   5
+	db 25, PIDGEY, 	 	  4,   5
 	db 10, WEEDLE, 	 	  4,   5
 	db 25, CATERPIE, 	  4,   5
 	db 25, BELLSPROUT, 	  4,   5
-	db  0, MAREEP, 		  4,   5
+	db  5, PICHU,		  4,   5 ; added pichu
 
 	; nite
 	;  %, species,		min, max
@@ -1550,7 +1550,7 @@ JohtoGrassWildMons:
 	db 25, POLIWAG, 	  4,   5
 	db 20, HOOTHOOT, 	  4,   5
 	db  5, GASTLY, 		  4,   5
-	db  0, MAREEP, 		  4,   5
+	db  0, PICHU,		  4,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_32
@@ -1558,28 +1558,28 @@ JohtoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db 16, EKANS,	  	  5,   7
-	db 20, HOPPIP, 	  	  5,   7
-	db  4, PIDGEY, 	 	  5,   7
-	db 15, RATTATA, 	  5,   7
-	db 20, BELLSPROUT, 	  5,   7
-	db 25, MAREEP, 		  5,   7
-	db  0, RATTATA, 	  5,   7
+	db 20, HOPPIP, 	  	  4,   6
+	db  4, PIDGEY, 	 	  4,   7
+	db 10, RATTATA, 	  4,   7
+	db 20, BELLSPROUT, 	  4,   6
+	db 25, MAREEP, 		  4,   7
+	db  5, PICHU,	 	  4,   6 ; added
 
 	; day
 	;  %, species,		min, max
 	db 16, EKANS,	  	  5,   7
-	db 20, HOPPIP, 	  	  5,   7
-	db  4, PIDGEY, 	 	  5,   7
-	db 15, RATTATA, 	  5,   7
-	db 20, BELLSPROUT, 	  5,   7
-	db 25, MAREEP, 		  5,   7
-	db  0, RATTATA, 	  5,   7
+	db 20, HOPPIP, 	  	  4,   6
+	db  4, PIDGEY, 	 	  4,   7
+	db 10, RATTATA, 	  4,   7
+	db 20, BELLSPROUT, 	  4,   6
+	db 25, MAREEP, 		  4,   7
+	db  5, PICHU,	 	  4,   6 ; added
 
 	; nite
 	;  %, species,		min, max
-	db 20, RATTATA, 	  5,   7
+	db 15, RATTATA, 	  5,   7
 	db 16, BELLSPROUT, 	  5,   7
-	db  8, WOOPER, 		  5,   7
+	db 13, WOOPER, 		  5,   7
 	db 16, ZUBAT, 		  5,   7
 	db  8, GASTLY, 		  5,   7
 	db 12, HOOTHOOT, 	  5,   7
@@ -1689,11 +1689,11 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 35, LEDYBA, 	 	  4,   6
+	db 30, LEDYBA, 	 	  4,   6
 	db 15, PIDGEY, 		  4,   6
 	db 25, GROWLITHE, 	  4,   6
 	db 15, BELLSPROUT, 	  4,   6
-	db 10, VULPIX,	 	  4,   6
+	db 15, VULPIX,	 	  4,   6 ; added
 	db  0, GASTLY, 		  4,   6
 	db  0, HOOTHOOT, 	  4,   6
 
@@ -1703,18 +1703,18 @@ JohtoGrassWildMons:
 	db 30, PIDGEY, 		  4,   6
 	db 20, GROWLITHE, 	  4,   6
 	db 30, BELLSPROUT, 	  4,   6
-	db 20, VULPIX, 		  4,   6
+	db 20, VULPIX, 		  4,   6 ; added
 	db  0, GASTLY, 		  4,   6
 	db  0, HOOTHOOT, 	  4,   6
 
 	; nite
 	;  %, species,		min, max
 	db  0, LEDYBA, 	 	  4,   6
-	db 10, HOUNDOUR,	  4,   6
-	db 10, VULPIX,	 	  4,   6
+	db 20, HOUNDOUR,	  4,   6 ; added
+	db 10, VULPIX,	 	  4,   6 ; added
 	db 20, BELLSPROUT, 	  4,   6
 	db 20, SPINARAK, 	  4,   6
-	db 20, GASTLY, 		  4,   6
+	db 10, GASTLY, 		  4,   6
 	db 20, HOOTHOOT, 	  4,   6	
 	end_grass_wildmons
 
@@ -1953,20 +1953,20 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db  5, PHANPY, 	 	  2,   3
+	db 20, PHANPY, 	 	  2,   3
 	db 25, SPEAROW, 	  2,   3
-	db 45, GEODUDE, 	  2,   3
-	db 25, RATTATA, 	  2,   3
+	db 35, GEODUDE, 	  2,   3
+	db 20, RATTATA, 	  2,   3
 	db  0, RATTATA, 	  2,   3
 	db  0, RATTATA, 	  2,   3
 	db  0, RATTATA, 	  2,   3
 
 	; day
 	;  %, species,		min, max
-	db  0, PHANPY, 	 	  2,   3
+	db 15, PHANPY, 	 	  2,   3 ; now avaliable during day
 	db 30, SPEAROW, 	  2,   3
 	db 30, GEODUDE, 	  2,   3
-	db 40, RATTATA, 	  2,   3
+	db 25, RATTATA, 	  2,   3
 	db  0, RATTATA, 	  2,   3
 	db  0, RATTATA, 	  2,   3
 	db  0, RATTATA, 	  2,   3

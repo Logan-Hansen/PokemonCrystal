@@ -600,33 +600,33 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 80, ZUBAT, 	 	  5,   8
-	db 10, SLOWPOKE, 	  6,   8
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
+	db 80, ZUBAT, 	 	  7,   9
+	db 10, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
 
 	; day
 	;  %, species,		min, max
-	db 80, ZUBAT, 	 	  5,   8
-	db 10, SLOWPOKE, 	  6,   8
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
+	db 80, ZUBAT, 	 	  7,   9
+	db 10, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
 
 	; nite
 	;  %, species,		min, max
-	db 80, ZUBAT, 	 	  5,   8
-	db 10, SLOWPOKE, 	  6,   8
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5
-	db  0, SLOWPOKE, 	  5,   5	
+	db 80, ZUBAT, 	 	  7,   9
+	db 10, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9
+	db  0, SLOWPOKE, 	  7,   9	
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B2F
@@ -670,8 +670,8 @@ JohtoGrassWildMons:
 	db 20, METAPOD, 	  7,   9
 	db 36, WEEDLE, 		  6,   7
 	db 12, KAKUNA, 		  7,   9
-	db  4, PIDGEY, 		  8,   9
-	db  8, PARAS, 		  7,   9
+	db  4, PIDGEY, 		  9,  10
+	db  8, PARAS, 		  8,  11
 	db  0, PIDGEY,	 	  5,   5
 
 	; day
@@ -680,9 +680,9 @@ JohtoGrassWildMons:
 	db 20, METAPOD, 	  7,   9
 	db 36, WEEDLE, 		  6,   7
 	db 12, KAKUNA, 		  7,   9
-	db  4, PIDGEY, 		  8,   9
-	db  8, PARAS, 		  7,   9
-	db  0, CATERPIE, 	  5,   5
+	db  4, PIDGEY, 		  9,  10
+	db  8, PARAS, 		  8,  11
+	db  0, PIDGEY,	 	  5,   5
 
 	; nite
 	;  %, species,		min, max
@@ -1593,9 +1593,9 @@ JohtoGrassWildMons:
 	db 26, SPEAROW, 	  6,   7
 	db  8, HOPPIP, 		  6,   7
 	db  8, EKANS, 		  6,   7
-	db 24, GEODUDE, 	  6,   7
+	db 24, GEODUDE, 	  6,   8
 	db 14, RATTATA, 	  6,   7
-	db 20, MANKEY,	 	  6,   7
+	db 20, MANKEY,	 	  6,   8
 	db  0, RATTATA, 	  6,   7
 
 	; day
@@ -1603,17 +1603,17 @@ JohtoGrassWildMons:
 	db 24, SPEAROW, 	  6,   7
 	db  8, HOPPIP, 		  6,   7
 	db  8, EKANS, 		  6,   7
-	db 24, GEODUDE, 	  6,   7
+	db 24, GEODUDE, 	  6,   8
 	db 16, RATTATA, 	  6,   7
-	db 20, MANKEY,	 	  6,   7
+	db 20, MANKEY,	 	  6,   8
 	db  0, RATTATA, 	  6,   7
 
 	; nite
 	;  %, species,		min, max
-	db 20, GEODUDE, 	  6,   7
+	db 20, GEODUDE, 	  6,   8
 	db 20, RATTATA, 	  6,   7
 	db 40, ZUBAT, 		  6,   7
-	db 20, MANKEY,	 	  6,   7
+	db 20, MANKEY,	 	  6,   8
 	db  0, RATTATA, 	  6,   7
 	db  0, RATTATA, 	  6,   7
 	db  0, RATTATA, 	  6,   7	

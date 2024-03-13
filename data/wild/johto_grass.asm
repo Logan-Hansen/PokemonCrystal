@@ -427,8 +427,8 @@ JohtoGrassWildMons:
 	db 24, PSYDUCK, 	 12,  14
 	db 20, HOOTHOOT, 	 13,  15
 	db 20, MURKROW, 	 13,  15
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db  0, SPINARAK, 	  5,   5
+	db  0, SPINARAK, 	  5,   5	
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
@@ -437,31 +437,31 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 90, NATU, 		 18,  24
 	db 10, SMEARGLE, 	 19,  23
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db  0, NATU, 		  5,   5
+	db  0, NATU,	 	  5,   5
+	db  0, NATU, 		  5,   5
+	db  0, NATU, 		  5,   5
+	db  0, NATU, 		  5,   5
 
 	; day
 	;  %, species,		min, max
 	db 90, NATU, 		 18,  24
 	db 10, SMEARGLE, 	 19,  23
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db  0, NATU, 		  5,   5
+	db  0, NATU,	 	  5,   5
+	db  0, NATU, 		  5,   5
+	db  0, NATU, 		  5,   5
+	db  0, NATU, 		  5,   5
 
 	; nite
 	;  %, species,		min, max
 	db 90, NATU, 		 18,  24
 	db  5, WOOPER, 		 19,  22
 	db  5, QUAGSIRE, 	 22,  24
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db  0, NATU, 		  5,   5
+	db  0, NATU, 		  5,   5
+	db  0, NATU, 		  5,   5
+	db  0, NATU, 		  5,   5	
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
@@ -506,8 +506,8 @@ JohtoGrassWildMons:
 	db 15, ONIX, 		  6,   9
 	db 25, ZUBAT,	 	  6,   8
 	db 15, CUBONE,	 	  6,   8
-	db  0, RATTATA, 	  6,   8
-	db  0, RATTATA, 	  6,   8
+	db  0, SANDSHREW, 	  6,   8
+	db  0, SANDSHREW, 	  6,   8
 
 	; day
 	;  %, species,		min, max
@@ -516,8 +516,8 @@ JohtoGrassWildMons:
 	db 15, ONIX, 		  6,   9
 	db 20, ZUBAT,	 	  6,   8
 	db 15, CUBONE,	 	  6,   8
-	db  0, RATTATA, 	  6,   8
-	db  0, RATTATA, 	  6,   8
+	db  0, SANDSHREW, 	  6,   8
+	db  0, SANDSHREW, 	  6,   8
 
 	; nite
 	;  %, species,		min, max
@@ -526,8 +526,8 @@ JohtoGrassWildMons:
 	db 25, ZUBAT,	 	  6,   8
 	db 20, WOOPER, 		  6,   8
 	db 15, CUBONE,	 	  6,   8
-	db  0, RATTATA, 	  6,   8
-	db  0, RATTATA, 	  6,   8	
+	db  0, SANDSHREW, 	  6,   8
+	db  0, SANDSHREW, 	  6,   8	
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B1F
@@ -540,7 +540,7 @@ JohtoGrassWildMons:
 	db 10, ONIX, 		  6,   8
 	db 20, ZUBAT,	 	  6,   8
 	db 10, MARILL, 		  6,   8
-	db  0, RATTATA, 	  6,   8
+	db  0, MARILL,	 	  6,   8
 
 	; day
 	;  %, species,		min, max
@@ -550,7 +550,7 @@ JohtoGrassWildMons:
 	db 10, ONIX, 		  6,   8
 	db 10, ZUBAT,	 	  6,   8
 	db 10, MARILL, 		  6,   8
-	db  0, RATTATA, 	  6,   8
+	db  0, MARILL, 		  6,   8
 
 	; nite
 	;  %, species,		min, max
@@ -593,7 +593,7 @@ JohtoGrassWildMons:
 	db 20, ZUBAT,	 	 21,  22
 	db 20, GOLBAT, 		 22,  24
 	db 30, QUAGSIRE, 	 22,  24
-	db  0, RATTATA, 	  5,   5	
+	db  0, RATICATE, 	  5,   5	
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B1F
@@ -602,31 +602,31 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 80, ZUBAT, 	 	  5,   8
 	db 10, SLOWPOKE, 	  6,   8
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
 
 	; day
 	;  %, species,		min, max
 	db 80, ZUBAT, 	 	  5,   8
 	db 10, SLOWPOKE, 	  6,   8
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
 	db 80, ZUBAT, 	 	  5,   8
 	db 10, SLOWPOKE, 	  6,   8
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5	
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B2F
@@ -636,30 +636,30 @@ JohtoGrassWildMons:
 	db 70, ZUBAT, 	 	 19,  23
 	db 10, GOLBAT, 		 22,  24
 	db 20, SLOWPOKE, 	 21,  23
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
 
 	; day
 	;  %, species,		min, max
 	db 70, ZUBAT, 	 	 19,  23
 	db 10, GOLBAT, 		 22,  24
 	db 20, SLOWPOKE, 	 21,  23
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
 	db 70, ZUBAT, 	 	 19,  23
 	db 10, GOLBAT, 		 22,  24
 	db 20, SLOWPOKE, 	 21,  23
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5
+	db  0, SLOWPOKE, 	  5,   5	
 	end_grass_wildmons
 
 	def_grass_wildmons ILEX_FOREST
@@ -672,7 +672,7 @@ JohtoGrassWildMons:
 	db 12, KAKUNA, 		  7,   9
 	db  4, PIDGEY, 		  8,   9
 	db  8, PARAS, 		  7,   9
-	db  0, RATTATA, 	  5,   5
+	db  0, PIDGEY,	 	  5,   5
 
 	; day
 	;  %, species,		min, max
@@ -682,7 +682,7 @@ JohtoGrassWildMons:
 	db 12, KAKUNA, 		  7,   9
 	db  4, PIDGEY, 		  8,   9
 	db  8, PARAS, 		  7,   9
-	db  0, RATTATA, 	  5,   5
+	db  0, CATERPIE, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
@@ -691,8 +691,8 @@ JohtoGrassWildMons:
 	db 28, VENONAT, 	  6,   7
 	db 44, ODDISH, 		  6,   8
 	db  4, HOOTHOOT, 	  8,   9
-	db  0, RATTATA, 	  7,   9
-	db  0, RATTATA, 	  5,   5	
+	db  0, CATERPIE, 	  7,   9
+	db  0, CATERPIE, 	  5,   5	
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1495,9 +1495,9 @@ JohtoGrassWildMons:
 	db 40, PIDGEY,	 	  3,   4
 	db  8, WEEDLE,	 	  3,   4
 	db 40, CATERPIE, 	  3,   4
-	db  0, RATTATA, 	  3,   4
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db  0, CATERPIE, 	  3,   4
+	db  0, CATERPIE, 	  5,   5
+	db  0, CATERPIE, 	  5,   5
 
 	; day
 	;  %, species,		min, max
@@ -1505,9 +1505,9 @@ JohtoGrassWildMons:
 	db 40, PIDGEY,	 	  3,   4
 	db  8, WEEDLE,	 	  3,   4
 	db 40, CATERPIE, 	  3,   4
-	db  0, RATTATA, 	  3,   4
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db  0, CATERPIE, 	  3,   4
+	db  0, CATERPIE, 	  5,   5
+	db  0, CATERPIE, 	  5,   5
 
 	; nite
 	;  %, species,		min, max
@@ -1515,9 +1515,9 @@ JohtoGrassWildMons:
 	db 16, ZUBAT, 	 	  3,   4
 	db 16, POLIWAG, 	  3,   4
 	db 50, HOOTHOOT, 	  3,   4
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5
-	db  0, RATTATA, 	  5,   5	
+	db  0, CATERPIE, 	  5,   5
+	db  0, CATERPIE, 	  5,   5
+	db  0, CATERPIE, 	  5,   5	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31

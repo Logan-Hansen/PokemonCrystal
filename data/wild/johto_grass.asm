@@ -666,33 +666,33 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 20, CATERPIE, 	  6,   7
-	db 20, METAPOD, 	  7,   9
-	db 36, WEEDLE, 		  6,   7
-	db 12, KAKUNA, 		  7,   9
-	db  4, PIDGEY, 		  9,  10
-	db  8, PARAS, 		  8,  11
-	db  0, PIDGEY,	 	  5,   5
+	db 20, BUTTERFREE, 	 10,  13 
+	db 12, EXEGGCUTE, 	 10,  13
+	db 25, BEEDRILL,	 10,  13 
+	db 20, PARAS, 		 10,  13
+	db 10, PIDGEY, 		 10,  12
+	db  8, PINECO, 		 10,  11
+	db  5, ODDISH, 		 10,  13
 
 	; day
 	;  %, species,		min, max
-	db 20, CATERPIE, 	  6,   7
-	db 20, METAPOD, 	  7,   9
-	db 36, WEEDLE, 		  6,   7
-	db 12, KAKUNA, 		  7,   9
-	db  4, PIDGEY, 		  9,  10
-	db  8, PARAS, 		  8,  11
-	db  0, PIDGEY,	 	  5,   5
+	db 20, BUTTERFREE, 	 10,  13 
+	db 12, EXEGGCUTE, 	 10,  13
+	db 30, BEEDRILL,	 10,  13 
+	db 20, PARAS, 		 10,  13
+	db 10, PIDGEY, 		 10,  12
+	db  8, PINECO, 		 10,  11
+	db  0, PARAS,	 	 10,  11
 
 	; nite
 	;  %, species,		min, max
-	db  8, PARAS, 		  7,   9
-	db 16, PSYDUCK, 	  7,   9
-	db 28, VENONAT, 	  6,   7
-	db 44, ODDISH, 		  6,   8
-	db  4, HOOTHOOT, 	  8,   9
-	db  0, CATERPIE, 	  7,   9
-	db  0, CATERPIE, 	  5,   5	
+	db 12, PARAS, 		 10,  13
+	db 20, PSYDUCK, 	 10,  13
+	db 28, VENONAT, 	 10,  13
+	db 36, ODDISH, 		 10,  13
+	db  4, HOOTHOOT, 	 10,  12
+	db  0, ODDISH, 	 	 10,  11
+	db  0, ODDISH, 		 10,  11	
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1623,33 +1623,33 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 16, PIDGEY, 	  	 10,  12
-	db 30, SNUBBULL, 	 10,  12
-	db  8, ABRA, 		 10,  12
-	db 20, RATTATA, 	 10,  12
-	db  8, DITTO, 		 10,  12
-	db  8, JIGGLYPUFF, 	 10,  12
-	db 10, MACHOP, 		 10,  12
+	db 16, PIDGEY, 	  	 12,  15
+	db 30, SNUBBULL, 	 12,  15
+	db 13, ABRA, 		 12,  15
+	db 10, RATTATA, 	 12,  15
+	db  8, DITTO, 		 12,  15
+	db 13, JIGGLYPUFF, 	 12,  15
+	db 10, MANKEY, 		 12,  15
 
 	; day
 	;  %, species,		min, max
-	db 16, PIDGEY, 	  	 10,  12
-	db 30, SNUBBULL, 	 10,  12
-	db  8, ABRA, 		 10,  12
-	db 20, RATTATA, 	 10,  12
-	db  8, DITTO, 		 10,  12
-	db  8, JIGGLYPUFF, 	 10,  12
-	db 10, MACHOP, 		 10,  12
+	db 16, PIDGEY, 	  	 12,  15
+	db 30, SNUBBULL, 	 12,  15
+	db 13, ABRA, 		 12,  15
+	db 10, RATTATA, 	 12,  15
+	db  8, DITTO, 		 12,  15
+	db 13, JIGGLYPUFF, 	 12,  15
+	db 10, MANKEY, 		 12,  15
 
 	; nite
 	;  %, species,		min, max
-	db  8, ABRA, 		 10,  12
-	db 30, RATTATA, 	 10,  12
-	db 16, DITTO, 		 10,  12
-	db  8, JIGGLYPUFF, 	 10,  12
-	db  8, DROWZEE, 	 10,  12
-	db 30, HOOTHOOT, 	 10,  12
-	db  0, RATTATA, 	 10,  12	
+	db  8, ABRA, 		 12,  15
+	db 10, RATTATA, 	 12,  15
+	db 16, DITTO, 		 12,  15
+	db 13, JIGGLYPUFF, 	 12,  15
+	db 13, DROWZEE, 	 12,  15
+	db 20, HOOTHOOT, 	 12,  15
+	db 20, GRIMER, 	 	 12,  15	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_35

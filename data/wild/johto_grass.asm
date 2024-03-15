@@ -1756,66 +1756,66 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, TAUROS, 		 13,  16
-	db 10, MILTANK, 	 13,  16
-	db 30, RATTATA, 	 15,  16
-	db 25, RATICATE, 	 15,  16
-	db 25, MAGNEMITE, 	 15,  16
-	db  0, PIDGEOTTO, 	 15,  16
-	db  0, RATTATA, 	 15,  16
+	db 15, TAUROS, 		 20,  21
+	db 15, MILTANK, 	 20,  21
+	db 20, RATICATE, 	 20,  21
+	db 30, MAGNEMITE, 	 20,  21
+	db 20, PIDGEOTTO, 	 20,  21
+	db  0, RATICATE, 	 20,  21
+	db  0, RATICATE, 	 20,  21
 
 	; day
 	;  %, species,		min, max
-	db 10, TAUROS, 		 13,  16
-	db 10, MILTANK, 	 13,  16
-	db 25, RATTATA, 	 15,  16
-	db 25, RATICATE, 	 15,  16
-	db 25, MAGNEMITE, 	 15,  16
-	db  5, PIDGEOTTO, 	 15,  16
-	db  0, RATTATA, 	 13,  16
+	db 15, TAUROS, 		 20,  21
+	db 15, MILTANK, 	 20,  21
+	db 20, RATICATE, 	 20,  21
+	db 30, MAGNEMITE, 	 20,  21
+	db 20, PIDGEOTTO, 	 20,  21
+	db  0, RATICATE, 	 20,  21
+	db  0, RATICATE, 	 20,  21
 
 	; nite
 	;  %, species,		min, max
-	db 25, RATICATE, 	 15,  16
-	db 25, MAGNEMITE, 	 15,  16
-	db 40, MEOWTH, 	 	 15,  16
-	db 10, NOCTOWL, 	 15,  16
-	db  0, RATTATA, 	 15,  16
-	db  0, RATTATA, 	 15,  16
-	db  0, RATTATA, 	 15,  16	
+	db 25, RATICATE, 	 20,  21
+	db 25, MAGNEMITE, 	 20,  21
+	db 30, MEOWTH, 	 	 20,  21
+	db 20, NOCTOWL, 	 20,  21
+	db  0, RATICATE, 	 20,  21
+	db  0, RATICATE, 	 20,  21
+	db  0, RATICATE, 	 20,  21	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, TAUROS, 		 15,  16
-	db 10, MILTANK, 	 15,  16
-	db 10, RATTATA, 	 15,  16
-	db 20, RATICATE, 	 15,  16
-	db 20, MAGNEMITE, 	 15,  16
-	db  0, PIDGEOTTO, 	 16,  18
-	db 20, PONYTA,	 	 15,  16
+	db 10, TAUROS, 		 20,  21
+	db 10, MILTANK, 	 20,  21
+	db 10, PIDGEOTTO, 	 20,  21
+	db 20, RATICATE, 	 20,  21
+	db 20, MAGNEMITE, 	 20,  21
+	db 20, PONYTA,	 	 20,  21
+	db  0, PIDGEOTTO, 	 20,  21
 
 	; day
 	;  %, species,		min, max
-	db  5, TAUROS, 		 13,  16
-	db  5, MILTANK, 	 13,  16
-	db  5, RATTATA, 	 15,  16
-	db 20, RATICATE, 	 15,  16
-	db 20, MAGNEMITE, 	 15,  16
-	db 15, PIDGEOTTO, 	 15,  16
-	db 20, PONYTA,	 	 15,  16
+	db 15, TAUROS, 		 20,  21
+	db 15, MILTANK, 	 20,  21
+	db 25, MAGNEMITE, 	 20,  21
+	db 15, PIDGEOTTO, 	 20,  21
+	db 20, PONYTA,	 	 20,  21
+	db 10, RATICATE, 	 20,  21
+	db  0, RATICATE, 	 20,  21
 
 	; nite
 	;  %, species,		min, max
-	db 15, RATICATE, 	 15,  16
-	db 25, MAGNEMITE, 	 15,  16
-	db 30, MEOWTH, 	 	 16,  18
-	db 10, NOCTOWL, 	 15,  16
-	db 20, PONYTA,	 	 15,  16
-	db  0, RATTATA, 	 15,  16
-	db  0, RATTATA, 	 15,  16	
+	db  5, RATICATE, 	 20,  21
+	db 25, MAGNEMITE, 	 20,  21
+	db 30, MEOWTH, 	 	 20,  21
+	db 20, NOCTOWL, 	 20,  21
+	db 20, PONYTA,	 	 20,  21
+	db  0, RATICATE, 	 20,  21
+	db  0, RATICATE, 	 20,  21	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_42

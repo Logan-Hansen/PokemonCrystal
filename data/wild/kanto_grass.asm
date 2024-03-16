@@ -3,7 +3,7 @@
 KantoGrassWildMons:
 
 	def_grass_wildmons DIGLETTS_CAVE
-	db 4 percent, 2 percent, 8 percent ; encounter rates: morn/day/nite
+	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
 	db 50, DIGLETT, 	 22,   25
@@ -993,7 +993,7 @@ KantoGrassWildMons:
 	end_grass_wildmons
 
 	def_grass_wildmons VIRIDIAN_FOREST
-	db 10 percent, 8 percent, 12 percent ; encounter rates: morn/day/nite
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
 	db 20, BUTTERFREE, 	 60,  68
@@ -1023,6 +1023,39 @@ KantoGrassWildMons:
 	db 15, GLOOM,	  	 60,  68
 	db  0, PIKACHU, 	 60,  68
 	db 10, VENUSAUR, 	 65,  68
+	end_grass_wildmons
+
+	def_grass_wildmons SEAFOAM_ISLANDS
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	;  %, species,		min, max
+	db 15, JYNX,	 	 60,  68
+	db 20, DEWGONG,  	 60,  68
+	db 20, SLOWBRO, 	 60,  68
+	db 15, CLOYSTER,  	 60,  68
+	db 10, GOLBAT,  	 60,  68
+	db 10, BLASTOISE, 	 60,  68
+	db 10, GOLDUCK, 	 65,  68
+
+	; day
+	;  %, species,		min, max
+	db 15, JYNX,	 	 60,  68
+	db 20, DEWGONG,  	 60,  68
+	db 20, SLOWBRO, 	 60,  68
+	db 15, CLOYSTER,  	 60,  68
+	db 10, GOLBAT,  	 60,  68
+	db 10, BLASTOISE, 	 60,  68
+	db 10, GOLDUCK, 	 65,  68
+
+	; nite
+	;  %, species,		min, max
+	db 15, JYNX,	 	 60,  68
+	db 20, DEWGONG,  	 60,  68
+	db 20, SLOWBRO, 	 60,  68
+	db 15, CLOYSTER,  	 60,  68
+	db 10, GOLBAT,  	 60,  68
+	db 10, BLASTOISE, 	 60,  68
+	db 10, GOLDUCK, 	 65,  68
 	end_grass_wildmons
 		
 	db -1 ; end

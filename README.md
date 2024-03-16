@@ -45,7 +45,7 @@ Upgrades to existing features
 - [X] [Steel type can't be poisoned by twineedle](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
 - [X] [Electric types can't be paralyzed](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
 - [X] [Expanding the limit of evo attacks](https://github.com/pret/pokecrystal/wiki/Expanding-the-limit-of-evo-attacks)
-- [ ] [short beeping noise for low HP](https://github.com/pret/pokecrystal/wiki/Short-beeping-noise-for-low-HP)
+- [X] [short beeping noise for low HP](https://github.com/pret/pokecrystal/wiki/Short-beeping-noise-for-low-HP)
 - [ ] [Force set battle style or forbit item usage in battle](https://github.com/pret/pokecrystal/wiki/Force-Set-battle-style-or-forbid-item-usage-in-battle)
 - [ ] [make new battle text to distinguish status move misses and fails](https://github.com/pret/pokecrystal/wiki/Make-new-battle-text-to-distinguish-status-move-misses-and-fails)
 

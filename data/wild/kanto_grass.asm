@@ -963,99 +963,99 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 15, ARBOK, 	  	 58,  64
-	db 20, RAPIDASH,  	 58,  64
-	db 15, URSARING, 	 58,  64
-	db 15, DONPHAN,	  	 58,  64
-	db 25, DODRIO, 	  	 58,  64
-	db 10, TANGELA, 	 58,  64
-	db  0, QUAGSIRE, 	 58,  64
+	db 15, ARBOK, 	  	 58,  60
+	db 20, RAPIDASH,  	 58,  60
+	db 15, URSARING, 	 58,  60
+	db 15, DONPHAN,	  	 58,  60
+	db 25, DODRIO, 	  	 58,  60
+	db 10, TANGELA, 	 58,  60
+	db  0, QUAGSIRE, 	 58,  60
 
 	; day
 	;  %, species,		min, max
-	db 15, ARBOK, 	  	 58,  64
-	db 20, RAPIDASH,  	 58,  64
-	db 15, URSARING, 	 58,  64
-	db 15, DONPHAN,	  	 58,  64
-	db 25, DODRIO, 	  	 58,  64
-	db 10, TANGELA, 	 58,  64
-	db  0, QUAGSIRE, 	 58,  64
+	db 15, ARBOK, 	  	 58,  60
+	db 20, RAPIDASH,  	 58,  60
+	db 15, URSARING, 	 58,  60
+	db 15, DONPHAN,	  	 58,  60
+	db 25, DODRIO, 	  	 58,  60
+	db 10, TANGELA, 	 58,  60
+	db  0, QUAGSIRE, 	 58,  60
 
 	; nite
 	;  %, species,		min, max
-	db 15, ARBOK, 	  	 58,  64
-	db  0, RAPIDASH,  	 58,  64
-	db 15, POLIWRATH, 	 58,  64
-	db 15, SNEASEL,	  	 58,  64
-	db 25, GOLBAT, 	  	 58,  64
-	db 10, TANGELA, 	 58,  64
-	db 20, QUAGSIRE, 	 58,  64
+	db 15, ARBOK, 	  	 58,  60
+	db  0, RAPIDASH,  	 58,  60
+	db 15, POLIWRATH, 	 58,  60
+	db 15, SNEASEL,	  	 58,  60
+	db 25, GOLBAT, 	  	 58,  60
+	db 10, TANGELA, 	 58,  60
+	db 20, QUAGSIRE, 	 58,  60
 	end_grass_wildmons
 
 	def_grass_wildmons VIRIDIAN_FOREST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 20, BUTTERFREE, 	 60,  68
-	db 20, BEEDRILL,  	 60,  68
-	db 20, PIDGEOT, 	 60,  68
-	db 15, PIKACHU,	  	 60,  68
-	db 15, FEAROW,  	 60,  68
-	db  0, PIKACHU, 	 60,  68
-	db 10, VENUSAUR, 	 65,  68
+	db 20, BUTTERFREE, 	 60,  60
+	db 20, BEEDRILL,  	 60,  60
+	db 20, PIDGEOT, 	 60,  60
+	db 15, PIKACHU,	  	 60,  60
+	db 15, FEAROW,  	 60,  60
+	db  0, PIKACHU, 	 60,  60
+	db 10, VENUSAUR, 	 60,  60
 
 	; day
 	;  %, species,		min, max
-	db 20, BUTTERFREE, 	 60,  68
-	db 20, BEEDRILL,  	 60,  68
-	db 20, PIDGEOT, 	 60,  68
-	db 15, PIKACHU,	  	 60,  68
-	db 15, FEAROW,  	 60,  68
-	db  0, PIKACHU, 	 60,  68
-	db 10, VENUSAUR, 	 65,  68
+	db 20, BUTTERFREE, 	 60,  60
+	db 20, BEEDRILL,  	 60,  60
+	db 20, PIDGEOT, 	 60,  60
+	db 15, PIKACHU,	  	 60,  60
+	db 15, FEAROW,  	 60,  60
+	db  0, PIKACHU, 	 60,  60
+	db 10, VENUSAUR, 	 60,  60
 
 	; nite
 	;  %, species,		min, max
-	db 20, PERSIAN, 	 60,  68
-	db 20, VENOMOTH,  	 60,  68
-	db 20, NOCTOWL, 	 60,  68
-	db 15, PIKACHU,	  	 60,  68
-	db 15, GLOOM,	  	 60,  68
-	db  0, PIKACHU, 	 60,  68
-	db 10, VENUSAUR, 	 65,  68
+	db 20, PERSIAN, 	 60,  60
+	db 20, VENOMOTH,  	 60,  60
+	db 20, NOCTOWL, 	 60,  60
+	db 15, PIKACHU,	  	 60,  60
+	db 15, GLOOM,	  	 60,  60
+	db  0, PIKACHU, 	 60,  60
+	db 10, VENUSAUR, 	 60,  60
 	end_grass_wildmons
 
 	def_grass_wildmons SEAFOAM_ISLANDS
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 15, JYNX,	 	 60,  68
-	db 20, DEWGONG,  	 60,  68
-	db 20, SLOWBRO, 	 60,  68
-	db 15, CLOYSTER,  	 60,  68
-	db 10, GOLBAT,  	 60,  68
-	db 10, BLASTOISE, 	 60,  68
-	db 10, GOLDUCK, 	 65,  68
+	db 15, JYNX,	 	 60,  60
+	db 20, DEWGONG,  	 60,  60
+	db 20, SLOWBRO, 	 60,  60
+	db 15, CLOYSTER,  	 60,  60
+	db 10, GOLBAT,  	 60,  60
+	db 10, BLASTOISE, 	 60,  60
+	db 10, GOLDUCK, 	 60,  60
 
 	; day
 	;  %, species,		min, max
-	db 15, JYNX,	 	 60,  68
-	db 20, DEWGONG,  	 60,  68
-	db 20, SLOWBRO, 	 60,  68
-	db 15, CLOYSTER,  	 60,  68
-	db 10, GOLBAT,  	 60,  68
-	db 10, BLASTOISE, 	 60,  68
-	db 10, GOLDUCK, 	 65,  68
+	db 15, JYNX,	 	 60,  60
+	db 20, DEWGONG,  	 60,  60
+	db 20, SLOWBRO, 	 60,  60
+	db 15, CLOYSTER,  	 60,  60
+	db 10, GOLBAT,  	 60,  60
+	db 10, BLASTOISE, 	 60,  60
+	db 10, GOLDUCK, 	 60,  60
 
 	; nite
 	;  %, species,		min, max
-	db 15, JYNX,	 	 60,  68
-	db 20, DEWGONG,  	 60,  68
-	db 20, SLOWBRO, 	 60,  68
-	db 15, CLOYSTER,  	 60,  68
-	db 10, GOLBAT,  	 60,  68
-	db 10, BLASTOISE, 	 60,  68
-	db 10, GOLDUCK, 	 65,  68
+	db 15, JYNX,	 	 60,  60
+	db 20, DEWGONG,  	 60,  60
+	db 20, SLOWBRO, 	 60,  60
+	db 15, CLOYSTER,  	 60,  60
+	db 10, GOLBAT,  	 60,  60
+	db 10, BLASTOISE, 	 60,  60
+	db 10, GOLDUCK, 	 60,  60
 	end_grass_wildmons
 		
 	db -1 ; end

@@ -54,7 +54,7 @@ Removing features
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 - [X] [Remove Badge Boosts](https://github.com/pret/pokecrystal/wiki/Remove-the-gym-badges-boosts)
 - [X] [Reduce the command queue system to just stone tables](https://github.com/pret/pokecrystal/wiki/Reduce-the-command-queue-system-to-just-stone-tables)
-- [ ] [remove redudant move grammar table](https://github.com/pret/pokecrystal/wiki/Remove-the-redundant-move-grammar-table)
+- [X] [remove redudant move grammar table](https://github.com/pret/pokecrystal/wiki/Remove-the-redundant-move-grammar-table)
       
 features from different generations
 - [X] [Don't gain experience at level 100](https://github.com/pret/pokecrystal/wiki/Don't-gain-experience-at-level-100)

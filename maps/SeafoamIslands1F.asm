@@ -10,7 +10,7 @@ IcePath1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 34, 33, Route_20, 2
+	warp_event 34, 33, ROUTE_20, 2
 
 	def_coord_events
 

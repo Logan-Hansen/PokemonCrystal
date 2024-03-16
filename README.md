@@ -191,7 +191,6 @@ Pokemon Availability
     - [X] Ponyta on route 39 M/D/N
     - [X] Kangaskhan and Rhyhorn added to Union Cave B2F M/D
     - [X] Rhyhorn on route 45 M/D as well
-    - [X] Hidden grass on route 43 now has chansey, smoochum, elekid, and magby at rare chances during morn/day
 
 
 Miscellaneous

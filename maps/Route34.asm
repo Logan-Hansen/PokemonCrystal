@@ -505,39 +505,6 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	slow_step UP
 	step_end
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-TrainerStauney:
-	trainer LASS, STAUNEY, EVENT_BEAT_LASS_STAUNEY, StauneySeenText, StauneyBeatText, 0, .Script
-
-.Script:
-	endifjustbattled
-	opentext
-	writetext StauneyAfterBattleText
-	waitbutton
-	closetext
-	end
-
-StauneySeenText:
-	text "You think I can"
-	line "just let you"
-	cont "pass me!?"
-
-	para "We need to see"
-	line "how good you are!"
-	done
-
-StauneyBeatText:
-	text "Awww… I lost…"
-	done
-
-StauneyAfterBattleText:
-	text "I'll have to"
-	line "have Logan"
-	cont "buff my team."
-	done
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
-
 YoungsterSamuelSeenText:
 	text "This is where I do"
 	line "my training!"
@@ -824,4 +791,3 @@ Route34_MapEvents:
 	object_event  3, 48, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfJenn, -1
 	object_event  6, 51, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerfKate, -1
 	object_event  7, 30, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route34Nugget, EVENT_ROUTE_34_NUGGET
-	object_event 10, 23, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerStauney, -1

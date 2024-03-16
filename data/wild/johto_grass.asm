@@ -1990,33 +1990,33 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 15, ARBOK, 	  	 50,  54
+	db 20, ARBOK, 	  	 50,  54
 	db 15, AERODACTYL, 	 50,  54
-	db 20, RAPIDASH, 	 50,  54
-	db 30, TANGELA, 	 50,  54
-	db 15, DODRIO, 	  	 50,  54
-	db  5, VENUSAUR,  	 50,  54
-	db  0, ARBOK,	 	 50,  54
+	db 15, CHARIZARD, 	 50,  54
+	db 15, VENUSAUR, 	 50,  54
+	db 15, BLASTOISE,  	 50,  54
+	db  5, CHANSEY,  	 50,  54
+	db 15, KANGASKHAN, 	 50,  54
 
 	; day
 	;  %, species,		min, max
-	db 15, ARBOK, 	  	 50,  54
+	db 20, ARBOK, 	  	 50,  54
 	db 15, AERODACTYL, 	 50,  54
-	db 20, RAPIDASH, 	 50,  54
-	db 30, TANGELA, 	 50,  54
-	db 15, DODRIO, 	  	 50,  54
-	db  5, CHARIZARD,  	 50,  54
-	db  0, ARBOK,	 	 50,  54
+	db 15, CHARIZARD, 	 50,  54
+	db 15, VENUSAUR, 	 50,  54
+	db 15, BLASTOISE,  	 50,  54
+	db  5, CHANSEY,  	 50,  54
+	db 15, KANGASKHAN, 	 50,  54
 
 	; nite
 	;  %, species,		min, max
-	db 15, ARBOK, 	  	 50,  54
+	db 20, ARBOK, 	  	 50,  54
 	db 15, AERODACTYL, 	 50,  54
-	db 20, RAPIDASH, 	 50,  54
-	db 30, TANGELA, 	 50,  54
-	db 15, DODRIO, 	  	 50,  54
-	db  5, BLASTOISE,  	 50,  54
-	db  0, ARBOK,	 	 50,  54	
+	db 15, CHARIZARD, 	 50,  54
+	db 15, VENUSAUR, 	 50,  54
+	db 15, BLASTOISE,  	 50,  54
+	db  5, CHANSEY,  	 50,  54
+	db 15, KANGASKHAN, 	 50,  54	
 	end_grass_wildmons
 
 	db -1 ; end

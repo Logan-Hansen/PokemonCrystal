@@ -81,7 +81,6 @@ features from different generations
 - [X] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
 - [ ] [Add Gen 1 style Rocket Hideout spinner tiles](https://github.com/pret/pokecrystal/wiki/Add-spinner-tiles-from-Generation-I-Rocket-Hideout)
-- [ ] [Battle Text Autoprompts](https://github.com/pret/pokecrystal/wiki/Battle-Autoprompts)
 
 --------------------
 Other Updates & Changes
@@ -146,6 +145,7 @@ Updates to Johto to build on HGSS additions
 
 Updates to Kanto to make it feel less empty
 --------------------
+- [ ] Increased wild pokemon levels to stay a challenge
 - [ ] Safari Zone back
 - [X] Viridian Forest back
 - [ ] Cinnabar Island restored

@@ -37,7 +37,7 @@ Upgrades to existing features
 - [X] [Make wild encounters vary in level](https://github.com/pret/pokecrystal/wiki/Make-wild-Pok%C3%A9mon-encounter-levels-vary)
 - [ ] [Expand tilesets from 192 to 255 tiles](https://github.com/pret/pokecrystal/wiki/Expand-tilesets-from-192-to-255-tiles)
 - [X] [improve outdoor sprite system](https://github.com/pret/pokecrystal/wiki/Improve-the-outdoor-sprite-system)
-- [ ] [improve event initialization system](https://github.com/pret/pokecrystal/wiki/Improve-the-event-initialization-system)
+- ~~[X] [improve event initialization system](https://github.com/pret/pokecrystal/wiki/Improve-the-event-initialization-system)~~ - not compatible with my other sprite system changes
 - [ ] [increase pokemon sprite animation size](https://github.com/pret/pokecrystal/wiki/Increase-Pok%C3%A9mon-sprite-animation-size)
 - [X] [Show icon for current weather](https://github.com/pret/pokecrystal/wiki/Show-an-icon-for-the-current-weather)
 - [X] [Unique colors for each thrown pokeball](https://github.com/pret/pokecrystal/wiki/Use-unique-colors-for-each-thrown-Pok%C3%A9-Ball)

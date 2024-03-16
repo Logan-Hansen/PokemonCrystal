@@ -190,6 +190,7 @@ ENDM
 	map_const ROUTE_20,                                    30,  9 ;  6
 	map_const ROUTE_21,                                    10, 18 ;  7
 	map_const CINNABAR_ISLAND,                             10,  9 ;  8
+	map_const SEAFOAM_ISANDS,                              20, 18 ;  9 mine
 	endgroup
 
 	newgroup CERULEAN                                             ;  7

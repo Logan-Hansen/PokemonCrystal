@@ -54,7 +54,7 @@ CinnabarGroupSprites:
 	db SPRITE_SWIMMER_GUY
 	; max 9 of 9 walking sprites
 	db SPRITE_POKE_BALL
-	db SPRITE_FRUIT_TREE
+	db SPRITE_FRUIT_TREE ; need to add sprite for articuno
 	db 0 ; end
 
 ; CeruleanCity and Route5 are connected

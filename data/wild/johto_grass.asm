@@ -1759,25 +1759,6 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-<<<<<<< HEAD
-	db 10, TAUROS, 		 19,  21
-	db 10, MILTANK, 	 19,  21
-	db 25, RATICATE, 	 20,  21
-	db 25, MAGNEMITE, 	 19,  21
-	db 15, DODUO,	 	 19,  21
-	db 15, MEOWTH,	 	 19,  21
-	db  0, MEOWTH, 		 19,  21
-
-	; day
-	;  %, species,		min, max
-	db 10, TAUROS, 		 19,  21
-	db 10, MILTANK, 	 19,  21
-	db 25, RATICATE, 	 20,  21
-	db 25, MAGNEMITE, 	 19,  21
-	db 25, DODUO,	 	 19,  21
-	db  5, MEOWTH,	 	 19,  21
-	db  0, MEOWTH,	 	 19,  21
-=======
 	db 15, TAUROS, 		 20,  21
 	db 15, MILTANK, 	 20,  21
 	db 20, RATICATE, 	 20,  21
@@ -1795,61 +1776,22 @@ JohtoGrassWildMons:
 	db 20, PIDGEOTTO, 	 20,  21
 	db  0, RATICATE, 	 20,  21
 	db  0, RATICATE, 	 20,  21
->>>>>>> fad517dfbc1189c8ed601d1ee906bd0598aab5e9
 
 	; nite
 	;  %, species,		min, max
 	db 25, RATICATE, 	 20,  21
-<<<<<<< HEAD
-	db 25, MAGNEMITE, 	 19,  21
-	db 40, MEOWTH, 	 	 19,  21
-	db 10, NOCTOWL, 	 20,  21
-	db  0, RATTATA, 	 19,  21
-	db  0, RATTATA, 	 19,  21
-	db  0, RATTATA, 	 19,  21	
-=======
 	db 25, MAGNEMITE, 	 20,  21
 	db 30, MEOWTH, 	 	 20,  21
 	db 20, NOCTOWL, 	 20,  21
 	db  0, RATICATE, 	 20,  21
 	db  0, RATICATE, 	 20,  21
 	db  0, RATICATE, 	 20,  21	
->>>>>>> fad517dfbc1189c8ed601d1ee906bd0598aab5e9
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-<<<<<<< HEAD
-	db 10, TAUROS, 		 19,  21
-	db 10, MILTANK, 	 19,  21
-	db 20, RATICATE, 	 20,  21
-	db 20, MAGNEMITE, 	 19,  21
-	db 10, PIDGEOTTO, 	 19,  21
-	db 20, PONYTA,	 	 19,  21
-	db  0, PONYTA,  	 19,  21
-
-	; day
-	;  %, species,		min, max
-	db 15, TAUROS, 		 19,  21
-	db 15, MILTANK, 	 19,  21
-	db 10, RATICATE, 	 20,  21
-	db 20, MAGNEMITE, 	 19,  21
-	db 10, PIDGEOTTO, 	 19,  21
-	db 20, PONYTA,	 	 19,  21
-	db  0, PONYTA,  	 19,  21
-
-	; nite
-	;  %, species,		min, max
-	db 15, RATICATE, 	 20,  21
-	db 25, MAGNEMITE, 	 19,  21
-	db 25, MEOWTH, 	 	 19,  21
-	db 15, NOCTOWL, 	 20,  21
-	db 20, PONYTA,	 	 19,  21
-	db  0, NOCTOWL, 	 20,  21
-	db  0, NOCTOWL, 	 20,  21	
-=======
 	db 10, TAUROS, 		 20,  21
 	db 10, MILTANK, 	 20,  21
 	db 10, PIDGEOTTO, 	 20,  21
@@ -1877,7 +1819,6 @@ JohtoGrassWildMons:
 	db 20, PONYTA,	 	 20,  21
 	db  0, RATICATE, 	 20,  21
 	db  0, RATICATE, 	 20,  21	
->>>>>>> fad517dfbc1189c8ed601d1ee906bd0598aab5e9
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_42

@@ -59,8 +59,8 @@ TreeMonMaps:
 	treemon_map ROUTE_7,				   TREEMON_SET_KANTO
 	treemon_map ROUTE_8,				   TREEMON_SET_KANTO
 	treemon_map ROUTE_9,				   TREEMON_SET_KANTO
-	treemon_map ROUTE_10NORTH,			   TREEMON_SET_KANTO
-	treemon_map ROUTE_10SOUTH,			   TREEMON_SET_KANTO
+	treemon_map ROUTE_10_NORTH,			   TREEMON_SET_KANTO
+	treemon_map ROUTE_10_SOUTH,			   TREEMON_SET_KANTO
 	treemon_map ROUTE_11,			       TREEMON_SET_KANTO
 	treemon_map ROUTE_12,				   TREEMON_SET_KANTO
 	treemon_map ROUTE_13,				   TREEMON_SET_KANTO

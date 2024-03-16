@@ -106,10 +106,7 @@ SwimmermCameronAfterBattleText:
 	done
 
 CinnabarGymSignText:
-	text "What does this"
-	line "sign say?"
-
-	para "CINNABAR GYM"
+	text "CINNABAR GYM"
 	line "LEADER: BLAINE"
 	done
 

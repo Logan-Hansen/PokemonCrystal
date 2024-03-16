@@ -485,6 +485,6 @@ SECTION "Map Scripts 25", ROMX
 INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
 INCLUDE "maps/ViridianForest.asm"
-INCLUDE "maps/SeafoamIslands1F.asm"
+INCLUDE "maps/SeafoamIslands.asm"
 
 ENDSECTION

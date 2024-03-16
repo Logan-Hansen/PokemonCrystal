@@ -1,12 +1,12 @@
 	object_const_def
 
-SeafoamIslands1F_MapScripts:
+SeafoamIslands_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
 
-SeafoamIslands1F_MapEvents:
+SeafoamIslands_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events

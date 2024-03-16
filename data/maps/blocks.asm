@@ -1053,6 +1053,6 @@ ViridianForest_Blocks:
 	INCBIN "maps/ViridianForest.blk"
 
 SeafoamIsland1F_Blocks:
-	INCBIN "maps/SeafoamIslands1F.blk"
+	INCBIN "maps/SeafoamIslands.blk"
 
 ENDSECTION

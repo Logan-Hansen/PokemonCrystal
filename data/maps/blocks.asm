@@ -1052,7 +1052,7 @@ SECTION "Map Blocks 4", ROMX
 ViridianForest_Blocks:
 	INCBIN "maps/ViridianForest.blk"
 
-SeafoamIsland1F_Blocks:
+SeafoamIsland_Blocks:
 	INCBIN "maps/SeafoamIslands.blk"
 
 ENDSECTION

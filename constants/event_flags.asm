@@ -320,8 +320,8 @@
 	const_skip ; unused in Crystal
 	const EVENT_ALAN_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
-	const_skip ; unused
-	const_skip ; unused
+	const EVENT_FOUGHT_MOLTRES ;mine in place of const_skip
+	const EVENT_SILVER_CAVE_MOLTRES ;mine
 	const EVENT_DANA_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
 	const EVENT_CHAD_ASKED_FOR_PHONE_NUMBER
@@ -511,6 +511,8 @@
 	const_skip ; unused
 	const EVENT_GOT_GS_BALL_FROM_GOLDENROD_POKEMON_CENTER
 ; Unused: next 167 events
+	
+
 
 	const_next 1000
 ; Trainer flags

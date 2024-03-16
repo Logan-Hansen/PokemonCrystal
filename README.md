@@ -124,7 +124,7 @@ Other Updates & Changes
     - [ ] Hail and other new moves added to learnsets
 - [ ] Gen 1 transfer moves with tutor in Kanto
 - [ ] Base stat changes to rebalance and increase usability
-- [ ] Speed up egg hatch rates (twice as fast for everything)
+- [X] Speed up egg hatch rates (twice as fast for everything w/ min of 5 cycles)
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
 - [ ] name rater can change traded pokemon names

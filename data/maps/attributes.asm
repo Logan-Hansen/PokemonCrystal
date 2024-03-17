@@ -697,3 +697,5 @@ ENDM
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0
 	map_attributes ViridianForest, VIRIDIAN_FOREST, $05, 0
 	map_attributes SeafoamIslands, SEAFOAM_ISLANDS, $09, 0
+	map_attributes PokemonMansion, POKEMON_MANSION, $00, 0
+

@@ -1,12 +1,12 @@
 	object_const_def
 
 
-BurnedTower1F_MapScripts:
+PokemonMansion_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
-BurnedTower1F_MapEvents:
+PokemonMansion_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events

@@ -130,6 +130,7 @@ Updates to Kanto to make it feel less empty
 - [ ] Safari Zone back
 - [X] Viridian Forest back
 - [X] Seafoam Island(s) added
+- [X] Pokemon Mansion restored
 - [ ] Cinnabar Gym restored
 - [ ] master ball and other new prizes in Celadon Game Corner
 - [ ] Mr. Fuji sidequest

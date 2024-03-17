@@ -1063,9 +1063,9 @@ KantoGrassWildMons:
 	; morn
 	;  %, species,		min, max
 	db 15, DITTO,	 	 60,  60
-	db 20, GOLBAT,  	 60,  60
+	db 10, CHARIZARD,  	 60,  60
 	db 20, MAGCARGO, 	 60,  60
-	db 15, MAGMAR,  	 60,  60
+	db 25, MAGMAR,  	 60,  60
 	db 10, GROWLITHE,  	 60,  60
 	db 10, PERSIAN, 	 60,  60
 	db 10, VULPIX,	 	 60,  60
@@ -1073,9 +1073,9 @@ KantoGrassWildMons:
 	; day
 	;  %, species,		min, max
 	db 15, DITTO,	 	 60,  60
-	db 20, GOLBAT,  	 60,  60
+	db 10, CHARIZARD,  	 60,  60
 	db 20, MAGCARGO, 	 60,  60
-	db 15, MAGMAR,  	 60,  60
+	db 25, MAGMAR,  	 60,  60
 	db 10, GROWLITHE,  	 60,  60
 	db 10, PERSIAN, 	 60,  60
 	db 10, VULPIX,	 	 60,  60
@@ -1083,9 +1083,9 @@ KantoGrassWildMons:
 	; nite
 	;  %, species,		min, max
 	db 15, DITTO,	 	 60,  60
-	db 20, GOLBAT,  	 60,  60
+	db 10, CHARIZARD,  	 60,  60
 	db 20, MAGCARGO, 	 60,  60
-	db 15, MAGMAR,  	 60,  60
+	db 25, MAGMAR,  	 60,  60
 	db 10, GROWLITHE,  	 60,  60
 	db 10, PERSIAN, 	 60,  60
 	db 10, VULPIX,	 	 60,  60

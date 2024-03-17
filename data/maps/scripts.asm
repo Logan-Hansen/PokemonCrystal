@@ -486,5 +486,6 @@ INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
 INCLUDE "maps/ViridianForest.asm"
 INCLUDE "maps/SeafoamIslands.asm"
+INCLUDE "maps/PokemonMansion.asm"
 
 ENDSECTION

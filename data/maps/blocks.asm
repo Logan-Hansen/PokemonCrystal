@@ -1055,4 +1055,7 @@ ViridianForest_Blocks:
 SeafoamIslands_Blocks:
 	INCBIN "maps/SeafoamIslands.blk"
 
+PokemonMansion_Blocks:
+	INCBIN "maps/PokemonMansion.blk"
+
 ENDSECTION

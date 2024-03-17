@@ -191,6 +191,7 @@ ENDM
 	map_const ROUTE_21,                                    10, 18 ;  7
 	map_const CINNABAR_ISLAND,                             10,  9 ;  8
 	map_const SEAFOAM_ISLANDS,                             20, 18 ;  9 mine
+	map_const POKEMON_MANSION,                             10,  9 ; 10 mine
 	endgroup
 
 	newgroup CERULEAN                                             ;  7

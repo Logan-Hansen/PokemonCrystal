@@ -1057,5 +1057,38 @@ KantoGrassWildMons:
 	db 10, BLASTOISE, 	 60,  60
 	db 10, GOLDUCK, 	 60,  60
 	end_grass_wildmons
+
+	def_grass_wildmons POKEMON_MANSION
+	db 7 percent, 7 percent, 7 percent ; encounter rates: morn/day/nite
+	; morn
+	;  %, species,		min, max
+	db 15, DITTO,	 	 60,  60
+	db 20, GOLBAT,  	 60,  60
+	db 20, MAGCARGO, 	 60,  60
+	db 15, MAGMAR,  	 60,  60
+	db 10, GROWLITHE,  	 60,  60
+	db 10, PERSIAN, 	 60,  60
+	db 10, VULPIX,	 	 60,  60
+
+	; day
+	;  %, species,		min, max
+	db 15, DITTO,	 	 60,  60
+	db 20, GOLBAT,  	 60,  60
+	db 20, MAGCARGO, 	 60,  60
+	db 15, MAGMAR,  	 60,  60
+	db 10, GROWLITHE,  	 60,  60
+	db 10, PERSIAN, 	 60,  60
+	db 10, VULPIX,	 	 60,  60
+
+	; nite
+	;  %, species,		min, max
+	db 15, DITTO,	 	 60,  60
+	db 20, GOLBAT,  	 60,  60
+	db 20, MAGCARGO, 	 60,  60
+	db 15, MAGMAR,  	 60,  60
+	db 10, GROWLITHE,  	 60,  60
+	db 10, PERSIAN, 	 60,  60
+	db 10, VULPIX,	 	 60,  60
+	end_grass_wildmons
 		
 	db -1 ; end

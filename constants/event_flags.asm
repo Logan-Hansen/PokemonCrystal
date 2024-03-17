@@ -313,15 +313,15 @@
 	const EVENT_TODD_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
 	const EVENT_GINA_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
+	const EVENT_FOUGHT_ARTICUNO			;mine
 	const EVENT_IRWIN_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
+	const_EVENT_SEAFOAM_ISLANDS_ARTICUNO;mine
 	const EVENT_ARNIE_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
+	const EVENT_FOUGHT_ZAPDOS			;mine
 	const EVENT_ALAN_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
-	const EVENT_FOUGHT_MOLTRES ;mine in place of const_skip
-	const EVENT_SILVER_CAVE_MOLTRES ;mine
+	const EVENT_POWER_PLANT_ZAPDOS		;mine
+	const EVENT_FOUGHT_MOLTRES 		    ;mine
+	const EVENT_SILVER_CAVE_MOLTRES 	;mine
 	const EVENT_DANA_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
 	const EVENT_CHAD_ASKED_FOR_PHONE_NUMBER

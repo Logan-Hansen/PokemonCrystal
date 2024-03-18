@@ -1350,194 +1350,215 @@ PokemaniacGroup:
 	db -1 ; end
 
 GruntMGroup:
-	; GRUNTM (1)
+	; GRUNTM (1) Slowpoke Well - Proton in gen 4
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 14, KOFFING
+	db 14, SLOWPOKE
 	db -1 ; end
 
-	; GRUNTM (2)
+	; GRUNTM (2) Slowpoke Well
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db  7, RATTATA
+	db  9, MEOWTH
 	db  9, ZUBAT
-	db  9, ZUBAT
 	db -1 ; end
 
-	; GRUNTM (3)
+	; GRUNTM (3) Radio Tower
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
-	db 24, RATICATE
+	db 28, RATICATE
+	db 28, PERSIAN
 	db -1 ; end
 
-	; GRUNTM (4)
+	; GRUNTM (4) Radio Tower
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, GRIMER
-	db 23, GRIMER
-	db 25, MUK
+	db 27, GRIMER
+	db 28, PERSIAN
+	db 28, HOUNDOOM
 	db -1 ; end
 
-	; GRUNTM (5)
+	; GRUNTM (5) Radio Tower
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 21, RATTATA
-	db 21, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
+	db 26, RATICATE
+	db 26, GOLBAT
+	db 26, GRIMER
+	db 26, MURKROW
+	db 28, PERSIAN
 	db -1 ; end
 
-	; GRUNTM (6)
+	; GRUNTM (6) Radio Tower
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, ZUBAT
-	db 26, ZUBAT
+	db 26, GOLBAT
+	db 26, MURKROW
 	db -1 ; end
 
-	; GRUNTM (7)
+	; GRUNTM (7) Radio Tower
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 23, KOFFING
 	db 23, GRIMER
-	db 23, ZUBAT
-	db 23, RATTATA
+	db 24, GOLBAT
+	db 23, RATICATE
 	db -1 ; end
 
-	; GRUNTM (8)
+	; GRUNTM (8) Radio Tower
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, WEEZING
+	db 26, KOFFING
+	db 26, SLOWPOKE
 	db -1 ; end
 
-	; GRUNTM (9)
+	; GRUNTM (9) Radio Tower
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 24, RATICATE
 	db 26, KOFFING
 	db -1 ; end
 
-	; GRUNTM (10)
+	; GRUNTM (10) Radio Tower
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 22, ZUBAT
-	db 24, GOLBAT
+	db 22, GOLBAT
+	db 24, MURKROW
 	db 22, GRIMER
 	db -1 ; end
 
-	; GRUNTM (11)
+	; GRUNTM (11) Goldenrod Tunnel
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, MUK
+	db 23, HOUNDOUR
 	db 23, KOFFING
-	db 25, RATTATA
+	db 25, RATICATE
 	db -1 ; end
 
-	; GRUNTM (12)
+	; GRUNTM (12) ?
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 33, HOUNDOUR
+	db 37, MUK
+	db 37, MURKROW
+	db 37, WEEZING
+	db 37, HOUNDOOM
+	db 37, MOLTRES
 	db -1 ; end
 
-	; GRUNTM (13)
+	; GRUNTM (13) Goldenrod Tunnel
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 27, RATTATA
+	db 27, RATICATE
+	db 28, PERSIAN
 	db -1 ; end
 
-	; GRUNTM (14)
+	; GRUNTM (14) Goldenrod Tunnel
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
+	db 24, DROWZEE
 	db 24, GOLBAT
+	db 24, MURKROW
 	db -1 ; end
 
-	; GRUNTM (15)
+	; GRUNTM (15) Goldenrod Tunnel
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 26, GRIMER
-	db 23, WEEZING
+	db 26, HOUNDOOM
+	db 26, HYPNO
 	db -1 ; end
 
-	; GRUNTM (16)
+	; GRUNTM (16) Team Rocket HQ
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 16, RATTATA
-	db 16, RATTATA
-	db 16, RATTATA
-	db 16, RATTATA
+	db 20, RATICATE
+	db 20, HOUNDOUR
+	db 20, GRIMER
+	db 20, MURKROW
 	db -1 ; end
 
-	; GRUNTM (17)
+	; GRUNTM (17) Team Rocket HQ
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 18, GOLBAT
+	db 20, GOLBAT
+	db 20, MURKROW
 	db -1 ; end
 
-	; GRUNTM (18)
+	; GRUNTM (18) Team Rocket HQ
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 17, RATTATA
-	db 17, ZUBAT
-	db 17, RATTATA
+	db 22, DROWZEE
+	db 22, MURKROW
+	db 22, MEOWTH
 	db -1 ; end
 
-	; GRUNTM (19)
+	; GRUNTM (19) Team Rocket HQ
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 18, VENONAT
-	db 18, VENONAT
+	db 20, VENONAT
+	db 20, VENONAT
 	db -1 ; end
 
-	; GRUNTM (20)
+	; GRUNTM (20) Team Rocket HQ
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 17, DROWZEE
-	db 19, ZUBAT
+	db 20, DROWZEE
+	db 22, GOLBAT
 	db -1 ; end
 
-	; GRUNTM (21)
+	; GRUNTM (21) Team Rocket HQ
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 16, ZUBAT
 	db 17, GRIMER
 	db 18, RATTATA
 	db -1 ; end
 
-	; GRUNTM (22)
+	; GRUNTM (22) ?
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
 	db 36, GOLBAT
+	db 36, ARTICUNO
 	db -1 ; end
 
-	; GRUNTM (23)
+	; GRUNTM (23) ?
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 30, KOFFING
+	db 35, WEEZING
+	db 35, HYPNO
+	db 35, MURKROW
+	db 35, MUK
+	db 35, WEEZING
+	db 35, ZAPDOS
 	db -1 ; end
 
-	; GRUNTM (24)
+	; GRUNTM (24) Goldenrod Tunnel
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, KOFFING
-	db 25, KOFFING
+	db 26, KOFFING
+	db 26, HYPNO
 	db -1 ; end
 
-	; GRUNTM (25)
+	; GRUNTM (25) Goldenrod Tunnel
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 24, KOFFING
 	db 24, MUK
 	db -1 ; end
 
-	; GRUNTM (26)
+	; GRUNTM (26) Team Rocket HQ
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 15, RATTATA
-	db 15, RATTATA
+	db 20, MEOWTH
+	db 20, MURKROW
+	db 20, DROWZEE
 	db -1 ; end
 
-	; GRUNTM (27)
+	; GRUNTM (27) ?
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 22, ZUBAT
+	db 36, GOLBAT
+	db 36, ENTEI
 	db -1 ; end
 
-	; GRUNTM (28)
+	; GRUNTM (28) Team Rocket HQ
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 19, RATICATE
+	db 20, RATICATE
+	db 20, SLOWPOKE
 	db -1 ; end
 
-	; GRUNTM (29)
+	; GRUNTM (29) Slowpoke Well
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db  9, RATTATA
-	db  9, RATTATA
+	db  9, GRIMER
 	db -1 ; end
 
-	; GRUNTM (30)
-	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, GOLBAT
-	db 25, GOLBAT
-	db 30, ARBOK
-	db -1 ; end
-
-	; GRUNTM (31)
+	; GRUNTM (30) ?
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 30, GOLBAT
+	db 30, GOLBAT
+	db 30, ARBOK
+	db 30, RAIKOU
+	db -1 ; end
+
+	; GRUNTM (31) Route 24 - after encounter in Cerulean Gym
+	db "GRUNT@", TRAINERTYPE_NORMAL
+	db 50, CROBAT
+	db 50, HYPNO
 	db -1 ; end
 
 GentlemanGroup:

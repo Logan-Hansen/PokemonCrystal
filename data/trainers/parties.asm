@@ -3073,82 +3073,82 @@ PicnickerGroup:
 	db -1 ; end
 
 CamperGroup:
-	; CAMPER (1)
+	; CAMPER (1) Route 32
 	db "ROLAND@", TRAINERTYPE_NORMAL
 	db  9, NIDORAN_M
 	db -1 ; end
 
-	; CAMPER (2)
+	; CAMPER (2) Route 34
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 14, PSYDUCK
+	db 15, PSYDUCK
 	db -1 ; end
 
-	; CAMPER (3)
+	; CAMPER (3) Route 35
 	db "IVAN@", TRAINERTYPE_NORMAL
-	db 10, DIGLETT
-	db 10, ZUBAT
-	db 14, DIGLETT
+	db 16, DIGLETT
+	db 16, ZUBAT
+	db 16, DIGLETT
 	db -1 ; end
 
-	; CAMPER (4)
+	; CAMPER (4) Route 35
 	db "ELLIOT@", TRAINERTYPE_NORMAL
-	db 13, SANDSHREW
-	db 15, MARILL
+	db 16, SANDSHREW
+	db 17, MARILL
 	db -1 ; end
 
-	; CAMPER (5)
+	; CAMPER (5) Fuchsia Gym
 	db "BARRY@", TRAINERTYPE_NORMAL
-	db 36, NIDOKING
+	db 50, NIDOKING
 	db -1 ; end
 
-	; CAMPER (6)
+	; CAMPER (6) Route 25
 	db "LLOYD@", TRAINERTYPE_NORMAL
-	db 34, NIDOKING
+	db 50, NIDOKING
 	db -1 ; end
 
-	; CAMPER (7)
+	; CAMPER (7) Route 9
 	db "DEAN@", TRAINERTYPE_NORMAL
-	db 33, GOLDUCK
-	db 31, SANDSLASH
+	db 51, GOLDUCK
+	db 51, SANDSLASH
 	db -1 ; end
 
-	; CAMPER (8)
+	; CAMPER (8) Route 9
 	db "SID@", TRAINERTYPE_NORMAL
-	db 32, DUGTRIO
-	db 29, PRIMEAPE
-	db 29, POLIWRATH
+	db 51, DUGTRIO
+	db 51, PRIMEAPE
+	db 51, POLIWRATH
 	db -1 ; end
 
-	; CAMPER (9)
+	; CAMPER (9) ?
 	db "HARVEY@", TRAINERTYPE_NORMAL
 	db 15, NIDORINO
 	db -1 ; end
 
-	; CAMPER (10)
+	; CAMPER (10) ?
 	db "DALE@", TRAINERTYPE_NORMAL
 	db 15, NIDORINO
 	db -1 ; end
 
-	; CAMPER (11)
+	; CAMPER (11) Route 46
 	db "TED@", TRAINERTYPE_NORMAL
 	db 17, MANKEY
 	db -1 ; end
 
-	; CAMPER (12)
+	; CAMPER (12) Route 34
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 17, GEODUDE
-	db 17, GEODUDE
+	db 19, GEODUDE
+	db 19, GEODUDE
 	db 23, PSYDUCK
 	db -1 ; end
 
-	; CAMPER (13)
+	; CAMPER (13) Route 34
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 23, GEODUDE
-	db 23, GEODUDE
+	db 25, GRAVELER
+	db 25, GRAVELER
 	db 26, PSYDUCK
 	db -1 ; end
 
-	; CAMPER (14)
+	; CAMPER (14) ?
 	db "THOMAS@", TRAINERTYPE_NORMAL
 	db 33, GRAVELER
 	db 36, GRAVELER
@@ -3156,7 +3156,7 @@ CamperGroup:
 	db 42, GOLDUCK
 	db -1 ; end
 
-	; CAMPER (15)
+	; CAMPER (15) ?
 	db "LEROY@", TRAINERTYPE_NORMAL
 	db 33, GRAVELER
 	db 36, GRAVELER
@@ -3164,7 +3164,7 @@ CamperGroup:
 	db 42, GOLDUCK
 	db -1 ; end
 
-	; CAMPER (16)
+	; CAMPER (16) ?
 	db "DAVID@", TRAINERTYPE_NORMAL
 	db 33, GRAVELER
 	db 36, GRAVELER
@@ -3172,7 +3172,7 @@ CamperGroup:
 	db 42, GOLDUCK
 	db -1 ; end
 
-	; CAMPER (17)
+	; CAMPER (17) ?
 	db "JOHN@", TRAINERTYPE_NORMAL
 	db 33, GRAVELER
 	db 36, GRAVELER
@@ -3180,19 +3180,19 @@ CamperGroup:
 	db 42, GOLDUCK
 	db -1 ; end
 
-	; CAMPER (18)
+	; CAMPER (18) Pewter Gym
 	db "JERRY@", TRAINERTYPE_NORMAL
-	db 37, SANDSLASH
+	db 50, SANDSLASH
 	db -1 ; end
 
-	; CAMPER (19)
+	; CAMPER (19) Route 43
 	db "SPENCER@", TRAINERTYPE_NORMAL
 	db 17, SANDSHREW
 	db 17, SANDSLASH
 	db 19, ZUBAT
 	db -1 ; end
 
-	; CAMPER (20)
+	; CAMPER (20) Route 34
 	db "TODD@", TRAINERTYPE_NORMAL
 	db 30, GRAVELER
 	db 30, GRAVELER
@@ -3200,7 +3200,7 @@ CamperGroup:
 	db 32, PSYDUCK
 	db -1 ; end
 
-	; CAMPER (21)
+	; CAMPER (21) Route 34
 	db "TODD@", TRAINERTYPE_MOVES
 	db 33, GRAVELER,   SELFDESTRUCT, ROCK_THROW, HARDEN, MAGNITUDE
 	db 33, GRAVELER,   SELFDESTRUCT, ROCK_THROW, HARDEN, MAGNITUDE
@@ -3208,60 +3208,62 @@ CamperGroup:
 	db 34, GOLDUCK,    DISABLE, PSYCHIC_M, SURF, PSYCH_UP
 	db -1 ; end
 
-	; CAMPER (22)
+	; CAMPER (22) Route 45
 	db "QUENTIN@", TRAINERTYPE_NORMAL
-	db 30, FEAROW
-	db 30, PRIMEAPE
-	db 30, TAUROS
+	db 37, FEAROW
+	db 37, PRIMEAPE
+	db 37, TAUROS
 	db -1 ; end
 
 ExecutiveFGroup:
-	; EXECUTIVEF (1)
+	; EXECUTIVEF (1) Ariana in Gen 4, Radio Tower
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
-	db 32, ARBOK,      WRAP, POISON_STING, BITE, GLARE
-	db 32, VILEPLUME,  ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
-	db 32, MURKROW,    PECK, PURSUIT, HAZE, NIGHT_SHADE
+	db 37, ARBOK,      TOXIC, SLUDGE_BOMB, CRUNCH, GLARE
+	db 37, VILEPLUME,  GIGA_DRAIN, REFLECT, TOXIC, SLUDGE_BOMB
+	db 39, MURKROW,    DRILL_PECK, PURSUIT, HAZE, WHIRLWIND
+	db 39, SNEASEL,    THIEF, SLASH, ICE_PUNCH, MOONLIGHT
 	db -1 ; end
 
-	; EXECUTIVEF (2)
+	; EXECUTIVEF (2) Ariana in Gen 4, Team Rocket HQ
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
-	db 23, ARBOK,      WRAP, LEER, POISON_STING, BITE
-	db 23, GLOOM,      ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
-	db 25, MURKROW,    PECK, PURSUIT, HAZE, NO_MOVE
+	db 33, ARBOK,      TOXIC, SLUDGE_BOMB, CRUNCH, GLARE
+	db 33, GLOOM,      GIGA_DRAIN, REFLECT, TOXIC, SLUDGE_BOMB
+	db 35, MURKROW,    DRILL_PECK, PURSUIT, HAZE, WHIRLWIND
+	db 35, SNEASEL,    THIEF, SLASH, ICE_PUNCH, MOONLIGHT
 	db -1 ; end
 
 SageGroup:
-	; SAGE (1)
+	; SAGE (1) Sprout Tower
 	db "CHOW@", TRAINERTYPE_NORMAL
 	db  3, BELLSPROUT
 	db  3, BELLSPROUT
 	db  3, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (2)
+	; SAGE (2) Sprout Tower
 	db "NICO@", TRAINERTYPE_NORMAL
 	db  3, BELLSPROUT
 	db  3, BELLSPROUT
 	db  3, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (3)
+	; SAGE (3) Sprout Tower
 	db "JIN@", TRAINERTYPE_NORMAL
 	db  6, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (4)
+	; SAGE (4) Sprout Tower
 	db "TROY@", TRAINERTYPE_NORMAL
 	db  7, BELLSPROUT
 	db  7, HOOTHOOT
 	db -1 ; end
 
-	; SAGE (5)
+	; SAGE (5) Ecruteak Gym
 	db "JEFFREY@", TRAINERTYPE_NORMAL
 	db 22, HAUNTER
 	db -1 ; end
 
-	; SAGE (6)
+	; SAGE (6) Ecruteak Gym
 	db "PING@", TRAINERTYPE_NORMAL
 	db 16, GASTLY
 	db 16, GASTLY
@@ -3270,99 +3272,99 @@ SageGroup:
 	db 16, GASTLY
 	db -1 ; end
 
-	; SAGE (7)
+	; SAGE (7) Sprout Tower
 	db "EDMOND@", TRAINERTYPE_NORMAL
 	db  3, BELLSPROUT
 	db  3, BELLSPROUT
 	db  3, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (8)
+	; SAGE (8) Sprout Tower
 	db "NEAL@", TRAINERTYPE_NORMAL
 	db  6, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (9)
+	; SAGE (9) Sprout Tower (Boss)
 	db "LI@", TRAINERTYPE_NORMAL
 	db  7, BELLSPROUT
 	db  7, BELLSPROUT
 	db 10, HOOTHOOT
 	db -1 ; end
 
-	; SAGE (10)
+	; SAGE (10) Ecruteak Gym 
 	db "GAKU@", TRAINERTYPE_NORMAL
 	db 32, NOCTOWL
 	db 32, FLAREON
 	db -1 ; end
 
-	; SAGE (11)
+	; SAGE (11) Ecruteak Gym
 	db "MASA@", TRAINERTYPE_NORMAL
 	db 32, NOCTOWL
 	db 32, JOLTEON
 	db -1 ; end
 
-	; SAGE (12)
+	; SAGE (12) Ecruteak Gym
 	db "KOJI@", TRAINERTYPE_NORMAL
 	db 32, NOCTOWL
 	db 32, VAPOREON
 	db -1 ; end
 
 MediumGroup:
-	; MEDIUM (1)
+	; MEDIUM (1) Ecruteak Gym
 	db "MARTHA@", TRAINERTYPE_NORMAL
 	db 18, GASTLY
 	db 20, HAUNTER
 	db 20, GASTLY
 	db -1 ; end
 
-	; MEDIUM (2)
+	; MEDIUM (2) Ecruteak Gym
 	db "GRACE@", TRAINERTYPE_NORMAL
 	db 20, HAUNTER
 	db 20, HAUNTER
 	db -1 ; end
 
-	; MEDIUM (3)
+	; MEDIUM (3) ?
 	db "BETHANY@", TRAINERTYPE_NORMAL
 	db 25, HAUNTER
 	db -1 ; end
 
-	; MEDIUM (4)
+	; MEDIUM (4) ?
 	db "MARGRET@", TRAINERTYPE_NORMAL
 	db 25, HAUNTER
 	db -1 ; end
 
-	; MEDIUM (5)
+	; MEDIUM (5) ?
 	db "ETHEL@", TRAINERTYPE_NORMAL
 	db 25, HAUNTER
 	db -1 ; end
 
-	; MEDIUM (6)
+	; MEDIUM (6) Saffron Gym
 	db "REBECCA@", TRAINERTYPE_NORMAL
-	db 35, DROWZEE
-	db 35, HYPNO
+	db 50, HYPNO
+	db 50, HYPNO
 	db -1 ; end
 
-	; MEDIUM (7)
+	; MEDIUM (7) Saffron Gym
 	db "DORIS@", TRAINERTYPE_NORMAL
-	db 34, SLOWPOKE
-	db 36, SLOWBRO
+	db 50, SLOWBRO
+	db 50, SLOWKING
 	db -1 ; end
 
 BoarderGroup:
-	; BOARDER (1)
+	; BOARDER (1) Mahogany Gym
 	db "RONALD@", TRAINERTYPE_NORMAL
 	db 24, SEEL
 	db 25, DEWGONG
 	db 24, SEEL
 	db -1 ; end
 
-	; BOARDER (2)
+	; BOARDER (2) Mahogany Gym
 	db "BRAD@", TRAINERTYPE_NORMAL
 	db 26, SWINUB
 	db 26, SWINUB
 	db -1 ; end
 
-	; BOARDER (3)
+	; BOARDER (3) Mahogany Gym
 	db "DOUGLAS@", TRAINERTYPE_NORMAL
 	db 24, SHELLDER
 	db 25, CLOYSTER

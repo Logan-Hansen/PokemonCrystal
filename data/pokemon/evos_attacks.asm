@@ -2416,6 +2416,7 @@ NatuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
+	db 9, CONFUSION
 	db 10, NIGHT_SHADE
 	db 20, TELEPORT
 	db 30, FUTURE_SIGHT
@@ -2428,6 +2429,7 @@ XatuEvosAttacks:
 	db 1, PECK
 	db 1, LEER
 	db 1, NIGHT_SHADE
+	db 9, CONFUSION
 	db 10, NIGHT_SHADE
 	db 20, TELEPORT
 	db 35, FUTURE_SIGHT
@@ -2710,7 +2712,9 @@ MisdreavusEvosAttacks:
 	db 1, GROWL
 	db 1, PSYWAVE
 	db 6, SPITE
+	db 9, LICK
 	db 12, CONFUSE_RAY
+	db 17, HAZE
 	db 19, MEAN_LOOK
 	db 27, PSYBEAM
 	db 36, PAIN_SPLIT
@@ -2879,11 +2883,13 @@ HeracrossEvosAttacks:
 	db 1, LEER
 	db 6, HORN_ATTACK
 	db 12, ENDURE
+	db 17, SHARPEN
 	db 19, FURY_ATTACK
+	db 23, MEGAHORN
 	db 27, COUNTER
 	db 35, TAKE_DOWN
 	db 44, REVERSAL
-	db 54, MEGAHORN
+	db 54, TWINEEDLE
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:

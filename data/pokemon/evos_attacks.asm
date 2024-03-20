@@ -1702,6 +1702,7 @@ JynxEvosAttacks:
 	db 13, POWDER_SNOW
 	db 21, DOUBLESLAP
 	db 25, ICE_PUNCH
+	db 31, HAIL
 	db 35, MEAN_LOOK
 	db 41, BODY_SLAM
 	db 51, PERISH_SONG
@@ -1787,10 +1788,13 @@ LaprasEvosAttacks:
 	db 1, WATER_GUN
 	db 1, GROWL
 	db 1, SING
+	db 6, POWDER_SNOW
 	db 8, MIST
 	db 15, BODY_SLAM
 	db 22, CONFUSE_RAY
+	db 27, REFLECT
 	db 29, PERISH_SONG
+	db 33, HAIL
 	db 36, ICE_BEAM
 	db 43, RAIN_DANCE
 	db 50, SAFEGUARD
@@ -3029,6 +3033,10 @@ OctilleryEvosAttacks:
 DelibirdEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PRESENT
+	db 5, PAY_DAY
+	db 10, POWDER_SNOW
+	db 20, HAIL
+	db 30, SPIKES
 	db 0 ; no more level-up moves
 
 MantineEvosAttacks:

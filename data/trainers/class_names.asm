@@ -9,8 +9,8 @@ TrainerClassNames::
 	li "LEADER" ; Jasmine
 	li "LEADER" ; Chuck
 	li "LEADER" ; Clair
-	li "RIVAL"  ; rival1
-	li "#MON PROF." ; professor
+	li "RIVAL"  ; Rival1
+	li "#MON PROF." ; Professor
 	li "ELITE FOUR" ; Will
 	li "<PKMN> TRAINER" ; Cal
 	li "ELITE FOUR" ; Bruno
@@ -27,11 +27,11 @@ TrainerClassNames::
 	li "BIRD KEEPER"
 	li "LASS"
 	li "LEADER" ; Janine
-	li "COOLTRAINER"
-	li "COOLTRAINER"
+	li "COOLTRAINER" ; male
+	li "COOLTRAINER" ; female
 	li "BEAUTY"
 	li "#MANIAC"
-	li "ROCKET"
+	li "ROCKET" ; grunt male
 	li "GENTLEMAN"
 	li "SKIER"
 	li "TEACHER"
@@ -51,21 +51,21 @@ TrainerClassNames::
 	li "FIREBREATHER"
 	li "JUGGLER"
 	li "BLACKBELT"
-	li "ROCKET"
+	li "ROCKET" ; executiveM
 	li "PSYCHIC"
 	li "PICNICKER"
 	li "CAMPER"
-	li "ROCKET"
+	li "ROCKET" ; executiveF
 	li "SAGE"
 	li "MEDIUM"
 	li "BOARDER"
-	li "#FAN"
+	li "#FAN" ; male
 	li "KIMONO GIRL"
 	li "TWINS"
-	li "#FAN"
+	li "#FAN" ; female
 	li "<PKMN> TRAINER" ; Red
 	li "LEADER" ; Blue
-	li "OFFICER"
-	li "ROCKET"
-	li "MYSTICALMAN"
+	li "OFFICER" ; male
+	li "ROCKET" ; grunt female
+	li "MYSTICALMAN" ; Eusine
 	assert_list_length NUM_TRAINER_CLASSES

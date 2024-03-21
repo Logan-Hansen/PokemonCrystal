@@ -2,30 +2,30 @@ TrainerClassNames::
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	list_start TrainerClassNames
 	li "LEADER" ; Falkner
-    li "LEADER" ; Bugsy
+	li "LEADER" ; Bugsy
 	li "LEADER" ; Whitney
 	li "LEADER" ; Morty
-    li "LEADER" ; Chuck
-    li "LEADER" ; Jasmine
+	li "LEADER" ; Chuck
+	li "LEADER" ; Jasmine
 	li "LEADER" ; Pryce
 	li "LEADER" ; Clair
 	li "RIVAL"  ; Rival1
-    li "RIVAL" ; Rival2
-    li "ELITE FOUR" ; Will E4
-    li "ELITE FOUR" ; Koga
-    li "ELITE FOUR" ; Bruno
-    li "ELITE FOUR" ; Karen
-    li "CHAMPION" ; Lance
-    li "#MON PROF." ; professor
-    li "<PKMN> TRAINER" ; Cal
-    li "LEADER" ; Brock
+	li "RIVAL" ; Rival2
+	li "ELITE FOUR" ; Will
+	li "ELITE FOUR" ; Koga
+	li "ELITE FOUR" ; Bruno
+	li "ELITE FOUR" ; Karen
+	li "CHAMPION" ; Lance
+	li "#MON PROF." ; professor
+	li "<PKMN> TRAINER" ; Cal
+	li "LEADER" ; Brock
 	li "LEADER" ; Misty
 	li "LEADER" ; Surge
-    li "LEADER" ; Erika
-    li "LEADER" ; Janine
+	li "LEADER" ; Erika
+	li "LEADER" ; Janine
 	li "LEADER" ; Sabrina
-    li "LEADER" ; Blaine
-    li "LEADER" ; Blue
+	li "LEADER" ; Blaine
+	li "LEADER" ; Blue
 	li "<PKMN> TRAINER" ; Red
 	li "SCIENTIST"
 	li "YOUNGSTER"
@@ -65,7 +65,7 @@ TrainerClassNames::
 	li "OFFICER"
 	li "ROCKET" ;gruntM
 	li "ROCKET" ;executiveM
-    li "ROCKET" ;gruntF
-    li "ROCKET" ;executiveF
+	li "ROCKET" ;gruntF
+	li "ROCKET" ;executiveF
 	li "MYSTICALMAN"
 	assert_list_length NUM_TRAINER_CLASSES

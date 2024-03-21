@@ -606,8 +606,9 @@ MurkrowEggMoves:
 	db DRILL_PECK
 	db QUICK_ATTACK
 	db MIRROR_MOVE
-	db WING_ATTACK
 	db SKY_ATTACK
+	db FALSE_SWIPE
+	db SCARY_FACE
 	db -1 ; end
 
 MisdreavusEggMoves:

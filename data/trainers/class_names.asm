@@ -1,32 +1,32 @@
 TrainerClassNames::
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	list_start TrainerClassNames
-	li "LEADER"
-	li "LEADER"
-	li "LEADER"
-	li "LEADER"
-	li "LEADER"
-	li "LEADER"
-	li "LEADER"
-	li "LEADER"
-	li "RIVAL"
-	li "#MON PROF."
-	li "ELITE FOUR"
-	li "<PKMN> TRAINER"
-	li "ELITE FOUR"
-	li "ELITE FOUR"
-	li "ELITE FOUR"
-	li "CHAMPION"
-	li "LEADER"
-	li "LEADER"
-	li "LEADER"
+	li "LEADER" ; Falkner
+	li "LEADER" ; Whitney
+	li "LEADER" ; Bugsy
+	li "LEADER" ; Morty
+	li "LEADER" ; Pryce
+	li "LEADER" ; Jasmine
+	li "LEADER" ; Chuck
+	li "LEADER" ; Clair
+	li "RIVAL"  ; rival1
+	li "#MON PROF." ; professor
+	li "ELITE FOUR" ; Will E4
+	li "<PKMN> TRAINER" ; Cal
+	li "ELITE FOUR" ; Bruno
+	li "ELITE FOUR" ; Karen
+	li "ELITE FOUR" ; Koga
+	li "CHAMPION" ; Lance
+	li "LEADER" ; Brock
+	li "LEADER" ; Misty
+	li "LEADER" ; Surge
 	li "SCIENTIST"
-	li "LEADER"
+	li "LEADER" ; Erika
 	li "YOUNGSTER"
 	li "SCHOOLBOY"
 	li "BIRD KEEPER"
 	li "LASS"
-	li "LEADER"
+	li "LEADER" ; Janine
 	li "COOLTRAINER"
 	li "COOLTRAINER"
 	li "BEAUTY"
@@ -35,18 +35,18 @@ TrainerClassNames::
 	li "GENTLEMAN"
 	li "SKIER"
 	li "TEACHER"
-	li "LEADER"
+	li "LEADER" ; Sabrina
 	li "BUG CATCHER"
 	li "FISHER"
 	li "SWIMMER♂"
 	li "SWIMMER♀"
 	li "SAILOR"
 	li "SUPER NERD"
-	li "RIVAL"
+	li "RIVAL" ; Rival2
 	li "GUITARIST"
 	li "HIKER"
 	li "BIKER"
-	li "LEADER"
+	li "LEADER" ; Blaine
 	li "BURGLAR"
 	li "FIREBREATHER"
 	li "JUGGLER"
@@ -63,8 +63,8 @@ TrainerClassNames::
 	li "KIMONO GIRL"
 	li "TWINS"
 	li "#FAN"
-	li "<PKMN> TRAINER"
-	li "LEADER"
+	li "<PKMN> TRAINER" ; Red
+	li "LEADER" ; Blue
 	li "OFFICER"
 	li "ROCKET"
 	li "MYSTICALMAN"

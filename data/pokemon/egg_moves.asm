@@ -550,6 +550,7 @@ MareepEggMoves:
 	db SAFEGUARD
 	db SCREECH
 	db REFLECT
+	db DRAGONBREATH ; added, obtained through Lapras
 	db -1 ; end
 
 MarillEggMoves:

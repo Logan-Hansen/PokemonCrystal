@@ -1767,6 +1767,7 @@ MagikarpEvosAttacks:
 	db EVOLVE_LEVEL, 20, GYARADOS
 	db 0 ; no more evolutions
 	db 1, SPLASH
+	db 1, BUBBLE
 	db 15, TACKLE
 	db 30, FLAIL
 	db 0 ; no more level-up moves
@@ -1774,9 +1775,12 @@ MagikarpEvosAttacks:
 GyaradosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THRASH
+	db 1, BUBBLE
 	db 1, BITE
+	db 21, BUBBLEBEAM
+	db 22, LEER
 	db 25, DRAGON_RAGE
-	db 30, LEER
+	db 30, CRUNCH
 	db 35, TWISTER
 	db 40, HYDRO_PUMP
 	db 45, RAIN_DANCE
@@ -2079,6 +2083,7 @@ ChikoritaEvosAttacks:
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER
+	db 15, SLEEP_POWDER
 	db 22, SYNTHESIS
 	db 29, BODY_SLAM
 	db 36, LIGHT_SCREEN
@@ -2096,6 +2101,7 @@ BayleefEvosAttacks:
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER
+	db 15, SLEEP_POWDER
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
 	db 39, LIGHT_SCREEN
@@ -2112,6 +2118,7 @@ MeganiumEvosAttacks:
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER
+	db 15, SLEEP_POWDER
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
 	db 41, LIGHT_SCREEN
@@ -2331,6 +2338,7 @@ CrobatEvosAttacks:
 	db 19, CONFUSE_RAY
 	db 30, WING_ATTACK
 	db 42, MEAN_LOOK
+	db 48, SLUDGE_BOMB
 	db 55, HAZE
 	db 0 ; no more level-up moves
 
@@ -2893,6 +2901,7 @@ HeracrossEvosAttacks:
 	db 27, COUNTER
 	db 35, TAKE_DOWN
 	db 44, REVERSAL
+	db 48, CROSS_CHOP
 	db 54, TWINEEDLE
 	db 0 ; no more level-up moves
 

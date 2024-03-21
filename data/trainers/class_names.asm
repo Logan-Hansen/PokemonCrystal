@@ -11,7 +11,7 @@ TrainerClassNames::
 	li "LEADER" ; Clair
 	li "RIVAL"  ; rival1
 	li "#MON PROF." ; professor
-	li "ELITE FOUR" ; Will E4
+	li "ELITE FOUR" ; Will
 	li "<PKMN> TRAINER" ; Cal
 	li "ELITE FOUR" ; Bruno
 	li "ELITE FOUR" ; Karen

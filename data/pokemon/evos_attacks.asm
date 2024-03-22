@@ -136,6 +136,7 @@ SquirtleEvosAttacks:
 	db 13, WATER_GUN
 	db 18, BITE
 	db 23, RAPID_SPIN
+	db 25, REFLECT
 	db 28, PROTECT
 	db 33, RAIN_DANCE
 	db 40, SKULL_BASH
@@ -154,6 +155,7 @@ WartortleEvosAttacks:
 	db 13, WATER_GUN
 	db 19, BITE
 	db 25, RAPID_SPIN
+	db 29, REFLECT
 	db 31, PROTECT
 	db 37, RAIN_DANCE
 	db 45, SKULL_BASH
@@ -172,6 +174,7 @@ BlastoiseEvosAttacks:
 	db 13, WATER_GUN
 	db 19, BITE
 	db 25, RAPID_SPIN
+	db 29, REFLECT
 	db 31, PROTECT
 	db 42, RAIN_DANCE
 	db 55, SKULL_BASH

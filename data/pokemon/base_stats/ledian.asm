@@ -1,8 +1,8 @@
 	db LEDIAN ; 166
 
-	db  55,  35,  50,  85,  55, 110
+	db  55,  55,  50,  85,  55, 110
 	;   hp  atk  def  spd  sat  sdf
-
+	;   55,  35,  50,  85,  55, 110
 	db BUG, FLYING ; type
 	db 90 ; catch rate
 	db 134 ; base exp

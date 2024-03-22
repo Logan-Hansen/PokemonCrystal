@@ -251,5 +251,4 @@ EvolutionMoves::
     db NO_MOVE      ; LUGIA
     db NO_MOVE      ; HO-OH
 	db NO_MOVE      ; CELEBI
-    db NO_MOVE      ; Have to have one extra for the non-egg empty slot
 	assert_table_length NUM_POKEMON

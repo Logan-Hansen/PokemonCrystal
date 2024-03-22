@@ -244,6 +244,12 @@ MortyText_FogBadgeSpeech:
 	para "able to use that"
 	line "move anytime."
 
+	para "You can use it to"
+	line "quickly get to"
+	cont "MAHOGANY TOWN"
+	cont "and skip past"
+	cont "MT. MORTAR."
+
 	para "I want you to have"
 	line "this too."
 	done

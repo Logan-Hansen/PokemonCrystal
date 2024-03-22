@@ -37,7 +37,7 @@ EvolutionMoves::
     db NO_MOVE      ; CLEFAIRY
     db NO_MOVE      ; CLEFABLE
     db NO_MOVE      ; VULPIX
-    db NO_MOVE      ; NINETALES
+    db FLAME_WHEEL  ; NINETALES
     db NO_MOVE      ; JIGGLYPUFF
     db NO_MOVE      ; WIGGLYTUFF
     db NO_MOVE      ; ZUBAT

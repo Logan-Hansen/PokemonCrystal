@@ -545,6 +545,7 @@ NinetalesEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, CONFUSE_RAY
 	db 1, SAFEGUARD
+	db 1, FLAME_WHEEL
 	db 34, FLAMETHROWER
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
@@ -569,6 +570,8 @@ WigglytuffEvosAttacks:
 	db 1, DISABLE
 	db 1, DEFENSE_CURL
 	db 1, DOUBLESLAP
+	db 36, BODY_SLAM
+	db 44, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:

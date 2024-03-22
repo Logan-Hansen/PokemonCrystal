@@ -2919,7 +2919,10 @@ QwilfishEvosAttacks:
 	db 10, HARDEN
 	db 10, MINIMIZE
 	db 19, WATER_GUN
+	db 22, SLUDGE
 	db 28, PIN_MISSILE
+	db 32, PROTECT
+	db 36, TOXIC
 	db 37, TAKE_DOWN
 	db 46, HYDRO_PUMP
 	db 0 ; no more level-up moves

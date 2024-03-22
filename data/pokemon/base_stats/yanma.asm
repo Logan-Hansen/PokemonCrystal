@@ -1,8 +1,8 @@
 	db YANMA ; 193
 
-	db  65,  65,  45,  95,  75,  45
+	db  75, 105,  60,  95,  75,  45
 	;   hp  atk  def  spd  sat  sdf
-
+	;   65,  65,  45,  95,  75,  45
 	db BUG, FLYING ; type
 	db 75 ; catch rate
 	db 147 ; base exp

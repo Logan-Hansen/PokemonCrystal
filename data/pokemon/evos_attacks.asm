@@ -2644,10 +2644,13 @@ YanmaEvosAttacks:
 	db 1, FORESIGHT
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
-	db 19, SONICBOOM
+	db 17, SONICBOOM
+	db 19, WING_ATTACK
+	db 23, BITE
 	db 25, DETECT
+	db 27, TWINEEDLE
 	db 31, SUPERSONIC
-	db 37, WING_ATTACK
+	db 37, TWISTER
 	db 43, SCREECH
 	db 0 ; no more level-up moves
 

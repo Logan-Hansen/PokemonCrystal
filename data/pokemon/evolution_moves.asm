@@ -167,7 +167,7 @@ EvolutionMoves::
     db NO_MOVE      ; LEDYBA
     db NO_MOVE      ; LEDIAN
     db NO_MOVE      ; SPINARAK
-	db SWORDS_DANCE ; ARIADOS
+	db TWINEEDLE    ; ARIADOS
     db NO_MOVE      ; CROBAT
     db NO_MOVE      ; CHINCHOU
     db NO_MOVE      ; LANTURN

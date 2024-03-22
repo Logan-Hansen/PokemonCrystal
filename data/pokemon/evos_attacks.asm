@@ -2304,13 +2304,13 @@ SpinarakEvosAttacks:
 	db 1, POISON_STING
 	db 1, STRING_SHOT
 	db 6, SCARY_FACE
+	db 9, LEECH_LIFE
 	db 11, CONSTRICT
 	db 17, NIGHT_SHADE
-	db 23, LEECH_LIFE
-	db 30, FURY_SWIPES
-	db 37, SPIDER_WEB
-	db 45, AGILITY
-	db 53, PSYCHIC_M
+	db 27, FURY_SWIPES
+	db 30, SPIDER_WEB
+	db 31, AGILITY
+	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 AriadosEvosAttacks:
@@ -2320,14 +2320,15 @@ AriadosEvosAttacks:
 	db 1, SCARY_FACE
 	db 1, CONSTRICT
 	db 6, SCARY_FACE
+	db 9, LEECH_LIFE
 	db 11, CONSTRICT
 	db 17, NIGHT_SHADE
+	db 17, TWINEEDLE
 	db 21, SWORDS_DANCE
-	db 25, LEECH_LIFE
-	db 34, FURY_SWIPES
-	db 43, SPIDER_WEB
-	db 53, AGILITY
-	db 63, PSYCHIC_M
+	db 31, FURY_SWIPES
+	db 32, SPIDER_WEB
+	db 33, AGILITY
+	db 43, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 CrobatEvosAttacks:

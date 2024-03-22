@@ -797,6 +797,7 @@ PoliwagEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 7, HYPNOSIS
+	db 11, LOVELY_KISS
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 25, RAIN_DANCE
@@ -814,6 +815,7 @@ PoliwhirlEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, WATER_GUN
 	db 7, HYPNOSIS
+	db 11, LOVELY_KISS
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 27, RAIN_DANCE
@@ -924,6 +926,7 @@ BellsproutEvosAttacks:
 	db 15, SLEEP_POWDER
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
+	db 22, LOVELY_KISS
 	db 23, ACID
 	db 30, SWEET_SCENT
 	db 37, RAZOR_LEAF
@@ -941,6 +944,7 @@ WeepinbellEvosAttacks:
 	db 15, SLEEP_POWDER
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
+	db 23, LOVELY_KISS
 	db 24, ACID
 	db 33, SWEET_SCENT
 	db 42, RAZOR_LEAF

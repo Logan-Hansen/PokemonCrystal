@@ -656,6 +656,7 @@ SnubbullEggMoves:
 	db HEAL_BELL
 	db LICK
 	db LEER
+	db LOVELY_KISS
 	db -1 ; end
 
 QwilfishEggMoves:

@@ -3340,40 +3340,50 @@ BlisseyEvosAttacks:
 
 RaikouEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
+	db 1, THUNDERSHOCK
+	db 1, ROAR
 	db 1, LEER
-	db 11, THUNDERSHOCK
-	db 21, ROAR
+	db 1, DOUBLE_TEAM
+	db 11, SPARK
+	db 21, BITE
 	db 31, QUICK_ATTACK
-	db 41, SPARK
-	db 51, REFLECT
-	db 61, CRUNCH
-	db 71, THUNDER
+	db 41, CRUNCH
+	db 45, REFLECT
+	db 51, LIGHT_SCREEN
+	db 61, THUNDER
+	db 71, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 EnteiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
+	db 1, EMBER
+	db 1, ROAR
 	db 1, LEER
-	db 11, EMBER
-	db 21, ROAR
+	db 1, SUNNY_DAY
+	db 11, FLAME_WHEEL
+	db 21, BITE
 	db 31, FIRE_SPIN
 	db 41, STOMP
+	db 45, SWAGGER
 	db 51, FLAMETHROWER
-	db 61, SWAGGER
+	db 61, CRUNCH
 	db 71, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
+	db 1, WATER_GUN
+	db 1, ROAR
 	db 1, LEER
+	db 1, RAIN_DANCE
 	db 11, BUBBLEBEAM
-	db 21, RAIN_DANCE
+	db 21, BITE
 	db 31, GUST
 	db 41, AURORA_BEAM
-	db 51, MIST
-	db 61, MIRROR_COAT
+	db 45, MIST
+	db 51, ICE_BEAM
+	db 55, MIRROR_COAT
+	db 61, CRUNCH
 	db 71, HYDRO_PUMP
 	db 0 ; no more level-up moves
 

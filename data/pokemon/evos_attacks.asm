@@ -2813,9 +2813,12 @@ GligarEvosAttacks:
 	db 1, POISON_STING
 	db 6, SAND_ATTACK
 	db 13, HARDEN
+	db 18, MAGNITUDE
 	db 20, QUICK_ATTACK
 	db 28, FAINT_ATTACK
+	db 32, WING_ATTACK
 	db 36, SLASH
+	db 38, EARTHQUAKE
 	db 44, SCREECH
 	db 52, GUILLOTINE
 	db 0 ; no more level-up moves

@@ -175,6 +175,7 @@ EvolutionMoves::
     db NO_MOVE      ; CLEFFA
     db NO_MOVE      ; IGGLYBUFF
     db NO_MOVE      ; TOGEPI
+    db WING_ATTACK  ; TOGETIC
     db NO_MOVE      ; NATU
     db NO_MOVE      ; XATU
     db NO_MOVE      ; MAREEP

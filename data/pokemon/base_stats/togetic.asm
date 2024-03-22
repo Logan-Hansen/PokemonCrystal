@@ -1,8 +1,8 @@
 	db TOGETIC ; 176
 
-	db  55,  40,  85,  40,  80, 105
+	db  75,  50,  85,  40,  80, 105
 	;   hp  atk  def  spd  sat  sdf
-
+	;   55,  40,  85,  40,  80, 105
 	db NORMAL, FLYING ; type
 	db 75 ; catch rate
 	db 114 ; base exp

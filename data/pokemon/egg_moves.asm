@@ -528,7 +528,6 @@ IgglybuffEggMoves:
 	db -1 ; end
 
 TogepiEggMoves:
-	db PRESENT
 	db MIRROR_MOVE
 	db PECK
 	db FORESIGHT

@@ -577,6 +577,7 @@ ZubatEvosAttacks:
 	db 6, SUPERSONIC
 	db 12, BITE
 	db 19, CONFUSE_RAY
+	db 25, SLUDGE
 	db 27, WING_ATTACK
 	db 36, MEAN_LOOK
 	db 46, HAZE
@@ -591,6 +592,7 @@ GolbatEvosAttacks:
 	db 6, SUPERSONIC
 	db 12, BITE
 	db 19, CONFUSE_RAY
+	db 27, SLUDGE
 	db 30, WING_ATTACK
 	db 42, MEAN_LOOK
 	db 55, HAZE
@@ -2408,6 +2410,7 @@ CrobatEvosAttacks:
 	db 6, SUPERSONIC
 	db 12, BITE
 	db 19, CONFUSE_RAY
+	db 27, SLUDGE
 	db 30, WING_ATTACK
 	db 42, MEAN_LOOK
 	db 48, SLUDGE_BOMB

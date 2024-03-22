@@ -25,7 +25,7 @@ EvolutionMoves::
     db NO_MOVE      ; EKANS
 	db CRUNCH       ; ARBOK
     db NO_MOVE      ; PIKACHU
-	db THUNDERBOLT  ; RAICHU
+	db BODY_SLAM    ; RAICHU
     db NO_MOVE      ; SANDSHREW
     db NO_MOVE      ; SANDSLASH
     db NO_MOVE      ; NIDORAN_F

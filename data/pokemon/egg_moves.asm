@@ -575,6 +575,9 @@ PichuEggMoves:
 	db PETAL_DANCE
 	db SCARY_FACE
 	db SING
+	db PAY_DAY
+	db SUBSTITUTE
+	db REFLECT
 	db -1 ; end
 
 CleffaEggMoves:

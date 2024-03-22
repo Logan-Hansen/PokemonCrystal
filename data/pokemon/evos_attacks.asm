@@ -390,6 +390,12 @@ RaichuEvosAttacks:
 	db 1, TAIL_WHIP
 	db 1, QUICK_ATTACK
 	db 1, THUNDERBOLT
+	db 8, THUNDER_WAVE
+	db 11, SEISMIC_TOSS
+	db 26, THUNDERBOLT
+	db 33, MEGA_KICK
+	db 41, THUNDER
+	db 50, SUBMISSION
 	db 0 ; no more level-up moves
 
 SandshrewEvosAttacks:

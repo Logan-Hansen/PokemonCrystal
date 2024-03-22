@@ -269,6 +269,7 @@ YoungerHaircutBrotherScript:
 	opentext
 	readvar VAR_WEEKDAY
 	ifequal SUNDAY, .DoHaircut
+	ifequal MONDAY, .DoHaircut
 	ifequal WEDNESDAY, .DoHaircut
 	ifequal FRIDAY, .DoHaircut
 	sjump GoldenrodUndergroundScript_ShopClosed

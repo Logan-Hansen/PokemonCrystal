@@ -27,9 +27,11 @@ BulbasaurEvosAttacks:
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 20, RAZOR_LEAF
+	db 23, SLUDGE
 	db 25, SWEET_SCENT
 	db 32, GROWTH
 	db 39, SYNTHESIS
+	db 42, SLUDGE_BOMB
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -45,9 +47,11 @@ IvysaurEvosAttacks:
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 22, RAZOR_LEAF
+	db 27, SLUDGE
 	db 29, SWEET_SCENT
 	db 38, GROWTH
 	db 47, SYNTHESIS
+	db 50, SLUDGE_BOMB
 	db 56, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -63,10 +67,12 @@ VenusaurEvosAttacks:
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 22, RAZOR_LEAF
+	db 27, SLUDGE
 	db 29, SWEET_SCENT
 	db 41, GROWTH
 	db 53, SYNTHESIS
-	db 65, SOLARBEAM
+	db 56, SLUDGE_BOMB
+	db 60, SOLARBEAM
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:

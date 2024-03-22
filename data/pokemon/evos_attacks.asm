@@ -545,6 +545,7 @@ NinetalesEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, CONFUSE_RAY
 	db 1, SAFEGUARD
+	db 34, FLAMETHROWER
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 

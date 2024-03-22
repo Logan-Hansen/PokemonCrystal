@@ -2708,7 +2708,7 @@ MurkrowEvosAttacks:
 	db 11, PURSUIT
 	db 16, HAZE
 	db 23, NIGHT_SHADE
-	db 28, WING_ATTACK
+	db 28, DRILL_PECK
 	db 31, FAINT_ATTACK
 	db 41, MEAN_LOOK
 	db 0 ; no more level-up moves

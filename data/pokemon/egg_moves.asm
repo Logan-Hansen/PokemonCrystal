@@ -603,7 +603,7 @@ WooperEggMoves:
 
 MurkrowEggMoves:
 	db WHIRLWIND
-	db DRILL_PECK
+	db WING_ATTACK
 	db QUICK_ATTACK
 	db MIRROR_MOVE
 	db SKY_ATTACK

@@ -340,25 +340,32 @@ EkansEvosAttacks:
 	db 1, WRAP
 	db 1, LEER
 	db 9, POISON_STING
-	db 15, BITE
+	db 12, BITE
+	db 17, RAGE
 	db 23, GLARE
 	db 29, SCREECH
+	db 32, MEGA_DRAIN
 	db 37, ACID
+	db 41, PURSUIT
 	db 43, HAZE
+	db 46, SUBSTITUTE
 	db 0 ; no more level-up moves
 
 ArbokEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 1, POISON_STING
-	db 1, BITE
 	db 9, POISON_STING
-	db 15, BITE
+	db 12, BITE
+	db 17, RAGE
+	db 21, CRUNCH
 	db 25, GLARE
 	db 33, SCREECH
+	db 36, MEGA_DRAIN
 	db 43, ACID
+	db 45, PURSUIT
 	db 51, HAZE
+	db 53, SUBSTITUTE
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:

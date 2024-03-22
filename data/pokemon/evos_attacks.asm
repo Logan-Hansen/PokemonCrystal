@@ -2618,8 +2618,8 @@ SunkernEvosAttacks:
 	db 4, GROWTH
 	db 10, MEGA_DRAIN
 	db 19, SUNNY_DAY
-	db 31, SYNTHESIS
-	db 46, GIGA_DRAIN
+	db 21, SYNTHESIS
+	db 36, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 SunfloraEvosAttacks:
@@ -2627,10 +2627,13 @@ SunfloraEvosAttacks:
 	db 1, ABSORB
 	db 1, POUND
 	db 4, GROWTH
-	db 10, RAZOR_LEAF
+	db 10, MEGA_DRAIN
+	db 15, RAZOR_LEAF
 	db 19, SUNNY_DAY
+	db 27, SYNTHESIS
 	db 31, PETAL_DANCE
-	db 46, SOLARBEAM
+	db 36, SOLARBEAM
+	db 42, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:

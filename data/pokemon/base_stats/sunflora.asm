@@ -1,8 +1,8 @@
 	db SUNFLORA ; 192
 
-	db  75,  75,  55,  30, 105,  85
+	db  95,  75,  55,  30, 125,  85
 	;   hp  atk  def  spd  sat  sdf
-
+	;   75,  75,  55,  30, 105,  85
 	db GRASS, GRASS ; type
 	db 120 ; catch rate
 	db 146 ; base exp

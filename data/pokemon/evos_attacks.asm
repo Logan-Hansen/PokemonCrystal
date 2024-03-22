@@ -459,7 +459,9 @@ NidoqueenEvosAttacks:
 	db 1, SCRATCH
 	db 1, DOUBLE_KICK
 	db 1, TAIL_WHIP
+	db 1, MAGNITUDE
 	db 23, BODY_SLAM
+	db 40, MOONLIGHT
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
@@ -496,7 +498,9 @@ NidokingEvosAttacks:
 	db 1, HORN_ATTACK
 	db 1, DOUBLE_KICK
 	db 1, POISON_STING
+	db 1, MAGNITUDE
 	db 23, THRASH
+	db 40, MORNING_SUN
 	db 0 ; no more level-up moves
 
 ClefairyEvosAttacks:

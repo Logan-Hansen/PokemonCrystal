@@ -761,6 +761,7 @@ PsyduckEvosAttacks:
 	db 5, TAIL_WHIP
 	db 10, DISABLE
 	db 16, CONFUSION
+	db 20, WATER_GUN
 	db 23, SCREECH
 	db 31, PSYCH_UP
 	db 40, FURY_SWIPES
@@ -776,8 +777,10 @@ GolduckEvosAttacks:
 	db 5, TAIL_WHIP
 	db 10, DISABLE
 	db 16, CONFUSION
+	db 20, WATER_GUN
 	db 23, SCREECH
 	db 31, PSYCH_UP
+	db 32, FUTURE_SIGHT
 	db 44, FURY_SWIPES
 	db 58, HYDRO_PUMP
 	db 0 ; no more level-up moves

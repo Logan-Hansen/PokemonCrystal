@@ -54,7 +54,7 @@ EvolutionMoves::
     db NO_MOVE      ; MEOWTH
 	db SWIFT        ; PERSIAN
     db NO_MOVE      ; PSYDUCK
-    db NO_MOVE      ; GOLDUCK
+    db FUTURE_SIGHT ; GOLDUCK
     db NO_MOVE      ; MANKEY
 	db RAGE         ; PRIMEAPE
     db NO_MOVE      ; GROWLITHE

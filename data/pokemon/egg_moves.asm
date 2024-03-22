@@ -83,6 +83,7 @@ NidoranFEggMoves:
 	db CHARM
 	db COUNTER
 	db BEAT_UP
+	db LOVELY_KISS
 	db -1 ; end
 
 NidoranMEggMoves:
@@ -93,6 +94,7 @@ NidoranMEggMoves:
 	db AMNESIA
 	db COUNTER
 	db BEAT_UP
+	db LOVELY_KISS
 	db -1 ; end
 
 VulpixEggMoves:
@@ -431,6 +433,7 @@ AerodactylEggMoves:
 
 SnorlaxEggMoves:
 	db LICK
+	db LOVELY_KISS
 	db -1 ; end
 
 DratiniEggMoves:

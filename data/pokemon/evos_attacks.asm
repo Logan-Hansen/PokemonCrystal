@@ -399,6 +399,7 @@ NidoranFEvosAttacks:
 	db 8, SCRATCH
 	db 12, DOUBLE_KICK
 	db 17, POISON_STING
+	db 20, LOVELY_KISS
 	db 23, TAIL_WHIP
 	db 30, BITE
 	db 38, FURY_SWIPES
@@ -412,6 +413,7 @@ NidorinaEvosAttacks:
 	db 8, SCRATCH
 	db 12, DOUBLE_KICK
 	db 19, POISON_STING
+	db 22, LOVELY_KISS
 	db 27, TAIL_WHIP
 	db 36, BITE
 	db 46, FURY_SWIPES
@@ -434,6 +436,7 @@ NidoranMEvosAttacks:
 	db 8, HORN_ATTACK
 	db 12, DOUBLE_KICK
 	db 17, POISON_STING
+	db 20, LOVELY_KISS
 	db 23, FOCUS_ENERGY
 	db 30, FURY_ATTACK
 	db 38, HORN_DRILL
@@ -447,6 +450,7 @@ NidorinoEvosAttacks:
 	db 8, HORN_ATTACK
 	db 12, DOUBLE_KICK
 	db 19, POISON_STING
+	db 22, LOVELY_KISS
 	db 27, FOCUS_ENERGY
 	db 36, FURY_ATTACK
 	db 46, HORN_DRILL

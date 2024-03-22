@@ -1799,8 +1799,10 @@ GyaradosEvosAttacks:
 	db 1, BUBBLE
 	db 1, BITE
 	db 21, BUBBLEBEAM
+	db 21, GUST
 	db 22, LEER
 	db 25, DRAGON_RAGE
+	db 27, THRASH
 	db 30, CRUNCH
 	db 35, TWISTER
 	db 40, HYDRO_PUMP

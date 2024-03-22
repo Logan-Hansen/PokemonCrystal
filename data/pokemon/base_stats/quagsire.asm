@@ -1,8 +1,8 @@
 	db QUAGSIRE ; 195
 
-	db  95,  85,  85,  35,  65,  65
+	db  95,  85,  85,  35,  75,  75
 	;   hp  atk  def  spd  sat  sdf
-
+	;   95,  85,  85,  35,  65,  65
 	db WATER, GROUND ; type
 	db 90 ; catch rate
 	db 137 ; base exp

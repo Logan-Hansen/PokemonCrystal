@@ -2605,10 +2605,12 @@ AipomEvosAttacks:
 	db 1, TAIL_WHIP
 	db 6, SAND_ATTACK
 	db 12, BATON_PASS
+	db 17, AGILITY
 	db 19, FURY_SWIPES
+	db 24, COUNTER
 	db 27, SWIFT
 	db 36, SCREECH
-	db 46, AGILITY
+	db 39, SCARY_FACE
 	db 0 ; no more level-up moves
 
 SunkernEvosAttacks:

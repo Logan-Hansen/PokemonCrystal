@@ -579,7 +579,6 @@ HoppipEggMoves:
 	db -1 ; end
 
 AipomEggMoves:
-	db COUNTER
 	db SCREECH
 	db PURSUIT
 	db AGILITY

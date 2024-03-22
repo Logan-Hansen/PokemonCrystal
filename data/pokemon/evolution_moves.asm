@@ -220,7 +220,7 @@ EvolutionMoves::
     db NO_MOVE      ; SLUGMA
     db NO_MOVE      ; MAGCARGO
     db NO_MOVE      ; SWINUB
-	db FURY_ATTACK  ; PILOSWINE
+	db ICY_WIND     ; PILOSWINE
     db NO_MOVE      ; CORSOLA
     db NO_MOVE      ; REMORAID
 	db OCTAZOOKA    ; OCTILLERY

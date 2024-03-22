@@ -3043,8 +3043,10 @@ SwinubEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 10, POWDER_SNOW
+	db 15, MAGNITUDE
 	db 19, ENDURE
 	db 28, TAKE_DOWN
+	db 34, FURY_ATTACK
 	db 37, MIST
 	db 46, BLIZZARD
 	db 55, AMNESIA
@@ -3056,9 +3058,11 @@ PiloswineEvosAttacks:
 	db 1, POWDER_SNOW
 	db 1, ENDURE
 	db 10, POWDER_SNOW
+	db 15, MAGNITUDE
 	db 19, ENDURE
 	db 28, TAKE_DOWN
-	db 32, FURY_ATTACK
+	db 33, FURY_ATTACK
+	db 39, EARTHQUAKE
 	db 42, MIST
 	db 56, BLIZZARD
 	db 70, AMNESIA

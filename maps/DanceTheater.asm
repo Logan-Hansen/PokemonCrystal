@@ -283,6 +283,10 @@ SurfGuySurfExplanationText:
 	para "It's a move that"
 	line "lets #MON swim"
 	cont "across water."
+
+	para "You should use it"
+	line "to check out the"
+	cont "town to the east."
 	done
 
 SurfGuyElegantKimonoGirlsText:

@@ -2733,11 +2733,14 @@ MisdreavusEvosAttacks:
 	db 1, GROWL
 	db 1, PSYWAVE
 	db 6, SPITE
+	db 7, NIGHT_SHADE
 	db 9, LICK
 	db 12, CONFUSE_RAY
+	db 15, HYPNOSIS
 	db 17, HAZE
 	db 19, MEAN_LOOK
-	db 27, PSYBEAM
+	db 27, SHADOW_BALL
+	db 29, PSYBEAM
 	db 36, PAIN_SPLIT
 	db 46, PERISH_SONG
 	db 0 ; no more level-up moves

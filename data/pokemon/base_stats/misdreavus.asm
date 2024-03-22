@@ -1,8 +1,8 @@
 	db MISDREAVUS ; 200
 
-	db  60,  60,  60,  85,  85,  85
+	db  65,  50,  65,  90,  90,  90
 	;   hp  atk  def  spd  sat  sdf
-
+	;   60,  60,  60,  85,  85,  85
 	db GHOST, GHOST ; type
 	db 45 ; catch rate
 	db 147 ; base exp

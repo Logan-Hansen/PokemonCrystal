@@ -80,7 +80,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SlowpokeEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw MagnemiteEggMoves
 	dw NoEggMoves
 	dw FarfetchDEggMoves
 	dw DoduoEggMoves
@@ -119,7 +119,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw GoldeenEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw StaryuEggMoves
 	dw NoEggMoves
 	dw MrMimeEggMoves
 	dw ScytherEggMoves
@@ -127,8 +127,8 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw PinsirEggMoves
-	dw NoEggMoves
-	dw NoEggMoves
+	dw TaurosEggMoves
+	dw MagikarpEggMoves
 	dw NoEggMoves
 	dw LaprasEggMoves
 	dw NoEggMoves

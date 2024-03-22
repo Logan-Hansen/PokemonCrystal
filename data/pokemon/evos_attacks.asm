@@ -1135,6 +1135,7 @@ FarfetchDEvosAttacks:
 	db 7, SAND_ATTACK
 	db 13, LEER
 	db 19, FURY_ATTACK
+	db 21, FURY_CUTTER
 	db 25, SWORDS_DANCE
 	db 31, AGILITY
 	db 37, SLASH
@@ -1299,6 +1300,7 @@ OnixEvosAttacks:
 	db 10, BIND
 	db 14, ROCK_THROW
 	db 23, HARDEN
+	db 25, SHARPEN
 	db 27, RAGE
 	db 36, SANDSTORM
 	db 40, SLAM
@@ -1312,6 +1314,7 @@ DrowzeeEvosAttacks:
 	db 10, DISABLE
 	db 18, CONFUSION
 	db 25, HEADBUTT
+	db 27, AMNESIA
 	db 31, POISON_GAS
 	db 36, MEDITATE
 	db 40, PSYCHIC_M
@@ -1328,6 +1331,7 @@ HypnoEvosAttacks:
 	db 10, DISABLE
 	db 18, CONFUSION
 	db 25, HEADBUTT
+	db 27, AMNESIA
 	db 33, POISON_GAS
 	db 40, MEDITATE
 	db 49, PSYCHIC_M
@@ -1343,6 +1347,7 @@ KrabbyEvosAttacks:
 	db 12, VICEGRIP
 	db 16, HARDEN
 	db 23, STOMP
+	db 25, METAL_CLAW
 	db 27, GUILLOTINE
 	db 34, PROTECT
 	db 41, CRABHAMMER
@@ -1357,6 +1362,7 @@ KinglerEvosAttacks:
 	db 12, VICEGRIP
 	db 16, HARDEN
 	db 23, STOMP
+	db 25, METAL_CLAW
 	db 27, GUILLOTINE
 	db 38, PROTECT
 	db 49, CRABHAMMER
@@ -1371,6 +1377,7 @@ VoltorbEvosAttacks:
 	db 23, SELFDESTRUCT
 	db 29, ROLLOUT
 	db 33, LIGHT_SCREEN
+	db 35, AGILITY
 	db 37, SWIFT
 	db 39, EXPLOSION
 	db 41, MIRROR_COAT
@@ -1387,6 +1394,7 @@ ElectrodeEvosAttacks:
 	db 23, SELFDESTRUCT
 	db 29, ROLLOUT
 	db 34, LIGHT_SCREEN
+	db 27, AGILITY
 	db 40, SWIFT
 	db 44, EXPLOSION
 	db 48, MIRROR_COAT
@@ -1423,6 +1431,7 @@ CuboneEvosAttacks:
 	db 9, BONE_CLUB
 	db 13, HEADBUTT
 	db 17, LEER
+	db 19, FURY_ATTACK
 	db 21, FOCUS_ENERGY
 	db 25, BONEMERANG
 	db 29, RAGE
@@ -1441,6 +1450,7 @@ MarowakEvosAttacks:
 	db 9, BONE_CLUB
 	db 13, HEADBUTT
 	db 17, LEER
+	db 19, FURY_ATTACK
 	db 21, FOCUS_ENERGY
 	db 25, BONEMERANG
 	db 32, RAGE
@@ -1484,6 +1494,7 @@ LickitungEvosAttacks:
 	db 7, SUPERSONIC
 	db 13, DEFENSE_CURL
 	db 19, STOMP
+	db 21, DOUBLESLAP
 	db 25, WRAP
 	db 31, DISABLE
 	db 37, SLAM
@@ -1569,6 +1580,7 @@ TangelaEvosAttacks:
 	db 10, ABSORB
 	db 13, POISONPOWDER
 	db 19, VINE_WHIP
+	db 23, SYNTHESIS
 	db 25, BIND
 	db 31, MEGA_DRAIN
 	db 34, STUN_SPORE
@@ -1584,6 +1596,7 @@ KangaskhanEvosAttacks:
 	db 19, TAIL_WHIP
 	db 25, MEGA_PUNCH
 	db 31, RAGE
+	db 35, FAINT_ATTACK
 	db 37, ENDURE
 	db 43, DIZZY_PUNCH
 	db 49, REVERSAL
@@ -1828,6 +1841,7 @@ EeveeEvosAttacks:
 	db 1, TACKLE
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
+	db 10, GROWTH
 	db 16, GROWL
 	db 23, QUICK_ATTACK
 	db 30, BITE
@@ -1886,6 +1900,7 @@ PorygonEvosAttacks:
 	db 1, CONVERSION
 	db 9, AGILITY
 	db 12, PSYBEAM
+	db 22, BARRIER
 	db 20, RECOVER
 	db 24, SHARPEN
 	db 32, LOCK_ON
@@ -1898,6 +1913,7 @@ OmanyteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 1, WITHDRAW
+	db 7, ROCK_THROW
 	db 13, BITE
 	db 19, WATER_GUN
 	db 31, LEER
@@ -1911,6 +1927,7 @@ OmastarEvosAttacks:
 	db 1, CONSTRICT
 	db 1, WITHDRAW
 	db 1, BITE
+	db 7, ROCK_THROW
 	db 13, BITE
 	db 19, WATER_GUN
 	db 31, LEER
@@ -1925,6 +1942,7 @@ KabutoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, HARDEN
+	db 7, ROCK_THROW
 	db 10, ABSORB
 	db 19, LEER
 	db 28, SAND_ATTACK
@@ -1938,6 +1956,7 @@ KabutopsEvosAttacks:
 	db 1, SCRATCH
 	db 1, HARDEN
 	db 1, ABSORB
+	db 7, ROCK_THROW
 	db 10, ABSORB
 	db 19, LEER
 	db 28, SAND_ATTACK
@@ -1951,9 +1970,11 @@ AerodactylEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WING_ATTACK
 	db 8, AGILITY
+	db 12, ROCK_THROW
 	db 15, BITE
 	db 22, SUPERSONIC
 	db 29, ANCIENTPOWER
+	db 32, ROCK_SLIDE
 	db 36, SCARY_FACE
 	db 43, TAKE_DOWN
 	db 50, HYPER_BEAM
@@ -2778,6 +2799,7 @@ WobbuffetEvosAttacks:
 	db 1, MIRROR_COAT
 	db 1, SAFEGUARD
 	db 1, DESTINY_BOND
+	db 20, MIMIC
 	db 0 ; no more level-up moves
 
 GirafarigEvosAttacks:
@@ -2855,6 +2877,7 @@ SteelixEvosAttacks:
 	db 10, BIND
 	db 14, ROCK_THROW
 	db 23, HARDEN
+	db 25, SHARPEN
 	db 27, RAGE
 	db 36, SANDSTORM
 	db 40, SLAM
@@ -3090,6 +3113,7 @@ MantineEvosAttacks:
 	db 1, TACKLE
 	db 1, BUBBLE
 	db 10, SUPERSONIC
+	db 13, GUST
 	db 18, BUBBLEBEAM
 	db 25, TAKE_DOWN
 	db 32, AGILITY
@@ -3103,6 +3127,7 @@ SkarmoryEvosAttacks:
 	db 1, PECK
 	db 13, SAND_ATTACK
 	db 19, SWIFT
+	db 22, FURY_CUTTER
 	db 25, AGILITY
 	db 37, FURY_ATTACK
 	db 49, STEEL_WING
@@ -3180,6 +3205,7 @@ Porygon2EvosAttacks:
 	db 9, AGILITY
 	db 12, PSYBEAM
 	db 20, RECOVER
+	db 22, BARRIER
 	db 24, DEFENSE_CURL
 	db 32, LOCK_ON
 	db 36, TRI_ATTACK
@@ -3217,6 +3243,7 @@ TyrogueEvosAttacks:
 	db EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 10, RAGE
 	db 0 ; no more level-up moves
 
 HitmontopEvosAttacks:

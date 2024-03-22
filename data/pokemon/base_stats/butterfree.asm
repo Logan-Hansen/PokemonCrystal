@@ -1,8 +1,8 @@
 	db BUTTERFREE ; 012
 
-	db  60,  45,  50,  70,  90,  80
+	db  65,  55,  55,  75,  95,  80
 	;   hp  atk  def  spd  sat  sdf
-
+	;   60,  45,  50,  70,  90,  80
 	db BUG, FLYING ; type
 	db 45 ; catch rate
 	db 160 ; base exp

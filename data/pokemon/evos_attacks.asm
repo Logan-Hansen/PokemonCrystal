@@ -176,6 +176,7 @@ BlastoiseEvosAttacks:
 	db 25, RAPID_SPIN
 	db 29, REFLECT
 	db 31, PROTECT
+	db 35, BODY_SLAM
 	db 42, RAIN_DANCE
 	db 55, SKULL_BASH
 	db 68, HYDRO_PUMP
@@ -197,14 +198,18 @@ MetapodEvosAttacks:
 ButterfreeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONFUSION
+	db 11, LEECH_LIFE
 	db 13, POISONPOWDER
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
 	db 23, WHIRLWIND
+	db 25, SUBSTITUTE
 	db 28, GUST
 	db 34, PSYBEAM
+	db 38, MEGA_DRAIN
 	db 40, SAFEGUARD
+	db 45, REFLECT
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
@@ -224,11 +229,15 @@ BeedrillEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FURY_ATTACK
 	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
+	db 18, TWINEEDLE
+	db 20, SLUDGE
 	db 25, RAGE
+	db 28, SWORDS_DANCE
 	db 30, PURSUIT
 	db 35, PIN_MISSILE
+	db 38, MEGA_DRAIN
 	db 40, AGILITY
+	db 45, REFLECT
 	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:

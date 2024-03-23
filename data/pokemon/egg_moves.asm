@@ -491,6 +491,7 @@ DratiniEggMoves:
 	db HAZE
 	db SUPERSONIC
 	db HYDRO_PUMP
+	db EXTREMESPEED
 	db -1 ; end
 
 ChikoritaEggMoves:

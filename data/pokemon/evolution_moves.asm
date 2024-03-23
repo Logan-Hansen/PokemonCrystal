@@ -69,7 +69,7 @@ EvolutionMoves::
     db NO_MOVE      ; MACHOKE
 	db STRENGTH     ; MACHAMP
     db NO_MOVE      ; BELLSPROUT
-    db SLUDGE      ; WEEPINBELL
+    db SLUDGE       ; WEEPINBELL
     db NO_MOVE      ; VICTREEBEL
     db NO_MOVE      ; TENTACOOL
 	db WRAP         ; TENTACRUEL
@@ -111,14 +111,14 @@ EvolutionMoves::
     db NO_MOVE      ; KOFFING
     db NO_MOVE      ; WEEZING
     db NO_MOVE      ; RHYHORN
-    db NO_MOVE      ; RHYDON
+    db BODY_SLAM    ; RHYDON
     db NO_MOVE      ; CHANSEY
     db NO_MOVE      ; TANGELA
     db NO_MOVE      ; KANGASKHAN
     db NO_MOVE      ; HORSEA
     db NO_MOVE      ; SEADRA
     db NO_MOVE      ; GOLDEEN
-    db NO_MOVE      ; SEAKING
+    db SWORDS_DANCE ; SEAKING
     db NO_MOVE      ; STARYU
     db NO_MOVE      ; STARMIE
     db NO_MOVE      ; MR. MIME
@@ -147,7 +147,7 @@ EvolutionMoves::
     db NO_MOVE      ; ZAPDOS
     db NO_MOVE      ; MOLTRES
     db NO_MOVE      ; DRATINI
-    db NO_MOVE      ; DRAGONAIR
+    db HYDRO_PUMP   ; DRAGONAIR
 	db WING_ATTACK  ; DRAGONITE
     db NO_MOVE      ; MEWTWO
     db NO_MOVE      ; MEW

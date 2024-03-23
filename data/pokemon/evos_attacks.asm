@@ -824,10 +824,11 @@ GrowlitheEvosAttacks:
 	db 1, ROAR
 	db 9, EMBER
 	db 18, LEER
+	db 24, FLAME_WHEEL
 	db 26, TAKE_DOWN
-	db 34, FLAME_WHEEL
-	db 42, AGILITY
-	db 50, FLAMETHROWER
+	db 32, AGILITY
+	db 35, FLAMETHROWER
+	db 40, MORNING_SUN
 	db 0 ; no more level-up moves
 
 ArcanineEvosAttacks:
@@ -836,6 +837,7 @@ ArcanineEvosAttacks:
 	db 1, LEER
 	db 1, TAKE_DOWN
 	db 1, FLAME_WHEEL
+	db 40, MORNING_SUN
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves
 

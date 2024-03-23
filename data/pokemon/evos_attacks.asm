@@ -2257,6 +2257,7 @@ ChikoritaEvosAttacks:
 	db 1, GROWL
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
+	db 13, LEECH_SEED
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 22, SYNTHESIS
@@ -2275,6 +2276,7 @@ BayleefEvosAttacks:
 	db 1, REFLECT
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
+	db 13, LEECH_SEED
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 23, SYNTHESIS
@@ -2292,6 +2294,7 @@ MeganiumEvosAttacks:
 	db 1, REFLECT
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
+	db 13, LEECH_SEED
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
 	db 23, SYNTHESIS
@@ -2307,7 +2310,7 @@ CyndaquilEvosAttacks:
 	db 1, TACKLE
 	db 1, LEER
 	db 6, SMOKESCREEN
-	db 12, EMBER
+	db 7, EMBER
 	db 19, QUICK_ATTACK
 	db 27, FLAME_WHEEL
 	db 36, SWIFT
@@ -2319,9 +2322,8 @@ QuilavaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
-	db 1, SMOKESCREEN
 	db 6, SMOKESCREEN
-	db 12, EMBER
+	db 7, EMBER
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
 	db 42, SWIFT
@@ -2332,10 +2334,8 @@ TyphlosionEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
-	db 1, SMOKESCREEN
-	db 1, EMBER
 	db 6, SMOKESCREEN
-	db 12, EMBER
+	db 7, EMBER
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
 	db 45, SWIFT

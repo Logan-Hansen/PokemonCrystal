@@ -156,7 +156,7 @@ EvolutionMoves::
 	db PETAL_DANCE  ; MEGANIUM
     db NO_MOVE      ; CYNDAQUIL
     db NO_MOVE      ; QUILAVA
-    db NO_MOVE      ; TYPHLOSION
+    db DOUBLE_EDGE  ; TYPHLOSION
     db NO_MOVE      ; TOTODILE
     db NO_MOVE      ; CROCONAW
     db NO_MOVE      ; FERALIGATR

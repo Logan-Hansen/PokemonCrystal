@@ -879,6 +879,8 @@ PoliwrathEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
 	db 1, SUBMISSION
+	db 35, BODY_SLAM
+	db 43, BELLY_DRUM
 	db 51, MIND_READER
 	db 0 ; no more level-up moves
 
@@ -2637,7 +2639,9 @@ PolitoedEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
 	db 1, PERISH_SONG
-	db 1, PERISH_SONG
+	db 1, LOVELY_KISS
+	db 27, RAIN_DANCE
+	db 45, BODY_SLAM
 	db 51, SWAGGER
 	db 0 ; no more level-up moves
 

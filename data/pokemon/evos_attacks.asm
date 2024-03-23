@@ -455,6 +455,7 @@ NidorinaEvosAttacks:
 	db 19, POISON_STING
 	db 22, LOVELY_KISS
 	db 27, TAIL_WHIP
+	db 30, SLUDGE
 	db 36, BITE
 	db 46, FURY_SWIPES
 	db 0 ; no more level-up moves
@@ -467,7 +468,10 @@ NidoqueenEvosAttacks:
 	db 1, TAIL_WHIP
 	db 1, MAGNITUDE
 	db 23, BODY_SLAM
+	db 30, SLUDGE_BOMB
+	db 35, CRUNCH
 	db 40, MOONLIGHT
+	db 50, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
@@ -494,6 +498,7 @@ NidorinoEvosAttacks:
 	db 19, POISON_STING
 	db 22, LOVELY_KISS
 	db 27, FOCUS_ENERGY
+	db 30, SLUDGE
 	db 36, FURY_ATTACK
 	db 46, HORN_DRILL
 	db 0 ; no more level-up moves
@@ -506,7 +511,10 @@ NidokingEvosAttacks:
 	db 1, POISON_STING
 	db 1, MAGNITUDE
 	db 23, THRASH
+	db 30, SLUDGE_BOMB
+	db 35, CRUNCH
 	db 40, MORNING_SUN
+	db 50, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 ClefairyEvosAttacks:
@@ -1026,8 +1034,9 @@ TentacoolEvosAttacks:
 	db 25, BUBBLEBEAM
 	db 30, WRAP
 	db 32, SWORDS_DANCE
+	db 34, SLUDGE
 	db 36, BARRIER
-	db 40, SLUDGE
+	db 40, SLUDGE_BOMB
 	db 43, SCREECH
 	db 49, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1043,8 +1052,9 @@ TentacruelEvosAttacks:
 	db 25, BUBBLEBEAM
 	db 29, WRAP
 	db 34, SWORDS_DANCE
+	db 35, SLUDGE
 	db 38, BARRIER
-	db 40, SLUDGE
+	db 40, SLUDGE_BOMB
 	db 47, SCREECH
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1270,8 +1280,8 @@ GrimerEvosAttacks:
 	db 16, SLUDGE
 	db 23, MINIMIZE
 	db 31, SCREECH
-	db 40, ACID_ARMOR
-	db 50, SLUDGE_BOMB
+	db 35, ACID_ARMOR
+	db 40, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
@@ -1285,8 +1295,8 @@ MukEvosAttacks:
 	db 45, SLUDGE
 	db 23, MINIMIZE
 	db 31, SCREECH
-	db 45, ACID_ARMOR
-	db 60, SLUDGE_BOMB
+	db 37, ACID_ARMOR
+	db 42, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 ShellderEvosAttacks:
@@ -1604,6 +1614,7 @@ WeezingEvosAttacks:
 	db 21, SLUDGE
 	db 25, SMOKESCREEN
 	db 33, HAZE
+	db 34, SLUDGE_BOMB
 	db 44, EXPLOSION
 	db 51, DESTINY_BOND
 	db 0 ; no more level-up moves
@@ -3115,11 +3126,13 @@ QwilfishEvosAttacks:
 	db 1, SPIKES
 	db 1, TACKLE
 	db 1, POISON_STING
+	db 1, BUBBLE
 	db 10, HARDEN
 	db 10, MINIMIZE
 	db 19, WATER_GUN
 	db 22, SLUDGE
 	db 28, PIN_MISSILE
+	db 30, BUBBLEBEAM
 	db 32, PROTECT
 	db 36, TOXIC
 	db 37, TAKE_DOWN
@@ -3326,8 +3339,9 @@ MantineEvosAttacks:
 	db 13, GUST
 	db 18, BUBBLEBEAM
 	db 25, TAKE_DOWN
+	db 30, WING_ATTACK
 	db 32, AGILITY
-	db 40, WING_ATTACK
+	db 40, MIRROR_COAT
 	db 49, CONFUSE_RAY
 	db 0 ; no more level-up moves
 

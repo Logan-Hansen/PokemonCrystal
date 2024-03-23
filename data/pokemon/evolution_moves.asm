@@ -109,7 +109,7 @@ EvolutionMoves::
 	db COMET_PUNCH  ; HITMONCHAN
     db NO_MOVE      ; LICKITUNG
     db NO_MOVE      ; KOFFING
-    db NO_MOVE      ; WEEZING
+    db SLUDGE_BOMB  ; WEEZING
     db NO_MOVE      ; RHYHORN
     db BODY_SLAM    ; RHYDON
     db NO_MOVE      ; CHANSEY

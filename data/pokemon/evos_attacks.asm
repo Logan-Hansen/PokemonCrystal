@@ -2207,7 +2207,8 @@ MoltresEvosAttacks:
 	db 49, FLAMETHROWER
 	db 61, SAFEGUARD
 	db 61, REFLECT
-	db 73, SKY_ATTACK
+	db 63, SKY_ATTACK
+	db 71, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 DratiniEvosAttacks:
@@ -2219,6 +2220,7 @@ DratiniEvosAttacks:
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
 	db 29, SLAM
+	db 34, DRAGONBREATH
 	db 36, AGILITY
 	db 43, SAFEGUARD
 	db 50, OUTRAGE
@@ -2231,17 +2233,16 @@ DragonairEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 1, THUNDER_WAVE
-	db 1, TWISTER
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
 	db 29, SLAM
 	db 29, HYDRO_PUMP
+	db 36, DRAGONBREATH
 	db 38, AGILITY
 	db 47, SAFEGUARD
 	db 56, DOUBLE_EDGE
-	db 56, OUTRAGE
+	db 57, OUTRAGE
 	db 65, HYPER_BEAM
 	db 70, EXTREMESPEED
 	db 0 ; no more level-up moves
@@ -2250,18 +2251,17 @@ DragoniteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 1, THUNDER_WAVE
-	db 1, TWISTER
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
 	db 22, DRAGON_RAGE
 	db 29, SLAM
 	db 29, HYDRO_PUMP
+	db 36, DRAGONBREATH
 	db 38, AGILITY
 	db 47, SAFEGUARD
 	db 54, WING_ATTACK
-	db 61, DOUBLE_EDGE
-	db 61, OUTRAGE
+	db 59, DOUBLE_EDGE
+	db 60, OUTRAGE
 	db 75, HYPER_BEAM
 	db 80, EXTREMESPEED
 	db 0 ; no more level-up moves
@@ -3419,8 +3419,11 @@ SkarmoryEvosAttacks:
 	db 19, SWIFT
 	db 22, FURY_CUTTER
 	db 25, AGILITY
+	db 29, CURSE
+	db 31, STEEL_WING
 	db 37, FURY_ATTACK
-	db 49, STEEL_WING
+	db 41, DRILL_PECK
+	db 45, WHIRLWIND
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
@@ -3460,6 +3463,7 @@ KingdraEvosAttacks:
 	db 15, LEER
 	db 22, BUBBLEBEAM
 	db 29, TWISTER
+	db 36, DRAGONBREATH
 	db 40, AGILITY
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -3646,6 +3650,8 @@ RaikouEvosAttacks:
 	db 21, BITE
 	db 31, QUICK_ATTACK
 	db 41, REFLECT
+	db 43, THUNDERBOLT
+	db 47, CRUNCH
 	db 51, LIGHT_SCREEN
 	db 61, THUNDER
 	db 71, RAIN_DANCE
@@ -3661,9 +3667,11 @@ EnteiEvosAttacks:
 	db 21, BITE
 	db 31, FIRE_SPIN
 	db 41, STOMP
+	db 43, FLAMETHROWER
 	db 45, SWAGGER
-	db 51, FLAMETHROWER
-	db 61, FIRE_BLAST
+	db 47, CRUNCH
+	db 51, FIRE_BLAST
+	db 61, MORNING_SUN
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
@@ -3731,9 +3739,10 @@ TyranitarEvosAttacks:
 
 LugiaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, AEROBLAST
-	db 11, SAFEGUARD
-	db 22, GUST
+	db 1, SAFEGUARD
+	db 1, GUST
+	db 11, CURSE
+	db 22, AEROBLAST
 	db 33, RECOVER
 	db 44, HYDRO_PUMP
 	db 55, RAIN_DANCE
@@ -3745,9 +3754,10 @@ LugiaEvosAttacks:
 
 HoOhEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SACRED_FIRE
-	db 11, SAFEGUARD
-	db 22, GUST
+	db 1, SAFEGUARD
+	db 1, GUST
+	db 11, CURSE
+	db 22, SACRED_FIRE
 	db 33, RECOVER
 	db 44, FIRE_BLAST
 	db 55, SUNNY_DAY
@@ -3764,8 +3774,14 @@ CelebiEvosAttacks:
 	db 1, RECOVER
 	db 1, HEAL_BELL
 	db 10, SAFEGUARD
+	db 15, MEGA_DRAIN
 	db 20, ANCIENTPOWER
+	db 25, GIGA_DRAIN
 	db 30, FUTURE_SIGHT
+	db 35, PSYBEAM
 	db 40, BATON_PASS
-	db 50, PERISH_SONG
+	db 45, PSYCHIC_M
+	db 50, THUNDER_WAVE
+	db 55, FUTURE_SIGHT
+	db 60, PERISH_SONG
 	db 0 ; no more level-up moves

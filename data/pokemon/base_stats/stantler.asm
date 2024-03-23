@@ -1,8 +1,8 @@
 	db STANTLER ; 234
 
-	db  73,  95,  62,  85,  85,  65
+	db  73,  95,  62,  85,  90,  65
 	;   hp  atk  def  spd  sat  sdf
-
+	;   73,  95,  62,  85,  85,  65
 	db NORMAL, NORMAL ; type
 	db 45 ; catch rate
 	db 165 ; base exp

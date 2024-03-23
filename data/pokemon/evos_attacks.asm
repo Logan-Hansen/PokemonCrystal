@@ -1575,7 +1575,8 @@ LickitungEvosAttacks:
 	db 21, DOUBLESLAP
 	db 25, WRAP
 	db 31, DISABLE
-	db 37, SLAM
+	db 32, SLAM
+	db 38, BODY_SLAM
 	db 43, SCREECH
 	db 0 ; no more level-up moves
 
@@ -1903,6 +1904,7 @@ TaurosEvosAttacks:
 	db 47, DOUBLE_EDGE
 	db 53, TAKE_DOWN
 	db 60, HORN_DRILL
+	db 65, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 MagikarpEvosAttacks:
@@ -1960,17 +1962,21 @@ EeveeEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, VAPOREON
 	db EVOLVE_ITEM, FIRE_STONE, FLAREON
+	db EVOLVE_ITEM, SUN_STONE, ESPEON
+	db EVOLVE_ITEM, MOON_STONE, UMBREON
 	db EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 6, CHARM
 	db 8, SAND_ATTACK
 	db 10, GROWTH
 	db 16, GROWL
+	db 20, GROWTH
 	db 23, QUICK_ATTACK
+	db 26, BATON_PASS
 	db 30, BITE
-	db 36, BATON_PASS
 	db 42, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -2420,6 +2426,8 @@ SentretEvosAttacks:
 	db 5, DEFENSE_CURL
 	db 11, QUICK_ATTACK
 	db 17, FURY_SWIPES
+	db 18, HEADBUTT
+	db 21, DIG
 	db 25, SLAM
 	db 33, REST
 	db 41, AMNESIA
@@ -2434,6 +2442,8 @@ FurretEvosAttacks:
 	db 11, QUICK_ATTACK
 	db 14, AGILITY
 	db 18, FURY_SWIPES
+	db 19, HEADBUTT
+	db 23, DIG
 	db 28, SLAM
 	db 38, REST
 	db 48, AMNESIA
@@ -2825,6 +2835,7 @@ AipomEvosAttacks:
 	db 19, FURY_SWIPES
 	db 24, COUNTER
 	db 27, SWIFT
+	db 33, SLASH
 	db 36, SCREECH
 	db 39, SCARY_FACE
 	db 0 ; no more level-up moves
@@ -3025,9 +3036,11 @@ DunsparceEvosAttacks:
 	db 1, RAGE
 	db 5, DEFENSE_CURL
 	db 13, GLARE
+	db 15, DIG
 	db 18, SPITE
 	db 26, PURSUIT
 	db 30, SCREECH
+	db 33, BODY_SLAM
 	db 38, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -3072,6 +3085,8 @@ SnubbullEvosAttacks:
 	db 19, LICK
 	db 26, ROAR
 	db 34, RAGE
+	db 36, CRUNCH
+	db 40, THRASH
 	db 43, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -3085,6 +3100,8 @@ GranbullEvosAttacks:
 	db 19, LICK
 	db 28, ROAR
 	db 38, RAGE
+	db 39, CRUNCH
+	db 44, THRASH
 	db 51, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -3168,8 +3185,9 @@ TeddiursaEvosAttacks:
 	db 15, FURY_SWIPES
 	db 22, FAINT_ATTACK
 	db 29, REST
+	db 32, SNORE
 	db 36, SLASH
-	db 43, SNORE
+	db 43, SUBMISSION
 	db 50, THRASH
 	db 0 ; no more level-up moves
 
@@ -3183,8 +3201,9 @@ UrsaringEvosAttacks:
 	db 15, FURY_SWIPES
 	db 22, FAINT_ATTACK
 	db 29, REST
+	db 34, SNORE
 	db 39, SLASH
-	db 49, SNORE
+	db 49, SUBMISSION
 	db 59, THRASH
 	db 0 ; no more level-up moves
 
@@ -3401,11 +3420,13 @@ StantlerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 8, LEER
+	db 13, STOMP
 	db 15, HYPNOSIS
-	db 23, STOMP
+	db 23, PURSUIT
 	db 31, SAND_ATTACK
 	db 40, TAKE_DOWN
-	db 49, CONFUSE_RAY
+	db 41, CONFUSE_RAY
+	db 49, DREAM_EATER
 	db 0 ; no more level-up moves
 
 SmeargleEvosAttacks:
@@ -3497,6 +3518,7 @@ MiltankEvosAttacks:
 	db 34, ROLLOUT
 	db 43, BODY_SLAM
 	db 53, HEAL_BELL
+	db 58, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 BlisseyEvosAttacks:

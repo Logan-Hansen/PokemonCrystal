@@ -454,7 +454,12 @@ LaprasEggMoves:
 
 EeveeEggMoves:
 	db FLAIL
+	db SUBSTITUTE
+	db DOUBLE_EDGE
+	db REFLECT
 	db CHARM
+	db BODY_SLAM
+	db GROWTH
 	db -1 ; end
 
 OmanyteEggMoves:

@@ -1,8 +1,8 @@
 	db MAGCARGO ; 219
 
-	db  60,  50, 120,  30,  90,  80
+	db  75,  70, 120,  30,  90,  90
 	;   hp  atk  def  spd  sat  sdf
-
+	;   60,  50, 120,  30,  90,  80
 	db FIRE, ROCK ; type
 	db 75 ; catch rate
 	db 154 ; base exp

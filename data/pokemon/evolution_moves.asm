@@ -231,7 +231,7 @@ EvolutionMoves::
     db NO_MOVE      ; HOUNDOOM
     db NO_MOVE      ; KINGDRA
     db NO_MOVE      ; PHANPY
-	db FURY_ATTACK  ; DONPHAN
+	db TAKE_DOWN    ; DONPHAN
     db NO_MOVE      ; PORGYON2
     db NO_MOVE      ; STANTLER
     db NO_MOVE      ; SMEARGLE

@@ -1380,12 +1380,15 @@ OnixEvosAttacks:
 	db 1, SCREECH
 	db 10, BIND
 	db 14, ROCK_THROW
+	db 18, DIG
 	db 20, MAGNITUDE
 	db 23, HARDEN
 	db 25, SHARPEN
 	db 27, RAGE
+	db 30, ROCK_SLIDE
 	db 36, SANDSTORM
-	db 40, SLAM
+	db 38, SLAM
+	db 40, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -2061,10 +2064,10 @@ OmanyteEvosAttacks:
 	db 1, WITHDRAW
 	db 7, ROCK_THROW
 	db 13, BITE
-	db 15, WATER_GUN
+	db 14, WATER_GUN
 	db 31, LEER
 	db 37, PROTECT
-	db 49, ANCIENTPOWER
+	db 42, ANCIENTPOWER
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -2075,12 +2078,12 @@ OmastarEvosAttacks:
 	db 1, BITE
 	db 7, ROCK_THROW
 	db 13, BITE
-	db 19, WATER_GUN
+	db 14, WATER_GUN
 	db 31, LEER
 	db 37, PROTECT
 	db 39, SPIKE_CANNON
-	db 54, ANCIENTPOWER
-	db 65, HYDRO_PUMP
+	db 44, ANCIENTPOWER
+	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 KabutoEvosAttacks:
@@ -2090,11 +2093,12 @@ KabutoEvosAttacks:
 	db 1, HARDEN
 	db 7, ROCK_THROW
 	db 10, ABSORB
+	db 14, WATER_GUN
 	db 19, LEER
 	db 28, SAND_ATTACK
 	db 37, ENDURE
-	db 46, MEGA_DRAIN
-	db 55, ANCIENTPOWER
+	db 40, ANCIENTPOWER
+	db 42, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
 KabutopsEvosAttacks:
@@ -2104,12 +2108,13 @@ KabutopsEvosAttacks:
 	db 1, ABSORB
 	db 7, ROCK_THROW
 	db 10, ABSORB
+	db 14, WATER_GUN
 	db 19, LEER
 	db 28, SAND_ATTACK
 	db 37, ENDURE
 	db 39, SLASH
+	db 45, ANCIENTPOWER
 	db 51, MEGA_DRAIN
-	db 65, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
 AerodactylEvosAttacks:
@@ -2118,7 +2123,9 @@ AerodactylEvosAttacks:
 	db 8, AGILITY
 	db 12, ROCK_THROW
 	db 15, BITE
+	db 19, WHIRLWIND
 	db 22, SUPERSONIC
+	db 25, REFLECT
 	db 29, ANCIENTPOWER
 	db 32, ROCK_SLIDE
 	db 36, SCARY_FACE
@@ -2778,6 +2785,7 @@ SudowoodoEvosAttacks:
 	db 28, ROCK_SLIDE
 	db 37, FAINT_ATTACK
 	db 46, SLAM
+	db 50, THRASH
 	db 0 ; no more level-up moves
 
 PolitoedEvosAttacks:
@@ -3081,12 +3089,15 @@ SteelixEvosAttacks:
 	db 1, SCREECH
 	db 10, BIND
 	db 14, ROCK_THROW
+	db 18, DIG
 	db 20, MAGNITUDE
 	db 23, HARDEN
 	db 25, SHARPEN
 	db 27, RAGE
+	db 30, ROCK_SLIDE
 	db 36, SANDSTORM
-	db 40, SLAM
+	db 38, SLAM
+	db 40, EARTHQUAKE
 	db 49, CRUNCH
 	db 0 ; no more level-up moves
 
@@ -3233,11 +3244,13 @@ SlugmaEvosAttacks:
 	db 1, SMOG
 	db 8, EMBER
 	db 15, ROCK_THROW
-	db 22, HARDEN
+	db 22, ACID_ARMOR
 	db 29, AMNESIA
+	db 31, CURSE
 	db 36, FLAMETHROWER
 	db 43, ROCK_SLIDE
-	db 50, BODY_SLAM
+	db 48, BODY_SLAM
+	db 52, EXPLOSION
 	db 0 ; no more level-up moves
 
 MagcargoEvosAttacks:
@@ -3247,11 +3260,13 @@ MagcargoEvosAttacks:
 	db 1, ROCK_THROW
 	db 8, EMBER
 	db 15, ROCK_THROW
-	db 22, HARDEN
+	db 22, ACID_ARMOR
 	db 29, AMNESIA
+	db 31, CURSE
 	db 36, FLAMETHROWER
-	db 48, ROCK_SLIDE
-	db 60, BODY_SLAM
+	db 41, ROCK_SLIDE
+	db 50, BODY_SLAM
+	db 54, EXPLOSION
 	db 0 ; no more level-up moves
 
 SwinubEvosAttacks:
@@ -3402,24 +3417,33 @@ PhanpyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
+	db 7, MUD_SLAP
 	db 9, DEFENSE_CURL
+	db 15, MAGNITUDE
 	db 17, FLAIL
-	db 25, TAKE_DOWN
+	db 22, FURY_ATTACK
 	db 33, ROLLOUT
+	db 37, EARTHQUAKE
+	db 39, RAPID_SPIN
 	db 41, ENDURE
-	db 49, DOUBLE_EDGE
+	db 46, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 DonphanEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HORN_ATTACK
 	db 1, GROWL
+	db 7, MUD_SLAP
 	db 9, DEFENSE_CURL
+	db 15, MAGNITUDE
 	db 17, FLAIL
-	db 24, FURY_ATTACK
+	db 22, FURY_ATTACK
+	db 24, TAKE_DOWN
 	db 33, ROLLOUT
+	db 36, EARTHQUAKE
 	db 41, RAPID_SPIN
-	db 49, EARTHQUAKE
+	db 43, ENDURE
+	db 49, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:

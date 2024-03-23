@@ -93,7 +93,7 @@ EvolutionMoves::
     db HAIL         ; CLOYSTER
     db NO_MOVE      ; GASTLY
     db NO_MOVE      ; HAUNTER
-    db NO_MOVE      ; GENGAR
+    db SHADOW_BALL  ; GENGAR
     db NO_MOVE      ; ONIX
     db NO_MOVE      ; DROWZEE
     db NO_MOVE      ; HYPNO
@@ -120,7 +120,7 @@ EvolutionMoves::
     db NO_MOVE      ; GOLDEEN
     db SWORDS_DANCE ; SEAKING
     db NO_MOVE      ; STARYU
-    db NO_MOVE      ; STARMIE
+    db BUBBLEBEAM   ; STARMIE
     db NO_MOVE      ; MR. MIME
     db NO_MOVE      ; SCYTHER
     db NO_MOVE      ; JYNX
@@ -228,7 +228,7 @@ EvolutionMoves::
     db NO_MOVE      ; MANTINE
     db NO_MOVE      ; SKARMORY
     db NO_MOVE      ; HOUNDOUR
-    db NO_MOVE      ; HOUNDOOM
+    db FLAME_WHEEL  ; HOUNDOOM
     db NO_MOVE      ; KINGDRA
     db NO_MOVE      ; PHANPY
 	db TAKE_DOWN    ; DONPHAN

@@ -2311,10 +2311,12 @@ CyndaquilEvosAttacks:
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 7, EMBER
+	db 15, DEFENSE_CURL
 	db 19, QUICK_ATTACK
-	db 27, FLAME_WHEEL
-	db 36, SWIFT
-	db 46, FLAMETHROWER
+	db 22, FLAME_WHEEL
+	db 29, SWIFT
+	db 32, FLAMETHROWER
+	db 35, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 QuilavaEvosAttacks:
@@ -2324,10 +2326,12 @@ QuilavaEvosAttacks:
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 7, EMBER
+	db 16, DEFENSE_CURL
 	db 21, QUICK_ATTACK
-	db 31, FLAME_WHEEL
-	db 42, SWIFT
-	db 54, FLAMETHROWER
+	db 24, FLAME_WHEEL
+	db 32, SWIFT
+	db 37, FLAMETHROWER
+	db 42, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 TyphlosionEvosAttacks:
@@ -2336,10 +2340,13 @@ TyphlosionEvosAttacks:
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 7, EMBER
+	db 16, DEFENSE_CURL
 	db 21, QUICK_ATTACK
-	db 31, FLAME_WHEEL
-	db 45, SWIFT
-	db 60, FLAMETHROWER
+	db 24, FLAME_WHEEL
+	db 32, SWIFT
+	db 35, DOUBLE_EDGE
+	db 38, FLAMETHROWER
+	db 48, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
@@ -2347,13 +2354,14 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, RAGE
-	db 13, WATER_GUN
+	db 7, WATER_GUN
+	db 13, RAGE
 	db 20, BITE
 	db 27, SCARY_FACE
 	db 35, SLASH
 	db 43, SCREECH
-	db 52, HYDRO_PUMP
+	db 45, HYDRO_PUMP
+	db 47, CRUNCH
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
@@ -2361,29 +2369,29 @@ CroconawEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, RAGE
-	db 7, RAGE
-	db 13, WATER_GUN
+	db 7, WATER_GUN
+	db 13, RAGE
 	db 21, BITE
 	db 28, SCARY_FACE
 	db 37, SLASH
 	db 45, SCREECH
-	db 55, HYDRO_PUMP
+	db 48, HYDRO_PUMP
+	db 50, CRUNCH
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, RAGE
-	db 1, WATER_GUN
-	db 7, RAGE
-	db 13, WATER_GUN
+	db 7, WATER_GUN
+	db 13, RAGE
 	db 21, BITE
 	db 28, SCARY_FACE
+	db 29, SUBMISSION
 	db 38, SLASH
 	db 47, SCREECH
-	db 58, HYDRO_PUMP
+	db 50, HYDRO_PUMP
+	db 52, CRUNCH
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:

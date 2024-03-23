@@ -679,9 +679,9 @@ VenonatEvosAttacks:
 	db 1, DISABLE
 	db 1, FORESIGHT
 	db 9, SUPERSONIC
+	db 13, LEECH_LIFE
 	db 17, CONFUSION
 	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
 	db 28, STUN_SPORE
 	db 33, PSYBEAM
 	db 36, SLEEP_POWDER
@@ -693,11 +693,10 @@ VenomothEvosAttacks:
 	db 1, TACKLE
 	db 1, DISABLE
 	db 1, FORESIGHT
-	db 1, SUPERSONIC
 	db 9, SUPERSONIC
+	db 13, LEECH_LIFE
 	db 17, CONFUSION
 	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
 	db 28, STUN_SPORE
 	db 30, GUST
 	db 36, PSYBEAM
@@ -1812,6 +1811,7 @@ ScytherEvosAttacks:
 	db 1, LEER
 	db 6, FOCUS_ENERGY
 	db 12, PURSUIT
+	db 16, CUT
 	db 18, FALSE_SWIPE
 	db 24, AGILITY
 	db 30, WING_ATTACK
@@ -1881,6 +1881,7 @@ PinsirEvosAttacks:
 	db 19, SEISMIC_TOSS
 	db 22, ROCK_THROW
 	db 25, HARDEN
+	db 27, TWINEEDLE
 	db 29, BODY_SLAM
 	db 31, GUILLOTINE
 	db 35, SLASH
@@ -2457,25 +2458,30 @@ HoothootEvosAttacks:
 	db 6, FORESIGHT
 	db 11, PECK
 	db 16, HYPNOSIS
+	db 18, CONFUSION
 	db 22, REFLECT
+	db 27, WING_ATTACK
 	db 28, TAKE_DOWN
-	db 34, CONFUSION
-	db 48, DREAM_EATER
+	db 30, FAINT_ATTACK
+	db 35, DREAM_EATER
+	db 38, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, FORESIGHT
-	db 1, PECK
 	db 6, FORESIGHT
 	db 11, PECK
 	db 16, HYPNOSIS
+	db 18, CONFUSION
+	db 19, PSYBEAM
 	db 25, REFLECT
+	db 30, WING_ATTACK
+	db 31, FAINT_ATTACK
 	db 33, TAKE_DOWN
-	db 41, CONFUSION
-	db 57, DREAM_EATER
+	db 37, DREAM_EATER
+	db 40, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 LedybaEvosAttacks:
@@ -3021,7 +3027,6 @@ ForretressEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, PROTECT
-	db 1, SELFDESTRUCT
 	db 8, SELFDESTRUCT
 	db 15, TAKE_DOWN
 	db 22, RAPID_SPIN
@@ -3150,16 +3155,18 @@ HeracrossEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
+	db 5, PIN_MISSILE
 	db 6, HORN_ATTACK
 	db 12, ENDURE
 	db 17, SHARPEN
+	db 18, ROCK_SMASH
 	db 19, FURY_ATTACK
-	db 23, MEGAHORN
+	db 25, TWINEEDLE
 	db 27, COUNTER
 	db 35, TAKE_DOWN
+	db 39, MEGAHORN
 	db 44, REVERSAL
 	db 48, CROSS_CHOP
-	db 54, TWINEEDLE
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:

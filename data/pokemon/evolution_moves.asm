@@ -163,7 +163,7 @@ EvolutionMoves::
     db NO_MOVE      ; SENTRET
 	db AGILITY      ; FURRET
     db NO_MOVE      ; HOOTHOOT
-    db NO_MOVE      ; NOCTOWL
+    db PSYBEAM      ; NOCTOWL
     db NO_MOVE      ; LEDYBA
     db NO_MOVE      ; LEDIAN
     db NO_MOVE      ; SPINARAK

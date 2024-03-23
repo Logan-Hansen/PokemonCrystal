@@ -1,8 +1,8 @@
 	db CORSOLA ; 222
 
-	db  65,  55,  95,  35,  65,  95
+	db  70,  65,  95,  35,  65,  95
 	;   hp  atk  def  spd  sat  sdf
-
+	;   55,  55,  85,  35,  65,  85
 	db WATER, ROCK ; type
 	db 60 ; catch rate
 	db 113 ; base exp

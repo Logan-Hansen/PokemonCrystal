@@ -44,7 +44,7 @@ EvolutionMoves::
     db NO_MOVE      ; GOLBAT
     db NO_MOVE      ; ODDISH
     db NO_MOVE      ; GLOOM
-    db NO_MOVE      ; VILEPLUME
+    db SLUDGE_BOMB  ; VILEPLUME
     db NO_MOVE      ; PARAS
     db NO_MOVE      ; PARASECT
     db NO_MOVE      ; VENONAT
@@ -177,17 +177,17 @@ EvolutionMoves::
     db NO_MOVE      ; TOGEPI
     db WING_ATTACK  ; TOGETIC
     db NO_MOVE      ; NATU
-    db NO_MOVE      ; XATU
+    db PSYBEAM      ; XATU
     db NO_MOVE      ; MAREEP
     db NO_MOVE      ; FLAAFFY
 	db THUNDERPUNCH ; AMPHAROS
-    db NO_MOVE      ; BELLOSSOM
+    db GIGA_DRAIN   ; BELLOSSOM
     db NO_MOVE      ; MARILL
     db NO_MOVE      ; AZUMRILL
     db NO_MOVE      ; SUDOWOODO
-	db PERISH_SONG  ; POLITOED
+	db LOVELY_KISS  ; POLITOED
     db NO_MOVE      ; HOPPIP
-    db NO_MOVE      ; SKIPLOOM
+    db SYNTHESIS    ; SKIPLOOM
     db NO_MOVE      ; JUMPLUFF
     db NO_MOVE      ; AIPOM
     db POUND        ; SUNKERN
@@ -247,7 +247,7 @@ EvolutionMoves::
     db NO_MOVE      ; SUICUNE
     db NO_MOVE      ; LARVITAR
     db NO_MOVE      ; PUPITAR
-    db NO_MOVE      ; TYRANNITAR
+    db EARTHQUAKE   ; TYRANNITAR
     db NO_MOVE      ; LUGIA
     db NO_MOVE      ; HO-OH
 	db NO_MOVE      ; CELEBI

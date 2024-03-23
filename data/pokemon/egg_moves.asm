@@ -258,6 +258,7 @@ SlowpokeEggMoves:
 	db BELLY_DRUM
 	db FUTURE_SIGHT
 	db STOMP
+	db THUNDER_WAVE
 	db -1 ; end
 
 MagnemiteEggMoves:

@@ -1,10 +1,10 @@
 	db ENTEI ; 244
 
-	db 115, 100,  85, 100,  115,  75
+	db 115,  90,  85, 100,  115, 75
 	;   hp  atk  def  spd  sat  sdf
 	;  115, 115,  85, 100,  90,  75
 	db FIRE, FIRE ; type
-	db 3 ; catch rate
+	db 5 ; catch rate
 	db 217 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio

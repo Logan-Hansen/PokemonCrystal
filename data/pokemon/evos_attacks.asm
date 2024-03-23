@@ -3395,8 +3395,7 @@ RaikouEvosAttacks:
 	db 11, SPARK
 	db 21, BITE
 	db 31, QUICK_ATTACK
-	db 41, CRUNCH
-	db 45, REFLECT
+	db 41, REFLECT
 	db 51, LIGHT_SCREEN
 	db 61, THUNDER
 	db 71, RAIN_DANCE
@@ -3414,8 +3413,7 @@ EnteiEvosAttacks:
 	db 41, STOMP
 	db 45, SWAGGER
 	db 51, FLAMETHROWER
-	db 61, CRUNCH
-	db 71, FIRE_BLAST
+	db 61, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
@@ -3431,8 +3429,7 @@ SuicuneEvosAttacks:
 	db 45, MIST
 	db 51, ICE_BEAM
 	db 55, MIRROR_COAT
-	db 61, CRUNCH
-	db 71, HYDRO_PUMP
+	db 61, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 LarvitarEvosAttacks:

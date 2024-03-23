@@ -1,10 +1,10 @@
 	db SUICUNE ; 245
 
-	db 100,  75, 115,  85, 100, 115
+	db 100,  75, 115,  85, 90, 115
 	;   hp  atk  def  spd  sat  sdf
-	;  100,  75, 115,  85,  90, 115
+	;  100,  75, 115,  85, 90, 115
 	db WATER, WATER ; type
-	db 3 ; catch rate
+	db 5 ; catch rate
 	db 215 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio

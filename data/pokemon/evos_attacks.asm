@@ -29,10 +29,12 @@ BulbasaurEvosAttacks:
 	db 20, RAZOR_LEAF
 	db 23, SLUDGE
 	db 25, SWEET_SCENT
+	db 30, BODY_SLAM
 	db 32, GROWTH
 	db 39, SYNTHESIS
 	db 42, SLUDGE_BOMB
 	db 46, SOLARBEAM
+	db 50, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 IvysaurEvosAttacks:
@@ -49,10 +51,12 @@ IvysaurEvosAttacks:
 	db 22, RAZOR_LEAF
 	db 27, SLUDGE
 	db 29, SWEET_SCENT
+	db 34, BODY_SLAM
 	db 38, GROWTH
 	db 47, SYNTHESIS
 	db 50, SLUDGE_BOMB
 	db 56, SOLARBEAM
+	db 60, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 VenusaurEvosAttacks:
@@ -69,10 +73,12 @@ VenusaurEvosAttacks:
 	db 22, RAZOR_LEAF
 	db 27, SLUDGE
 	db 29, SWEET_SCENT
+	db 35, BODY_SLAM
 	db 41, GROWTH
 	db 53, SYNTHESIS
 	db 56, SLUDGE_BOMB
 	db 60, SOLARBEAM
+	db 65, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:
@@ -2269,6 +2275,7 @@ ChikoritaEvosAttacks:
 	db 38, SOLARBEAM
 	db 40, SAFEGUARD
 	db 42, SUNNY_DAY
+	db 45, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
@@ -2291,6 +2298,7 @@ BayleefEvosAttacks:
 	db 39, SOLARBEAM
 	db 41, SAFEGUARD
 	db 45, SUNNY_DAY
+	db 45, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 MeganiumEvosAttacks:
@@ -2312,6 +2320,7 @@ MeganiumEvosAttacks:
 	db 41, SOLARBEAM
 	db 43, SAFEGUARD
 	db 49, SUNNY_DAY
+	db 55, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:

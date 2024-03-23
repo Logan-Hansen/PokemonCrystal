@@ -1,8 +1,8 @@
 	db CHARIZARD ; 006
 
-	db  78,  84,  78, 100, 109,  85
+	db  78,  85,  78, 100, 109,  85
 	;   hp  atk  def  spd  sat  sdf
-
+	;   78,  84,  78, 100, 109,  85
 	db FIRE, FLYING ; type
 	db 45 ; catch rate
 	db 209 ; base exp

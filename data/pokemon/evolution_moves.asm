@@ -70,7 +70,7 @@ EvolutionMoves::
 	db STRENGTH     ; MACHAMP
     db NO_MOVE      ; BELLSPROUT
     db SLUDGE       ; WEEPINBELL
-    db NO_MOVE      ; VICTREEBEL
+    db SWORDS_DANCE ; VICTREEBEL
     db NO_MOVE      ; TENTACOOL
 	db WRAP         ; TENTACRUEL
     db NO_MOVE      ; GEODUDE

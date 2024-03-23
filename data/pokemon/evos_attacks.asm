@@ -1008,6 +1008,7 @@ VictreebelEvosAttacks:
 	db 1, SLEEP_POWDER
 	db 1, RAZOR_LEAF
 	db 1, SLUDGE
+	db 1, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 TentacoolEvosAttacks:
@@ -2255,16 +2256,19 @@ ChikoritaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 8, RAZOR_LEAF
+	db 7, RAZOR_LEAF
+	db 9, LEECH_SEED
 	db 12, REFLECT
-	db 13, LEECH_SEED
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
+	db 17, MEGA_DRAIN
 	db 22, SYNTHESIS
+	db 25, GIGA_DRAIN
 	db 29, BODY_SLAM
 	db 36, LIGHT_SCREEN
-	db 43, SAFEGUARD
-	db 50, SOLARBEAM
+	db 38, SOLARBEAM
+	db 40, SAFEGUARD
+	db 42, SUNNY_DAY
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
@@ -2274,16 +2278,19 @@ BayleefEvosAttacks:
 	db 1, GROWL
 	db 1, RAZOR_LEAF
 	db 1, REFLECT
-	db 8, RAZOR_LEAF
+	db 7, RAZOR_LEAF
+	db 9, LEECH_SEED
 	db 12, REFLECT
-	db 13, LEECH_SEED
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
+	db 18, MEGA_DRAIN
 	db 23, SYNTHESIS
+	db 27, GIGA_DRAIN
 	db 31, BODY_SLAM
-	db 39, LIGHT_SCREEN
-	db 47, SAFEGUARD
-	db 55, SOLARBEAM
+	db 35, LIGHT_SCREEN
+	db 39, SOLARBEAM
+	db 41, SAFEGUARD
+	db 45, SUNNY_DAY
 	db 0 ; no more level-up moves
 
 MeganiumEvosAttacks:
@@ -2292,16 +2299,19 @@ MeganiumEvosAttacks:
 	db 1, GROWL
 	db 1, RAZOR_LEAF
 	db 1, REFLECT
-	db 8, RAZOR_LEAF
+	db 7, RAZOR_LEAF
+	db 9, LEECH_SEED
 	db 12, REFLECT
-	db 13, LEECH_SEED
 	db 15, POISONPOWDER
 	db 15, SLEEP_POWDER
+	db 18, MEGA_DRAIN
 	db 23, SYNTHESIS
+	db 27, GIGA_DRAIN
 	db 31, BODY_SLAM
-	db 41, LIGHT_SCREEN
-	db 51, SAFEGUARD
-	db 61, SOLARBEAM
+	db 37, LIGHT_SCREEN
+	db 41, SOLARBEAM
+	db 43, SAFEGUARD
+	db 49, SUNNY_DAY
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:

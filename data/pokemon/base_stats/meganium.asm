@@ -1,8 +1,8 @@
 	db MEGANIUM ; 154
 
-	db  80,  82, 100,  80,  83, 100
+	db  90,  82, 100,  80,  83, 100
 	;   hp  atk  def  spd  sat  sdf
-
+	;   80,  82, 100,  80,  83, 100
 	db GRASS, GRASS ; type
 	db 45 ; catch rate
 	db 208 ; base exp

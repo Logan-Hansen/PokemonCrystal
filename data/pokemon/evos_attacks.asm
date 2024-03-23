@@ -888,6 +888,7 @@ AbraEvosAttacks:
 	db EVOLVE_LEVEL, 16, KADABRA
 	db 0 ; no more evolutions
 	db 1, TELEPORT
+	db 5, CONFUSION
 	db 0 ; no more level-up moves
 
 KadabraEvosAttacks:
@@ -896,8 +897,7 @@ KadabraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 1, KINESIS
-	db 1, CONFUSION
-	db 16, CONFUSION
+	db 5, CONFUSION
 	db 18, DISABLE
 	db 21, PSYBEAM
 	db 26, RECOVER
@@ -910,8 +910,7 @@ AlakazamEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 1, KINESIS
-	db 1, CONFUSION
-	db 16, CONFUSION
+	db 5, CONFUSION
 	db 18, DISABLE
 	db 21, PSYBEAM
 	db 26, RECOVER
@@ -995,6 +994,7 @@ WeepinbellEvosAttacks:
 	db 15, SLEEP_POWDER
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
+	db 20, SLUDGE
 	db 23, LOVELY_KISS
 	db 24, ACID
 	db 33, SWEET_SCENT
@@ -1006,8 +1006,8 @@ VictreebelEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, SLEEP_POWDER
-	db 1, SWEET_SCENT
 	db 1, RAZOR_LEAF
+	db 1, SLUDGE
 	db 0 ; no more level-up moves
 
 TentacoolEvosAttacks:
@@ -1019,7 +1019,9 @@ TentacoolEvosAttacks:
 	db 19, ACID
 	db 25, BUBBLEBEAM
 	db 30, WRAP
+	db 32, SWORDS_DANCE
 	db 36, BARRIER
+	db 40, SLUDGE
 	db 43, SCREECH
 	db 49, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1034,7 +1036,9 @@ TentacruelEvosAttacks:
 	db 19, ACID
 	db 25, BUBBLEBEAM
 	db 29, WRAP
+	db 34, SWORDS_DANCE
 	db 38, BARRIER
+	db 40, SLUDGE
 	db 47, SCREECH
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1051,6 +1055,7 @@ GeodudeEvosAttacks:
 	db 31, ROLLOUT
 	db 36, EARTHQUAKE
 	db 41, EXPLOSION
+	db 44, RAPID_SPIN
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
@@ -1068,6 +1073,7 @@ GravelerEvosAttacks:
 	db 34, ROLLOUT
 	db 41, EARTHQUAKE
 	db 48, EXPLOSION
+	db 52, RAPID_SPIN
 	db 0 ; no more level-up moves
 
 GolemEvosAttacks:
@@ -1084,6 +1090,7 @@ GolemEvosAttacks:
 	db 34, ROLLOUT
 	db 41, EARTHQUAKE
 	db 48, EXPLOSION
+	db 52, RAPID_SPIN
 	db 0 ; no more level-up moves
 
 PonytaEvosAttacks:

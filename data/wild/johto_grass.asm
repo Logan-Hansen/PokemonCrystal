@@ -1666,7 +1666,7 @@ JohtoGrassWildMons:
 	db 12, ABRA, 	 	 14,  17
 	db  4, DITTO, 		 14,  17
 	db 11, YANMA, 		 14,  17
-	db 10, JIGGLYPUFF, 	 14,  17
+	db 14, JIGGLYPUFF, 	 14,  17
 
 	; day
 	;  %, species,		min, max
@@ -1676,16 +1676,16 @@ JohtoGrassWildMons:
 	db 12, ABRA, 	 	 14,  17
 	db  4, DITTO, 		 14,  17
 	db 11, YANMA, 		 14,  17
-	db 10, JIGGLYPUFF, 	 14,  17
+	db 14, JIGGLYPUFF, 	 14,  17
 
 	; nite
 	;  %, species,		min, max
-	db 12, ABRA, 	 	 14,  17
+	db 16, ABRA, 	 	 14,  17
 	db  4, DITTO, 		 14,  17
 	db 13, YANMA, 		 14,  17
 	db 20, PSYDUCK, 	 14,  17
 	db 12, DROWZEE, 	 14,  17
-	db  7, HOOTHOOT, 	 14,  17
+	db 15, HOOTHOOT, 	 14,  17
 	db 20, HOUNDOUR, 	 14,  17	
 	end_grass_wildmons
 

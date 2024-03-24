@@ -33,6 +33,7 @@ MeetMomRightScript:
 .OnRight:
 	applymovement PLAYERSHOUSE1F_MOM1, MomWalksToPlayerMovement
 MeetMomScript:
+	scall PasswordCheck
 	opentext
 	; adding in some code here to test badges
 	;giveitem OLD_AMBER
@@ -131,6 +132,34 @@ PokegearName:
 PlayersHouse1FReceiveItemStd:
 	jumpstd ReceiveItemScript
 	end
+
+PasswordCheck:
+	checkevent EVENT_PASSWORD_SET
+	iftrue .stop
+	setevent EVENT_PASSWORD_SET
+	callasm .kanto
+	iftrue .kanto2
+.stop
+	end
+
+.kanto
+	xor a
+	ld [wScriptVar], a
+	ld de, KantoPassword
+	ld hl, wGreensName ; check inputted password
+	ld c, 4
+	call CompareBytes
+	ret nz
+	ld a, 1
+	ld [wScriptVar], a
+	ret
+
+.kanto2
+	setevent EVENT_PASSWORD_KANTO
+	end
+	
+KantoPassword:
+    db "KANTO"
 
 MomScript:
 	faceplayer

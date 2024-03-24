@@ -1206,7 +1206,7 @@ MagnetonEvosAttacks:
 	db 27, LOCK_ON
 	db 29, TRI_ATTACK
 	db 35, SWIFT ; from G/S
-	sb 37, THUNDERBOLT
+	db 37, THUNDERBOLT
 	db 43, SCREECH
 	db 53, ZAP_CANNON
 	db 0 ; no more level-up moves

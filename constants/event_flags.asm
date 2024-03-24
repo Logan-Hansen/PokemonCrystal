@@ -1463,6 +1463,9 @@
 	const EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
 	const EVENT_BATTLE_TOWER_OPEN_CIVILIANS
 ; Unused: next 48 events
+; my flag for KANTO password alt starters
+	const EVENT_PASSWORD_KANTO
+	const EVENT_PASSWORD_SET
 
 	const_next 2048
 DEF NUM_EVENTS EQU const_value ; 800

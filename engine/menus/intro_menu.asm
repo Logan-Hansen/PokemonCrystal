@@ -81,11 +81,27 @@ PlayerProfileSetup:
 	farcall CheckMobileAdapterStatus
 	jr c, .ok
 	farcall InitGender
+	ld hl, TextJump_PasswordOption
+	call PrintText
+	call YesNoBox
+	ret c
+	
+	call RotateFourPalettesLeft
+	call ClearTilemap ;Map -> map
+	
+	ld b, NAME_PASSWORD
+	ld de, wGreensName
+	farcall NamingScreen
+
 	ret
 .ok
 	ld c, 0
 	farcall InitMobileProfile
 	ret
+
+TextJump_PasswordOption:
+	text_far Text_PasswordOption
+	text_end
 
 if DEF(_DEBUG)
 DebugRoom: ; unreferenced

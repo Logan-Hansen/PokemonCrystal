@@ -1548,8 +1548,6 @@ _OakText3::
 	text_promptbutton
 	text_end
 
-	text_end ; unreferenced
-
 _OakText4::
 	text "People and #MON"
 	line "live together by"
@@ -1573,6 +1571,11 @@ _OakText5::
 
 	para "That's why I study"
 	line "#MON every day."
+	prompt
+
+Text_PasswordOption::
+	text "Enter an optional"
+	line "password?"
 	prompt
 
 _CantDepositText::

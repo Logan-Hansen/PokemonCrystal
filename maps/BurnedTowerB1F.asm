@@ -102,14 +102,6 @@ BurnedTowerB1FEusine:
 	opentext
 	writetext BurnedTowerB1FEusineText
 	waitbutton
-	setval SUICUNE ;added
-	special ShowPokedexEntry ;added
-	setval ENTEI ;added
-	special ShowPokedexEntry ;added
-	setval RAIKOU ;added
-	special ShowPokedexEntry ;added
-	writetext BurnedTowerB1FEusineText2
-	waitbutton
 	closetext
 	readvar VAR_FACING
 	ifequal UP, .Movement2
@@ -235,16 +227,6 @@ BurnedTowerB1FEusineText:
 	para "I'm going to track"
 	line "SUICUNE."
 
-	para "Don't forget to"
-	line "update your"
-	cont "#DEX"
-
-	para "Maybe you will get"
-	line "another glimpse of"
-	cont "them sometime!"
-
-
-BurnedTowerB1FEusineText2:
 	para "<PLAYER>, let's"
 	line "meet again!"
 

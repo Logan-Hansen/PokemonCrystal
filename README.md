@@ -101,12 +101,12 @@ Other Updates & Changes
 - [ ] [Display more information on move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
 - [X] [Show clock on pause menu](https://github.com/pret/pokecrystal/wiki/Replace-Menu-Account-with-a-small-clock-in-the-corner-of-the-screen)
 - [ ] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
-- [ ] Updated movesets for Pokemon
+- [X] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)
-    - [ ] More evolution move options
-    - [ ] Hail and other new moves added to learnsets
+    - [X] More evolution move options
+    - [X] Hail and other new moves added to learnsets
 - [ ] Gen 1 transfer moves with tutor in Kanto
-- [ ] Base stat changes to rebalance and increase usability
+- [X] Base stat changes to rebalance and increase usability
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] name rater can change traded pokemon names
 - [ ] can fly anywhere from either region

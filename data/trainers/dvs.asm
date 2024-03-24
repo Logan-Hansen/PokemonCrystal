@@ -61,7 +61,7 @@ TrainerClassDVs:
 	dn  7,  8,  8,  8 ; MEDIUM
 	dn  9,  8,  8,  8 ; BOARDER
 	dn  9,  8,  8,  8 ; POKEFANM
-	dn  6,  8,  8, 10 ; KIMONO_GIRL
+	dn 15, 13, 15, 15 ; KIMONO_GIRL
 	dn  6,  8, 10,  8 ; TWINS
 	dn  6, 13,  8,  8 ; POKEFANF
 	dn 15, 14, 13, 15 ; RED given a slight buff

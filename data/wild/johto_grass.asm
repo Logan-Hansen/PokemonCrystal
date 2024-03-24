@@ -1759,66 +1759,66 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 15, TAUROS, 		 20,  21
-	db 15, MILTANK, 	 20,  21
-	db 20, RATICATE, 	 20,  21
-	db 30, MAGNEMITE, 	 20,  21
-	db 20, PIDGEOTTO, 	 20,  21
-	db  0, RATICATE, 	 20,  21
-	db  0, RATICATE, 	 20,  21
+	db 15, TAUROS, 		 20,  23
+	db 15, MILTANK, 	 20,  23
+	db 20, RATICATE, 	 20,  23
+	db 30, MAGNEMITE, 	 20,  23
+	db 20, PIDGEOTTO, 	 20,  23
+	db  0, RATICATE, 	 20,  23
+	db  0, RATICATE, 	 20,  23
 
 	; day
 	;  %, species,		min, max
-	db 15, TAUROS, 		 20,  21
-	db 15, MILTANK, 	 20,  21
-	db 20, RATICATE, 	 20,  21
-	db 30, MAGNEMITE, 	 20,  21
-	db 20, PIDGEOTTO, 	 20,  21
-	db  0, RATICATE, 	 20,  21
-	db  0, RATICATE, 	 20,  21
+	db 15, TAUROS, 		 20,  23
+	db 15, MILTANK, 	 20,  23
+	db 20, RATICATE, 	 20,  23
+	db 30, MAGNEMITE, 	 20,  23
+	db 20, PIDGEOTTO, 	 20,  23
+	db  0, RATICATE, 	 20,  23
+	db  0, RATICATE, 	 20,  23
 
 	; nite
 	;  %, species,		min, max
-	db 25, RATICATE, 	 20,  21
-	db 25, MAGNEMITE, 	 20,  21
-	db 30, MEOWTH, 	 	 20,  21
-	db 20, NOCTOWL, 	 20,  21
-	db  0, RATICATE, 	 20,  21
-	db  0, RATICATE, 	 20,  21
-	db  0, RATICATE, 	 20,  21	
+	db 25, RATICATE, 	 20,  23
+	db 25, MAGNEMITE, 	 20,  23
+	db 30, MEOWTH, 	 	 20,  23
+	db 20, NOCTOWL, 	 20,  23
+	db  0, RATICATE, 	 20,  23
+	db  0, RATICATE, 	 20,  23
+	db  0, RATICATE, 	 20,  23	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, TAUROS, 		 20,  21
-	db 10, MILTANK, 	 20,  21
-	db 10, PIDGEOTTO, 	 20,  21
-	db 20, RATICATE, 	 20,  21
-	db 20, MAGNEMITE, 	 20,  21
-	db 20, PONYTA,	 	 20,  21
-	db  0, PIDGEOTTO, 	 20,  21
+	db 10, TAUROS, 		 20,  23
+	db 10, MILTANK, 	 20,  23
+	db 10, PIDGEOTTO, 	 20,  23
+	db 20, RATICATE, 	 20,  23
+	db 20, MAGNEMITE, 	 20,  23
+	db 20, PONYTA,	 	 20,  23
+	db  0, PIDGEOTTO, 	 20,  23
 
 	; day
 	;  %, species,		min, max
-	db 15, TAUROS, 		 20,  21
-	db 15, MILTANK, 	 20,  21
-	db 25, MAGNEMITE, 	 20,  21
-	db 15, PIDGEOTTO, 	 20,  21
-	db 20, PONYTA,	 	 20,  21
-	db 10, RATICATE, 	 20,  21
-	db  0, RATICATE, 	 20,  21
+	db 15, TAUROS, 		 20,  23
+	db 15, MILTANK, 	 20,  23
+	db 25, MAGNEMITE, 	 20,  23
+	db 15, PIDGEOTTO, 	 20,  23
+	db 20, PONYTA,	 	 20,  23
+	db 10, RATICATE, 	 20,  23
+	db  0, RATICATE, 	 20,  23
 
 	; nite
 	;  %, species,		min, max
-	db  5, RATICATE, 	 20,  21
-	db 25, MAGNEMITE, 	 20,  21
-	db 30, MEOWTH, 	 	 20,  21
-	db 20, NOCTOWL, 	 20,  21
-	db 20, PONYTA,	 	 20,  21
-	db  0, RATICATE, 	 20,  21
-	db  0, RATICATE, 	 20,  21	
+	db  5, RATICATE, 	 20,  23
+	db 25, MAGNEMITE, 	 20,  23
+	db 30, MEOWTH, 	 	 20,  23
+	db 20, NOCTOWL, 	 20,  23
+	db 20, PONYTA,	 	 20,  23
+	db  0, RATICATE, 	 20,  23
+	db  0, RATICATE, 	 20,  23	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_42
@@ -1924,33 +1924,33 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 15, URSARING, 	 34,  37
-	db 10, DONPHAN, 	 34,  37
-	db 20, SKARMORY, 	 34,  37
-	db 20, GLIGAR, 		 34,  37
+	db 15, URSARING, 	 34,  39
+	db 10, DONPHAN, 	 34,  39
+	db 20, SKARMORY, 	 34,  39
+	db 20, GLIGAR, 		 34,  39
 	db 20, GRAVELER, 	 34,  35
-	db  5, GOLEM,    	 36,  37
-	db 10, RHYHORN, 	 34,  37
+	db  5, GOLEM,    	 36,  39
+	db 10, RHYHORN, 	 34,  39
 
 	; day
 	;  %, species,		min, max
-	db 15, URSARING, 	 34,  37
-	db 10, DONPHAN, 	 34,  37
-	db 20, SKARMORY, 	 34,  37
-	db 20, GLIGAR, 		 34,  37
+	db 15, URSARING, 	 34,  39
+	db 10, DONPHAN, 	 34,  39
+	db 20, SKARMORY, 	 34,  39
+	db 20, GLIGAR, 		 34,  39
 	db 20, GRAVELER, 	 34,  35
-	db  5, GOLEM,    	 36,  37
-	db 10, RHYHORN, 	 34,  37
+	db  5, GOLEM,    	 36,  39
+	db 10, RHYHORN, 	 34,  39
 
 	; nite
 	;  %, species,		min, max
-	db  0, URSARING, 	 34,  37
-	db 20, MURKROW, 	 34,  36
-	db 20, GOLBAT, 	     34,  37
-	db 20, GLIGAR, 		 34,  37
+	db  0, URSARING, 	 34,  39
+	db 20, MURKROW, 	 34,  39
+	db 20, GOLBAT, 	     34,  39
+	db 20, GLIGAR, 		 34,  39
 	db 20, GRAVELER, 	 34,  35
-	db 20, GOLEM,    	 36,  37
-	db  0, RHYHORN, 	 34,  37	
+	db 20, GOLEM,    	 36,  39
+	db  0, RHYHORN, 	 34,  39	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_46

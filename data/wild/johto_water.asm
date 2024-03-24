@@ -158,8 +158,8 @@ JohtoWaterWildMons:
 	def_water_wildmons OLIVINE_PORT
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 80, TENTACOOL,  	  18, 19
-	db 20, TENTACRUEL, 	  21, 22
+	db 60, TENTACOOL,  	  26, 29
+	db 40, TENTACRUEL, 	  30, 34
 	db  0, TENTACRUEL, 	  20, 22
 	db  0, TENTACOOL,	  20, 22 
 	end_water_wildmons
@@ -185,8 +185,8 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_32
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 60, TENTACOOL,  	  18, 19
-	db 20, TENTACRUEL, 	  21, 22
+	db 60, TENTACOOL,  	  26, 29
+	db 40, TENTACRUEL, 	  30, 34
 	db 20, QUAGSIRE, 	  20, 22
 	db  0, TENTACRUEL,	  20, 22 
 	end_water_wildmons
@@ -194,8 +194,8 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_34
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 80, TENTACOOL,  	  18, 19
-	db 20, TENTACRUEL, 	  21, 22
+	db 60, TENTACOOL,  	  26, 29
+	db 40, TENTACRUEL, 	  30, 34
 	db  0, TENTACRUEL, 	  20, 22
 	db  0, TENTACRUEL,	  20, 22 
 	end_water_wildmons
@@ -212,17 +212,17 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_40
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 60, TENTACOOL,  	  15, 19
-	db 20, TENTACRUEL, 	  21, 22
-	db 20, SHELLDER, 	  15, 19
+	db 60, TENTACOOL,  	  26, 29
+	db 20, TENTACRUEL, 	  30, 34
+	db 20, SHELLDER, 	  26, 29
 	db  0, TENTACRUEL,	  20, 22 
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 60, TENTACOOL,  	  18, 20
-	db 20, TENTACRUEL, 	  21, 22
+	db 60, TENTACOOL,  	  26, 29
+	db 20, TENTACRUEL, 	  30, 34
 	db 20, HORSEA,	 	  18, 20
 	db  0, TENTACRUEL,	  20, 22 
 	end_water_wildmons
@@ -266,8 +266,8 @@ JohtoWaterWildMons:
 	def_water_wildmons NEW_BARK_TOWN
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 80, TENTACOOL,  	  15, 20
-	db 20, TENTACRUEL, 	  21, 22
+	db 60, SEAKING,  	  33, 34
+	db 40, TENTACRUEL, 	  30, 34
 	db  0, TENTACRUEL, 	  20, 22
 	db  0, TENTACRUEL,	  20, 22
 	end_water_wildmons
@@ -275,8 +275,8 @@ JohtoWaterWildMons:
 	def_water_wildmons CHERRYGROVE_CITY
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 80, TENTACOOL,  	  15, 20
-	db 20, TENTACRUEL, 	  21, 22
+	db 60, TENTACOOL,  	  26, 29
+	db 40, TENTACRUEL, 	  30, 34
 	db  0, TENTACRUEL, 	  20, 22
 	db  0, TENTACRUEL,	  20, 22
 	end_water_wildmons
@@ -293,8 +293,8 @@ JohtoWaterWildMons:
 	def_water_wildmons CIANWOOD_CITY
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 80, TENTACOOL,  	  15, 20
-	db 20, TENTACRUEL, 	  21, 22
+	db 60, TENTACOOL,  	  26, 29
+	db 40, TENTACRUEL, 	  30, 34
 	db  0, TENTACRUEL, 	  20, 22
 	db  0, TENTACRUEL,	  20, 22
 	end_water_wildmons
@@ -302,8 +302,8 @@ JohtoWaterWildMons:
 	def_water_wildmons OLIVINE_CITY
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 80, TENTACOOL,  	  15, 20
-	db 20, TENTACRUEL, 	  21, 22
+	db 60, TENTACOOL,  	  26, 29
+	db 40, TENTACRUEL, 	  30, 34
 	db  0, TENTACRUEL, 	  20, 22
 	db  0, TENTACRUEL,	  20, 22
 	end_water_wildmons
@@ -320,8 +320,8 @@ JohtoWaterWildMons:
 	def_water_wildmons LAKE_OF_RAGE
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 90, MAGIKARP,  	 15,  19
-	db 10, GYARADOS,	 20,  20
+	db 50, MAGIKARP,  	 19,  19
+	db 50, GYARADOS,	 22,  29
 	db  0, GYARADOS, 	  5,   5
 	db  0, GYARADOS, 	  5,   5
 	end_water_wildmons
@@ -329,8 +329,8 @@ JohtoWaterWildMons:
 	def_water_wildmons BLACKTHORN_CITY
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 90, MAGIKARP,  	 15,  19
-	db 10, GYARADOS,	 20,  20
+	db 50, MAGIKARP,  	 19,  19
+	db 50, GYARADOS,	 22,  29
 	db  0, GYARADOS, 	  5,   5
 	db  0, GYARADOS, 	  5,   5
 	end_water_wildmons
@@ -338,7 +338,7 @@ JohtoWaterWildMons:
 	def_water_wildmons SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 20, POLIWHIRL,  	 35,  40
+	db 20, POLITOED,  	 35,  40
 	db 80, POLIWHIRL, 	 35,  40
 	db  0, POLIWHIRL, 	  5,   5
 	db  0, POLIWHIRL, 	  5,   5

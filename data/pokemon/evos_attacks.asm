@@ -349,6 +349,7 @@ EkansEvosAttacks:
 	db 12, BITE
 	db 17, RAGE
 	db 23, GLARE
+	db 27, SLUDGE
 	db 29, SCREECH
 	db 32, MEGA_DRAIN
 	db 37, ACID
@@ -366,6 +367,7 @@ ArbokEvosAttacks:
 	db 17, RAGE
 	db 21, CRUNCH
 	db 25, GLARE
+	db 29, SLUDGE
 	db 33, SCREECH
 	db 36, MEGA_DRAIN
 	db 43, ACID

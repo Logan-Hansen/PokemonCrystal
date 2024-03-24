@@ -1959,6 +1959,7 @@ GyaradosEvosAttacks:
 	db 22, LEER
 	db 25, DRAGON_RAGE
 	db 27, THRASH
+	db 29, SURF
 	db 30, CRUNCH
 	db 35, TWISTER
 	db 40, HYDRO_PUMP

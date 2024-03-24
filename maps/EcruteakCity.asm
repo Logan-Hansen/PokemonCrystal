@@ -36,6 +36,12 @@ EcruteakCityLass2Script:
 	iftrue .ReleasedBeasts
 	writetext EcruteakCityLass2Text
 	waitbutton
+	setval RAIKOU ; will give you dex entry for tracking
+	special ShowPokedexEntry ; will give you dex entry for tracking
+	setval ENTEI ; added for testing
+	special ShowPokedexEntry ; will give you dex entry for tracking
+	setval SUICUNE ; will give you dex entry for tracking
+	special ShowPokedexEntry ; will give you dex entry for tracking
 	closetext
 	end
 

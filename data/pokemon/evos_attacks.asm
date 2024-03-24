@@ -1355,7 +1355,7 @@ GastlyEvosAttacks:
 
 HaunterEvosAttacks:
 	db EVOLVE_TRADE, -1, GENGAR
-	db EVOLVE_LEVEL, 36, HAUNTER
+	db EVOLVE_LEVEL, 36, GENGAR
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK

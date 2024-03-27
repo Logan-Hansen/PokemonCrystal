@@ -349,6 +349,7 @@ EkansEvosAttacks:
 	db 12, BITE
 	db 17, RAGE
 	db 23, GLARE
+	db 27, SLUDGE
 	db 29, SCREECH
 	db 32, MEGA_DRAIN
 	db 37, ACID
@@ -366,6 +367,7 @@ ArbokEvosAttacks:
 	db 17, RAGE
 	db 21, CRUNCH
 	db 25, GLARE
+	db 29, SLUDGE
 	db 33, SCREECH
 	db 36, MEGA_DRAIN
 	db 43, ACID
@@ -1355,7 +1357,7 @@ GastlyEvosAttacks:
 
 HaunterEvosAttacks:
 	db EVOLVE_TRADE, -1, GENGAR
-	db EVOLVE_LEVEL, 36, HAUNTER
+	db EVOLVE_LEVEL, 36, GENGAR
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
@@ -1959,6 +1961,7 @@ GyaradosEvosAttacks:
 	db 22, LEER
 	db 25, DRAGON_RAGE
 	db 27, THRASH
+	db 29, SURF
 	db 30, CRUNCH
 	db 35, TWISTER
 	db 40, HYDRO_PUMP

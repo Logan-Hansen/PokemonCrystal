@@ -258,6 +258,7 @@
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
 	const HAIL		   ; fc
+	const NASTY_PLOT   ; fd
 DEF NUM_ATTACKS EQU const_value - 1
 
 ; Battle animations use the same constants as the moves up to this point

@@ -13,7 +13,7 @@ How to add a new...
 - [ ] [New Move (up to 255)](https://github.com/pret/pokecrystal/wiki/Add-a-new-move)
 - [ ] [New Move tutor and tutor moves](https://github.com/pret/pokecrystal/wiki/Move-Tutor-and-Tutor-Moves)
 - [ ] [NPC to give you items](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
-- [ ] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
+- [X] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [X] [4th Pokemon info page - show caught location/time and level met at](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
     - [X] [expanded stats screen page - shows DVs, hidden power, happiness](https://github.com/Nayru62/pokecrystal/commit/0d7f56453df33e35d9fa84a6ae2736bdced91a23)
 - [ ] [additional pokedex functionality - movesets, evolutions, sprites,base stats, etc](https://github.com/Nayru62/pokecrystal/commit/1c4befcb98d6d30306b8ba1bd81e263824ac39d3)
@@ -115,6 +115,7 @@ Other Updates & Changes
 - [ ] [improve trainer rematch system](https://github.com/pret/pokecrystal/wiki/Improve-the-trainer-rematch-system)
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
+- [X] officer Jenny now added as a trainer type, currently one on Route 34 - will prob add more all over Kanto
 
 
 Updates to Johto to build on HGSS additions
@@ -126,7 +127,7 @@ Updates to Johto to build on HGSS additions
 
 Updates to Kanto to make it feel less empty
 --------------------
-- [ ] Increased wild pokemon levels to stay a challenge
+- [X] Increased wild pokemon levels to stay a challenge
 - [ ] Safari Zone back
 - [X] Viridian Forest back
 - [X] Seafoam Island(s) added

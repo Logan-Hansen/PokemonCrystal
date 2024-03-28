@@ -2217,6 +2217,7 @@ MoltresEvosAttacks:
 DratiniEvosAttacks:
 	db EVOLVE_LEVEL, 30, DRAGONAIR
 	db 0 ; no more evolutions
+	db 1, EXTREMESPEED
 	db 1, WRAP
 	db 1, LEER
 	db 8, THUNDER_WAVE
@@ -2228,12 +2229,12 @@ DratiniEvosAttacks:
 	db 43, SAFEGUARD
 	db 50, OUTRAGE
 	db 57, HYPER_BEAM
-	db 60, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 DragonairEvosAttacks:
 	db EVOLVE_LEVEL, 55, DRAGONITE
 	db 0 ; no more evolutions
+	db 1, EXTREMESPEED
 	db 1, WRAP
 	db 1, LEER
 	db 8, THUNDER_WAVE
@@ -2247,11 +2248,11 @@ DragonairEvosAttacks:
 	db 56, DOUBLE_EDGE
 	db 57, OUTRAGE
 	db 65, HYPER_BEAM
-	db 70, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 DragoniteEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, EXTREMESPEED
 	db 1, WRAP
 	db 1, LEER
 	db 8, THUNDER_WAVE
@@ -2266,7 +2267,6 @@ DragoniteEvosAttacks:
 	db 59, DOUBLE_EDGE
 	db 60, OUTRAGE
 	db 75, HYPER_BEAM
-	db 80, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 MewtwoEvosAttacks:
@@ -2275,12 +2275,12 @@ MewtwoEvosAttacks:
 	db 1, DISABLE
 	db 1, SUBMISSION
 	db 1, BODY_SLAM
-	db 11, BARRIER
 	db 11, REFLECT
-	db 22, SWIFT
-	db 33, PSYCH_UP
+	db 11, MIST
+	db 22, PSYCH_UP
+	db 33, SWIFT
 	db 44, FUTURE_SIGHT
-	db 55, MIST
+	db 55, BARRIER
 	db 60, PSYCHIC_M
 	db 66, THUNDER_WAVE
 	db 70, SELFDESTRUCT

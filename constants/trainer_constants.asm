@@ -704,6 +704,9 @@ DEF KRIS EQU __trainer_class__
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
 
+	trainerclass OFFICERF ; added
+	const JENNY
+
 	;constants for random generated parties - used to specify which list to use
 	const_def
 	const RANDOMLIST_0

@@ -15,7 +15,7 @@ TrainerClassDVs:
 	dn 13, 12, 13, 13 ; WILL
 	dn 13, 12, 13, 13 ; CAL
 	dn 13, 12, 13, 13 ; BRUNO
-	dn  7, 15, 13, 15 ; KAREN
+	dn 13, 15, 13, 15 ; KAREN
 	dn 13, 12, 13, 13 ; KOGA
 	dn 13, 12, 13, 13 ; CHAMPION
 	dn  9,  8,  8,  8 ; BROCK
@@ -69,5 +69,6 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; OFFICER
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn 10,  8,  8, 10 ; MYSTICALMAN slightly stronger
+	dn  9,  8,  8,  8 ; OFFICERF
 
 	assert_table_length NUM_TRAINER_CLASSES

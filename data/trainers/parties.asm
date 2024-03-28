@@ -3736,6 +3736,11 @@ MysticalmanGroup:
 	db 40, ELECTRODE,  THUNDER_WAVE, SWIFT, THUNDERBOLT, ROLLOUT
 	db -1 ; end
 
+OfficerFGroup:
+	; custom on route 34
+	db "JENNY@", TRAINERTYPE_NORMAL
+	db 17, GROWLITHE
+	db -1 ; end
 
 SECTION "Random Party Lists", ROMX
 ;lists defined here, constants used to tell trainer which list to get from

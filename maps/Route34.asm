@@ -12,6 +12,7 @@
 	const ROUTE34_COOLTRAINER_F2
 	const ROUTE34_COOLTRAINER_F3
 	const ROUTE34_POKE_BALL
+	const ROUTE34_OFFICERF
 
 Route34_MapScripts:
 	def_scene_scripts
@@ -379,6 +380,38 @@ OfficerKeithScript:
 	closetext
 	end
 
+OfficerJennyScript:
+	faceplayer
+	opentext
+	checktime NITE
+	iffalse .NoFight
+	checkevent EVENT_BEAT_OFFICER_JENNY
+	iftrue .AfterScript
+	playmusic MUSIC_OFFICER_ENCOUNTER
+	writetext OfficerJennySeenText
+	waitbutton
+	closetext
+	winlosstext OfficerJennyWinText, 0
+	loadtrainer OFFICERF, JENNY
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_OFFICER_JENNY
+	closetext
+	end
+
+.AfterScript:
+	writetext OfficerJennyAfterText
+	waitbutton
+	closetext
+	end
+
+.NoFight:
+	writetext OfficerJennyDaytimeText
+	waitbutton
+	closetext
+	end
+
+
 TrainerYoungsterSamuel:
 	trainer YOUNGSTER, SAMUEL, EVENT_BEAT_YOUNGSTER_SAMUEL, YoungsterSamuelSeenText, YoungsterSamuelBeatenText, 0, .Script
 
@@ -623,6 +656,33 @@ OfficerKeithDaytimeText:
 	cont "viduals."
 	done
 
+OfficerJennySeenText:
+	text "Who goes there?!"
+	line "You shouldn't be"
+	cont "out this late!"
+	done
+
+OfficerJennyWinText:
+	text "I guess you will"
+	line "be okay."
+	done
+
+OfficerJennyAfterText:
+	text "Yep, I see nothing"
+	line "wrong today. You"
+
+	para "be good and stay"
+	line "out of trouble."
+	done
+
+OfficerJennyDaytimeText:
+	text "You let me know if"
+	line "you see any"
+
+	para "suspicious indi-"
+	line "viduals."
+	done
+
 PokefanmBrandonSeenText:
 	text "I just got my"
 	line "#MON back from"
@@ -791,3 +851,4 @@ Route34_MapEvents:
 	object_event  3, 48, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfJenn, -1
 	object_event  6, 51, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerfKate, -1
 	object_event  7, 30, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route34Nugget, EVENT_ROUTE_34_NUGGET
+	object_event 17, 22, SPRITE_OFFICERF, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OfficerJennyScript, -1

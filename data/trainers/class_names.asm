@@ -68,4 +68,5 @@ TrainerClassNames::
 	li "OFFICER" ; male
 	li "ROCKET" ; grunt female
 	li "MYSTICALMAN" ; Eusine
+	li "OFFICER" ; female
 	assert_list_length NUM_TRAINER_CLASSES

@@ -71,7 +71,6 @@ CloysterFrontpic:    INCBIN "gfx/pokemon/cloyster/front.animated.2bpp.lz"
 SkarmoryFrontpic:    INCBIN "gfx/pokemon/skarmory/front.animated.2bpp.lz"
 DewgongFrontpic:     INCBIN "gfx/pokemon/dewgong/front.animated.2bpp.lz"
 VictreebelFrontpic:  INCBIN "gfx/pokemon/victreebel/front.animated.2bpp.lz"
-RaichuFrontpic:      INCBIN "gfx/pokemon/raichu/front.animated.2bpp.lz"
 
 
 SECTION "Pics 4", ROMX
@@ -712,7 +711,11 @@ UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
 ; moved above from 17 and 10 to make room for larger file size on original japanese trainer sprites
 PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
 OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
-; moved these two pokemon to make room for additional trainers in TrainerPicPointers
+RaichuFrontpic:      INCBIN "gfx/pokemon/raichu/front.animated.2bpp.lz"
+; moved these three pokemon to make room for additional trainers in TrainerPicPointers
+OfficerfPic:         INCBIN "gfx/trainers/officer_f.2bpp.lz"
+
+
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).

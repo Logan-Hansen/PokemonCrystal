@@ -119,6 +119,7 @@ ZubatEggMoves:
 	db GUST
 	db WHIRLWIND
 	db FLAIL
+	db NASTY_PLOT
 	db -1 ; end
 
 OddishEggMoves:
@@ -320,6 +321,7 @@ OnixEggMoves:
 DrowzeeEggMoves:
 	db LIGHT_SCREEN
 	db BARRIER
+	db NASTY_PLOT
 	db -1 ; end
 
 KrabbyEggMoves:
@@ -420,6 +422,7 @@ MrMimeEggMoves:
 	db HYPNOSIS
 	db MIMIC
 	db MIND_READER
+	db NASTY_PLOT
 	db -1 ; end
 
 ScytherEggMoves:
@@ -613,6 +616,7 @@ TogepiEggMoves:
 	db PECK
 	db FORESIGHT
 	db FUTURE_SIGHT
+	db NASTY_PLOT
 	db -1 ; end
 
 NatuEggMoves:
@@ -704,6 +708,7 @@ MurkrowEggMoves:
 MisdreavusEggMoves:
 	db SCREECH
 	db DESTINY_BOND
+	db NASTY_PLOT
 	db -1 ; end
 
 GirafarigEggMoves:
@@ -850,6 +855,7 @@ HoundourEggMoves:
 	db SPITE
 	db REVERSAL
 	db BEAT_UP
+	db NASTY_PLOT
 	db -1 ; end
 
 PhanpyEggMoves:
@@ -880,6 +886,7 @@ SmoochumEggMoves:
 	db MEDITATE
 	db METRONOME
 	db PETAL_DANCE
+	db NASTY_PLOT
 	db -1 ; end
 
 ElekidEggMoves:

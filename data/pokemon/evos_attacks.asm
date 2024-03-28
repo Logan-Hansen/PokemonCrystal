@@ -388,6 +388,7 @@ PikachuEvosAttacks:
 	db 20, SLAM
 	db 26, THUNDERBOLT
 	db 33, AGILITY
+	db 37, NASTY_PLOT
 	db 41, THUNDER
 	db 50, LIGHT_SCREEN
 	db 0 ; no more level-up moves
@@ -402,6 +403,7 @@ RaichuEvosAttacks:
 	db 11, SEISMIC_TOSS
 	db 26, THUNDERBOLT
 	db 33, MEGA_KICK
+	db 37, NASTY_PLOT
 	db 41, THUNDER
 	db 50, SUBMISSION
 	db 0 ; no more level-up moves
@@ -552,6 +554,7 @@ VulpixEvosAttacks:
 	db 19, CONFUSE_RAY
 	db 25, SAFEGUARD
 	db 31, FLAMETHROWER
+	db 35, NASTY_PLOT
 	db 37, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -563,6 +566,7 @@ NinetalesEvosAttacks:
 	db 1, SAFEGUARD
 	db 1, FLAME_WHEEL
 	db 34, FLAMETHROWER
+	db 37, NASTY_PLOT
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -752,7 +756,8 @@ MeowthEvosAttacks:
 	db 1, GROWL
 	db 11, BITE
 	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
+	db 29, FAINT_ATTACK
+	db 30, NASTY_PLOT
 	db 35, SCREECH
 	db 41, FURY_SWIPES
 	db 46, SLASH
@@ -767,6 +772,7 @@ PersianEvosAttacks:
 	db 11, BITE
 	db 20, PAY_DAY
 	db 29, FAINT_ATTACK
+	db 31, NASTY_PLOT
 	db 38, SCREECH
 	db 46, FURY_SWIPES
 	db 53, SLASH
@@ -1414,6 +1420,7 @@ DrowzeeEvosAttacks:
 	db 18, CONFUSION
 	db 25, HEADBUTT
 	db 27, AMNESIA
+	db 29, NASTY_PLOT
 	db 31, POISON_GAS
 	db 36, MEDITATE
 	db 40, PSYCHIC_M
@@ -1431,6 +1438,7 @@ HypnoEvosAttacks:
 	db 18, CONFUSION
 	db 25, HEADBUTT
 	db 27, AMNESIA
+	db 31, NASTY_PLOT
 	db 33, POISON_GAS
 	db 40, MEDITATE
 	db 49, PSYCHIC_M
@@ -2298,6 +2306,7 @@ MewEvosAttacks:
 	db 30, METRONOME
 	db 30, SWORDS_DANCE
 	db 40, PSYCHIC_M
+	db 45, NASTY_PLOT
 	db 50, ANCIENTPOWER
 	db 50, ROCK_SLIDE
 	db 60, THUNDER_WAVE
@@ -2647,6 +2656,7 @@ PichuEvosAttacks:
 	db 6, TAIL_WHIP
 	db 8, THUNDER_WAVE
 	db 11, SWEET_KISS
+	db 15, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 CleffaEvosAttacks:
@@ -2899,6 +2909,7 @@ AipomEvosAttacks:
 	db 17, AGILITY
 	db 19, FURY_SWIPES
 	db 24, COUNTER
+	db 26, NASTY_PLOT
 	db 27, SWIFT
 	db 33, SLASH
 	db 36, SCREECH
@@ -3023,6 +3034,7 @@ SlowkingEvosAttacks:
 	db 34, HEADBUTT
 	db 37, PSYBEAM
 	db 43, SWAGGER
+	db 45, NASTY_PLOT
 	db 48, PSYCHIC_M
 	db 50, FUTURE_SIGHT
 	db 0 ; no more level-up moves
@@ -3068,6 +3080,7 @@ GirafarigEvosAttacks:
 	db 7, CONFUSION
 	db 13, STOMP
 	db 20, AGILITY
+	db 25, NASTY_PLOT
 	db 30, BATON_PASS
 	db 41, PSYBEAM
 	db 54, CRUNCH
@@ -3438,6 +3451,7 @@ HoundourEvosAttacks:
 	db 13, SMOG
 	db 20, BITE
 	db 27, FAINT_ATTACK
+	db 30, NASTY_PLOT
 	db 35, FLAMETHROWER
 	db 39, CRUNCH
 	db 0 ; no more level-up moves
@@ -3451,6 +3465,7 @@ HoundoomEvosAttacks:
 	db 20, BITE
 	db 23, FLAME_WHEEL
 	db 30, FAINT_ATTACK
+	db 32, NASTY_PLOT
 	db 37, FLAMETHROWER
 	db 42, CRUNCH
 	db 0 ; no more level-up moves

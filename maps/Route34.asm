@@ -672,11 +672,11 @@ OfficerJennyWinText:
 	done
 
 OfficerJennyAfterText:
-	text "Yep, I see nothing"
-	line "wrong today. You"
+	text "You be careful"
+	line "out there."
 
-	para "be good and stay"
-	line "out of trouble."
+	para "You don't want"
+	line "to get hurt."
 	done
 
 OfficerJennyDaytimeText:

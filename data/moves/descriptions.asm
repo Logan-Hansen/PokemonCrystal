@@ -253,16 +253,17 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw HailDescription
+	dw NastyPlotDescription
 	assert_table_length NUM_ATTACKS
 	;dw MoveFCDescription
-	dw MoveFDDescription
+	;dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
 ;MoveFCDescription:
-MoveFDDescription:
+;MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1275,3 +1276,7 @@ BeatUpDescription:
 HailDescription:
 	db   "Inflicts damage"
 	next "every turn.@"
+
+NastyPlotDescription:
+	db	 "Sharply increases"
+	next "user's SPCL.ATK.@"

@@ -40,4 +40,6 @@ SpriteMons:
 	db ZAPDOS
 	db RATTATA
 	db MEOWTH
+	db MEWTWO
+	db MEW
 	assert_table_length NUM_POKEMON_SPRITES

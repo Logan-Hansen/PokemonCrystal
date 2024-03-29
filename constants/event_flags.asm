@@ -323,9 +323,9 @@
 	const EVENT_FOUGHT_MOLTRES 		    ;mine
 	const EVENT_SILVER_CAVE_MOLTRES 	;mine
 	const EVENT_DANA_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
+	const EVENT_POKEMON_MANSION_MEWTWO	;mine
 	const EVENT_CHAD_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
+	const EVENT_FOUGHT_MEWTWO			;mine
 	const EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
 	const EVENT_TULLY_ASKED_FOR_PHONE_NUMBER

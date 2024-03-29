@@ -38,4 +38,6 @@ SpriteMons:
 	db HO_OH
 	db ARTICUNO
 	db ZAPDOS
+	db RATTATA
+	db MEOWTH
 	assert_table_length NUM_POKEMON_SPRITES

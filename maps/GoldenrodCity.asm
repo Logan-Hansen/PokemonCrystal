@@ -374,7 +374,8 @@ SwarmQwilfishText:
 
 SwarmRareText:
 	text "Let me see…"
-	line "What did the news say?"
+	line "What did the news"
+	para "say?"
 
 	para "How could I forget!"
 	para "Rare #MON"

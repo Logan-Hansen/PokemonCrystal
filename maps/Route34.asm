@@ -526,8 +526,9 @@ Route34HiddenSuperPotion:
 
 Route34MovementData_DayCareManWalksBackInside:
 	slow_step LEFT
-	slow_step LEFT
 	slow_step UP
+	slow_step UP
+	slow_step RIGHT
 	step_end
 
 Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
@@ -536,6 +537,9 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	slow_step LEFT
 	slow_step UP
 	slow_step UP
+	slow_step UP
+	slow_step RIGHT
+	slow_step RIGHT
 	step_end
 
 YoungsterSamuelSeenText:

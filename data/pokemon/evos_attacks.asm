@@ -413,12 +413,15 @@ SandshrewEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 6, DEFENSE_CURL
+	db 9, POWDER_SNOW ; added
 	db 11, SAND_ATTACK
 	db 17, POISON_STING
+	db 21, ICY_WIND ; added
 	db 23, SLASH
 	db 30, SWIFT
+	db 34, SPIKE_CANNON ; added
 	db 37, FURY_SWIPES
-	db 45, SANDSTORM
+	db 45, HAIL ; SANDSTORM
 	db 0 ; no more level-up moves
 
 SandslashEvosAttacks:
@@ -427,12 +430,16 @@ SandslashEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 1, SAND_ATTACK
 	db 6, DEFENSE_CURL
+	db 9, POWDER_SNOW ; added
 	db 11, SAND_ATTACK
 	db 17, POISON_STING
+	db 21, ICY_WIND ; added
+	db 21, METAL_CLAW ; added
 	db 24, SLASH
 	db 33, SWIFT
+	db 36, SPIKE_CANNON ; added
 	db 42, FURY_SWIPES
-	db 52, SANDSTORM
+	db 52, HAIL ; SANDSTORM
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:

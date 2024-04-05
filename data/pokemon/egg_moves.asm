@@ -76,6 +76,7 @@ SandshrewEggMoves:
 	db COUNTER
 	db RAPID_SPIN
 	db METAL_CLAW
+	db HAIL ; added
 	db -1 ; end
 
 NidoranFEggMoves:

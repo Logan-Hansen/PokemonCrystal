@@ -27,7 +27,7 @@ EvolutionMoves::
     db NO_MOVE      ; PIKACHU
 	db BODY_SLAM    ; RAICHU
     db NO_MOVE      ; SANDSHREW
-    db NO_MOVE      ; SANDSLASH
+    db METAL_CLAW   ; SANDSLASH
     db NO_MOVE      ; NIDORAN_F
     db NO_MOVE      ; NIDORINA
     db MAGNITUDE    ; NIDOQUEEN

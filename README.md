@@ -142,7 +142,7 @@ Updates to Kanto to make it feel less empty
 Pokemon Type/Variant changes
 --------------------
 - [X] Arbok now Poison/Dark
-- [ ] Drowzee/Hypno now Psychic/Dark
+- [X] Drowzee/Hypno now Psychic/Dark
 - [ ] Ninetales now Fire/Psychic
 - [ ] Golduck now Water/Psychic
 - [ ] Farfetchd now Flying/Fighting

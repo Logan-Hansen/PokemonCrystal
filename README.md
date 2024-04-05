@@ -72,6 +72,8 @@ features from different generations
 - [X] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [X] Morn/Day/Night timing now matches hgss (night starts at 8 instead of 6pm)
 - [X] Added the move nasty plot
+- [ ] Adding in the Fairy type
+    - Bug is neutral vs fairy instead of fairy resisting
 --------------------
 Other Updates & Changes
 --------------------
@@ -143,7 +145,7 @@ Pokemon Type/Variant changes
 --------------------
 - [X] Arbok now Poison/Dark
 - [X] Drowzee/Hypno now Psychic/Dark
-- [ ] Ninetales now Fire/Psychic
+- [ ] Ninetales now Fire/Fairy
 - [ ] Golduck now Water/Psychic
 - [ ] Farfetchd now Flying/Fighting
 - [ ] Feraligatr now Water/Dark

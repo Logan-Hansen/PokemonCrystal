@@ -32,6 +32,7 @@ DEF SPECIAL EQU const_value
 	const ICE
 	const DRAGON
 	const GHOST
+	const FAIRY
 	
 DEF TYPES_END EQU const_value
 

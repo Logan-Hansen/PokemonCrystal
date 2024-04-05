@@ -538,10 +538,16 @@ ClefairyEvosAttacks:
 
 ClefableEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SING
-	db 1, DOUBLESLAP
-	db 1, METRONOME
-	db 1, MOONLIGHT
+	db 1, POUND
+	db 1, GROWL
+	db 4, ENCORE
+	db 8, SING
+	db 13, DOUBLESLAP
+	db 19, MINIMIZE
+	db 26, DEFENSE_CURL
+	db 34, METRONOME
+	db 43, MOONLIGHT
+	db 53, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -568,6 +574,7 @@ NinetalesEvosAttacks:
 	db 34, FLAMETHROWER
 	db 37, NASTY_PLOT
 	db 43, FIRE_SPIN
+	db 58, PSYBEAM
 	db 0 ; no more level-up moves
 
 JigglypuffEvosAttacks:
@@ -843,7 +850,7 @@ GrowlitheEvosAttacks:
 	db EVOLVE_ITEM, FIRE_STONE, ARCANINE
 	db 0 ; no more evolutions
 	db 1, BITE
-	db 1, ROAR
+	db 8, ROAR
 	db 9, EMBER
 	db 18, LEER
 	db 24, FLAME_WHEEL
@@ -855,10 +862,14 @@ GrowlitheEvosAttacks:
 
 ArcanineEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ROAR
-	db 1, LEER
-	db 1, TAKE_DOWN
-	db 1, FLAME_WHEEL
+	DB 1, BITE
+	db 8, ROAR
+	DB 9, EMBER
+	db 18, LEER
+	db 24, FLAME_WHEEL
+	db 26, TAKE_DOWN
+	db 32, AGILITY
+	db 35, FLAMETHROWER
 	db 40, MORNING_SUN
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves

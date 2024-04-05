@@ -501,7 +501,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 15, SANDSHREW, 	  7,   8
+	db 15, CUBONE,  	  7,   8 ; was sandshrew
 	db 30, GEODUDE, 	  7,   8
 	db 15, ONIX, 		  7,   9
 	db 25, ZUBAT,	 	  7,   8
@@ -511,7 +511,7 @@ JohtoGrassWildMons:
 
 	; day
 	;  %, species,		min, max
-	db 20, SANDSHREW, 	  7,   8
+	db 20, CUBONE, 		  7,   8 ; was sandshrew
 	db 30, GEODUDE, 	  7,   8
 	db 15, ONIX, 		  7,   9
 	db 20, ZUBAT,	 	  7,   8
@@ -831,20 +831,20 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 40, SWINUB, 		 27,  29
+	db 20, SWINUB, 		 27,  29
 	db 25, DELIBIRD,	 27,  29
 	db 35, GOLBAT,	 	 27,  29
-	db  0, SWINUB, 	  	 5,   5
+	db 20, SANDSLASH,  	 27,  29
 	db  0, SWINUB, 	  	 5,   5
 	db  0, SWINUB, 	  	 5,   5
 	db  0, SWINUB, 	  	 5,   5
 
 	; day
 	;  %, species,		min, max
-	db 40, SWINUB, 		 27,  29
+	db 20, SWINUB, 		 27,  29
 	db 25, DELIBIRD,	 27,  29
 	db 35, GOLBAT,	 	 27,  29
-	db  0, SWINUB, 	  	 5,   5
+	db 20, SANDSLASH,  	 27,  29
 	db  0, SWINUB, 	  	 5,   5
 	db  0, SWINUB, 	  	 5,   5
 	db  0, SWINUB, 	  	 5,   5
@@ -864,21 +864,21 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 40, SWINUB, 		 28,  30
+	db 20, SWINUB, 		 28,  30
 	db 20, JYNX, 		 28,  30
 	db 20, DELIBIRD,	 28,  30
 	db 20, GOLBAT,	 	 28,  30
-	db  0, SWINUB, 	  	 5,   5
+	db 20, SANDSLASH,  	 28,  30
 	db  0, SWINUB, 	  	 5,   5
 	db  0, SWINUB, 	  	 5,   5
 
 	; day
 	;  %, species,		min, max
-	db 40, SWINUB, 		 28,  30
+	db 20, SWINUB, 		 28,  30
 	db 20, JYNX, 		 28,  30
 	db 20, DELIBIRD,	 28,  30
 	db 20, GOLBAT,	 	 28,  30
-	db  0, SWINUB, 	  	 5,   5
+	db 20, SANDSLASH,  	 28,  30
 	db  0, SWINUB, 	  	 5,   5
 	db  0, SWINUB, 	  	 5,   5
 
@@ -899,20 +899,20 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 20, SWINUB, 		 30,  32
 	db 20, JYNX, 		 30,  34
-	db 20, DELIBIRD,	 30,  34
+	db 10, DELIBIRD,	 30,  34
 	db 20, GOLBAT,	 	 30,  34
 	db 20, PILOSWINE,  	 34,  35
-	db  0, SWINUB, 	  	 5,   5
+	db 10, SANDSLASH,  	 34,  35
 	db  0, SWINUB, 	  	 5,   5
 
 	; day
 	;  %, species,		min, max
 	db 20, SWINUB, 		 30,  32
 	db 20, JYNX, 		 30,  34
-	db 20, DELIBIRD,	 30,  34
+	db 10, DELIBIRD,	 30,  34
 	db 20, GOLBAT,	 	 30,  34
 	db 20, PILOSWINE,  	 34,  35
-	db  0, SWINUB, 	  	 5,   5
+	db 10, SANDSLASH,  	 34,  35
 	db  0, SWINUB, 	  	 5,   5
 
 	; nite
@@ -932,20 +932,20 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 20, SWINUB, 		 30,  32
 	db 20, JYNX, 		 30,  34
-	db 20, DELIBIRD,	 30,  34
+	db 10, DELIBIRD,	 30,  34
 	db 20, GOLBAT,	 	 30,  34
 	db 20, PILOSWINE,  	 34,  35
-	db  0, SWINUB, 	  	 5,   5
+	db 10, SANDSLASH,  	 34,  35
 	db  0, SWINUB, 	  	 5,   5
 
 	; day
 	;  %, species,		min, max
 	db 20, SWINUB, 		 30,  32
 	db 20, JYNX, 		 30,  34
-	db 20, DELIBIRD,	 30,  34
+	db 10, DELIBIRD,	 30,  34
 	db 20, GOLBAT,	 	 30,  34
 	db 20, PILOSWINE,  	 34,  35
-	db  0, SWINUB, 	  	 5,   5
+	db 10, SANDSLASH,  	 34,  35
 	db  0, SWINUB, 	  	 5,   5
 
 	; nite
@@ -965,20 +965,20 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 20, SWINUB, 		 30,  32
 	db 20, JYNX, 		 34,  36
-	db 20, DELIBIRD,	 34,  36
+	db 10, DELIBIRD,	 34,  36
 	db 20, GOLBAT,	 	 34,  36
 	db 20, PILOSWINE,  	 34,  36
-	db  0, SWINUB, 	  	 5,   5
+	db 10, SANDSLASH,  	 34,  36
 	db  0, SWINUB, 	  	 5,   5
 
 	; day
 	;  %, species,		min, max
 	db 20, SWINUB, 		 30,  32
 	db 20, JYNX, 		 34,  36
-	db 20, DELIBIRD,	 34,  36
+	db 10, DELIBIRD,	 34,  36
 	db 20, GOLBAT,	 	 34,  36
 	db 20, PILOSWINE,  	 34,  36
-	db  0, SWINUB, 	  	 5,   5
+	db 10, SANDSLASH,  	 34,  36
 	db  0, SWINUB, 	  	 5,   5
 
 	; nite

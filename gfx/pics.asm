@@ -94,7 +94,7 @@ SandslashFrontpic:   INCBIN "gfx/pokemon/sandslash/front.animated.2bpp.lz"
 JolteonFrontpic:     INCBIN "gfx/pokemon/jolteon/front.animated.2bpp.lz"
 DonphanFrontpic:     INCBIN "gfx/pokemon/donphan/front.animated.2bpp.lz"
 PinsirFrontpic:      INCBIN "gfx/pokemon/pinsir/front.animated.2bpp.lz"
-UnownEFrontpic:      INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
+
 
 
 SECTION "Pics 5", ROMX
@@ -366,7 +366,6 @@ ArcanineBackpic:     INCBIN "gfx/pokemon/arcanine/back.2bpp.lz"
 FlareonBackpic:      INCBIN "gfx/pokemon/flareon/back.2bpp.lz"
 GoldeenBackpic:      INCBIN "gfx/pokemon/goldeen/back.2bpp.lz"
 BulbasaurFrontpic:   INCBIN "gfx/pokemon/bulbasaur/front.animated.2bpp.lz"
-StarmieBackpic:      INCBIN "gfx/pokemon/starmie/back.2bpp.lz"
 
 
 SECTION "Pics 13", ROMX
@@ -714,7 +713,10 @@ OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
 RaichuFrontpic:      INCBIN "gfx/pokemon/raichu/front.animated.2bpp.lz"
 ; moved these three pokemon to make room for additional trainers in TrainerPicPointers
 OfficerfPic:         INCBIN "gfx/trainers/officer_f.2bpp.lz"
-
+; moved unown to make room for larger alolan sandslash sprite in bank 4
+UnownEFrontpic:      INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
+; moved starmie to make room for alolan sandshrew in bank 14
+StarmieBackpic:      INCBIN "gfx/pokemon/starmie/back.2bpp.lz"
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,

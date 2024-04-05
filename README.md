@@ -139,6 +139,32 @@ Updates to Kanto to make it feel less empty
 - [X] [Headbutt works on Kanto trees](https://github.com/pret/pokecrystal/wiki/Make-the-field-move-Headbutt-work-with-Kanto-trees)
 
 
+Pokemon Type/Variant changes
+--------------------
+- [X] Arbok now Poison/Dark
+- [ ] Drowzee/Hypno now Psychic/Dark
+- [ ] Ninetales now Fire/Psychic
+- [ ] Golduck now Water/Psychic
+- [ ] Farfetchd now Flying/Fighting
+- [ ] Feraligatr now Water/Dark
+- [ ] Mankey/Primeape now Fighting/Dark
+- [ ] Pinsir now Bug/Dark
+- [ ] Ledyba now Bug, Ledian Bug/Fighting
+- [ ] Dunsparce now Normal/Ground
+- [ ] Seel now Water/Ice to match Dewgong
+- [ ] Electabuzz now Electric/Fighting
+- [ ] Magmar now Fire/Fighting
+
+
+
+
+- [ ] Hisuian Typhlosion instead - Fire/Ghost
+- [ ] Alolan Sandshrew line instead - Ice/Steel
+- [ ] Alolan Rattata line instead - Dark/Normal
+- [ ] Alolan Geodude line instead - Rock/Electric
+
+
+
 
 Pokemon Availability
 --------------------

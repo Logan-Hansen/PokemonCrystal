@@ -72,7 +72,7 @@ features from different generations
 - [X] [Replace Freeze with Frostbite](https://github.com/pret/pokecrystal/wiki/Replace-the-Freeze-status-with-Frostbite)
 - [X] Morn/Day/Night timing now matches hgss (night starts at 8 instead of 6pm)
 - [X] Added the move nasty plot
-- [ ] Adding in the Fairy type
+- [X] Adding in the Fairy type
     - Bug is neutral vs fairy instead of fairy resisting
 --------------------
 Other Updates & Changes
@@ -149,6 +149,7 @@ Pokemon Type/Variant changes
 - [ ] Golduck now Water/Psychic
 - [ ] Farfetchd now Flying/Fighting
 - [ ] Feraligatr now Water/Dark
+- [ ] Meganium now Grass/Fairy
 - [ ] Mankey/Primeape now Fighting/Dark
 - [ ] Pinsir now Bug/Dark
 - [ ] Ledyba now Bug, Ledian Bug/Fighting

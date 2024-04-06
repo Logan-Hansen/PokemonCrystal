@@ -27,7 +27,7 @@ SECTION "Enemy Trainer Parties 1", ROMX
 
  FalknerGroup:
 	; FALKNER (1)
-	db "Falkner@", TRAINERTYPE_VARIABLE
+	db "FALKNER@", TRAINERTYPE_VARIABLE
 
 	; No badges ; ; loadtrainer FALKNER, FALKNER1
 	db TRAINERTYPE_MOVES

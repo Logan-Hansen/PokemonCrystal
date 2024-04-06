@@ -62,7 +62,7 @@ LancesRoomLanceScript:
 	iftrue .rematch 
 	iffalse	.standard
 .rematch
-	loadtrainer CHAMPION, LANCE2
+	loadtrainer CHAMPION, LANCE1
 	startbattle
 	sjump .afterBattle
 	

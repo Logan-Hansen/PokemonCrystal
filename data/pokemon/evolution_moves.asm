@@ -165,7 +165,7 @@ EvolutionMoves::
     db NO_MOVE      ; HOOTHOOT
     db PSYBEAM      ; NOCTOWL
     db NO_MOVE      ; LEDYBA
-    db NO_MOVE      ; LEDIAN
+    db MACH_PUNCH   ; LEDIAN
     db NO_MOVE      ; SPINARAK
 	db TWINEEDLE    ; ARIADOS
     db NO_MOVE      ; CROBAT

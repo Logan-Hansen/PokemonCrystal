@@ -151,11 +151,11 @@ Pokemon Type/Variant changes
 - [X] Farfetchd now Flying/Fighting
 - [X] Feraligatr now Water/Dark
 - [ ] Meganium now Grass/Fairy
-- [ ] Mankey/Primeape now Fighting/Dark
+- [X] Mankey/Primeape now Fighting/Dark
 - [ ] Pinsir now Bug/Dark
-- [ ] Ledyba now Bug, Ledian Bug/Fighting
+- [X] Ledyba now Bug, Ledian Bug/Fighting
 - [ ] Dunsparce now Normal/Ground
-- [ ] Seel now Water/Ice to match Dewgong
+- [X] Seel now Water/Ice to match Dewgong
 - [ ] Electabuzz now Electric/Fighting
 - [ ] Magmar now Fire/Fighting
 

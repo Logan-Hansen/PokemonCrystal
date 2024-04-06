@@ -152,7 +152,6 @@ Pokemon Type/Variant changes
 - [X] Feraligatr now Water/Dark
 - [X] Mankey/Primeape now Fighting/Dark
 - [X] Ledyba now Bug, Ledian Bug/Fighting
-- [ ] Dunsparce now Normal/Ground
 - [X] Seel now Water/Ice to match Dewgong
 - [ ] Electabuzz now Electric/Fighting
 - [ ] Magmar now Fire/Fighting

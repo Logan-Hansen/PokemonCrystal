@@ -150,25 +150,16 @@ Pokemon Type/Variant changes
 - [X] Golduck now Water/Psychic
 - [X] Farfetchd now Flying/Fighting
 - [X] Feraligatr now Water/Dark
-- [ ] Meganium now Grass/Fairy
 - [X] Mankey/Primeape now Fighting/Dark
-- [ ] Pinsir now Bug/Dark
 - [X] Ledyba now Bug, Ledian Bug/Fighting
 - [ ] Dunsparce now Normal/Ground
 - [X] Seel now Water/Ice to match Dewgong
 - [ ] Electabuzz now Electric/Fighting
 - [ ] Magmar now Fire/Fighting
 
-
-
-
-- [ ] Hisuian Typhlosion instead - Fire/Ghost
 - [X] Alolan Sandshrew line instead - Ice/Steel
 - [ ] Alolan Rattata line instead - Dark/Normal
 - [ ] Alolan Geodude line instead - Rock/Electric
-
-
-
 
 Pokemon Availability
 --------------------

@@ -54,7 +54,7 @@ WillScript_Battle:
 	iftrue .rematch 
 	iffalse	.standard
 .rematch
-	loadtrainer WILL, WILL1
+	loadtrainer WILL, WILL2
 	startbattle
 	sjump .afterBattle
 	

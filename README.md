@@ -148,8 +148,8 @@ Pokemon Type/Variant changes
 - [X] Drowzee/Hypno now Psychic/Dark
 - [X] Ninetales now Fire/Fairy
 - [X] Golduck now Water/Psychic
-- [ ] Farfetchd now Flying/Fighting
-- [ ] Feraligatr now Water/Dark
+- [X] Farfetchd now Flying/Fighting
+- [X] Feraligatr now Water/Dark
 - [ ] Meganium now Grass/Fairy
 - [ ] Mankey/Primeape now Fighting/Dark
 - [ ] Pinsir now Bug/Dark

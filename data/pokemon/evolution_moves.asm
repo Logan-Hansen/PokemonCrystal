@@ -159,7 +159,7 @@ EvolutionMoves::
     db DOUBLE_EDGE  ; TYPHLOSION
     db NO_MOVE      ; TOTODILE
     db NO_MOVE      ; CROCONAW
-    db SUBMISSION   ; FERALIGATR
+    db CRUNCH       ; FERALIGATR
     db NO_MOVE      ; SENTRET
 	db AGILITY      ; FURRET
     db NO_MOVE      ; HOOTHOOT

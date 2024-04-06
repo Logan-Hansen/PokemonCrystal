@@ -2488,11 +2488,11 @@ FeraligatrEvosAttacks:
 	db 13, RAGE
 	db 21, BITE
 	db 28, SCARY_FACE
-	db 29, SUBMISSION
+	db 29, CRUNCH
 	db 38, SLASH
 	db 47, SCREECH
 	db 50, HYDRO_PUMP
-	db 52, CRUNCH
+	db 52, SUBMISSION
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:

@@ -115,7 +115,8 @@ Other Updates & Changes
 - [ ] name rater can change traded pokemon names
 - [ ] can fly anywhere from either region
 - [ ] Color TM/HMs when in overworld pokeball to help people know which items are worth going after
-- [ ] Rematch parties for Gym Leaders + Elite 4 after beating Red
+- [X] Rematch parties Elite 4 once you have all 16 badges
+- [ ] Rematch parties for Gym leaders after beating Red
 - [ ] [improve trainer rematch system](https://github.com/pret/pokecrystal/wiki/Improve-the-trainer-rematch-system)
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well

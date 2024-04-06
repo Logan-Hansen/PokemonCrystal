@@ -147,28 +147,19 @@ Pokemon Type/Variant changes
 - [X] Arbok now Poison/Dark
 - [X] Drowzee/Hypno now Psychic/Dark
 - [X] Ninetales now Fire/Fairy
-- [ ] Golduck now Water/Psychic
-- [ ] Farfetchd now Flying/Fighting
-- [ ] Feraligatr now Water/Dark
-- [ ] Meganium now Grass/Fairy
-- [ ] Mankey/Primeape now Fighting/Dark
-- [ ] Pinsir now Bug/Dark
-- [ ] Ledyba now Bug, Ledian Bug/Fighting
+- [X] Golduck now Water/Psychic
+- [X] Farfetchd now Flying/Fighting
+- [X] Feraligatr now Water/Dark
+- [X] Mankey/Primeape now Fighting/Dark
+- [X] Ledyba now Bug, Ledian Bug/Fighting
 - [ ] Dunsparce now Normal/Ground
-- [ ] Seel now Water/Ice to match Dewgong
+- [X] Seel now Water/Ice to match Dewgong
 - [ ] Electabuzz now Electric/Fighting
 - [ ] Magmar now Fire/Fighting
 
-
-
-
-- [ ] Hisuian Typhlosion instead - Fire/Ghost
 - [X] Alolan Sandshrew line instead - Ice/Steel
 - [ ] Alolan Rattata line instead - Dark/Normal
 - [X] Alolan Geodude line instead - Rock/Electric
-
-
-
 
 Pokemon Availability
 --------------------

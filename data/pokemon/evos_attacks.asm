@@ -828,8 +828,10 @@ MankeyEvosAttacks:
 	db 1, LEER
 	db 9, LOW_KICK
 	db 15, KARATE_CHOP
+	db 18, PURSUIT
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
+	db 30, FAINT_ATTACK
 	db 33, SEISMIC_TOSS
 	db 39, CROSS_CHOP
 	db 45, SCREECH
@@ -844,9 +846,11 @@ PrimeapeEvosAttacks:
 	db 1, RAGE
 	db 9, LOW_KICK
 	db 15, KARATE_CHOP
+	db 18, PURSUIT
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
 	db 27, RAGE
+	db 32, FAINT_ATTACK
 	db 36, SEISMIC_TOSS
 	db 45, CROSS_CHOP
 	db 54, SCREECH
@@ -1245,10 +1249,12 @@ FarfetchDEvosAttacks:
 	db 1, PECK
 	db 7, SAND_ATTACK
 	db 13, LEER
+	db 15, KARATE_CHOP ;added
 	db 19, FURY_ATTACK
 	db 21, FURY_CUTTER
 	db 25, SWORDS_DANCE
 	db 31, AGILITY
+	db 34, CROSS_CHOP ;added
 	db 37, SLASH
 	db 44, FALSE_SWIPE
 	db 0 ; no more level-up moves
@@ -2489,11 +2495,11 @@ FeraligatrEvosAttacks:
 	db 13, RAGE
 	db 21, BITE
 	db 28, SCARY_FACE
-	db 29, SUBMISSION
+	db 29, CRUNCH
 	db 38, SLASH
 	db 47, SCREECH
 	db 50, HYDRO_PUMP
-	db 52, CRUNCH
+	db 52, SUBMISSION
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -2583,10 +2589,13 @@ LedianEvosAttacks:
 	db 6, LEECH_LIFE
 	db 8, SUPERSONIC
 	db 15, COMET_PUNCH
+	db 17, MACH_PUNCH
 	db 20, LIGHT_SCREEN
 	db 20, REFLECT
+	db 22, DIZZY_PUNCH
 	db 24, SAFEGUARD
 	db 27, BATON_PASS
+	db 29, MEGA_PUNCH
 	db 33, AGILITY
 	db 42, SWIFT
 	db 60, DOUBLE_EDGE

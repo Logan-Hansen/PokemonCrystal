@@ -159,13 +159,13 @@ EvolutionMoves::
     db DOUBLE_EDGE  ; TYPHLOSION
     db NO_MOVE      ; TOTODILE
     db NO_MOVE      ; CROCONAW
-    db SUBMISSION   ; FERALIGATR
+    db CRUNCH       ; FERALIGATR
     db NO_MOVE      ; SENTRET
 	db AGILITY      ; FURRET
     db NO_MOVE      ; HOOTHOOT
     db PSYBEAM      ; NOCTOWL
     db NO_MOVE      ; LEDYBA
-    db NO_MOVE      ; LEDIAN
+    db MACH_PUNCH   ; LEDIAN
     db NO_MOVE      ; SPINARAK
 	db TWINEEDLE    ; ARIADOS
     db NO_MOVE      ; CROBAT

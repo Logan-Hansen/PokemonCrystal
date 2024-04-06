@@ -31,6 +31,8 @@ VermilionGymSurgeScript:
 	playsound SFX_GET_BADGE
 	waitsfx
 	setflag ENGINE_THUNDERBADGE
+	readvar VAR_BADGES		; added
+	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 	writetext LtSurgeThunderBadgeText
 	waitbutton
 	closetext
@@ -41,6 +43,13 @@ VermilionGymSurgeScript:
 	waitbutton
 	closetext
 	end
+
+CheckKantoBadges: ; check if you have beaten all the gyms
+	ifequal 16, .BeatKantoGyms
+	end
+
+.BeatKantoGyms: ; event used for elite four difficulty increase
+	setevent EVENT_OBTAINED_ALL_BADGES 
 
 TrainerGentlemanGregory:
 	trainer GENTLEMAN, GREGORY, EVENT_BEAT_GENTLEMAN_GREGORY, GentlemanGregorySeenText, GentlemanGregoryBeatenText, 0, .Script

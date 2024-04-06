@@ -57,7 +57,11 @@ LancesRoomLanceScript:
 	closetext
 	winlosstext LanceBattleWinText, 0
 	setlasttalked LANCESROOM_LANCE
-	loadtrainer CHAMPION, LANCE1
+
+	checkevent EVENT_OBTAINED_ALL_BADGES
+	iftrue loadtrainer CHAMPION, LANCE2
+	iffalse loadtrainer CHAMPION, LANCE1
+
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

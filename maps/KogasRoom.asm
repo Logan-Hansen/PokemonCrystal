@@ -49,7 +49,11 @@ KogaScript_Battle:
 	waitbutton
 	closetext
 	winlosstext KogaScript_KogaBeatenText, 0
-	loadtrainer KOGA, KOGA1
+
+	checkevent EVENT_OBTAINED_ALL_BADGES
+	iftrue loadtrainer KOGA, KOGA2
+	iffalse loadtrainer KOGA, KOGA1
+
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_KOGA

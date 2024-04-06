@@ -49,7 +49,11 @@ KarenScript_Battle:
 	waitbutton
 	closetext
 	winlosstext KarenScript_KarenBeatenText, 0
-	loadtrainer KAREN, KAREN1
+
+	checkevent EVENT_OBTAINED_ALL_BADGES	
+	iftrue loadtrainer KAREN, KAREN2
+	iffalse loadtrainer KAREN, KAREN1
+
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_KAREN

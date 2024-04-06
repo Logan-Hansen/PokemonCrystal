@@ -27,6 +27,8 @@ PewterGymBrockScript:
 	playsound SFX_GET_BADGE
 	waitsfx
 	setflag ENGINE_BOULDERBADGE
+	readvar VAR_BADGES		; added
+	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 	writetext BrockBoulderBadgeText
 	waitbutton
 	closetext
@@ -37,6 +39,13 @@ PewterGymBrockScript:
 	waitbutton
 	closetext
 	end
+
+CheckKantoBadges: ; check if you have beaten all the gyms
+	ifequal 16, .BeatKantoGyms
+	end
+
+.BeatKantoGyms: ; event used for elite four difficulty increase
+	setevent EVENT_OBTAINED_ALL_BADGES 
 
 TrainerCamperJerry:
 	trainer CAMPER, JERRY, EVENT_BEAT_CAMPER_JERRY, CamperJerrySeenText, CamperJerryBeatenText, 0, .Script

@@ -49,7 +49,11 @@ BrunoScript_Battle:
 	waitbutton
 	closetext
 	winlosstext BrunoScript_BrunoBeatenText, 0
-	loadtrainer BRUNO, BRUNO1
+
+	checkevent EVENT_OBTAINED_ALL_BADGES
+	iftrue loadtrainer BRUNO, BRUNO2
+	iffalse loadtrainer BRUNO, BRUNO1
+
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_BRUNO

@@ -309,7 +309,7 @@
 	const EVENT_LIZ_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
 	const EVENT_ANTHONY_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
+	const EVENT_OBTAINED_ALL_BADGES		;mine
 	const EVENT_TODD_ASKED_FOR_PHONE_NUMBER
 	const EVENT_BEAT_OFFICER_JENNY      ;mine
 	const EVENT_GINA_ASKED_FOR_PHONE_NUMBER

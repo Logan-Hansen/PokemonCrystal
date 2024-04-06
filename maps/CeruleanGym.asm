@@ -77,11 +77,20 @@ CeruleanGymMistyScript:
 	playsound SFX_GET_BADGE
 	waitsfx
 	setflag ENGINE_CASCADEBADGE
+	readvar VAR_BADGES		; added
+	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 .FightDone:
 	writetext MistyFightDoneText
 	waitbutton
 	closetext
 	end
+
+CheckKantoBadges: ; check if you have beaten all the gyms
+	ifequal 16, .BeatKantoGyms
+	end
+
+.BeatKantoGyms: ; event used for elite four difficulty increase
+	setevent EVENT_OBTAINED_ALL_BADGES 
 
 TrainerSwimmerfDiana:
 	trainer SWIMMERF, DIANA, EVENT_BEAT_SWIMMERF_DIANA, SwimmerfDianaSeenText, SwimmerfDianaBeatenText, 0, .Script

@@ -165,7 +165,7 @@ Pokemon Type/Variant changes
 - [ ] Hisuian Typhlosion instead - Fire/Ghost
 - [X] Alolan Sandshrew line instead - Ice/Steel
 - [ ] Alolan Rattata line instead - Dark/Normal
-- [ ] Alolan Geodude line instead - Rock/Electric
+- [X] Alolan Geodude line instead - Rock/Electric
 
 
 

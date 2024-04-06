@@ -243,6 +243,7 @@ GeodudeEggMoves:
 	db MEGA_PUNCH
 	db ROCK_SLIDE
 	db RAPID_SPIN
+	db CURSE
 	db -1 ; end
 
 PonytaEggMoves:

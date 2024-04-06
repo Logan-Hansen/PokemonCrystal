@@ -1089,14 +1089,16 @@ TentacruelEvosAttacks:
 GeodudeEvosAttacks:
 	db EVOLVE_LEVEL, 25, GRAVELER
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 6, DEFENSE_CURL
+	db 1,  TACKLE
+	db 6,  DEFENSE_CURL
 	db 11, ROCK_THROW
-	db 16, MAGNITUDE
+	db 16, SPARK ;MAGNITUDE
+	db 18, THUNDER_WAVE ;added
 	db 21, SELFDESTRUCT
+	db 24, THUNDERPUNCH ;added
 	db 26, HARDEN
 	db 31, ROLLOUT
-	db 36, EARTHQUAKE
+	db 36, THUNDERBOLT ;EARTHQUAKE
 	db 41, EXPLOSION
 	db 44, RAPID_SPIN
 	db 0 ; no more level-up moves
@@ -1105,35 +1107,36 @@ GravelerEvosAttacks:
 	db EVOLVE_TRADE, -1, GOLEM
 	db EVOLVE_LEVEL, 36, GOLEM
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, DEFENSE_CURL
-	db 1, ROCK_THROW
-	db 6, DEFENSE_CURL
+	db 1,  TACKLE
+	db 6,  DEFENSE_CURL
 	db 11, ROCK_THROW
-	db 16, MAGNITUDE
+	db 16, SPARK ;MAGNITUDE
+	db 18, THUNDER_WAVE ;added
 	db 21, SELFDESTRUCT
+	db 24, THUNDERPUNCH ;added
 	db 27, HARDEN
 	db 34, ROLLOUT
-	db 41, EARTHQUAKE
+	db 41, THUNDERBOLT ;EARTHQUAKE
 	db 48, EXPLOSION
 	db 52, RAPID_SPIN
+	db 55, THUNDER
 	db 0 ; no more level-up moves
 
 GolemEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, DEFENSE_CURL
-	db 1, ROCK_THROW
-	db 1, MAGNITUDE
-	db 6, DEFENSE_CURL
+	db 1,  TACKLE
+	db 6,  DEFENSE_CURL
 	db 11, ROCK_THROW
-	db 16, MAGNITUDE
+	db 16, SPARK ;MAGNITUDE
+	db 18, THUNDER_WAVE ;added
 	db 21, SELFDESTRUCT
+	db 24, THUNDERPUNCH ;added
 	db 27, HARDEN
 	db 34, ROLLOUT
-	db 41, EARTHQUAKE
+	db 41, THUNDERBOLT ;EARTHQUAKE
 	db 48, EXPLOSION
 	db 52, RAPID_SPIN
+	db 55, THUNDER
 	db 0 ; no more level-up moves
 
 PonytaEvosAttacks:

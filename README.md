@@ -153,11 +153,8 @@ Pokemon Type/Variant changes
 - [X] Mankey/Primeape now Fighting/Dark
 - [X] Ledyba now Bug, Ledian Bug/Fighting
 - [X] Seel now Water/Ice to match Dewgong
-- [ ] Electabuzz now Electric/Fighting
-- [ ] Magmar now Fire/Fighting
 
 - [X] Alolan Sandshrew line instead - Ice/Steel
-- [ ] Alolan Rattata line instead - Dark/Normal
 - [X] Alolan Geodude line instead - Rock/Electric
 
 Pokemon Availability

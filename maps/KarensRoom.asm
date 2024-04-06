@@ -54,7 +54,7 @@ KarenScript_Battle:
 	iftrue .rematch 
 	iffalse	.standard
 .rematch
-	loadtrainer KAREN, KAREN1
+	loadtrainer KAREN, KAREN2
 	startbattle
 	sjump .afterBattle
 	

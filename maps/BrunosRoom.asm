@@ -54,7 +54,7 @@ BrunoScript_Battle:
 	iftrue .rematch 
 	iffalse	.standard
 .rematch
-	loadtrainer BRUNO, BRUNO1
+	loadtrainer BRUNO, BRUNO2
 	startbattle
 	sjump .afterBattle
 	

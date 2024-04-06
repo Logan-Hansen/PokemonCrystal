@@ -54,7 +54,7 @@ KogaScript_Battle:
 	iftrue .rematch 
 	iffalse	.standard
 .rematch
-	loadtrainer KOGA, KOGA1
+	loadtrainer KOGA, KOGA2
 	startbattle
 	sjump .afterBattle
 	

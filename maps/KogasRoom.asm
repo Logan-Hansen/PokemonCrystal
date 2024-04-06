@@ -51,10 +51,18 @@ KogaScript_Battle:
 	winlosstext KogaScript_KogaBeatenText, 0
 
 	checkevent EVENT_OBTAINED_ALL_BADGES
-	iftrue loadtrainer KOGA, KOGA2
-	iffalse loadtrainer KOGA, KOGA1
-
+	iftrue .rematch 
+	iffalse	.standard
+.rematch
+	loadtrainer KOGA, KOGA2
 	startbattle
+	sjump .afterBattle
+	
+.standard
+	loadtrainer KOGA, KOGA1
+	startbattle
+	
+.afterBattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_KOGA
 	opentext

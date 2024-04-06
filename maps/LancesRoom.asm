@@ -59,10 +59,18 @@ LancesRoomLanceScript:
 	setlasttalked LANCESROOM_LANCE
 
 	checkevent EVENT_OBTAINED_ALL_BADGES
-	iftrue loadtrainer CHAMPION, LANCE2
-	iffalse loadtrainer CHAMPION, LANCE1
-
+	iftrue .rematch 
+	iffalse	.standard
+.rematch
+	loadtrainer CHAMPION, LANCE2
 	startbattle
+	sjump .afterBattle
+	
+.standard
+	loadtrainer CHAMPION, LANCE1
+	startbattle
+	
+.afterBattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	setevent EVENT_BEAT_CHAMPION_LANCE

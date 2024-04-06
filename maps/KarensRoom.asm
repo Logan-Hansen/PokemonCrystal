@@ -50,11 +50,19 @@ KarenScript_Battle:
 	closetext
 	winlosstext KarenScript_KarenBeatenText, 0
 
-	checkevent EVENT_OBTAINED_ALL_BADGES	
-	iftrue loadtrainer KAREN, KAREN2
-	iffalse loadtrainer KAREN, KAREN1
-
+	checkevent EVENT_OBTAINED_ALL_BADGES
+	iftrue .rematch 
+	iffalse	.standard
+.rematch
+	loadtrainer KAREN, KAREN2
 	startbattle
+	sjump .afterBattle
+	
+.standard
+	loadtrainer KAREN, KAREN1
+	startbattle
+	
+.afterBattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_KAREN
 	opentext

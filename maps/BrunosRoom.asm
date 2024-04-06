@@ -51,10 +51,18 @@ BrunoScript_Battle:
 	winlosstext BrunoScript_BrunoBeatenText, 0
 
 	checkevent EVENT_OBTAINED_ALL_BADGES
-	iftrue loadtrainer BRUNO, BRUNO2
-	iffalse loadtrainer BRUNO, BRUNO1
-
+	iftrue .rematch 
+	iffalse	.standard
+.rematch
+	loadtrainer BRUNO, BRUNO2
 	startbattle
+	sjump .afterBattle
+	
+.standard
+	loadtrainer BRUNO, BRUNO1
+	startbattle
+	
+.afterBattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_BRUNO
 	opentext

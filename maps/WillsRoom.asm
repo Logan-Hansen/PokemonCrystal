@@ -51,10 +51,18 @@ WillScript_Battle:
 	winlosstext WillScript_WillBeatenText, 0
 
 	checkevent EVENT_OBTAINED_ALL_BADGES
-	iftrue loadtrainer WILL, WILL2
-	iffalse	loadtrainer WILL, WILL1
-	
+	iftrue .rematch 
+	iffalse	.standard
+.rematch
+	loadtrainer WILL, WILL2
 	startbattle
+	sjump .afterBattle
+	
+.standard
+	loadtrainer WILL, WILL1
+	startbattle
+	
+.afterBattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_WILL
 	opentext

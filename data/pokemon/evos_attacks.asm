@@ -1242,10 +1242,12 @@ FarfetchDEvosAttacks:
 	db 1, PECK
 	db 7, SAND_ATTACK
 	db 13, LEER
+	db 15, KARATE_CHOP ;added
 	db 19, FURY_ATTACK
 	db 21, FURY_CUTTER
 	db 25, SWORDS_DANCE
 	db 31, AGILITY
+	db 34, CROSS_CHOP ;added
 	db 37, SLASH
 	db 44, FALSE_SWIPE
 	db 0 ; no more level-up moves

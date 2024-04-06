@@ -147,7 +147,7 @@ Pokemon Type/Variant changes
 - [X] Arbok now Poison/Dark
 - [X] Drowzee/Hypno now Psychic/Dark
 - [X] Ninetales now Fire/Fairy
-- [ ] Golduck now Water/Psychic
+- [X] Golduck now Water/Psychic
 - [ ] Farfetchd now Flying/Fighting
 - [ ] Feraligatr now Water/Dark
 - [ ] Meganium now Grass/Fairy

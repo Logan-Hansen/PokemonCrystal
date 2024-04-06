@@ -26,7 +26,7 @@ ViridianGymBlueScript:
 	waitsfx
 	setflag ENGINE_EARTHBADGE
 	readvar VAR_BADGES		; added
-	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
+	scall ViridianCheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 	writetext LeaderBlueAfterText
 	waitbutton
 	closetext
@@ -38,7 +38,7 @@ ViridianGymBlueScript:
 	closetext
 	end
 
-CheckKantoBadges: ; check if you have beaten all the gyms
+ViridianCheckKantoBadges: ; check if you have beaten all the gyms
 	ifequal 16, .BeatKantoGyms
 	end
 

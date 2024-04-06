@@ -34,7 +34,7 @@ CeladonGymErikaScript:
 	waitsfx
 	setflag ENGINE_RAINBOWBADGE
 	readvar VAR_BADGES		; added
-	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
+	scall CeladonCheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 .FightDone:
 	checkevent EVENT_GOT_TM19_GIGA_DRAIN
 	iftrue .GotGigaDrain
@@ -49,7 +49,7 @@ CeladonGymErikaScript:
 	closetext
 	end
 
-CheckKantoBadges: ; check if you have beaten all the gyms
+CeladonCheckKantoBadges: ; check if you have beaten all the gyms
 	ifequal 16, .BeatKantoGyms
 	end
 

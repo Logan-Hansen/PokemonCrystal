@@ -33,7 +33,7 @@ SeafoamGymBlaineScript:
 	waitsfx
 	setflag ENGINE_VOLCANOBADGE
 	readvar VAR_BADGES		; added
-	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
+	scall SeafoamCheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 	writetext BlaineAfterBattleText
 	waitbutton
 	closetext
@@ -45,7 +45,7 @@ SeafoamGymBlaineScript:
 	closetext
 	end
 
-CheckKantoBadges: ; check if you have beaten all the gyms
+SeafoamCheckKantoBadges: ; check if you have beaten all the gyms
 	ifequal 16, .BeatKantoGyms
 	end
 

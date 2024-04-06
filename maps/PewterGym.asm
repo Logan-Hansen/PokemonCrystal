@@ -28,7 +28,7 @@ PewterGymBrockScript:
 	waitsfx
 	setflag ENGINE_BOULDERBADGE
 	readvar VAR_BADGES		; added
-	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
+	scall PewterCheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 	writetext BrockBoulderBadgeText
 	waitbutton
 	closetext
@@ -40,7 +40,7 @@ PewterGymBrockScript:
 	closetext
 	end
 
-CheckKantoBadges: ; check if you have beaten all the gyms
+PewterCheckKantoBadges: ; check if you have beaten all the gyms
 	ifequal 16, .BeatKantoGyms
 	end
 

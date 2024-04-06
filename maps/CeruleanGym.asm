@@ -78,14 +78,14 @@ CeruleanGymMistyScript:
 	waitsfx
 	setflag ENGINE_CASCADEBADGE
 	readvar VAR_BADGES		; added
-	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
+	scall CeruleanCheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 .FightDone:
 	writetext MistyFightDoneText
 	waitbutton
 	closetext
 	end
 
-CheckKantoBadges: ; check if you have beaten all the gyms
+CeruleanCheckKantoBadges: ; check if you have beaten all the gyms
 	ifequal 16, .BeatKantoGyms
 	end
 

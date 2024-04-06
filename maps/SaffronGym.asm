@@ -34,7 +34,7 @@ SaffronGymSabrinaScript:
 	waitsfx
 	setflag ENGINE_MARSHBADGE
 	readvar VAR_BADGES		; added
-	scall CheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
+	scall SaffronCheckKantoBadges	; adding an event flag that is set once all 16 gyms are beaten
 	writetext SabrinaMarshBadgeText
 	waitbutton
 	closetext
@@ -45,8 +45,8 @@ SaffronGymSabrinaScript:
 	waitbutton
 	closetext
 	end
-	
-CheckKantoBadges: ; check if you have beaten all the gyms
+
+SaffronCheckKantoBadges: ; check if you have beaten all the gyms
 	ifequal 16, .BeatKantoGyms
 	end
 

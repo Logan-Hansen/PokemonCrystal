@@ -178,12 +178,12 @@ Pokemon Availability
         - Bulbasaur also in Viridian Forest, which is back!
     - [X] Johto starters - route 27 grass (will have to get past Tohjo Falls)
     - [X] Kanto fossils - Kabutops, Omastar and Aerodactyl in Silver Cave, fossils in rock smash to get earlier
-    - [ ] Kanto legendaries (as static encounters)
+    - [X] Kanto legendaries (as static encounters)
         - Articuno in Seafoam Islands
         - Moltres in Silver Cave
         - Zapdos next to Power Plant
-        - Mewtwo ___?
-        - Mew ___?
+        - Mewtwo Pokemon Mansion after you have 16 badges
+        - Mew right where everyone said it always was, after you fought Mewtwo
 
 - [X] Improved availability of pokemon in the Johto region
     - [X] Murkrow - national park at night, and Yanma swarm at night

@@ -31,8 +31,8 @@ MonMenuIconPals:
 	icon_pals PURPLE, GREEN ; ARBOK
 	icon_pals RED, PINK     ; PIKACHU
 	icon_pals RED, BROWN    ; RAICHU
-	icon_pals BROWN, TEAL   ; SANDSHREW
-	icon_pals BROWN, RED    ; SANDSLASH
+	icon_pals GRAY, TEAL    ; SANDSHREW BROWN, TEAL
+	icon_pals GRAY, TEAL    ; SANDSLASH BROWN, RED
 	icon_pals BLUE, PINK    ; NIDORAN_F
 	icon_pals BLUE, PINK    ; NIDORINA
 	icon_pals BLUE, GREEN   ; NIDOQUEEN
@@ -78,9 +78,9 @@ MonMenuIconPals:
 	icon_pals GREEN, BROWN  ; VICTREEBEL
 	icon_pals BLUE, TEAL    ; TENTACOOL
 	icon_pals BLUE, GREEN   ; TENTACRUEL
-	icon_pals BROWN, RED    ; GEODUDE
-	icon_pals BROWN, RED    ; GRAVELER
-	icon_pals BROWN, RED    ; GOLEM
+	icon_pals GRAY, PINK    ; GEODUDE BROWN, RED
+	icon_pals GRAY, PINK    ; GRAVELER BROWN, RED
+	icon_pals GRAY, PINK    ; GOLEM BROWN, RED
 	icon_pals RED, BROWN    ; PONYTA
 	icon_pals RED, PURPLE   ; RAPIDASH
 	icon_pals PINK, PURPLE  ; SLOWPOKE

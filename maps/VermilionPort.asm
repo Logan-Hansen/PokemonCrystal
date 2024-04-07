@@ -2,6 +2,7 @@
 	const VERMILIONPORT_SAILOR1
 	const VERMILIONPORT_SAILOR2
 	const VERMILIONPORT_SUPER_NERD
+	const PORT_MEW
 
 VermilionPort_MapScripts:
 	def_scene_scripts
@@ -10,6 +11,7 @@ VermilionPort_MapScripts:
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, VermilionPortFlypointCallback
+	callback MAPCALLBACK_OBJECTS, PortMewCallback
 
 VermilionPortNoopScene:
 	end
@@ -21,6 +23,44 @@ VermilionPortLeaveShipScene:
 VermilionPortFlypointCallback:
 	setflag ENGINE_FLYPOINT_VERMILION
 	endcallback
+
+PortMewCallback:
+	checkevent EVENT_FOUGHT_MEW
+	iftrue .NoAppear
+	iffalse .CheckMewtwo
+	sjump .NoAppear
+
+.CheckMewtwo:
+	checkevent EVENT_FOUGHT_MEWTWO
+	iftrue .Appear
+	sjump .NoAppear
+
+.Appear:
+	appear PORT_MEW
+	endcallback
+
+.NoAppear:
+	disappear PORT_MEW
+	endcallback
+
+Mew:
+	faceplayer
+	opentext
+	writetext MewText
+	cry MEW
+	pause 15
+	closetext
+	setevent EVENT_FOUGHT_MEW
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
+	loadwildmon MEW, 60
+	startbattle
+	disappear PORT_MEW
+	reloadmapafterbattle
+	end
+
+MewText:
+	text "Mew!"
+	done
 
 VermilionPortLeaveShipScript:
 	applymovement PLAYER, VermilionPortLeaveFastShipMovement
@@ -301,7 +341,7 @@ VermilionPort_MapEvents:
 
 	def_warp_events
 	warp_event  9,  5, VERMILION_PORT_PASSAGE, 5
-	warp_event  7, 17, FAST_SHIP_1F, 1
+	warp_event  7, 21, FAST_SHIP_1F, 1
 
 	def_coord_events
 	coord_event  7, 11, SCENE_VERMILIONPORT_ASK_ENTER_SHIP, VermilionPortWalkUpToShipScript
@@ -310,6 +350,8 @@ VermilionPort_MapEvents:
 	bg_event 16, 13, BGEVENT_ITEM, VermilionPortHiddenIron
 
 	def_object_events
-	object_event  7, 17, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionPortSailorAtGangwayScript, EVENT_VERMILION_PORT_SAILOR_AT_GANGWAY
+	object_event  7, 21, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionPortSailorAtGangwayScript, EVENT_VERMILION_PORT_SAILOR_AT_GANGWAY
 	object_event  6, 11, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionPortSailorScript, -1
 	object_event 11, 11, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionPortSuperNerdScript, -1
+	object_event 17, 17, SPRITE_MEW, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Mew, EVENT_PORT_MEW
+

@@ -289,7 +289,8 @@ FastShipGroupSprites:
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_YOUNGSTER
 	db SPRITE_FAIRY
-	; 6 of max 9 walking sprites
+	db SPRITE_MEW
+	; 7 of max 9 walking sprites
 	db SPRITE_HO_OH
 	db SPRITE_ROCK
 	db 0 ; end

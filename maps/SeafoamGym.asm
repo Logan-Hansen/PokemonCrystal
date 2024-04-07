@@ -51,6 +51,7 @@ SeafoamCheckKantoBadges: ; check if you have beaten all the gyms
 
 .BeatKantoGyms: ; event used for elite four difficulty increase
 	setevent EVENT_OBTAINED_ALL_BADGES
+	end
 
 SeafoamGymGuideScript:
 	faceplayer

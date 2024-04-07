@@ -52,6 +52,7 @@ SaffronCheckKantoBadges: ; check if you have beaten all the gyms
 
 .BeatKantoGyms: ; event used for elite four difficulty increase
 	setevent EVENT_OBTAINED_ALL_BADGES
+	end
 
 TrainerMediumRebecca:
 	trainer MEDIUM, REBECCA, EVENT_BEAT_MEDIUM_REBECCA, MediumRebeccaSeenText, MediumRebeccaBeatenText, 0, .Script

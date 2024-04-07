@@ -50,6 +50,7 @@ VermilionCheckKantoBadges: ; check if you have beaten all the gyms
 
 .BeatKantoGyms: ; event used for elite four difficulty increase
 	setevent EVENT_OBTAINED_ALL_BADGES 
+	end
 
 TrainerGentlemanGregory:
 	trainer GENTLEMAN, GREGORY, EVENT_BEAT_GENTLEMAN_GREGORY, GentlemanGregorySeenText, GentlemanGregoryBeatenText, 0, .Script

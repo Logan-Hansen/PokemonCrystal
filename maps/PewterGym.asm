@@ -45,7 +45,8 @@ PewterCheckKantoBadges: ; check if you have beaten all the gyms
 	end
 
 .BeatKantoGyms: ; event used for elite four difficulty increase
-	setevent EVENT_OBTAINED_ALL_BADGES 
+	setevent EVENT_OBTAINED_ALL_BADGES
+	end
 
 TrainerCamperJerry:
 	trainer CAMPER, JERRY, EVENT_BEAT_CAMPER_JERRY, CamperJerrySeenText, CamperJerryBeatenText, 0, .Script

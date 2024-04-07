@@ -55,6 +55,7 @@ CeladonCheckKantoBadges: ; check if you have beaten all the gyms
 
 .BeatKantoGyms: ; event used for elite four difficulty increase
 	setevent EVENT_OBTAINED_ALL_BADGES
+	end
 
 TrainerLassMichelle:
 	trainer LASS, MICHELLE, EVENT_BEAT_LASS_MICHELLE, LassMichelleSeenText, LassMichelleBeatenText, 0, .Script

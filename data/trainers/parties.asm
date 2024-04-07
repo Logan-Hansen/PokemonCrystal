@@ -1592,9 +1592,9 @@ GruntMGroup:
 
 	; GRUNTM (2) Slowpoke Well
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db  9, MEOWTH
-	db  9, ZUBAT
+	db 11, RATTATA
+	db 12, MEOWTH
+	db 11, ZUBAT
 	db -1 ; end
 
 	; GRUNTM (3) Radio Tower
@@ -1779,8 +1779,8 @@ GruntMGroup:
 
 	; GRUNTM (29) Slowpoke Well
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, RATTATA
-	db  9, GRIMER
+	db 11, RATTATA
+	db 13, GRIMER
 	db -1 ; end
 
 	; GRUNTM (30) ?
@@ -3882,8 +3882,8 @@ OfficerGroup:
 GruntFGroup:
 	; GRUNTF (1) Slowpoke Well
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, ZUBAT
-	db 11, EKANS
+	db 11, ZUBAT
+	db 13, EKANS
 	db -1 ; end
 
 	; GRUNTF (2) Radio Tower

@@ -1593,33 +1593,33 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 26, SPEAROW, 	  6,   7
-	db  8, HOPPIP, 		  6,   7
-	db  8, EKANS, 		  6,   7
-	db 24, GEODUDE, 	  6,   8
-	db 14, RATTATA, 	  6,   7
-	db 20, MANKEY,	 	  6,   8
-	db  0, RATTATA, 	  6,   7
+	db 26, SPEAROW, 	  9,   11
+	db  8, HOPPIP, 		  9,   11
+	db  8, EKANS, 		  9,   11
+	db 24, GEODUDE, 	  9,   11
+	db 14, RATTATA, 	  9,   11
+	db 20, MANKEY,	 	  9,   11
+	db  0, RATTATA, 	  9,   11
 
 	; day
 	;  %, species,		min, max
-	db 24, SPEAROW, 	  6,   7
-	db  8, HOPPIP, 		  6,   7
-	db  8, EKANS, 		  6,   7
-	db 24, GEODUDE, 	  6,   8
-	db 16, RATTATA, 	  6,   7
-	db 20, MANKEY,	 	  6,   8
-	db  0, RATTATA, 	  6,   7
+	db 24, SPEAROW, 	  9,   11
+	db  8, HOPPIP, 		  9,   11
+	db  8, EKANS, 		  9,   11
+	db 24, GEODUDE, 	  9,   11
+	db 16, RATTATA, 	  9,   11
+	db 20, MANKEY,	 	  9,   11
+	db  0, RATTATA, 	  9,   11
 
 	; nite
 	;  %, species,		min, max
-	db 20, GEODUDE, 	  6,   8
-	db 20, RATTATA, 	  6,   7
-	db 40, ZUBAT, 		  6,   7
-	db 20, MANKEY,	 	  6,   8
-	db  0, RATTATA, 	  6,   7
-	db  0, RATTATA, 	  6,   7
-	db  0, RATTATA, 	  6,   7	
+	db 20, GEODUDE, 	  9,   11
+	db 20, RATTATA, 	  9,   11
+	db 40, ZUBAT, 		  9,   11
+	db 20, MANKEY,	 	  9,   11
+	db  0, RATTATA, 	  9,   11
+	db  0, RATTATA, 	  9,   11
+	db  0, RATTATA, 	  9,   11	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_34

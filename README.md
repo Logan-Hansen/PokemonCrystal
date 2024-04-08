@@ -215,6 +215,7 @@ Feature I may add at some point
 - [ ] [Add Gen 1 style Rocket Hideout spinner tiles](https://github.com/pret/pokecrystal/wiki/Add-spinner-tiles-from-Generation-I-Rocket-Hideout)
 - [ ] [Expand tilesets from 192 to 255 tiles](https://github.com/pret/pokecrystal/wiki/Expand-tilesets-from-192-to-255-tiles)
 - [X] [increase pokemon sprite animation size](https://github.com/pret/pokecrystal/wiki/Increase-Pok%C3%A9mon-sprite-animation-size)
+- [ ] [Update some of the sprites to use SoupPotato's improved and redesigned sprites](https://github.com/SoupPotato/pokecrystal_SpriteBase/tree/master/gfx/pokemon)
 - [ ] [Customizable pokedex colors](https://github.com/pret/pokecrystal/wiki/Customizable-Pok%C3%A9dex-Color)
 - [ ] [Force set battle style or forbit item usage in battle](https://github.com/pret/pokecrystal/wiki/Force-Set-battle-style-or-forbid-item-usage-in-battle)
 - [ ] [Rock Climb as HM08](https://github.com/pret/pokecrystal/wiki/Rock-Climb)

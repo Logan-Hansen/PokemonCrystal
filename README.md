@@ -101,16 +101,16 @@ Other Updates & Changes
 - [X] [Print text when you lose a trainer battle](https://github.com/pret/pokecrystal/wiki/Print-text-when-you-lose-a-trainer-battle)
 - [X] Slightly improved fishing odds of getting something other than a magikarp
 - [X] [Lottery corner gives lucky number daily instead of weekly](https://github.com/pret/pokecrystal/wiki/Make-the-Lottery-Corner-generate-a-lucky-number-daily-instead-of-weekly)
-- [X] Speed up egg hatch rates (twice as fast for everything w/ min of 5 cycles)
+- [ ] Speed up egg hatch rates (twice as fast for everything w/ min of 5 cycles)
 - [ ] [Display more information on move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
 - [X] [Show clock on pause menu](https://github.com/pret/pokecrystal/wiki/Replace-Menu-Account-with-a-small-clock-in-the-corner-of-the-screen)
 - [X] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
-- [X] Updated movesets for Pokemon
+- [ ] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)
-    - [X] More evolution move options
+    - [ ] More evolution move options
     - [X] Hail and other new moves added to learnsets
 - [ ] Gen 1 transfer moves with tutor in Kanto
-- [X] Base stat changes to rebalance and increase usability
+- [ ] Base stat changes to rebalance and increase usability
 - [ ] stat exp updated when you use pokecenter as well as box
 - [ ] name rater can change traded pokemon names
 - [ ] can fly anywhere from either region
@@ -141,22 +141,6 @@ Updates to Kanto to make it feel less empty
 - [ ] master ball and other new prizes in Celadon Game Corner
 - [ ] Mr. Fuji sidequest
 - [X] [Headbutt works on Kanto trees](https://github.com/pret/pokecrystal/wiki/Make-the-field-move-Headbutt-work-with-Kanto-trees)
-
-
-Pokemon Type/Variant changes
---------------------
-- [X] Arbok now Poison/Dark
-- [X] Drowzee/Hypno now Psychic/Dark
-- [X] Ninetales now Fire/Fairy
-- [X] Golduck now Water/Psychic
-- [X] Farfetchd now Flying/Fighting
-- [X] Feraligatr now Water/Dark
-- [X] Mankey/Primeape now Fighting/Dark
-- [X] Ledyba now Bug, Ledian Bug/Fighting
-- [X] Seel now Water/Ice to match Dewgong
-
-- [X] Alolan Sandshrew line instead - Ice/Steel
-- [X] Alolan Geodude line instead - Rock/Electric
 
 Pokemon Availability
 --------------------

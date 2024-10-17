@@ -235,6 +235,9 @@ SlowpokeEggMoves:
 	db STOMP
 	db -1 ; end
 
+MagnemiteEggMoves:
+	db -1 ; end
+
 FarfetchDEggMoves:
 	db FORESIGHT
 	db MIRROR_MOVE
@@ -377,6 +380,9 @@ GoldeenEggMoves:
 	db HYDRO_PUMP
 	db -1 ; end
 
+StaryuEggMoves:
+	db -1 ; end
+
 MrMimeEggMoves:
 	db FUTURE_SIGHT
 	db HYPNOSIS
@@ -395,6 +401,12 @@ ScytherEggMoves:
 PinsirEggMoves:
 	db FURY_ATTACK
 	db FLAIL
+	db -1 ; end
+
+TaurosEggMoves:
+	db -1 ; end
+
+MagikarpEggMoves:
 	db -1 ; end
 
 LaprasEggMoves:

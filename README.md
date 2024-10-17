@@ -41,20 +41,20 @@ Upgrades to existing features
 - [X] [Steel type can't be poisoned by twineedle](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
 - [X] [Electric types can't be paralyzed](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
 - [X] [Expanding the limit of evo attacks](https://github.com/pret/pokecrystal/wiki/Expanding-the-limit-of-evo-attacks)
-- [X] [short beeping noise for low HP](https://github.com/pret/pokecrystal/wiki/Short-beeping-noise-for-low-HP)
+- [X] [Short beeping noise for low HP](https://github.com/pret/pokecrystal/wiki/Short-beeping-noise-for-low-HP)
       
 Removing features
 - [X] [Remove AI 25% chance faliure for status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 - [X] [Remove Badge Boosts](https://github.com/pret/pokecrystal/wiki/Remove-the-gym-badges-boosts)
 - [X] [Reduce the command queue system to just stone tables](https://github.com/pret/pokecrystal/wiki/Reduce-the-command-queue-system-to-just-stone-tables)
-- [X] [remove redudant move grammar table](https://github.com/pret/pokecrystal/wiki/Remove-the-redundant-move-grammar-table)
+- [X] [Remove redudant move grammar table](https://github.com/pret/pokecrystal/wiki/Remove-the-redundant-move-grammar-table)
       
 features from different generations
 - [X] [Don't gain experience at level 100](https://github.com/pret/pokecrystal/wiki/Don't-gain-experience-at-level-100)
-- [X] [lose money proportional to badges and level](https://github.com/pret/pokecrystal/wiki/Lose-money-proportional-to-badges-and-level)
+- [X] [Lose money proportional to badges and level](https://github.com/pret/pokecrystal/wiki/Lose-money-proportional-to-badges-and-level)
 - [X] [surviving poison with 1 HP](https://github.com/pret/pokecrystal/wiki/Survive-poisoning-with-1-HP)
 - [X] [Show move names when you receive a TM or HM](https://github.com/pret/pokecrystal/wiki/Show-move-names-when-you-receive-a-TM-or-HM)
-- [X] [infinitely reusable TMs](https://github.com/pret/pokecrystal/wiki/Infinitely-reusable-TMs)
+- [X] [Infinitely reusable TMs](https://github.com/pret/pokecrystal/wiki/Infinitely-reusable-TMs)
 - [X] [Automatically reuse Repel](https://github.com/pret/pokecrystal/wiki/Automatically-reuse-Repel)
 - [X] [Learn moves upon evolution](https://github.com/pret/pokecrystal/wiki/Evolution-moves)
 - [X] [Running Shoes](https://github.com/pret/pokecrystal/wiki/Running-Shoes)
@@ -91,8 +91,8 @@ Other Updates & Changes
 - [X] daycare man appears outside the fence
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 - [X] Goldenrod Move Tutor now there every day once you beat elite four, allows unlimited purchases, and charges money instead of coins
-- [X] Dex entries for Raikou, Entei, and Suicune marked as seen by Eusine when you wake them up to make tracking them easier.
-- [X] nurse joy turns you to face the other way when done
+- [ ] Dex entries for Raikou, Entei, and Suicune marked as seen by Eusine when you wake them up to make tracking them easier.
+- [X] Nurse joy turns you to face the other way when done
 - [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10 and works mondays
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
 - [X] Increased wild pokemon levels for everything east of Ecruteak
@@ -111,17 +111,17 @@ Other Updates & Changes
     - [X] Hail and other new moves added to learnsets
 - [ ] Gen 1 transfer moves with tutor in Kanto
 - [ ] Base stat changes to rebalance and increase usability
-- [ ] stat exp updated when you use pokecenter as well as box
-- [ ] name rater can change traded pokemon names
-- [ ] can fly anywhere from either region
+- [ ] Stat exp updated when you use pokecenter as well as box
+- [ ] Name rater can change traded pokemon names
+- [ ] Can fly anywhere from either region
 - [ ] Color TM/HMs when in overworld pokeball to help people know which items are worth going after
 - [X] Rematch parties Elite 4 once you have all 16 badges
 - [ ] Rematch parties for Gym leaders after beating Red
 - [ ] [improve trainer rematch system](https://github.com/pret/pokecrystal/wiki/Improve-the-trainer-rematch-system)
-- [ ] roaming pokemon reset after beating the E4 if you have not caught them
-- [ ] stationary pokemon can be fought again as well
-- [X] officer Jenny now added as a trainer type, currently one on Route 34
-- [ ] add more officers to Johto and Kanto
+- [ ] Roaming pokemon reset after beating the E4 if you have not caught them
+- [ ] Stationary pokemon can be fought again as well
+- [X] Officer Jenny now added as a trainer type, currently one on Route 34
+- [ ] Add more officers to Johto and Kanto
 
 
 Updates to Johto to build on HGSS additions
@@ -202,16 +202,16 @@ Feature I may add at some point
 - [ ] [Expand tilesets from 192 to 255 tiles](https://github.com/pret/pokecrystal/wiki/Expand-tilesets-from-192-to-255-tiles)
 - [ ] [Update some of the sprites to use SoupPotato's improved and redesigned sprites](https://github.com/SoupPotato/pokecrystal_SpriteBase/tree/master/gfx/pokemon)
 - [ ] [Customizable pokedex colors](https://github.com/pret/pokecrystal/wiki/Customizable-Pok%C3%A9dex-Color)
-- [ ] [Force set battle style or forbit item usage in battle](https://github.com/pret/pokecrystal/wiki/Force-Set-battle-style-or-forbid-item-usage-in-battle)
+- [ ] [Force set battle style or forbid item usage in battle](https://github.com/pret/pokecrystal/wiki/Force-Set-battle-style-or-forbid-item-usage-in-battle)
 - [ ] [Rock Climb as HM08](https://github.com/pret/pokecrystal/wiki/Rock-Climb)
 - [ ] [Automatic battle weather on certain maps](https://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
 - [ ] [Disable jumping over ledges onto obstacle tiles](https://github.com/pret/pokecrystal/wiki/Disable-jumping-over-ledges-onto-obstacle-tiles-or-NPCs)
 - [ ] Way to obtain mystery gift only items - possibly decoration vendor in goldenrod, or improved purchases by mom when you earn enough money
 - [ ] [Tradeback NPC](https://github.com/pret/pokecrystal/wiki/adding-a-tradeback-npc)
 - [ ] [Add more music that changes at night](https://github.com/pret/pokecrystal/wiki/Add-more-music-that-changes-at-night)
-- [ ] [evolve while holding an item](https://github.com/pret/pokecrystal/wiki/Evolve-while-holding-an-item)
+- [ ] [Evolve while holding an item](https://github.com/pret/pokecrystal/wiki/Evolve-while-holding-an-item)
 - [ ] [Level Caps as you get gym badges - (maybe)](https://github.com/pret/pokecrystal/wiki/Level-cap)
-- [ ] fishing has increased success rate
+- [ ] Fishing has increased success rate
 - [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
 
 

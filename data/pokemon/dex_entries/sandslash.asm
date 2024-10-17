@@ -1,10 +1,10 @@
 	db "MOUSE@" ; species name
-	dw 311, 1210 ; height, weight
+	dw 303, 650 ; height, weight
 
-	db   "Its steel spikes"
-	next "are sheathed in"
-	next "ice."
+	db   "Adept at climbing"
+	next "trees, it rolls"
+	next "into a spiny ball,"
 
-	page "Stabs cause deep"
-	next "wounds and severe"
-	next "frostbite.@"
+	page "then attacks its"
+	next "enemies from"
+	next "above.@"

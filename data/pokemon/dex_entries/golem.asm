@@ -1,10 +1,10 @@
 	db "MEGATON@" ; species name
-	dw 507, 6967 ; height, weight
+	dw 407, 6620 ; height, weight
 
-	db   "It's grumpy and"
-	next "stubborn. If you"
-	next "upset it, it"
+	db   "Its rock-like body"
+	next "is so durable,"
+	next "even high-powered"
 
-	page "discharges shocks"
-	next "from the surface"
-	next "of its body.@"
+	page "dynamite blasts"
+	next "fail to scratch"
+	next "its rugged hide.@"

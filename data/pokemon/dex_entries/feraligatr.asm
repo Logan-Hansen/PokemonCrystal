@@ -1,11 +1,10 @@
 	db "BIG JAW@" ; species name
 	dw 707, 1960 ; height, weight
 
-	db   "It bites with its"
-	next "massive and strong"
-	next "jaws, shaking its"
+	db   "Although it has a"
+	next "massive body, its"
+	next "powerful hind legs"
 
-	page "head to savagely"
-	next "tear its victim"
-	next "to pieces.@"
-	
+	page "enable it to move"
+	next "quickly, even on"
+	next "the ground.@"

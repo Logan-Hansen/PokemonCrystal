@@ -1,10 +1,10 @@
 	db "PIG MONKEY@" ; species name
 	dw 108, 620 ; height, weight
 
-	db   "Quick to anger, it"
-	next "will fight for the"
-	next "slightest reason."
+	db   "It lives in groups"
+	next "in the treetops."
+	next "If it loses sight"
 
-	page "It is unsafe to"
-	next "approach as it is"
-	next "very nimble.@"
+	page "of its group, it"
+	next "becomes infuriated"
+	next "by its loneliness.@"

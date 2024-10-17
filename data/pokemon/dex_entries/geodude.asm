@@ -1,10 +1,10 @@
 	db "ROCK@" ; species name
-	dw 104, 448 ; height, weight
+	dw 104, 440 ; height, weight
 
-	db   "Its body is a"
-	next "magnetic stone."
-	next "Iron sand is drawn"
+	db   "Proud of their"
+	next "sturdy bodies,"
+	next "they bash against"
 
-	page "to the portions of"
-	next "its body that are"
-	next "extra magnetic.@"
+	page "each other in a"
+	next "contest to prove"
+	next "whose is harder.@"

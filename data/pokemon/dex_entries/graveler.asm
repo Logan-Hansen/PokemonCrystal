@@ -1,10 +1,10 @@
 	db "ROCK@" ; species name
-	dw 303, 2425 ; height, weight
+	dw 303, 2320 ; height, weight
 
-	db   "Its entire body is"
-	next "charged with power"
-	next "due to the stones"
+	db   "It travels by rol-"
+	next "ling on mountain"
+	next "paths. If it gains"
 
-	page "it likes to eat."
-	next "It is very"
-	next "quick-tempered.@"
+	page "too much speed, it"
+	next "stops by running"
+	next "into huge rocks.@"

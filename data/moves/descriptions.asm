@@ -326,8 +326,8 @@ SwordsDanceDescription:
 	next "creases ATTACK.@"
 
 CutDescription:
-	db   "Cuts using claws,"
-	next "scythes, etc.@"
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
 GustDescription:
 	db   "Whips up a strong"
@@ -774,8 +774,8 @@ FireBlastDescription:
 	next "may cause a burn.@"
 
 WaterfallDescription:
-	db   "An aquatic charge"
-	next "attack.@"
+	db   "An attack that may"
+	next "cause flinching.@"
 
 ClampDescription:
 	db   "Traps the foe for"
@@ -1135,7 +1135,7 @@ ReturnDescription:
 
 PresentDescription:
 	db   "A bomb that may"
-	next "restore HP.@"
+	next "varies in power.@"
 
 FrustrationDescription:
 	db   "An attack based on"

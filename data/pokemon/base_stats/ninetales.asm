@@ -3,13 +3,13 @@
 	db  73,  76,  75, 100,  81, 100
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIRE, FAIRY ; type
+	db FIRE, FIRE ; type
 	db 75 ; catch rate
 	db 178 ; base exp
 	db BURNT_BERRY, BURNT_BERRY ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1
-	db 10 ; step cycles to hatch
+	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/ninetales/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

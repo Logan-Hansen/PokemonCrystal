@@ -1,6 +1,6 @@
 	db FLAREON ; 136
 
-	db  65, 95,  60,  65,  130, 110
+	db  65, 130,  60,  65,  95, 110
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type
@@ -9,7 +9,7 @@
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F12_5 ; gender ratio
 	db 100 ; unknown 1
-	db 17 ; step cycles to hatch
+	db 35 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/flareon/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

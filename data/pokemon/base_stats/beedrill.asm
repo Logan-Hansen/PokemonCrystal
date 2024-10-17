@@ -1,15 +1,15 @@
 	db BEEDRILL ; 015
 
-	db  70,  95,  45,  80,  55,  80
+	db  65,  80,  40,  75,  45,  80
 	;   hp  atk  def  spd  sat  sdf
-	;   65,  90,  40,  75,  45,  80
+
 	db BUG, POISON ; type
-	db 90 ; catch rate
+	db 45 ; catch rate
 	db 159 ; base exp
 	db NO_ITEM, POISON_BARB ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 7 ; step cycles to hatch
+	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/beedrill/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

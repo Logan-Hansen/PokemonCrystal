@@ -1,15 +1,15 @@
 	db ARBOK ; 024
 
-	db  75,  95,  75,  80,  65,  80
+	db  60,  85,  69,  80,  65,  79
 	;   hp  atk  def  spd  sat  sdf
-	;   60,  85,  69,  80,  65,  79
-	db POISON, DARK ; type - ADDED DARK
+
+	db POISON, POISON ; type
 	db 90 ; catch rate
 	db 147 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 10 ; step cycles to hatch
+	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/arbok/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

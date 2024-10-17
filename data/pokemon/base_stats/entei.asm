@@ -1,15 +1,15 @@
 	db ENTEI ; 244
 
-	db 115,  90,  85, 100,  115, 75
+	db 115, 115,  85, 100,  90,  75
 	;   hp  atk  def  spd  sat  sdf
-	;  115, 115,  85, 100,  90,  75
+
 	db FIRE, FIRE ; type
-	db 5 ; catch rate
+	db 3 ; catch rate
 	db 217 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
-	db 40 ; step cycles to hatch
+	db 80 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/entei/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

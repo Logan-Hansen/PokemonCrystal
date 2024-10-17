@@ -16,6 +16,7 @@ TypeMatchups:
 	db WATER,        GROUND,       SUPER_EFFECTIVE
 	db WATER,        ROCK,         SUPER_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE
+	db WATER,		 ICE,		   NOT_VERY_EFFECTIVE ; added to improve ice typing
 	db ELECTRIC,     WATER,        SUPER_EFFECTIVE
 	db ELECTRIC,     ELECTRIC,     NOT_VERY_EFFECTIVE
 	db ELECTRIC,     GRASS,        NOT_VERY_EFFECTIVE

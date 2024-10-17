@@ -1,15 +1,15 @@
 	db MURKROW ; 198
 
-	db  85,  95,  52,  91,  85,  52
+	db  60,  85,  42,  91,  85,  42
 	;   hp  atk  def  spd  sat  sdf
-   ;    60,  85,  42,  91,  85,  42
+
 	db DARK, FLYING ; type
 	db 30 ; catch rate
 	db 107 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 10 ; step cycles to hatch
+	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/murkrow/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

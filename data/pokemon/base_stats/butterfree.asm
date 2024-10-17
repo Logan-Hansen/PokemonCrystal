@@ -1,15 +1,15 @@
 	db BUTTERFREE ; 012
 
-	db  65,  55,  55,  75,  95,  80
+	db  60,  45,  50,  70,  80,  80
 	;   hp  atk  def  spd  sat  sdf
-	;   60,  45,  50,  70,  90,  80
+
 	db BUG, FLYING ; type
-	db 90 ; catch rate
+	db 45 ; catch rate
 	db 160 ; base exp
 	db NO_ITEM, SILVERPOWDER ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 7 ; step cycles to hatch
+	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/butterfree/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

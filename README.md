@@ -10,12 +10,12 @@ How to add a new...
 - [X] [Additional wild pokemon slot for water (memory overfilled if did grass too)](https://github.com/pret/pokecrystal/wiki/Add-a-new-wild-Pok%C3%A9mon-slot)
 - [X] [Instant text speed option](https://github.com/pret/pokecrystal/wiki/Add-a-new-text-scrolling-speed)
 - [X] [Allow more than 15 object events per map - I increased to 17](https://github.com/pret/pokecrystal/wiki/Allow-more-than-15-object_events-per-map)
-- [ ] [New Move (up to 255)](https://github.com/pret/pokecrystal/wiki/Add-a-new-move)
-- [ ] [New Move tutor and tutor moves](https://github.com/pret/pokecrystal/wiki/Move-Tutor-and-Tutor-Moves)
-- [ ] [NPC to give you items](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
 - [X] [Trainer class](https://github.com/pret/pokecrystal/wiki/Add-a-new-trainer-class)
 - [X] [4th Pokemon info page - show caught location/time and level met at](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
     - [X] [expanded stats screen page - shows DVs, hidden power, happiness](https://github.com/Nayru62/pokecrystal/commit/0d7f56453df33e35d9fa84a6ae2736bdced91a23)
+- [ ] [New Move (up to 255)](https://github.com/pret/pokecrystal/wiki/Add-a-new-move)
+- [ ] [New Move tutor and tutor moves](https://github.com/pret/pokecrystal/wiki/Move-Tutor-and-Tutor-Moves)
+- [ ] [NPC to give you items](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
 - [ ] [additional pokedex functionality - movesets, evolutions, sprites,base stats, etc](https://github.com/Nayru62/pokecrystal/commit/1c4befcb98d6d30306b8ba1bd81e263824ac39d3)
       
 How to edit the...
@@ -74,7 +74,7 @@ features from different generations
 - [X] Added the move nasty plot
 - [X] Adding in the Fairy type as a Special type
     - Bug is neutral vs fairy instead of fairy resisting
-    - still need to add in offensive fairy type moves
+  [ ] still need to add in offensive fairy type moves
 --------------------
 Other Updates & Changes
 --------------------
@@ -101,10 +101,10 @@ Other Updates & Changes
 - [X] [Print text when you lose a trainer battle](https://github.com/pret/pokecrystal/wiki/Print-text-when-you-lose-a-trainer-battle)
 - [X] Slightly improved fishing odds of getting something other than a magikarp
 - [X] [Lottery corner gives lucky number daily instead of weekly](https://github.com/pret/pokecrystal/wiki/Make-the-Lottery-Corner-generate-a-lucky-number-daily-instead-of-weekly)
-- [ ] Speed up egg hatch rates (twice as fast for everything w/ min of 5 cycles)
-- [ ] [Display more information on move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
 - [X] [Show clock on pause menu](https://github.com/pret/pokecrystal/wiki/Replace-Menu-Account-with-a-small-clock-in-the-corner-of-the-screen)
 - [X] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
+- [ ] Speed up egg hatch rates (twice as fast for everything w/ min of 5 cycles)
+- [ ] [Display more information on move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
 - [ ] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)
     - [ ] More evolution move options
@@ -120,7 +120,8 @@ Other Updates & Changes
 - [ ] [improve trainer rematch system](https://github.com/pret/pokecrystal/wiki/Improve-the-trainer-rematch-system)
 - [ ] roaming pokemon reset after beating the E4 if you have not caught them
 - [ ] stationary pokemon can be fought again as well
-- [X] officer Jenny now added as a trainer type, currently one on Route 34 - will prob add more all over Kanto
+- [X] officer Jenny now added as a trainer type, currently one on Route 34
+- [ ] add more officers to Johto and Kanto
 
 
 Updates to Johto to build on HGSS additions
@@ -152,7 +153,7 @@ Pokemon Availability
     - [X] swarm_grass areas
     - [X] swarm_water areas
 
-- [ ] Not avaliable in Crystal normally
+- [X] Not avaliable in Crystal normally
     - [X] Vulpix - route 36, and 37
     - [X] Mankey - route 33, to give fighting type options before goldenrod and route 42 to match gold
     - [X] Mareep - Route 32, 42, and 43 just like gold/silver.
@@ -193,12 +194,12 @@ Miscellaneous
 - [X] [Fix design flaws(all except for the two below as of 3.10.24)](https://github.com/pret/pokecrystal/blob/master/docs/design_flaws.md#pic-banks-are-offset-by-pics_fix)
     - [ ] 6-bit caught level only records up to 63, fix by only using 1 bit for morning/day | night to free up a bit for level
     - [ ] Identical sine wave code and data is repeated 5 times
+- [X] [increase pokemon sprite animation size](https://github.com/pret/pokecrystal/wiki/Increase-Pok%C3%A9mon-sprite-animation-size)
 
 Feature I may add at some point
 - [ ] [Gain exp from catching](https://github.com/pret/pokecrystal/wiki/Gain-experience-from-catching-Pok%C3%A9mon)
 - [ ] [Add Gen 1 style Rocket Hideout spinner tiles](https://github.com/pret/pokecrystal/wiki/Add-spinner-tiles-from-Generation-I-Rocket-Hideout)
 - [ ] [Expand tilesets from 192 to 255 tiles](https://github.com/pret/pokecrystal/wiki/Expand-tilesets-from-192-to-255-tiles)
-- [X] [increase pokemon sprite animation size](https://github.com/pret/pokecrystal/wiki/Increase-Pok%C3%A9mon-sprite-animation-size)
 - [ ] [Update some of the sprites to use SoupPotato's improved and redesigned sprites](https://github.com/SoupPotato/pokecrystal_SpriteBase/tree/master/gfx/pokemon)
 - [ ] [Customizable pokedex colors](https://github.com/pret/pokecrystal/wiki/Customizable-Pok%C3%A9dex-Color)
 - [ ] [Force set battle style or forbit item usage in battle](https://github.com/pret/pokecrystal/wiki/Force-Set-battle-style-or-forbid-item-usage-in-battle)

@@ -10,11 +10,11 @@ EvolutionMoves::
 	db NO_MOVE      ; WARTORTLE
 	db NO_MOVE      ; BLASTOISE
 	db NO_MOVE      ; CATERPIE
-	db NO_MOVE      ; METAPOD
-	db NO_MOVE      ; BUTTERFREE
+	db HARDEN       ; METAPOD
+	db CONFUSION    ; BUTTERFREE
 	db NO_MOVE      ; WEEDLE
-	db NO_MOVE      ; KAKUNA
-	db NO_MOVE      ; BEEDRILL
+	db HARDEN       ; KAKUNA
+	db FURY_ATTACK  ; BEEDRILL
     db NO_MOVE      ; PIDGEY
     db NO_MOVE      ; PIDGEOTTO
     db NO_MOVE      ; PIDGEOT
@@ -41,7 +41,7 @@ EvolutionMoves::
     db NO_MOVE      ; JIGGLYPUFF
     db NO_MOVE      ; WIGGLYTUFF
     db NO_MOVE      ; ZUBAT
-    db NO_MOVE      ; GOLBAT
+    db SCREECH      ; GOLBAT
     db NO_MOVE      ; ODDISH
     db NO_MOVE      ; GLOOM
     db NO_MOVE      ; VILEPLUME
@@ -70,7 +70,7 @@ EvolutionMoves::
 	db NO_MOVE      ; MACHAMP
     db NO_MOVE      ; BELLSPROUT
     db NO_MOVE      ; WEEPINBELL
-    db NO_MOVE      ; VICTREEBEL
+    db SLUDGE_BOMB  ; VICTREEBEL
     db NO_MOVE      ; TENTACOOL
 	db NO_MOVE      ; TENTACRUEL
     db NO_MOVE      ; GEODUDE
@@ -86,7 +86,7 @@ EvolutionMoves::
     db NO_MOVE      ; DODUO
 	db NO_MOVE      ; DODRIO
     db NO_MOVE      ; SEEL
-    db NO_MOVE      ; DEWGONG
+    db HAIL         ; DEWGONG
     db NO_MOVE      ; GRIMER
     db NO_MOVE      ; MUK
     db NO_MOVE      ; SHELLDER
@@ -148,12 +148,12 @@ EvolutionMoves::
     db NO_MOVE      ; MOLTRES
     db NO_MOVE      ; DRATINI
     db NO_MOVE      ; DRAGONAIR
-	db NO_MOVE      ; DRAGONITE
+	db WING_ATTACK  ; DRAGONITE
     db NO_MOVE      ; MEWTWO
     db NO_MOVE      ; MEW
     db NO_MOVE      ; CHIKORITA
     db NO_MOVE      ; BAYLEEF
-	db NO_MOVE      ; MEGANIUM
+	db GIGA_DRAIN   ; MEGANIUM
     db NO_MOVE      ; CYNDAQUIL
     db NO_MOVE      ; QUILAVA
     db NO_MOVE      ; TYPHLOSION

@@ -1,6 +1,6 @@
 	db POLIWRATH ; 062
 
-	db  90, 100,  95,  70,  70,  90
+	db  95, 100,  95,  70,  70,  90
 	;   hp  atk  def  spd  sat  sdf
 	;	90,  85,  95,  70,  70,  90
 	db WATER, FIGHTING ; type

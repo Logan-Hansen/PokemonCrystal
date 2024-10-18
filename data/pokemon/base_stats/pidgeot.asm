@@ -1,8 +1,8 @@
 	db PIDGEOT ; 018
 
-	db  83,  80,  75,  91,  70,  70
+	db  90,  85,  80,  91,  70,  70
 	;   hp  atk  def  spd  sat  sdf
-
+	;   83,  80,  75,  91,  70,  70
 	db NORMAL, FLYING ; type
 	db 45 ; catch rate
 	db 172 ; base exp

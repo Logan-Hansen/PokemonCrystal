@@ -1,8 +1,8 @@
 	db JUMPLUFF ; 189
 
-	db  75,  55,  70, 110,  55,  85
+	db  75,  55,  70, 110,  75,  85
 	;   hp  atk  def  spd  sat  sdf
-
+	;   75,  55,  70, 110,  55,  85
 	db GRASS, FLYING ; type
 	db 45 ; catch rate
 	db 176 ; base exp

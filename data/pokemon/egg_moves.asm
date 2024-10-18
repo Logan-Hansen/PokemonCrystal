@@ -50,6 +50,7 @@ PidgeyEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK
 	db FORESIGHT
+	db DRILL_PECK ;added
 	db -1 ; end
 
 RattataEggMoves:

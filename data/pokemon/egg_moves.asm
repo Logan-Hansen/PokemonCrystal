@@ -16,6 +16,7 @@ BulbasaurEggMoves:
 	db SAFEGUARD
 	db RAZOR_WIND
 	db PETAL_DANCE
+	db ANCIENTPOWER ;added
 	db -1 ; end
 
 CharmanderEggMoves:
@@ -25,6 +26,8 @@ CharmanderEggMoves:
 	db BITE
 	db OUTRAGE
 	db BEAT_UP
+	db CRUNCH ;added
+	db REVERSAL ;added
 	db -1 ; end
 
 SquirtleEggMoves:
@@ -116,6 +119,7 @@ OddishEggMoves:
 	db RAZOR_LEAF
 	db FLAIL
 	db SYNTHESIS
+	db LEECH_SEED ;added
 	db -1 ; end
 
 ParasEggMoves:
@@ -126,6 +130,7 @@ ParasEggMoves:
 	db FLAIL
 	db LIGHT_SCREEN
 	db PURSUIT
+	db SYNTHESIS ;added
 	db -1 ; end
 
 VenonatEggMoves:
@@ -196,6 +201,7 @@ MachopEggMoves:
 	db MEDITATE
 	db ROLLING_KICK
 	db ENCORE
+	db THRASH ;added
 	db -1 ; end
 
 BellsproutEggMoves:
@@ -212,6 +218,7 @@ TentacoolEggMoves:
 	db RAPID_SPIN
 	db HAZE
 	db SAFEGUARD
+	db CONFUSE_RAY ;added
 	db -1 ; end
 
 GeodudeEggMoves:
@@ -233,6 +240,7 @@ SlowpokeEggMoves:
 	db BELLY_DRUM
 	db FUTURE_SIGHT
 	db STOMP
+	db FISSURE
 	db -1 ; end
 
 MagnemiteEggMoves:
@@ -347,6 +355,8 @@ ChanseyEggMoves:
 	db PRESENT
 	db METRONOME
 	db HEAL_BELL
+	db COUNTER ;added
+	db PSYWAVE ;added
 	db -1 ; end
 
 TangelaEggMoves:
@@ -363,6 +373,7 @@ KangaskhanEggMoves:
 	db FOCUS_ENERGY
 	db SAFEGUARD
 	db DISABLE
+	db DOUBLE_EDGE ;added
 	db -1 ; end
 
 HorseaEggMoves:
@@ -372,6 +383,7 @@ HorseaEggMoves:
 	db DISABLE
 	db SPLASH
 	db DRAGON_RAGE
+	db HAZE ;added
 	db -1 ; end
 
 GoldeenEggMoves:
@@ -407,16 +419,20 @@ TaurosEggMoves:
 	db -1 ; end
 
 MagikarpEggMoves:
+	db REVERSAL ;added
 	db -1 ; end
 
 LaprasEggMoves:
 	db AURORA_BEAM
 	db FORESIGHT
+	db BITE ;added
+	db FUTURE_SIGHT ;added
 	db -1 ; end
 
 EeveeEggMoves:
 	db FLAIL
 	db CHARM
+	db GROWTH ;added
 	db -1 ; end
 
 OmanyteEggMoves:
@@ -443,6 +459,10 @@ AerodactylEggMoves:
 
 SnorlaxEggMoves:
 	db LICK
+	db DOUBLE_EDGE
+	db FISSURE
+	db LOVELY_KISS ;added
+	db SWEET_KISS ;added
 	db -1 ; end
 
 DratiniEggMoves:
@@ -450,6 +470,7 @@ DratiniEggMoves:
 	db MIST
 	db HAZE
 	db SUPERSONIC
+	db HYDRO_PUMP ;added
 	db -1 ; end
 
 ChikoritaEggMoves:
@@ -459,6 +480,7 @@ ChikoritaEggMoves:
 	db ANCIENTPOWER
 	db FLAIL
 	db SWORDS_DANCE
+	db PETAL_DANCE ;added
 	db -1 ; end
 
 CyndaquilEggMoves:
@@ -468,6 +490,7 @@ CyndaquilEggMoves:
 	db THRASH
 	db FORESIGHT
 	db SUBMISSION
+	db DOUBLE_EDGE ;added
 	db -1 ; end
 
 TotodileEggMoves:
@@ -477,6 +500,7 @@ TotodileEggMoves:
 	db ANCIENTPOWER
 	db RAZOR_WIND
 	db ROCK_SLIDE
+	db SUBMISSION ;added
 	db -1 ; end
 
 SentretEggMoves:
@@ -494,6 +518,7 @@ HoothootEggMoves:
 	db WING_ATTACK
 	db WHIRLWIND
 	db SKY_ATTACK
+	db NIGHT_SHADE ;added
 	db -1 ; end
 
 LedybaEggMoves:
@@ -522,6 +547,10 @@ PichuEggMoves:
 	db PRESENT
 	db ENCORE
 	db DOUBLESLAP
+	db DIZZY_PUNCH ;added
+	db PETAL_DANCE ;added
+	db SCARY_FACE ;added
+	db SING ;added
 	db -1 ; end
 
 CleffaEggMoves:
@@ -531,12 +560,18 @@ CleffaEggMoves:
 	db BELLY_DRUM
 	db SPLASH
 	db MIMIC
+	db COUNTER ;added
+	db PETAL_DANCE ;added
+	db SCARY_FACE ;added
+	db SWIFT ;added
 	db -1 ; end
 
 IgglybuffEggMoves:
 	db PERISH_SONG
 	db PRESENT
 	db FAINT_ATTACK
+	db PETAL_DANCE ;added
+	db SCARY_FACE ;added
 	db -1 ; end
 
 TogepiEggMoves:
@@ -573,6 +608,8 @@ MarillEggMoves:
 	db PERISH_SONG
 	db SUPERSONIC
 	db FORESIGHT
+	db DIZZY_PUNCH ;added
+	db SCARY_FACE ;added
 	db -1 ; end
 
 SudowoodoEggMoves:
@@ -587,6 +624,7 @@ HoppipEggMoves:
 	db REFLECT
 	db AMNESIA
 	db PAY_DAY
+	db PETAL_DANCE ;added
 	db -1 ; end
 
 AipomEggMoves:
@@ -665,6 +703,7 @@ SnubbullEggMoves:
 	db HEAL_BELL
 	db LICK
 	db LEER
+	db LOVELY_KISS ;added
 	db -1 ; end
 
 QwilfishEggMoves:
@@ -711,6 +750,7 @@ SwinubEggMoves:
 	db BODY_SLAM
 	db ROCK_SLIDE
 	db ANCIENTPOWER
+	db WHIRLWIND ;added
 	db -1 ; end
 
 CorsolaEggMoves:
@@ -730,9 +770,7 @@ RemoraidEggMoves:
 	db -1 ; end
 
 DelibirdEggMoves:
-	db AURORA_BEAM
 	db QUICK_ATTACK
-	db FUTURE_SIGHT
 	db SPLASH
 	db RAPID_SPIN
 	db -1 ; end
@@ -793,6 +831,8 @@ ElekidEggMoves:
 	db ROLLING_KICK
 	db MEDITATE
 	db CROSS_CHOP
+	db DIZZY_PUNCH ;added
+	db PURSUIT ;added
 	db -1 ; end
 
 MagbyEggMoves:
@@ -801,6 +841,8 @@ MagbyEggMoves:
 	db BARRIER
 	db SCREECH
 	db CROSS_CHOP
+	db DIZZY_PUNCH ;added
+	db FAINT_ATTACK ;added
 	db -1 ; end
 
 MiltankEggMoves:

@@ -1,8 +1,8 @@
 	db TYROGUE ; 236
 
-	db  35,  35,  35,  35,  35,  35
+	db  45,  35,  35,  35,  35,  35
 	;   hp  atk  def  spd  sat  sdf
-
+	;   35,  35,  35,  35,  35,  35
 	db FIGHTING, FIGHTING ; type
 	db 75 ; catch rate
 	db 91 ; base exp

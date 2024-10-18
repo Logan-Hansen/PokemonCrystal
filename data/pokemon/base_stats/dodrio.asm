@@ -1,8 +1,8 @@
 	db DODRIO ; 085
 
-	db  60, 110,  70, 100,  60,  60
+	db  60, 120,  70, 100,  60,  60
 	;   hp  atk  def  spd  sat  sdf
-
+	;	60, 110,  70, 100,  60,  60
 	db NORMAL, FLYING ; type
 	db 45 ; catch rate
 	db 158 ; base exp

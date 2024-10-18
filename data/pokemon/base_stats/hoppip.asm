@@ -1,8 +1,8 @@
 	db HOPPIP ; 187
 
-	db  35,  35,  40,  50,  35,  55
+	db  35,  35,  40,  50,  40,  55
 	;   hp  atk  def  spd  sat  sdf
-
+	;	35,  35,  40,  50,  35,  55
 	db GRASS, FLYING ; type
 	db 255 ; catch rate
 	db 74 ; base exp

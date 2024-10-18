@@ -1,8 +1,8 @@
 	db WOOPER ; 194
 
-	db  55,  45,  45,  15,  25,  25
+	db  55,  45,  45,  15,  30,  25
 	;   hp  atk  def  spd  sat  sdf
-
+	;	55,  45,  45,  15,  25,  25
 	db WATER, GROUND ; type
 	db 255 ; catch rate
 	db 52 ; base exp

@@ -1,8 +1,8 @@
 	db RATTATA ; 019
 
-	db  30,  56,  35,  72,  25,  35
+	db  30,  60,  35,  72,  25,  35
 	;   hp  atk  def  spd  sat  sdf
-
+	;	30,  56,  35,  72,  25,  35
 	db NORMAL, NORMAL ; type
 	db 255 ; catch rate
 	db 57 ; base exp

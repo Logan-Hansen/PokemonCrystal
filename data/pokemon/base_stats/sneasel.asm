@@ -1,8 +1,8 @@
 	db SNEASEL ; 215
 
-	db  55,  95,  55, 115,  35,  75
+	db  55,  95,  55, 115,  65,  75
 	;   hp  atk  def  spd  sat  sdf
-
+	;	55,  95,  55, 115,  35,  75
 	db DARK, ICE ; type
 	db 60 ; catch rate
 	db 132 ; base exp

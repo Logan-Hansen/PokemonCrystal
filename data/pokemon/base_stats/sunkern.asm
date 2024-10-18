@@ -1,8 +1,8 @@
 	db SUNKERN ; 191
 
-	db  30,  30,  30,  30,  30,  30
+	db  40,  30,  30,  30,  40,  40
 	;   hp  atk  def  spd  sat  sdf
-
+	;	30,  30,  30,  30,  30,  30
 	db GRASS, GRASS ; type
 	db 235 ; catch rate
 	db 52 ; base exp

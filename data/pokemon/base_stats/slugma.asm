@@ -1,8 +1,8 @@
 	db SLUGMA ; 218
 
-	db  40,  40,  40,  20,  70,  40
+	db  40,  40,  50,  20,  70,  40
 	;   hp  atk  def  spd  sat  sdf
-
+	;	40,  40,  40,  20,  70,  40
 	db FIRE, FIRE ; type
 	db 190 ; catch rate
 	db 78 ; base exp

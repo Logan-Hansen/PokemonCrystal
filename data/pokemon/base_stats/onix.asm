@@ -1,8 +1,8 @@
 	db ONIX ; 095
 
-	db  35,  45, 160,  70,  30,  45
+	db  65,  75, 160,  70,  30,  55
 	;   hp  atk  def  spd  sat  sdf
-
+	;	35,  45, 160,  70,  30,  45
 	db ROCK, GROUND ; type
 	db 45 ; catch rate
 	db 108 ; base exp

@@ -1,8 +1,8 @@
 	db HOOTHOOT ; 163
 
-	db  60,  30,  30,  50,  36,  56
+	db  70,  30,  30,  50,  36,  56
 	;   hp  atk  def  spd  sat  sdf
-
+	;	60,  30,  30,  50,  36,  56
 	db NORMAL, FLYING ; type
 	db 255 ; catch rate
 	db 58 ; base exp

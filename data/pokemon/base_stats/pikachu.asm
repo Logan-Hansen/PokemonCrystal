@@ -1,8 +1,8 @@
 	db PIKACHU ; 025
 
-	db  35,  55,  30,  90,  50,  40
+	db  45,  80,  50, 120,  75,  60 ;lets go partner pikachu stats
 	;   hp  atk  def  spd  sat  sdf
-
+	;   35,  55,  30,  90,  50,  40
 	db ELECTRIC, ELECTRIC ; type
 	db 190 ; catch rate
 	db 82 ; base exp

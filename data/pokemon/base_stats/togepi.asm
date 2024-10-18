@@ -1,8 +1,8 @@
 	db TOGEPI ; 175
 
-	db  35,  20,  65,  20,  40,  65
+	db  35,  25,  65,  20,  40,  65
 	;   hp  atk  def  spd  sat  sdf
-
+	;	35,  20,  65,  20,  40,  65
 	db NORMAL, NORMAL ; type
 	db 190 ; catch rate
 	db 74 ; base exp

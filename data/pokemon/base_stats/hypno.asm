@@ -1,8 +1,8 @@
 	db HYPNO ; 097
 
-	db  85,  73,  70,  67,  73, 115
+	db  85,  85,  75,  67,  85, 115
 	;   hp  atk  def  spd  sat  sdf
-
+	;	85,  73,  70,  67,  73, 115
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
 	db 75 ; catch rate
 	db 165 ; base exp

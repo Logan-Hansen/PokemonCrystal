@@ -1,8 +1,8 @@
 	db FERALIGATR ; 160
 
-	db  85, 105, 100,  78,  79,  83
+	db  89, 105, 100,  78,  79,  83
 	;   hp  atk  def  spd  sat  sdf
-
+	;	85, 105, 100,  78,  79,  83
 	db WATER, WATER ; type
 	db 45 ; catch rate
 	db 210 ; base exp

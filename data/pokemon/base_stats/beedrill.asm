@@ -1,8 +1,8 @@
 	db BEEDRILL ; 015
 
-	db  65,  80,  40,  75,  45,  80
+	db  70,  85,  55,  80,  45,  80
 	;   hp  atk  def  spd  sat  sdf
-
+	;	65,  80,  40,  75,  45,  80
 	db BUG, POISON ; type
 	db 45 ; catch rate
 	db 159 ; base exp

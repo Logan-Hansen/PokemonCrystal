@@ -1,8 +1,8 @@
 	db MEOWTH ; 052
 
-	db  40,  45,  35,  90,  40,  40
+	db  45,  50,  35,  90,  40,  40
 	;   hp  atk  def  spd  sat  sdf
-
+	;	40,  45,  35,  90,  40,  40
 	db NORMAL, NORMAL ; type
 	db 255 ; catch rate
 	db 69 ; base exp

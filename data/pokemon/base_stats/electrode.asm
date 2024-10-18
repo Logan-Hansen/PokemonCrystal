@@ -1,8 +1,8 @@
 	db ELECTRODE ; 101
 
-	db  60,  50,  70, 140,  80,  80
+	db  60,  50,  70, 140,  90,  80
 	;   hp  atk  def  spd  sat  sdf
-
+	;	60,  50,  70, 140,  80,  80
 	db ELECTRIC, ELECTRIC ; type
 	db 60 ; catch rate
 	db 150 ; base exp

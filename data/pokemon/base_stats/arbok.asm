@@ -1,8 +1,8 @@
 	db ARBOK ; 024
 
-	db  60,  85,  69,  80,  65,  79
+	db  70, 110,  70,  80,  65,  80
 	;   hp  atk  def  spd  sat  sdf
-
+	;	60,  85,  69,  80,  65,  79
 	db POISON, POISON ; type
 	db 90 ; catch rate
 	db 147 ; base exp

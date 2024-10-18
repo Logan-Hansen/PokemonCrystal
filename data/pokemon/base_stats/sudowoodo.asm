@@ -1,8 +1,8 @@
 	db SUDOWOODO ; 185
 
-	db  70, 100, 115,  30,  30,  65
+	db  80, 100, 115,  30,  30,  85
 	;   hp  atk  def  spd  sat  sdf
-
+	;	70, 100, 115,  30,  30,  65
 	db ROCK, ROCK ; type
 	db 65 ; catch rate
 	db 135 ; base exp

@@ -1,8 +1,8 @@
 	db DROWZEE ; 096
 
-	db  60,  48,  45,  42,  43,  90
+	db  60,  55,  50,  42,  55,  90
 	;   hp  atk  def  spd  sat  sdf
-
+	;	60,  48,  45,  42,  43,  90
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
 	db 190 ; catch rate
 	db 102 ; base exp

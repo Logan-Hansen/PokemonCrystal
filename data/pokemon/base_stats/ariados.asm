@@ -1,8 +1,8 @@
 	db ARIADOS ; 168
 
-	db  70,  90,  70,  40,  60,  60
+	db  75,  90,  70,  60,  60,  60
 	;   hp  atk  def  spd  sat  sdf
-
+	;	70,  90,  70,  40,  60,  60
 	db BUG, POISON ; type
 	db 90 ; catch rate
 	db 134 ; base exp

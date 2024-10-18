@@ -25,7 +25,7 @@ EvolutionMoves::
     db NO_MOVE      ; EKANS
 	db NO_MOVE      ; ARBOK
     db NO_MOVE      ; PIKACHU
-	db NO_MOVE      ; RAICHU
+	db SUBMISSION   ; RAICHU
     db NO_MOVE      ; SANDSHREW
     db NO_MOVE      ; SANDSLASH
     db NO_MOVE      ; NIDORAN_F
@@ -90,7 +90,7 @@ EvolutionMoves::
     db NO_MOVE      ; GRIMER
     db NO_MOVE      ; MUK
     db NO_MOVE      ; SHELLDER
-    db NO_MOVE      ; CLOYSTER
+    db EXPLOSION    ; CLOYSTER
     db NO_MOVE      ; GASTLY
     db NO_MOVE      ; HAUNTER
     db NO_MOVE      ; GENGAR
@@ -102,7 +102,7 @@ EvolutionMoves::
     db NO_MOVE      ; VOLTORB
     db NO_MOVE      ; ELECTRODE
     db NO_MOVE      ; EXEGGCUTE
-	db NO_MOVE      ; EXEGGUTOR
+	db EXPLOSION    ; EXEGGUTOR
     db NO_MOVE      ; CUBONE
     db NO_MOVE      ; MAROWAK
 	db NO_MOVE      ; HITMONLEE
@@ -111,14 +111,14 @@ EvolutionMoves::
     db NO_MOVE      ; KOFFING
     db NO_MOVE      ; WEEZING
     db NO_MOVE      ; RHYHORN
-    db NO_MOVE      ; RHYDON
+    db EARTHQUAKE   ; RHYDON
     db NO_MOVE      ; CHANSEY
     db NO_MOVE      ; TANGELA
     db NO_MOVE      ; KANGASKHAN
     db NO_MOVE      ; HORSEA
     db NO_MOVE      ; SEADRA
     db NO_MOVE      ; GOLDEEN
-    db NO_MOVE      ; SEAKING
+    db DOUBLE_EDGE  ; SEAKING
     db NO_MOVE      ; STARYU
     db NO_MOVE      ; STARMIE
     db NO_MOVE      ; MR. MIME
@@ -129,18 +129,18 @@ EvolutionMoves::
     db NO_MOVE      ; PINSIR
     db NO_MOVE      ; TAUROS
     db NO_MOVE      ; MAGIKARP
-	db NO_MOVE      ; GYARADOS
+	db GUST         ; GYARADOS
     db NO_MOVE      ; LAPRAS
     db NO_MOVE      ; DITTO
     db NO_MOVE      ; EEVEE
-	db NO_MOVE      ; VAPOREON
-	db NO_MOVE      ; JOLTEON
-	db NO_MOVE      ; FLAREON
+	db WATER_GUN    ; VAPOREON
+	db THUNDERSHOCK ; JOLTEON
+	db EMBER        ; FLAREON
     db NO_MOVE      ; PORYGON
     db NO_MOVE      ; OMANYTE
 	db NO_MOVE      ; OMASTAR
     db NO_MOVE      ; KABUTO    
-	db NO_MOVE      ; KABUTOPS
+	db SLASH        ; KABUTOPS
     db NO_MOVE      ; AERODACTYL
     db NO_MOVE      ; SNORLAX
     db NO_MOVE      ; ARTICUNO
@@ -167,7 +167,7 @@ EvolutionMoves::
     db NO_MOVE      ; LEDYBA
     db NO_MOVE      ; LEDIAN
     db NO_MOVE      ; SPINARAK
-	db NO_MOVE      ; ARIADOS
+	db TWINEEDLE    ; ARIADOS
     db NO_MOVE      ; CROBAT
     db NO_MOVE      ; CHINCHOU
     db NO_MOVE      ; LANTURN
@@ -177,7 +177,7 @@ EvolutionMoves::
     db NO_MOVE      ; TOGEPI
     db NO_MOVE      ; TOGETIC
     db NO_MOVE      ; NATU
-    db NO_MOVE      ; XATU
+    db PSYBEAM      ; XATU
     db NO_MOVE      ; MAREEP
     db NO_MOVE      ; FLAAFFY
 	db NO_MOVE      ; AMPHAROS
@@ -191,12 +191,12 @@ EvolutionMoves::
     db NO_MOVE      ; JUMPLUFF
     db NO_MOVE      ; AIPOM
     db NO_MOVE      ; SUNKERN
-    db NO_MOVE      ; SUNFLORA
+    db POUND        ; SUNFLORA
     db NO_MOVE      ; YANMA
     db NO_MOVE      ; WOOPER
     db NO_MOVE      ; QUAGSIRE
-	db NO_MOVE      ; ESPEON
-	db NO_MOVE      ; UMBREON
+	db CONFUSION    ; ESPEON
+	db BITE         ; UMBREON
     db NO_MOVE      ; MURKROW
     db NO_MOVE      ; SLOWKING
     db NO_MOVE      ; MISDREAVUS
@@ -207,11 +207,11 @@ EvolutionMoves::
     db NO_MOVE      ; FORRETRESS
     db NO_MOVE      ; DUNSPARCE
     db NO_MOVE      ; GLIGAR
-	db NO_MOVE      ; STEELIX
+	db IRON_TAIL    ; STEELIX
     db NO_MOVE      ; SNUBBULL
     db NO_MOVE      ; GRANBULL
     db NO_MOVE      ; QWILLFISH
-	db NO_MOVE      ; SCIZOR
+	db METAL_CLAW   ; SCIZOR
     db NO_MOVE      ; SHUCKLE
     db NO_MOVE      ; HERACROSS
     db NO_MOVE      ; SNEASEL
@@ -220,7 +220,7 @@ EvolutionMoves::
     db NO_MOVE      ; SLUGMA
     db NO_MOVE      ; MAGCARGO
     db NO_MOVE      ; SWINUB
-	db NO_MOVE      ; PILOSWINE
+	db ICY_WIND     ; PILOSWINE
     db NO_MOVE      ; CORSOLA
     db NO_MOVE      ; REMORAID
 	db NO_MOVE      ; OCTILLERY

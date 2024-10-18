@@ -1,8 +1,8 @@
 	db RAICHU ; 026
 
-	db  60,  90,  55, 100,  90,  80
+	db  60,  90,  60, 110,  90,  90
 	;   hp  atk  def  spd  sat  sdf
-
+	;	60,  90,  55, 100,  90,  80
 	db ELECTRIC, ELECTRIC ; type
 	db 75 ; catch rate
 	db 122 ; base exp

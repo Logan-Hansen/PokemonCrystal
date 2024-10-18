@@ -1,8 +1,8 @@
 	db GROWLITHE ; 058
 
-	db  55,  70,  45,  60,  70,  50
+	db  65,  70,  45,  60,  70,  50
 	;   hp  atk  def  spd  sat  sdf
-
+	;	55,  70,  45,  60,  70,  50
 	db FIRE, FIRE ; type
 	db 190 ; catch rate
 	db 91 ; base exp

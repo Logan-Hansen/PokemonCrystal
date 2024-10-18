@@ -1,8 +1,8 @@
 	db NINETALES ; 038
 
-	db  73,  76,  75, 100,  81, 100
+	db  73,  76,  75, 100, 100, 100
 	;   hp  atk  def  spd  sat  sdf
-
+	;	73,  76,  75, 100,  81, 100
 	db FIRE, FIRE ; type
 	db 75 ; catch rate
 	db 178 ; base exp

@@ -1,8 +1,8 @@
 	db BLASTOISE ; 009
 
-	db  79,  83, 100,  78,  85, 105
+	db  79,  83, 100,  78,  89, 105
 	;   hp  atk  def  spd  sat  sdf
-
+	;	79,  83, 100,  78,  85, 105
 	db WATER, WATER ; type
 	db 45 ; catch rate
 	db 210 ; base exp

@@ -12,11 +12,13 @@ INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 BulbasaurEggMoves:
 	db LIGHT_SCREEN
+	db REFLECT ;added
 	db SKULL_BASH
 	db SAFEGUARD
 	db RAZOR_WIND
 	db PETAL_DANCE
 	db ANCIENTPOWER ;added
+	db MEGA_DRAIN ;added
 	db -1 ; end
 
 CharmanderEggMoves:
@@ -28,6 +30,8 @@ CharmanderEggMoves:
 	db BEAT_UP
 	db CRUNCH ;added
 	db REVERSAL ;added
+	db REFLECT ;added
+	db SUBMISSION ;added
 	db -1 ; end
 
 SquirtleEggMoves:
@@ -37,6 +41,9 @@ SquirtleEggMoves:
 	db CONFUSION
 	db FORESIGHT
 	db FLAIL
+	db BUBBLEBEAM ;added
+	db REFLECT ;added
+	db SUBMISSION ;added
 	db -1 ; end
 
 PidgeyEggMoves:
@@ -120,6 +127,7 @@ OddishEggMoves:
 	db FLAIL
 	db SYNTHESIS
 	db LEECH_SEED ;added
+	db GIGA_DRAIN ;added
 	db -1 ; end
 
 ParasEggMoves:
@@ -163,6 +171,7 @@ PsyduckEggMoves:
 	db FUTURE_SIGHT
 	db PSYCHIC_M
 	db CROSS_CHOP
+	db BUBBLEBEAM ;added
 	db -1 ; end
 
 MankeyEggMoves:
@@ -188,6 +197,7 @@ PoliwagEggMoves:
 	db BUBBLEBEAM
 	db HAZE
 	db MIND_READER
+	db AMNESIA ;added
 	db -1 ; end
 
 AbraEggMoves:
@@ -275,6 +285,7 @@ GrimerEggMoves:
 	db HAZE
 	db MEAN_LOOK
 	db LICK
+	db EXPLOSION ;added
 	db -1 ; end
 
 ShellderEggMoves:
@@ -294,6 +305,7 @@ GastlyEggMoves:
 OnixEggMoves:
 	db ROCK_SLIDE
 	db FLAIL
+	db EXPLOSION ;added
 	db -1 ; end
 
 DrowzeeEggMoves:
@@ -315,6 +327,7 @@ ExeggcuteEggMoves:
 	db REFLECT
 	db MEGA_DRAIN
 	db ANCIENTPOWER
+	db EGG_BOMB ;added
 	db -1 ; end
 
 CuboneEggMoves:
@@ -433,6 +446,7 @@ EeveeEggMoves:
 	db FLAIL
 	db CHARM
 	db GROWTH ;added
+	db REFLECT ;added
 	db -1 ; end
 
 OmanyteEggMoves:
@@ -449,6 +463,7 @@ KabutoEggMoves:
 	db RAPID_SPIN
 	db DIG
 	db FLAIL
+	db HYDRO_PUMP ;added
 	db -1 ; end
 
 AerodactylEggMoves:
@@ -471,6 +486,7 @@ DratiniEggMoves:
 	db HAZE
 	db SUPERSONIC
 	db HYDRO_PUMP ;added
+	db BUBBLEBEAM ;added
 	db -1 ; end
 
 ChikoritaEggMoves:
@@ -491,6 +507,7 @@ CyndaquilEggMoves:
 	db FORESIGHT
 	db SUBMISSION
 	db DOUBLE_EDGE ;added
+	db BELLY_DRUM ;added
 	db -1 ; end
 
 TotodileEggMoves:
@@ -551,6 +568,8 @@ PichuEggMoves:
 	db PETAL_DANCE ;added
 	db SCARY_FACE ;added
 	db SING ;added
+	db PAY_DAY ;added
+	db REFLECT ;added
 	db -1 ; end
 
 CleffaEggMoves:

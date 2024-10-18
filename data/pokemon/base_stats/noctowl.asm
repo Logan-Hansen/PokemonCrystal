@@ -1,8 +1,8 @@
 	db NOCTOWL ; 164
 
-	db 100,  50,  50,  70,  76,  96
+	db 110,  50,  55,  70,  94, 100
 	;   hp  atk  def  spd  sat  sdf
-
+	;  100,  50,  50,  70,  76,  96
 	db NORMAL, FLYING ; type
 	db 90 ; catch rate
 	db 162 ; base exp

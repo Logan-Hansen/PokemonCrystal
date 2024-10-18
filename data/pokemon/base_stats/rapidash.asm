@@ -1,8 +1,8 @@
 	db RAPIDASH ; 078
 
-	db  65, 100,  70, 105,  80,  80
+	db  70, 100,  70, 105,  90,  80
 	;   hp  atk  def  spd  sat  sdf
-
+	;	65, 100,  70, 105,  80,  80
 	db FIRE, FIRE ; type
 	db 60 ; catch rate
 	db 192 ; base exp

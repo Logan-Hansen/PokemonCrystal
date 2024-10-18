@@ -1,8 +1,8 @@
 	db MURKROW ; 198
 
-	db  60,  85,  42,  91,  85,  42
+	db  70, 105,  52,  95,  75,  52
 	;   hp  atk  def  spd  sat  sdf
-
+	;	60,  85,  42,  91,  85,  42
 	db DARK, FLYING ; type
 	db 30 ; catch rate
 	db 107 ; base exp

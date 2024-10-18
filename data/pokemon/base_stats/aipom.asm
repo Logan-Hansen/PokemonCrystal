@@ -1,8 +1,8 @@
 	db AIPOM ; 190
 
-	db  55,  70,  55,  85,  40,  55
+	db  70,  90,  55,  95,  40,  55
 	;   hp  atk  def  spd  sat  sdf
-
+	;	55,  70,  55,  85,  40,  55
 	db NORMAL, NORMAL ; type
 	db 45 ; catch rate
 	db 94 ; base exp

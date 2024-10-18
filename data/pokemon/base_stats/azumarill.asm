@@ -1,8 +1,8 @@
 	db AZUMARILL ; 184
 
-	db 100,  50,  80,  50,  50,  80
+	db 100,  50,  80,  50,  70,  80
 	;   hp  atk  def  spd  sat  sdf
-
+	;  100,  50,  80,  50,  50,  80
 	db WATER, WATER ; type
 	db 75 ; catch rate
 	db 153 ; base exp

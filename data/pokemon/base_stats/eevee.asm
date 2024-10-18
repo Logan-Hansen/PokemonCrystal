@@ -1,8 +1,8 @@
 	db EEVEE ; 133
 
-	db  55,  55,  50,  55,  45,  65
+	db  65,  75,  70,  75,  65,  85 ;lets go partner eevee stats
 	;   hp  atk  def  spd  sat  sdf
-
+	;	55,  55,  50,  55,  45,  65
 	db NORMAL, NORMAL ; type
 	db 45 ; catch rate
 	db 92 ; base exp

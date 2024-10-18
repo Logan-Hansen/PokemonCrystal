@@ -1,8 +1,8 @@
 	db VENUSAUR ; 003
 
-	db  80,  82,  83,  80, 100, 100
+	db  89,  82,  83,  80, 100, 100
 	;   hp  atk  def  spd  sat  sdf
-
+	;	80,  82,  83,  80, 100, 100
 	db GRASS, POISON ; type
 	db 45 ; catch rate
 	db 208 ; base exp

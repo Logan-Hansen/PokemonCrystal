@@ -1,8 +1,8 @@
 	db EXEGGUTOR ; 103
 
-	db  95,  95,  85,  55, 125,  65
+	db  95,  95,  85,  55, 125,  80
 	;   hp  atk  def  spd  sat  sdf
-
+	;	95,  95,  85,  55, 125,  65
 	db GRASS, PSYCHIC_TYPE ; type
 	db 45 ; catch rate
 	db 212 ; base exp

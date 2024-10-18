@@ -1,8 +1,8 @@
 	db KINGLER ; 099
 
-	db  55, 130, 115,  75,  50,  50
+	db  65, 130, 115,  75,  50,  50
 	;   hp  atk  def  spd  sat  sdf
-
+	;   55, 130, 115,  75,  50,  50
 	db WATER, WATER ; type
 	db 60 ; catch rate
 	db 206 ; base exp

@@ -1,8 +1,8 @@
 	db SWINUB ; 220
 
-	db  50,  50,  40,  50,  30,  30
+	db  80,  65,  40,  50,  65,  40
 	;   hp  atk  def  spd  sat  sdf
-
+	;	50,  50,  40,  50,  30,  30
 	db ICE, GROUND ; type
 	db 225 ; catch rate
 	db 78 ; base exp

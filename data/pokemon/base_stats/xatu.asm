@@ -1,8 +1,8 @@
 	db XATU ; 178
 
-	db  65,  75,  70,  95,  95,  70
+	db  65,  75,  70, 101,  98,  70
 	;   hp  atk  def  spd  sat  sdf
-
+	;	65,  75,  70,  95,  95,  70
 	db PSYCHIC_TYPE, FLYING ; type
 	db 75 ; catch rate
 	db 171 ; base exp

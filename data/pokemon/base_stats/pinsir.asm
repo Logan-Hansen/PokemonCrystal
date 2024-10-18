@@ -1,8 +1,8 @@
 	db PINSIR ; 127
 
-	db  65, 125, 100,  85,  55,  70
+	db  90, 125, 105,  85,  20,  70
 	;   hp  atk  def  spd  sat  sdf
-
+	;	65, 125, 100,  85,  55,  70
 	db BUG, BUG ; type
 	db 45 ; catch rate
 	db 200 ; base exp

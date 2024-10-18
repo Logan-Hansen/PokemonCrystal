@@ -1,8 +1,8 @@
 	db NIDORAN_M ; 032
 
-	db  46,  57,  40,  50,  40,  40
+	db  46,  57,  40,  50,  42,  40
 	;   hp  atk  def  spd  sat  sdf
-
+	;	46,  57,  40,  50,  40,  40
 	db POISON, POISON ; type
 	db 235 ; catch rate
 	db 60 ; base exp

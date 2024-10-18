@@ -2416,7 +2416,7 @@ SpinarakEvosAttacks:
 	db 21, GROWTH ;added
 	db 27, SPIDER_WEB
 	db 30, FURY_SWIPES
-	db 37  PSYCHIC_M
+	db 37, PSYCHIC_M
 	db 45, AGILITY
 	db 0 ; no more level-up moves
 

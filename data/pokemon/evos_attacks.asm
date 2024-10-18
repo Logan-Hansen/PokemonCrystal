@@ -1156,7 +1156,7 @@ FarfetchDEvosAttacks:
 	db 31, AGILITY
 	db 37, SLASH
 	db 44, FALSE_SWIPE
-	dv 48, WHIRLWIND ;added
+	db 48, WHIRLWIND ;added
 	db 0 ; no more level-up moves
 
 DoduoEvosAttacks:

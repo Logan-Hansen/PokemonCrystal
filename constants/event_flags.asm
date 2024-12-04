@@ -331,7 +331,7 @@
 	const EVENT_TULLY_ASKED_FOR_PHONE_NUMBER
 	const EVENT_FOUGHT_MEW              ;mine
 	const EVENT_BRENT_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused
+	const EVENT_BEAT_COOLTRAINERM_LONDON;mine
 	const EVENT_TIFFANY_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
 	const EVENT_VANCE_ASKED_FOR_PHONE_NUMBER

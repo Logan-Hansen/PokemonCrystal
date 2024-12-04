@@ -222,6 +222,7 @@ DEF KRIS EQU __trainer_class__
 	const STEVE ; unused
 	const ALLEN
 	const DARIN
+	const LONDON ;added
 
 	trainerclass COOLTRAINERF ; 1c
 	const GWEN
@@ -691,7 +692,6 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass RED ; 3f
 	const RED1
-	const LONDON ; Roy student
 
 	trainerclass BLUE ; 40
 	const BLUE1

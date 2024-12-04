@@ -193,7 +193,7 @@ TrainerCooltrainermBrian:
 	closetext
 	end
 
-TrainerCooltrainerLondon:
+TrainerCooltrainermLondon:
 	trainer COOLTRAINERM, LONDON, EVENT_BEAT_COOLTRAINERM_LONDON, CooltrainermLondonSeenText, CooltrainermLondonBeatenText, 0, .Script
 
 .Script:
@@ -385,7 +385,8 @@ CooltrainermLondonSeenText: ;added
 	done
 
 CooltrainermLondonBeatenText: ;added
-	text "How is this possible?"
+	text "How..."
+	cont "How did you win?"
 	done
 
 CooltrainermLondonAfterBattleText: ;added
@@ -517,4 +518,4 @@ Route27_MapEvents:
 	object_event 60, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route27TMSolarbeam, EVENT_ROUTE_27_TM_SOLARBEAM
 	object_event 53, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route27RareCandy, EVENT_ROUTE_27_RARE_CANDY
 	object_event 21, 10, SPRITE_FISHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 3, Route27FisherScript, -1
-	object_event 20, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerLondon, -1
+	object_event 20, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerCooltrainermLondon, -1

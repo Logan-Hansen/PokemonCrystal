@@ -1,9 +1,9 @@
-	const_def
+	const_def 0
 	const PINK_PAGE   ; 0
 	const GREEN_PAGE  ; 1
 	const BLUE_PAGE   ; 2
 	const ORANGE_PAGE ; 3
-NUM_STAT_PAGES EQU const_value
+DEF NUM_STAT_PAGES EQU 4
 
 DEF STAT_PAGE_MASK EQU %00000011
 

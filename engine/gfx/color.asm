@@ -1,11 +1,11 @@
 INCLUDE "engine/gfx/sgb_layouts.asm"
 
 DEF SHINY_ATK_MASK EQU %0010
-DEF SHINY_DEF_DV EQU 10
-DEF SHINY_SPD_DV EQU 10
-DEF SHINY_SPC_DV EQU 10
+DEF SHINY_DEF_DV EQU %0010
+DEF SHINY_SPD_DV EQU %0010
+DEF SHINY_SPC_DV EQU %0010
 
-Unused_CheckShininess: ; CheckShininess:
+CheckShininess:
 ; Check if a mon is shiny by DVs at bc.
 ; Return carry if shiny.
 
@@ -43,7 +43,7 @@ Unused_CheckShininess: ; CheckShininess:
 	and a
 	ret
 
-CheckShininess: ; Unused_CheckShininess:
+Unused_CheckShininess:
 ; Return carry if the DVs at hl are all 10 or higher.
 
 ; Attack

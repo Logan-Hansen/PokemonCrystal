@@ -1,0 +1,46 @@
+# Build and output directories
+/build/
+bin/
+/out/
+/dist/
+
+# Object files
+*.o
+*.obj
+
+# Compiled executables
+*.exe
+*.elf
+*.bin
+*.out
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Game sav file
+pokecrystal.sav
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Graphics and compressed files
+*.2bpp
+*.1bpp
+*.2bpp.lz
+*.lz

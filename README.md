@@ -103,7 +103,7 @@ Other Updates & Changes
 - [X] [Lottery corner gives lucky number daily instead of weekly](https://github.com/pret/pokecrystal/wiki/Make-the-Lottery-Corner-generate-a-lucky-number-daily-instead-of-weekly)
 - [X] [Show clock on pause menu](https://github.com/pret/pokecrystal/wiki/Replace-Menu-Account-with-a-small-clock-in-the-corner-of-the-screen)
 - [X] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
-- [ ] Speed up egg hatch rates (twice as fast for everything w/ min of 5 cycles)
+- [X] Speed up egg hatch rates (twice as fast for everything w/ min of 5 cycles)
 - [ ] [Display more information on move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
 - [ ] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)
@@ -123,6 +123,9 @@ Other Updates & Changes
 - [X] Officer Jenny now added as a trainer type, currently one on Route 34
 - [ ] Add more officers to Johto and Kanto
 
+Known Bugs
+--------------------
+Traded NPC pokemon will crash the game when viewing 4th page stats.
 
 Updates to Johto to build on HGSS additions
 --------------------

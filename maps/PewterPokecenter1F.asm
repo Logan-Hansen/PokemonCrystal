@@ -29,11 +29,85 @@ PewterPokecenter1FBugCatcherScript:
 
 Chris:
 	faceplayer
+	;opentext
+	;trade NPC_TRADE_CHRIS
+	;waitbutton
+	;closetext
+	;end
+	checkevent EVENT_GOT_A_DEWGONG_FROM_CHRIS
+	iftrue .AskHowPokemon
 	opentext
-	trade NPC_TRADE_CHRIS
+	writetext ChrisGivePokemonText
+	yesorno
+	iffalse .RefusedPokemon
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	givepoke DEWGONG, 50, KINGS_ROCK
+	setevent EVENT_GOT_A_DEWGONG_FROM_CHRIS
+	writetext ChrisGavePokemonText
 	waitbutton
 	closetext
 	end
+
+.AskHowPokemon: ;added
+	opentext
+	writetext ChrisHowDoingText
+	waitbutton
+	closetext
+	end
+
+.RefusedPokemon: ;added
+	writetext ChrisRefusedText
+	waitbutton
+	closetext
+	end
+
+.PartyFull: ;added
+	writetext ChrisFullPartyText
+	waitbutton
+	closetext
+	end
+
+
+ChrisGivePokemonText: ;added
+	text "I won a DEWGONG"
+	line "in a bet, but I"
+	cont "don't want it."
+	
+	para "If you don't mind,"
+	line "could you raise it"
+	cont "for me?"
+	done
+
+ChrisHowDoingText: ;added
+	text "How is DEWGONG?"
+	
+	para "Thanks again for"
+	line "raising it!"
+	done
+
+ChrisRefusedText: ;added
+	text "Oh..."
+
+	para "Well, let me know"
+	line "if you change"
+	cont "your mind..."
+
+ChrisFullPartyText: ;added
+	text "Oh, no. You can't"
+	line "carry any more"
+	cont "#MON with you."
+
+	para "I will be here"
+	line "if you ever want"
+	cont "DEWGONG."
+	done
+
+ChrisGavePokemonText: ;added
+	para "I am glad you're"
+	line "going to raise"
+	cont "it now. Thanks!"
+	done
 
 PewterPokecenter1FTeacherText:
 	text "…Yeah, and the"

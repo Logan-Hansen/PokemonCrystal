@@ -344,7 +344,7 @@
 	const_skip ; unused in Crystal
 	const EVENT_ERIN_ASKED_FOR_PHONE_NUMBER
 	const EVENT_BUENA_OFFERED_HER_PHONE_NUMBER_NO_BLUE_CARD
-	const_skip ; unused
+	const EVENT_GOT_A_DEWGONG_FROM_CHRIS ; const_skip unused now mine
 ; Ruins of Alph puzzles
 	const EVENT_SOLVED_HO_OH_PUZZLE
 	const EVENT_SOLVED_KABUTO_PUZZLE

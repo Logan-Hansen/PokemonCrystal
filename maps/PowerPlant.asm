@@ -5,7 +5,7 @@
 	const POWERPLANT_OFFICER2
 	const POWERPLANT_GYM_GUIDE3
 	const POWERPLANT_MANAGER
-	const POWERPLANT_FOREST
+	;const POWERPLANT_FOREST
 
 PowerPlant_MapScripts:
 	def_scene_scripts
@@ -186,13 +186,13 @@ PowerPlantManager:
 	closetext
 	end
 
-Forest:
-	faceplayer
-	opentext
-	trade NPC_TRADE_FOREST
-	waitbutton
-	closetext
-	end
+;Forest:
+;	faceplayer
+;	opentext
+;	trade NPC_TRADE_FOREST
+;	waitbutton
+;	closetext
+;	end
 
 PowerPlantBookshelf:
 	jumpstd DifficultBookshelfScript
@@ -407,4 +407,4 @@ PowerPlant_MapEvents:
 	object_event  9,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PowerPlantOfficer2Script, -1
 	object_event  7,  2, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PowerPlantGymGuide4Script, -1
 	object_event 14, 10, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PowerPlantManager, -1
-	object_event  5,  5, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Forest, -1
+	;object_event  5,  5, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Forest, -1

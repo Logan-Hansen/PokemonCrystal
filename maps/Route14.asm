@@ -11,8 +11,41 @@ Route14_MapScripts:
 
 Kim:
 	faceplayer
+	;opentext
+	;trade NPC_TRADE_KIM
+	;waitbutton
+	;closetext
+	;end
+	checkevent EVENT_GOT_AERODACTYL_FROM_KIM
+	iftrue .AskHowPokemon
 	opentext
-	trade NPC_TRADE_KIM
+	writetext KimGivePokemonText
+	yesorno
+	iffalse .RefusedPokemon
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	givepoke AERODACTYL, 50, BERSERK_GENE
+	setevent EVENT_GOT_AERODACTYL_FROM_KIM
+	writetext KimGavePokemonText
+	waitbutton
+	closetext
+	end
+
+.AskHowPokemon: ;added
+	opentext
+	writetext KimHowDoingText
+	waitbutton
+	closetext
+	end
+
+.RefusedPokemon: ;added
+	writetext KimRefusedText
+	waitbutton
+	closetext
+	end
+
+.PartyFull: ;added
+	writetext KimFullPartyText
 	waitbutton
 	closetext
 	end
@@ -49,6 +82,50 @@ TrainerPokefanmTrevor:
 	waitbutton
 	closetext
 	end
+
+KimGivePokemonText: ;added
+	text "A creepy guy gave"
+	line "me an AERODACTYL."
+	
+	para "He said it would"
+	line "help me be safe,"
+	cont "but it scares me!"
+	
+	para "If you don't mind,"
+	line "could you raise it"
+	cont "for me?"
+	done
+
+KimHowDoingText: ;added
+	text "I hope AERODACTYL"
+	line "doesn't hurt you."
+	
+	para "I was so scared"
+	line "of raising it!"
+	done
+
+KimRefusedText: ;added
+	text "Oh..."
+
+	para "Well, let me know"
+	line "if you change"
+	cont "your mind..."
+
+KimFullPartyText: ;added
+	text "Oh, no. You can't"
+	line "carry any more"
+	cont "#MON with you."
+
+	para "Please make room"
+	line "and come take my"
+	cont "AERODACTYL."
+	done
+
+KimGavePokemonText: ;added
+	para "I'm glad you'll"
+	line "have it instead."
+	cont "Be careful!"
+	done
 
 PokefanmCarterSeenText:
 	text "Let me tell you,"

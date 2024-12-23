@@ -467,7 +467,7 @@ ShowElmTogepiScript:
 ElmGiveEverstoneScript:
 	writetext ElmGiveEverstoneText1
 	promptbutton
-	verbosegiveitem EXP_SHARE
+	verbosegiveitem EXP_SHARE ; switched from everstone
 	iffalse ElmScript_NoRoomForEverstone
 	writetext ElmGiveEverstoneText2
 	waitbutton

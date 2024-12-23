@@ -104,8 +104,41 @@ GoldenrodDeptStore5FLassScript:
 
 Mike:
 	faceplayer
+	;opentext
+	;trade NPC_TRADE_MIKE
+	;waitbutton
+	;closetext
+	;end
+	checkevent EVENT_GOT_A_MACHOP_FROM_MIKE
+	iftrue .AskHowMachop
 	opentext
-	trade NPC_TRADE_MIKE
+	writetext GoldenrodMikeGiveMachopText
+	yesorno
+	iffalse .RefusedMachop
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	givepoke MACHOP, 15, GOLD_BERRY
+	setevent EVENT_GOT_A_MACHOP_FROM_MIKE
+	writetext GoldenrodMikeGaveMachopText
+	waitbutton
+	closetext
+	end
+
+.AskHowMachop: ;added
+	opentext
+	writetext GoldenrodMikeHowDoingText
+	waitbutton
+	closetext
+	end
+
+.RefusedMachop: ;added
+	writetext GoldenrodMikeRefusedText
+	waitbutton
+	closetext
+	end
+
+.PartyFull: ;added
+	writetext GoldenrodMikeFullPartyText
 	waitbutton
 	closetext
 	end
@@ -118,6 +151,50 @@ GoldenrodDeptStore5FDirectory:
 
 GoldenrodDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
+
+GoldenrodMikeGiveMachopText: ;added
+	text "I got an MACHOP,"
+	line "but I don't use"
+	cont "it very often."
+	
+	para "If you don't mind,"
+	line "could you raise it"
+	cont "for me?"
+	done
+
+GoldenrodMikeHowDoingText: ;added
+	text "How is MACHOP?"
+	
+	para "Thanks again for"
+	line "raising it!"
+	done
+
+GoldenrodMikeRefusedText: ;added
+	text "Oh..."
+
+	para "Well, let me know"
+	line "if you change"
+	cont "your mind..."
+
+GoldenrodMikeFullPartyText: ;added
+	text "Oh, no. You can't"
+	line "carry any more"
+	cont "#MON with you."
+
+	para "I will be here"
+	line "if you ever make"
+	cont "room for MACHOP."
+	done
+
+GoldenrodMikeGaveMachopText: ;added
+	text "MACHOP will be a"
+	line "lot happier with"
+	cont "someone else."
+
+	para "I am glad you're"
+	line "going to raise"
+	cont "it now. Thanks!"
+	done
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
 	text "Hello. Oh, your"
@@ -183,15 +260,9 @@ GoldenrodDeptStore5FLassText:
 	done
 
 GoldenrodDeptStore5FPokefanMText:
-	text "You can't rename a"
-	line "#MON you get in"
-	cont "a trade."
-
-	para "The name is a re-"
-	line "flection of the"
-
-	para "original trainer's"
-	line "feelings for it."
+	text "TMs can help you"
+	line "give coverage to"
+	cont "beat other types."
 	done
 
 GoldenrodDeptStore5FDirectoryText:

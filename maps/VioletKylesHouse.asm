@@ -34,7 +34,7 @@ Kyle:
 
 .AskHowOnix: ;added
 	opentext
-	writetext VioletKyleHowOnixText
+	writetext VioletKyleHowDoingText
 	waitbutton
 	closetext
 	end
@@ -62,7 +62,7 @@ VioletKyleGiveOnixText: ;added
 	cont "for me?"
 	done
 
-VioletKyleHowOnixText: ;added
+VioletKyleHowDoingText: ;added
 	text "How is ONIX doing?"
 	
 	para "Thanks again for"

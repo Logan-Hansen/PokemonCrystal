@@ -23,7 +23,7 @@ Tim:
 	ifequal PARTY_LENGTH, .PartyFull
 	givepoke CHINCHOU, 20, METAL_COAT
 	setevent EVENT_GOT_A_CHINCHOU_FROM_TIM
-	writetext VioletKyleGaveOnixText
+	writetext TimGavePokemonText
 	waitbutton
 	closetext
 	end

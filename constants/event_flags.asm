@@ -508,7 +508,7 @@
 	const EVENT_BUENA_OFFERED_HER_PHONE_NUMBER
 	const EVENT_MET_BUENA
 	const EVENT_GOT_ODD_EGG
-	const_skip ; unused
+	const EVENT_GOT_A_XATU_FROM_EMY ; was unused skip, now mine
 	const EVENT_GOT_GS_BALL_FROM_GOLDENROD_POKEMON_CENTER
 ; Unused: next 167 events
 	

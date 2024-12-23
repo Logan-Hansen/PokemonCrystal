@@ -182,6 +182,8 @@ CyndaquilPokeBallScript:
 	waitsfx
 	promptbutton
 	givepoke CYNDAQUIL, 5, BERRY
+	;loadmem wPartyMon1DVs+0, $EA  ; ATK = 15, DEF = 10
+	;loadmem wPartyMon1DVs+1, $AA  ; SPD = 10, SPC = 10 HP = 0
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript

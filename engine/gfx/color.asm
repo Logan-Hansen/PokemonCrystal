@@ -1,11 +1,51 @@
 INCLUDE "engine/gfx/sgb_layouts.asm"
 
 DEF SHINY_ATK_MASK EQU %0010
-DEF SHINY_DEF_DV EQU %0010
-DEF SHINY_SPD_DV EQU %0010
-DEF SHINY_SPC_DV EQU %0010
+DEF SHINY_DEF_DV EQU 10
+DEF SHINY_SPD_DV EQU 10
+DEF SHINY_SPC_DV EQU 10
 
-Unused_CheckShininess: ; CheckShininess:
+CheckShininess:
+    ; Load the address of the DVs (HL = [BC])
+    ld l, c
+    ld h, b
+
+    ; Attack (High nibble of the first byte)
+    ld a, [hl]
+    and $F0                   ; Mask to isolate the high nibble (ATK DV)
+    cp SHINY_DEF_DV           ; Compare with SHINY_DEF_DV (ATK DV >= 10)
+    jr c, .not_shiny          ; Jump if ATK < SHINY_DEF_DV
+
+    ; Defense (Low nibble of the first byte)
+    ld a, [hl]
+    and $0F                   ; Mask to isolate the low nibble (DEF DV)
+    cp SHINY_DEF_DV           ; Compare with SHINY_DEF_DV (DEF DV >= 10)
+    jr c, .not_shiny          ; Jump if DEF < SHINY_DEF_DV
+
+    ; Speed (High nibble of the second byte)
+    inc hl                    ; Move to the second byte (SPD is high nibble here)
+    ld a, [hl]
+    and $F0                   ; Mask to isolate the high nibble (SPD DV)
+    cp SHINY_SPD_DV           ; Compare with SHINY_SPD_DV (SPD DV >= 10)
+    jr c, .not_shiny          ; Jump if SPD < SHINY_SPD_DV
+
+    ; Special (Low nibble of the second byte)
+    ld a, [hl]
+    and $0F                   ; Mask to isolate the low nibble (SPC DV)
+    cp SHINY_SPC_DV           ; Compare with SHINY_SPC_DV (SPC DV >= 10)
+    jr c, .not_shiny          ; Jump if SPC < SHINY_SPC_DV
+
+    ; All DVs are >= 10, so it's shiny
+    scf                        ; Set the carry flag (indicating shiny)
+    ret
+
+.not_shiny:
+    and a                      ; Clear the carry flag (indicating not shiny)
+    ret
+
+
+
+CheckShininess2: ; CheckShininess:
 ; Check if a mon is shiny by DVs at bc.
 ; Return carry if shiny.
 
@@ -43,7 +83,7 @@ Unused_CheckShininess: ; CheckShininess:
 	and a
 	ret
 
-CheckShininess: ; Unused_CheckShininess:
+Unused_CheckShininess: ; Unused_CheckShininess:
 ; Return carry if the DVs at hl are all 10 or higher.
 
 ; Attack

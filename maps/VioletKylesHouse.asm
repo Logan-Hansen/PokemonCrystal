@@ -12,22 +12,107 @@ VioletKylesHousePokefanMScript:
 
 Kyle:
 	faceplayer
+	;opentext
+	;trade NPC_TRADE_KYLE
+	;waitbutton
+	;closetext
+	;end
+	checkevent EVENT_GOT_A_ONIX_FROM_KYLE
+	iftrue .AskHowOnix
 	opentext
-	trade NPC_TRADE_KYLE
+	writetext VioletKyleGiveOnixText
+	yesorno
+	iffalse .RefusedOnix
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	givepoke ONIX, 6, BITTER_BERRY
+	setevent EVENT_GOT_A_ONIX_FROM_KYLE
+	writetext VioletKyleGaveOnixText
 	waitbutton
 	closetext
 	end
 
+.AskHowOnix: ;added
+	opentext
+	writetext VioletKyleHowOnixText
+	waitbutton
+	closetext
+	end
+
+.RefusedOnix: ;added
+	writetext VioletKyleRefusedText
+	waitbutton
+	closetext
+	end
+
+.PartyFull: ;added
+	writetext VioletKyleFullPartyText
+	waitbutton
+	closetext
+	end
+
+
+VioletKyleGiveOnixText: ;added
+	text "I got an ONIX,"
+	line "but am having"
+	cont "trouble with it."
+	
+	para "If you don't mind,"
+	line "could you raise it"
+	cont "for me?"
+	done
+
+VioletKyleHowOnixText: ;added
+	text "How is ONIX doing?"
+	
+	para "Thanks again for"
+	line "raising it!"
+	done
+
+VioletKyleRefusedText: ;added
+	text "Oh..."
+
+	para "Well, let me know"
+	line "if you change"
+	cont "your mind..."
+
+VioletKyleFullPartyText: ;added
+	text "Oh, no. You can't"
+	line "carry any more"
+	cont "#MON with you."
+
+	para "I will be here"
+	line "if you ever make"
+	cont "room for ONIX."
+	done
+
+VioletKyleGaveOnixText: ;added
+	text "ONIX never really"
+	line "considered me as"
+	cont "its trainer..."
+
+	para "I am glad you're"
+	line "going to raise"
+	cont "it now. Thanks!"
+	done	
+
 VioletKylesHousePokefanMText:
-	text "A #MON you get"
-	line "in a trade grows"
-	cont "quickly."
+	;text "A #MON you get"
+	;line "in a trade grows"
+	;cont "quickly."
 
-	para "But if you don't"
-	line "have the right GYM"
+	;para "But if you don't"
+	;line "have the right GYM"
 
-	para "BADGE, they may"
-	line "disobey you."
+	;para "BADGE, they may"
+	;line "disobey you."
+	text "Rock and electric"
+	line "types are both"
+	cont "good vs flying."
+
+	para "Use one if you are"
+	line "having trouble"
+	cont "beating FALKNER."
 	done
 
 VioletKylesHouse_MapEvents:

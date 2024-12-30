@@ -1916,8 +1916,8 @@ JohtoGrassWildMons:
 	db  8, CHANSEY, 	 32,  35
 	db 20, WEEPINBELL, 	 32,  35
 	db 10, ELECTABUZZ, 	 32,  35
-	db 0, POLIWHIRL,	 32,  35
-	db  0, POLIWHIRL,	 32,  35	
+	db 20, POLIWHIRL,	 32,  35
+	db 10, POLIWHIRL,	 32,  35	
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_45

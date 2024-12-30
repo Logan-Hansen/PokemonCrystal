@@ -600,8 +600,8 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 80, ZUBAT, 	 	  7,   9
-	db 10, SLOWPOKE, 	  7,   9
+	db 70, ZUBAT, 	 	  7,   9
+	db 30, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
@@ -610,8 +610,8 @@ JohtoGrassWildMons:
 
 	; day
 	;  %, species,		min, max
-	db 80, ZUBAT, 	 	  7,   9
-	db 10, SLOWPOKE, 	  7,   9
+	db 70, ZUBAT, 	 	  7,   9
+	db 30, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
@@ -620,8 +620,8 @@ JohtoGrassWildMons:
 
 	; nite
 	;  %, species,		min, max
-	db 80, ZUBAT, 	 	  7,   9
-	db 10, SLOWPOKE, 	  7,   9
+	db 70, ZUBAT, 	 	  7,   9
+	db 30, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
 	db  0, SLOWPOKE, 	  7,   9
@@ -1387,7 +1387,7 @@ JohtoGrassWildMons:
 	db 20, AERODACTYL, 	 57,  61
 	db 20, OMASTAR, 	 57,  61
 	db 20, KABUTOPS, 	 57,  61
-	db 15, PARASECT, 	 57,  61
+	db 10, PARASECT, 	 57,  61
 	db  0, PARASECT, 	 57,  61	
 	end_grass_wildmons
 
@@ -1792,8 +1792,8 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 10, TAUROS, 		 20,  23
-	db 10, MILTANK, 	 20,  23
+	db 15, TAUROS, 		 20,  23
+	db 15, MILTANK, 	 20,  23
 	db 10, PIDGEOTTO, 	 20,  23
 	db 20, RATICATE, 	 20,  23
 	db 20, MAGNEMITE, 	 20,  23

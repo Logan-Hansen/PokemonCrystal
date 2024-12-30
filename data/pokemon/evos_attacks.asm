@@ -826,21 +826,27 @@ GrowlitheEvosAttacks:
 	db EVOLVE_ITEM, FIRE_STONE, ARCANINE
 	db 0 ; no more evolutions
 	db 1, BITE
-	db 1, ROAR
 	db 9, EMBER
+	db 14, ROAR
+	db 16, DOUBLE_KICK ;added, normally later gen egg move
 	db 18, LEER
 	db 26, TAKE_DOWN
 	db 34, FLAME_WHEEL
 	db 42, AGILITY
-	db 50, FLAMETHROWER
+	db 45, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 ArcanineEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ROAR
-	db 1, LEER
-	db 1, TAKE_DOWN
-	db 1, FLAME_WHEEL
+	db 1, BITE
+	db 9, EMBER
+	db 14, ROAR
+	db 16, DOUBLE_KICK ;added, normally later gen egg move
+	db 18, LEER
+	db 26, TAKE_DOWN
+	db 34, FLAME_WHEEL
+	db 42, AGILITY
+	db 45, FLAMETHROWER
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves
 

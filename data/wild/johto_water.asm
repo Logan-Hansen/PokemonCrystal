@@ -123,7 +123,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
 	db 20, LAPRAS,  	 38,  41
-	db 30, GOLDUCK,	 	 38,  40
+	db 20, GOLDUCK,	 	 38,  40
 	db 30, KABUTOPS, 	 40,  41
 	db 30, OMASTAR, 	 40,  41
 	end_water_wildmons
@@ -185,7 +185,7 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_32
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 60, TENTACOOL,  	  26, 29
+	db 40, TENTACOOL,  	  26, 29
 	db 40, TENTACRUEL, 	  30, 34
 	db 20, QUAGSIRE, 	  20, 22
 	db  0, TENTACRUEL,	  20, 22 

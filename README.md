@@ -105,6 +105,8 @@ Other Updates & Changes
 - [X] [Password system to change starter options](https://github.com/pret/pokecrystal/wiki/Password-system)
 - [X] Speed up egg hatch rates (twice as fast for everything w/ min of 5 cycles)
 - [ ] [Display more information on move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
+    - [X] Shows accuracy - will need to double check it didn't break the move reminder, had to move function from move_reminder to mon_menu to get accuracy to calculate out of 100 instead of 256
+    - [ ] Show effect likelyhood
 - [ ] Updated movesets for Pokemon
     - [ ] Improved egg move options (check that all are possible)
     - [ ] More evolution move options

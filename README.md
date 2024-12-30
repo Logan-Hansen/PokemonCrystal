@@ -1,4 +1,24 @@
 # Pokémon Crystal [![Build Status][ci-badge]][ci]
+
+## See also
+
+- [**FAQ**](FAQ.md)
+- [**Documentation**][docs]
+- [**Wiki**][wiki] (includes [tutorials][tutorials])
+- [**Symbols**][symbols]
+
+You can find us on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
+
+For other pret projects, see [pret.github.io](https://pret.github.io/).
+
+[docs]: https://pret.github.io/pokecrystal/
+[wiki]: https://github.com/pret/pokecrystal/wiki
+[tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
+[symbols]: https://github.com/pret/pokecrystal/tree/symbols
+[ci]: https://github.com/pret/pokecrystal/actions
+[ci-badge]: https://github.com/pret/pokecrystal/actions/workflows/main.yml/badge.svg
+
+
 Completed Tutorials
 --------------------
 
@@ -91,7 +111,7 @@ Other Updates & Changes
 - [X] daycare man appears outside the fence
 - [X] Slight buff to some trainer types (and fix Rival getting weaker DVs in some fights)
 - [X] Goldenrod Move Tutor now there every day once you beat elite four, allows unlimited purchases, and charges money instead of coins
-- [ ] Dex entries for Raikou, Entei, and Suicune marked as seen by Eusine when you wake them up to make tracking them easier.
+- [X] Dex entries for Raikou, Entei, and Suicune marked as seen by Eusine when you wake them up to make tracking them easier.
 - [X] Nurse joy turns you to face the other way when done
 - [X] Haircuts and grooming now twice as effective at raising happiness. Younger brother also now has 40/30/30 chances for better haircuts instead of 60/30/10 and works mondays
 - [X] Walking raised happiness twice as fast -> now 2 happiness every other step cycle
@@ -127,7 +147,7 @@ Other Updates & Changes
 
 Known Bugs
 --------------------
-Traded NPC pokemon will crash the game when viewing 4th page stats.
+Traded NPC pokemon will crash the game when viewing 4th page stats - currently fixed by making all NPC trades as gift pokemon instead
 
 Updates to Johto to build on HGSS additions
 --------------------
@@ -217,24 +237,4 @@ Feature I may add at some point
 - [ ] [Evolve while holding an item](https://github.com/pret/pokecrystal/wiki/Evolve-while-holding-an-item)
 - [ ] [Level Caps as you get gym badges - (maybe)](https://github.com/pret/pokecrystal/wiki/Level-cap)
 - [ ] Fishing has increased success rate
-- [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still
-
-
-
-## See also
-
-- [**FAQ**](FAQ.md)
-- [**Documentation**][docs]
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- [**Symbols**][symbols]
-
-You can find us on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
-
-For other pret projects, see [pret.github.io](https://pret.github.io/).
-
-[docs]: https://pret.github.io/pokecrystal/
-[wiki]: https://github.com/pret/pokecrystal/wiki
-[tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
-[symbols]: https://github.com/pret/pokecrystal/tree/symbols
-[ci]: https://github.com/pret/pokecrystal/actions
-[ci-badge]: https://github.com/pret/pokecrystal/actions/workflows/main.yml/badge.svg
+- [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still - currently is just modified to have much higher shiny chance

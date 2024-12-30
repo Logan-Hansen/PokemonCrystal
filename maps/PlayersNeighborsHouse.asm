@@ -9,6 +9,14 @@ PlayersNeighborsHouse_MapScripts:
 
 PlayersNeighborsDaughterScript:
 	jumptextfaceplayer PlayersNeighborsDaughterText
+	;faceplayer
+	;opentext
+	;writetext PlayersNeighborsDaughterText
+	;waitbutton
+	;setval PIKACHU ; added for testing
+	;special ShowPokedexEntry ; added for testing
+	;closetext
+	;end
 
 PlayersNeighborScript:
 	jumptextfaceplayer PlayersNeighborText

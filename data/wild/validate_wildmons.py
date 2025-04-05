@@ -57,5 +57,5 @@ def validate_encounter_rates(file_path):
 
 # Usage example
 # Replace 'wildmons.asm' with the path to your actual file
-#validate_encounter_rates('johto_grass.asm')
-validate_encounter_rates('kanto_grass.asm')
+validate_encounter_rates('johto_grass.asm')
+#validate_encounter_rates('kanto_grass.asm')

@@ -237,4 +237,4 @@ Feature I may add at some point
 - [ ] [Evolve while holding an item](https://github.com/pret/pokecrystal/wiki/Evolve-while-holding-an-item)
 - [ ] [Level Caps as you get gym badges - (maybe)](https://github.com/pret/pokecrystal/wiki/Level-cap)
 - [ ] Fishing has increased success rate
-- [ ] Change shiny formula to not be dependent on DVs so can have all perfect with some shiny still - currently is just modified to have much higher shiny chance
+- [ ] Change shiny formula to not be dependent on DVs or be more common

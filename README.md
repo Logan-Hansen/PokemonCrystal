@@ -95,6 +95,7 @@ features from different generations
 - [X] Adding in the Fairy type as a Special type
     - Bug is neutral vs fairy instead of fairy resisting
   [ ] still need to add in offensive fairy type moves
+    - Only have room for 1 additional move, so will need to remove some and combine redudant to make room for them
 --------------------
 Other Updates & Changes
 --------------------

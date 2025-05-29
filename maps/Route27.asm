@@ -390,9 +390,9 @@ CooltrainermLondonBeatenText: ;added
 	done
 
 CooltrainermLondonAfterBattleText: ;added
-	text "I will have to ask"
-	line "Mr. Hansen to fix"
-	cont "my team now..."
+	text "I will have to try"
+	line "and improve my"
+	cont "team somehow."
 	done
 
 CooltrainerfReenaSeenText:

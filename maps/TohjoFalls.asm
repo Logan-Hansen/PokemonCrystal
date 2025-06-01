@@ -76,7 +76,6 @@ AfterBattle:
 	turnobject GIOVANNI, DOWN
 	
 	special FadeOutToBlack
-	specialReloadSpritesNoPalettes
 	disappear GIOVANNI
 	pause 10
 	playsound SFX_EXIT_BUILDING

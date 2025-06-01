@@ -54,8 +54,8 @@ Giovanni:
 	waitbutton
 	closetext
 	winlosstext GiovanniWinText, GiovanniLossText
-	setlasttalked GIOVANNI
-	loadtrainer GIOVANNI, GIOVANNI
+	setlasttalked TOHJOFALL_GIOVANNI
+	loadtrainer GIOVANNI, GIOVANNI1
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -67,16 +67,16 @@ AfterBattle:
 	writetext GiovanniAfterText
 	waitbutton
 	closetext
-	turnobject GIOVANNI, RIGHT
+	turnobject TOHJOFALL_GIOVANNI, RIGHT
 	pause 20
 	opentext
 	writetext GiovanniPromiseText
 	waitbutton
 	closetext
-	turnobject GIOVANNI, DOWN
+	turnobject TOHJOFALL_GIOVANNI, DOWN
 	
 	special FadeOutToBlack
-	disappear GIOVANNI
+	disappear TOHJOFALL_GIOVANNI
 	pause 10
 	playsound SFX_EXIT_BUILDING
 	special FadeInFromBlack

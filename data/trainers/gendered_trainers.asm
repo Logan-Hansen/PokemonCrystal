@@ -26,7 +26,6 @@ MaleTrainers:
 	db SAGE
 	db BIKER
 	db SCIENTIST
-	db GIOVANNI
 .End
 
 FemaleTrainers:

@@ -55,7 +55,7 @@ Giovanni:
 	closetext
 	winlosstext GiovanniWinText, GiovanniLossText
 	setlasttalked TOHJOFALL_GIOVANNI
-	loadtrainer , GIOVANNI
+	loadtrainer ROCKETBOSS, GIOVANNI
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

@@ -70,6 +70,6 @@ TrainerClassDVs:
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn 10,  8,  8, 10 ; MYSTICALMAN slightly stronger
 	dn  9,  8,  8,  8 ; OFFICERF
-	dn 14, 14, 13, 14 ; ROCKET BOSS GIOVANNI
+	dn 14, 14, 13, 14 ; ROCKETBOSS
 
 	assert_table_length NUM_TRAINER_CLASSES

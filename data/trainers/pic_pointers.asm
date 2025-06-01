@@ -71,5 +71,5 @@ TrainerPicPointers::
 	dba GruntfPic
 	dba MysticalmanPic
 	dba OfficerfPic
-	dba GiovanniPic
+	dba RocketBossPic
 	assert_table_length NUM_TRAINER_CLASSES

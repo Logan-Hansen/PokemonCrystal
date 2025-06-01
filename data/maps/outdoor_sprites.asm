@@ -239,8 +239,7 @@ LakeOfRageGroupSprites:
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_LASS
 	db SPRITE_YOUNGSTER
-	db SPRITE_GIOVANNI_HAT
-	; 9 of max 9 walking sprites
+	; 8 of max 9 walking sprites
 	db SPRITE_GYARADOS
 	db SPRITE_FRUIT_TREE
 	db SPRITE_POKE_BALL

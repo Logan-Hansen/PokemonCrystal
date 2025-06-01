@@ -409,5 +409,11 @@ TrainerClassAttributes:
 	db 11 ; base reward
 	dw AI_BASIC | AI_TYPES | AI_OPPORTUNIST | AI_STATUS
 	dw CONTEXT_USE | SWITCH_SOMETIMES	
+
+; Rocket Boss Giovanni
+	db FULL_RESTORE, FULL_RESTORE ; items
+	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
 	
 	assert_table_length NUM_TRAINER_CLASSES

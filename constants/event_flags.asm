@@ -335,9 +335,9 @@
 	const EVENT_TIFFANY_ASKED_FOR_PHONE_NUMBER
 	const EVENT_GIOVANNI_RADIOTOWER     ;mine
 	const EVENT_VANCE_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
+	const EVENT_GIOVANNI_TOHJO          ;mine
 	const EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
-	const_skip ; unused in Crystal
+	const EVENT_BEAT_GIOVANNI_TOHJO     ;mine
 	const EVENT_KENJI_ASKED_FOR_PHONE_NUMBER
 	const_skip ; unused in Crystal
 	const EVENT_PARRY_ASKED_FOR_PHONE_NUMBER

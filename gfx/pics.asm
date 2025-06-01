@@ -706,7 +706,7 @@ OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
 RaichuFrontpic:      INCBIN "gfx/pokemon/raichu/front.animated.2bpp.lz"
 ; moved these three pokemon to make room for additional trainers in TrainerPicPointers
 OfficerfPic:         INCBIN "gfx/trainers/officer_f.2bpp.lz"
-RocketBossPic:         INCBIN "gfx/trainers/giovanni.2bpp.lz"
+RocketBossPic:       INCBIN "gfx/trainers/giovanni.2bpp.lz"
 ; moved from bank 4
 SandslashFrontpic:   INCBIN "gfx/pokemon/sandslash/front.animated.2bpp.lz"
 ; moved from bank 14

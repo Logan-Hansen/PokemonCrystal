@@ -145,6 +145,8 @@ Other Updates & Changes
 - [ ] Stationary pokemon can be fought again as well
 - [X] Officer Jenny now added as a trainer type, currently one on Route 34
 - [ ] Add more officers to Johto and Kanto
+- [X] Conversation with Giovanni in the Radio Tower
+- [ ] Celebi event from HGSS to fight Giovanni and stop his return
 
 Known Bugs
 --------------------

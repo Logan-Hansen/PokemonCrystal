@@ -105,6 +105,8 @@
 	const SPRITE_CHRIS_RUN ; 65
  	const SPRITE_KRIS_RUN ; 66
 	const SPRITE_OFFICERF ; custom
+	const SPRITE_GIOVANNI ; mine
+	const SPRITE_GIOVANNI_HAT ; mine
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)

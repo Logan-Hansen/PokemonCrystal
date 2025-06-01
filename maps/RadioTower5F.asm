@@ -4,6 +4,7 @@
 	const RADIOTOWER5F_ROCKET_GIRL
 	const RADIOTOWER5F_ROCKER
 	const RADIOTOWER5F_POKE_BALL
+	const RADIOTOWER5F_GIOVANNI
 
 RadioTower5F_MapScripts:
 	def_scene_scripts
@@ -93,6 +94,136 @@ RadioTower5FRocketBossScript:
 	writetext RadioTower5FRocketBossAfterText
 	waitbutton
 	closetext
+
+	; Giovanni Event
+	showemote EMOTE_SHOCK, RADIOTOWER5F_ROCKET_GIRL, 10
+	appear RADIOTOWER5F_GIOVANNI
+	applymovement RADIOTOWER5F_GIOVANNI, GiovanniEnterenceMovement
+	faceobject RADIOTOWER5F_ROCKET, RADIOTOWER5F_GIOVANNI
+	showemote EMOTE_SHOCK, RADIOTOWER5F_ROCKET, 10
+	faceobject PLAYER, RADIOTOWER5F_GIOVANNI
+	showemote EMOTE_SHOCK, PLAYER, 10
+	opentext
+	writetext RadioTower5FGiovanniText1
+	waitbutton
+
+	faceobject RADIOTOWER5F_GIOVANNI, RADIOTOWER5F_ROCKET
+	writetext RadioTower5FGiovanniText2
+	waitbutton
+	closetext
+
+	;removed the taking off the hat scene to avoid needing a variable sprite
+
+	applymovement RADIOTOWER5F_GIOVANNI, LookDownMovement
+	pause 50
+	faceobject RADIOTOWER5F_GIOVANNI, RADIOTOWER5F_ROCKET
+
+	opentext
+	writetext RadioTower5FGiovanniText3
+	waitbutton
+	closetext
+
+
+	applymovement RADIOTOWER5F_GIOVANNI, GiovanniMoveTowerdsExecutive
+	faceobject RADIOTOWER5F_ROCKET, RADIOTOWER5F_GIOVANNI
+	faceobject PLAYER, RADIOTOWER5F_GIOVANNI
+	opentext
+	writetext RadioTower5FGiovanniText4
+	waitbutton
+	closetext
+
+	applymovement RADIOTOWER5F_GIOVANNI, LookDownMovement
+	faceobject RADIOTOWER5F_ROCKET, PLAYER
+	showemote EMOTE_SHOCK, RADIOTOWER5F_ROCKET, 10
+	faceobject PLAYER, RADIOTOWER5F_ROCKET
+	showemote EMOTE_QUESTION, PLAYER, 10
+	faceobject RADIOTOWER5F_ROCKET, RADIOTOWER5F_GIOVANNI
+	faceobject PLAYER, RADIOTOWER5F_GIOVANNI
+	pause 50
+
+	applymovement RADIOTOWER5F_GIOVANNI, GiovanniMoveAway
+	faceobject RADIOTOWER5F_ROCKET, RADIOTOWER5F_GIOVANNI
+	faceobject PLAYER, RADIOTOWER5F_GIOVANNI
+	opentext
+	writetext RadioTower5FGiovanniText5
+	waitbutton
+	closetext
+	applymovement RADIOTOWER5F_GIOVANNI, RADIOTOWER_GiovanniLeavesMovement
+	disappear RADIOTOWER5F_GIOVANNI
+
+	; Archer Leaves Event
+	faceobject PLAYER, RADIOTOWER5F_ROCKET
+	pause 30
+	opentext
+	writetext RadioTower5FRocketBossDisbandText0
+	waitbutton
+	closetext
+	applymovement RADIOTOWER5F_ROCKET, LookDownMovement
+	pause 30
+	applymovement RADIOTOWER5F_ROCKET, LookLeftMovement
+	pause 50
+	applymovement RADIOTOWER5F_ROCKET, LookDownMovement
+	pause 30
+	opentext
+	writetext RadioTower5FRocketBossDisbandText1
+	waitbutton
+	closetext
+	faceobject RADIOTOWER5F_ROCKET, PLAYER
+	pause 50
+	applymovement RADIOTOWER5F_ROCKET, LookDownMovement
+	pause 30
+	applymovement RADIOTOWER5F_ROCKET, ArcherMovement1
+	faceobject PLAYER, RADIOTOWER5F_ROCKET
+	
+	opentext
+	writetext RadioTower5FRocketBossDisbandText2
+	waitbutton
+	closetext
+
+	applymovement RADIOTOWER5F_ROCKET, ArcherMovement2
+	faceobject PLAYER, RADIOTOWER5F_ROCKET
+	opentext
+	writetext RadioTower5FRocketBossDisbandText3
+	waitbutton
+	closetext
+	pause 30
+	applymovement RADIOTOWER5F_ROCKET, LookRightMovement
+	pause 20
+
+	opentext
+	writetext RadioTower5FRocketBossDisbandText4
+	waitbutton
+	closetext
+	applymovement RADIOTOWER5F_ROCKET, LookDownMovement
+	pause 40
+	applymovement RADIOTOWER5F_ROCKET, LookRightMovement
+	pause 20
+	applymovement RADIOTOWER5F_ROCKET, LookUpMovement
+	pause 80
+
+	applymovement RADIOTOWER5F_ROCKET, ArcherMovement3
+	opentext
+	writetext RadioTower5FRocketBossDisbandText5
+	waitbutton
+	closetext
+	pause 20
+
+	applymovement RADIOTOWER5F_ROCKET, LookLeftMovement
+	pause 50
+	applymovement RADIOTOWER5F_ROCKET, LookDownMovement
+	pause 50
+	applymovement RADIOTOWER5F_ROCKET, ArcherMovement4
+	pause 20
+	opentext
+	writetext RadioTower5FRocketBossDisbandText6
+	waitbutton
+
+	applymovement RADIOTOWER5F_ROCKET, LookDownMovement
+	writetext RadioTower5FRocketBossDisbandText7
+	waitbutton
+	closetext
+
+	; resume normal
 	special FadeOutToBlack
 	special ReloadSpritesNoPalettes
 	disappear RADIOTOWER5F_ROCKET
@@ -151,6 +282,85 @@ RadioTower5FStudio1Sign:
 RadioTower5FBookshelf:
 	jumpstd MagazineBookshelfScript
 
+
+;added below for Giovanni scene
+LookUpMovement:
+	turn_head UP
+	step_end
+
+LookDownMovement:
+	turn_head DOWN
+	step_end
+
+LookLeftMovement:
+	turn_head LEFT
+	step_end
+
+LookRightMovement:
+	turn_head RIGHT
+	step_end
+
+GiovanniEnterenceMovement:
+	slow_step DOWN
+	slow_step DOWN
+	slow_step RIGHT
+	slow_step RIGHT
+	slow_step RIGHT
+	slow_step RIGHT
+	slow_step DOWN
+	slow_step DOWN
+	slow_step DOWN
+	slow_step DOWN
+	turn_head RIGHT
+	step_end
+
+GiovanniMoveTowerdsExecutive:
+	slow_step LEFT
+	slow_step LEFT
+	slow_step LEFT
+	turn_head UP
+	step_end
+
+GiovanniMoveAway:
+	slow_step RIGHT
+	slow_step RIGHT
+	slow_step RIGHT
+	slow_step UP
+	slow_step UP
+	step_end
+
+RADIOTOWER_GiovanniLeavesMovement:
+	slow_step UP
+	slow_step UP
+	slow_step LEFT
+	slow_step LEFT
+	slow_step LEFT
+	slow_step LEFT
+	slow_step UP
+	slow_step UP
+	step_end
+
+ArcherMovement1:
+	step DOWN
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step_end
+
+ArcherMovement2:
+	slow_step UP
+	slow_step UP
+	step_end
+
+ArcherMovement3:
+	big_step DOWN
+	step_end
+
+ArcherMovement4:
+	step LEFT
+	step_end
+
+; resume normal
 FakeDirectorMovement:
 	step LEFT
 	step LEFT
@@ -252,6 +462,11 @@ Executivef1BeatenText:
 
 	para "I fought hard, but"
 	line "I still lost…"
+
+	para "I'm so sorry"
+	line "GIOVANNI..."
+
+	para "I have failed."
 	done
 
 Executivef1AfterBattleText:
@@ -305,19 +520,146 @@ RadioTower5FRocketBossWinText:
 RadioTower5FRocketBossAfterText:
 	text "How could this be?"
 
-	para "Our dreams have"
-	line "come to naught."
+	para "TEAM ROCKET was"
+	line "going to rise"
+	cont "again..."
 
-	para "I wasn't up to the"
-	line "task after all."
+	para "How could it all"
+	line "end now?"
 
-	para "Like GIOVANNI did"
-	line "before me, I will"
+	para "No."
+	line "It's not over."
+	
+	para "GIOVANNI will"
+	line "return someday!"
 
-	para "disband TEAM"
-	line "ROCKET here today."
+	para "Then nobody will"
+	line "stand in our way."
 
-	para "Farewell."
+	para "The world will "
+	line "fear TEAM ROCKET"
+	cont "once again." 
+	done
+
+RadioTower5FGiovanniText1:
+	text "???:"
+	line "such conviction."
+
+	para "Perhaps in another"
+	line "timeline it could"
+	cont "have been true..."
+	done
+
+RadioTower5FGiovanniText2:
+	text "GIOVANNI:"
+	line "But I lost, and"
+	cont "will keep my word."
+
+	para "Do you recall why"
+	line "TEAM ROCKET was"
+	cont "disbanded?"
+	done
+
+RadioTower5FGiovanniText3:
+	text "At the height of"
+	line "our power a mere"
+	cont "child stopped us."
+
+	para "I felt that with"
+	line "time and training"
+	cont "we could resume."
+
+	para "That it was a"
+	line "fluke we were"
+	cont "defeated then."
+	done
+	
+
+RadioTower5FGiovanniText4:
+	text "but years later"
+	line "look at us now?"
+
+	para "We are a shadow"
+	line "of what we thought"
+	cont "we could achieve."
+	
+	para "We both have lost"
+	line "to <PLAY_G>."
+	done
+	
+RadioTower5FGiovanniText5:
+	text "It has been made"
+	line "clear to me that"
+	cont "we cannot succeed."
+
+	para "At least not this"
+	line "way."
+
+	para "There is no future"
+	line "this way. For this"
+	cont "TEAM ROCKET..."
+	done
+
+
+RadioTower5FRocketBossDisbandText0:
+	text "I..."
+
+	para "I don't understand."
+	
+	para "You beat him too?"
+	line "How?! When?"
+	done
+
+RadioTower5FRocketBossDisbandText1:
+	text "This was all to"
+	line "restore the glory"
+	cont "of TEAM ROCKET."
+
+	para "Was it all in"
+	line "vain?"
+	done
+
+RadioTower5FRocketBossDisbandText2:
+	text "GIOVANNI heard us."
+	line "The plan worked."
+
+	para "So what went"
+	line "wrong?"
+	done
+
+RadioTower5FRocketBossDisbandText3:
+	text "Where were you"
+	line "all these years?"
+	done
+
+
+RadioTower5FRocketBossDisbandText4:
+	text "Why did you return"
+	line "then leave again?"
+	done	
+
+RadioTower5FRocketBossDisbandText5:
+	text "Where will you"
+	line "go now?"
+
+	para "where will I go?"
+	done
+
+RadioTower5FRocketBossDisbandText6:
+	text "I... I need time."
+	line "I need to get out"
+	cont "of here."
+	done
+
+RadioTower5FRocketBossDisbandText7:
+	text "If there is no"
+	line "future this way."
+
+	para "For this"
+	cont "TEAM ROCKET."
+
+	para "There must be"
+	line "some other way..."
 	done
 
 RadioTower5FDirectorThankYouText:
@@ -442,3 +784,4 @@ RadioTower5F_MapEvents:
 	object_event 17,  2, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerExecutivef1, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 13,  5, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Ben, EVENT_RADIO_TOWER_CIVILIANS_AFTER
 	object_event  8,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RadioTower5FUltraBall, EVENT_RADIO_TOWER_5F_ULTRA_BALL
+	object_event 12,  0, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GIOVANNI_RADIOTOWER

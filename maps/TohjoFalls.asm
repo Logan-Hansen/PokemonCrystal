@@ -61,7 +61,7 @@ GiovanniScript:
 	reloadmapafterbattle
 	sjump .AfterBattle
 
-AfterBattle:
+.AfterBattle:
     playmusic MUSIC_ROCKET_ENCOUNTER
 	opentext
 	writetext GiovanniAfterText

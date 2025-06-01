@@ -71,5 +71,5 @@ TrainerGroups:
 	dba GruntFGroup
 	dba MysticalmanGroup
 	dba OfficerFGroup
-	dba RocketBossGroup
+	dba GiovanniGroup
 	assert_table_length NUM_TRAINER_CLASSES

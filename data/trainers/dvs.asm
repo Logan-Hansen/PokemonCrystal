@@ -64,12 +64,12 @@ TrainerClassDVs:
 	dn 15, 13, 15, 15 ; KIMONO_GIRL
 	dn  6,  8, 10,  8 ; TWINS
 	dn  6, 13,  8,  8 ; POKEFANF
-	dn 15, 14, 13, 15 ; RED given a slight buff
+	dn 15, 14, 13, 15 ; RED
 	dn  9, 13, 13, 13 ; BLUE
 	dn  9,  8,  8,  8 ; OFFICER
 	dn  7, 14, 10,  8 ; GRUNTF
-	dn 10,  8,  8, 10 ; MYSTICALMAN slightly stronger
+	dn 10,  8,  8, 10 ; MYSTICALMAN
 	dn  9,  8,  8,  8 ; OFFICERF
-	dn 14, 14, 13, 14 ; ROCKETBOSS
+	dn 14, 14, 13, 14 ; GIOVANNI
 
 	assert_table_length NUM_TRAINER_CLASSES

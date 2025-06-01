@@ -37,7 +37,7 @@ TohjoFallsGiovanniCallback:
 	disappear TOHJOFALL_GIOVANNI
 	endcallback
 
-Giovanni:
+GiovanniScript:
 	faceplayer
 	opentext
 	writetext GiovanniBeforeText1
@@ -55,7 +55,7 @@ Giovanni:
 	closetext
 	winlosstext GiovanniWinText, GiovanniLossText
 	setlasttalked TOHJOFALL_GIOVANNI
-	loadtrainer ROCKETBOSS, GIOVANNI
+	loadtrainer GIOVANNI, GIOVANNI
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -201,4 +201,4 @@ TohjoFalls_MapEvents:
 
 	def_object_events
 	object_event  2,  6, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TohjoFallsMoonStone, EVENT_TOHJO_FALLS_MOON_STONE
-	object_event 3,  7, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Giovanni, EVENT_GIOVANNI_TOHJO
+	object_event 3,  7, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, GiovanniScript, EVENT_GIOVANNI_TOHJO

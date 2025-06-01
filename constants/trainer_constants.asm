@@ -714,7 +714,7 @@ DEF KRIS EQU __trainer_class__
 	const JENNY
 
 	trainerclass ROCKETBOSS ;added
-	const GIOVANNI1
+	const GIOVANNI
 
 	;constants for random generated parties - used to specify which list to use
 	const_def

@@ -83,7 +83,7 @@ TimFullPartyText: ;added
 	done
 
 TimGavePokemonText: ;added
-	para "I am glad you're"
+	text "I am glad you're"
 	line "going to raise"
 	cont "it now. Thanks!"
 	done	

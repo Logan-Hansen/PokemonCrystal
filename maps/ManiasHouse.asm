@@ -81,6 +81,7 @@ RefusedShuckleText:
 	para "Well, let me know"
 	line "if you change"
 	cont "your mind..."
+	done
 
 FullPartyText:
 	text "Oh, no. You can't"

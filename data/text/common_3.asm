@@ -1238,8 +1238,8 @@ _AskGiveNicknameText::
 	text "?"
 	done
 
-_AllIVsMaxedText::
-	text "All IVs maxed out!"
+_AllDVsMaxedText::
+	text "All DVs maxed out!"
 	prompt
 
 _ItemStatRoseText::

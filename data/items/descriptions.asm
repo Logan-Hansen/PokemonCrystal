@@ -354,8 +354,8 @@ WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-IvMaxerDesc:
-	db   "Raises IVs of"
+DvMaxerDesc:
+	db   "Maxes DVs of"
 	next "one #MON.@"
 
 HPUpDesc:

@@ -13,22 +13,15 @@ RadioTower5F_MapScripts:
 	scene_script RadioTower5FNoop3Scene, SCENE_RADIOTOWER5F_NOOP
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, HideGiovanniOnEnterCallback
 
 RadioTower5FNoop1Scene:
 	end
 
 RadioTower5FNoop2Scene:
-	clearevent EVENT_GIOVANNI_RADIOTOWER
-	disappear RADIOTOWER5F_GIOVANNI
 	end
 
 RadioTower5FNoop3Scene:
 	end
-
-HideGiovanniOnEnterCallback:
-	clearevent EVENT_GIOVANNI_RADIOTOWER
-	endcallback
 
 FakeDirectorScript:
 	turnobject RADIOTOWER5F_DIRECTOR, UP
@@ -103,6 +96,7 @@ RadioTower5FRocketBossScript:
 	closetext
 
 	; Giovanni Event
+	moveobject RADIOTOWER5F_GIOVANNI, 12, 0
 	appear RADIOTOWER5F_GIOVANNI
 	showemote EMOTE_SHOCK, RADIOTOWER5F_ROCKET_GIRL, 10
 	applymovement RADIOTOWER5F_GIOVANNI, GiovanniEntranceMovement
@@ -663,7 +657,7 @@ RadioTower5FRocketBossDisbandText7:
 	line "future this way."
 
 	para "For this"
-	cont "TEAM ROCKET."
+	line "TEAM ROCKET."
 
 	para "There must be"
 	line "some other way..."
@@ -791,4 +785,4 @@ RadioTower5F_MapEvents:
 	object_event 17,  2, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerExecutivef1, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 13,  5, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Ben, EVENT_RADIO_TOWER_CIVILIANS_AFTER
 	object_event  8,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RadioTower5FUltraBall, EVENT_RADIO_TOWER_5F_ULTRA_BALL
-	object_event 12,  0, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GIOVANNI_RADIOTOWER
+	object_event 1,  0, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1

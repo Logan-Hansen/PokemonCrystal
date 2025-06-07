@@ -3388,6 +3388,7 @@ HoundourEvosAttacks:
 	db 7, ROAR
 	db 13, SMOG
 	db 20, BITE
+	db 23, FLAME_WHEEL ;added
 	db 27, FAINT_ATTACK
 	db 35, FLAMETHROWER
 	db 43, CRUNCH
@@ -3401,6 +3402,7 @@ HoundoomEvosAttacks:
 	db 7, ROAR
 	db 13, SMOG
 	db 20, BITE
+	db 23, FLAME_WHEEL ;added
 	db 30, FAINT_ATTACK
 	db 37, FLAMETHROWER
 	db 45, CRUNCH

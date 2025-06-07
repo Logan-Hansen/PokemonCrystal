@@ -13,16 +13,22 @@ RadioTower5F_MapScripts:
 	scene_script RadioTower5FNoop3Scene, SCENE_RADIOTOWER5F_NOOP
 
 	def_callbacks
+	callback MAPCALLBACK_NEWMAP, HideGiovanniOnEnterCallback
 
 RadioTower5FNoop1Scene:
 	end
 
 RadioTower5FNoop2Scene:
 	clearevent EVENT_GIOVANNI_RADIOTOWER
+	disappear RADIOTOWER5F_GIOVANNI
 	end
 
 RadioTower5FNoop3Scene:
 	end
+
+HideGiovanniOnEnterCallback:
+	clearevent EVENT_GIOVANNI_RADIOTOWER
+	endcallback
 
 FakeDirectorScript:
 	turnobject RADIOTOWER5F_DIRECTOR, UP

@@ -175,6 +175,7 @@ GoldenrodMikeRefusedText: ;added
 	para "Well, let me know"
 	line "if you change"
 	cont "your mind..."
+	done
 
 GoldenrodMikeFullPartyText: ;added
 	text "Oh, no. You can't"

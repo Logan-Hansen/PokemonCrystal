@@ -75,6 +75,7 @@ VioletKyleRefusedText: ;added
 	para "Well, let me know"
 	line "if you change"
 	cont "your mind..."
+	done
 
 VioletKyleFullPartyText: ;added
 	text "Oh, no. You can't"

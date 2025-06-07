@@ -110,6 +110,7 @@ KimRefusedText: ;added
 	para "Well, let me know"
 	line "if you change"
 	cont "your mind..."
+	done
 
 KimFullPartyText: ;added
 	text "Oh, no. You can't"

@@ -1152,13 +1152,13 @@ DvMaxerEffect:
 	; If you're recalculating stats from IVs, include:
 	call UpdateStatsAfterItem
 
-	ld hl, AllIVsMaxedText
+	ld hl, AllDVsMaxedText
 	call PrintText
 
 	jp UseDisposableItem
 
-AllIVsMaxedText:
-	text_far _AllIVsMaxedText
+AllDVsMaxedText:
+	text_far _AllDVsMaxedText
 	text_end
 
 

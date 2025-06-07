@@ -1238,6 +1238,10 @@ _AskGiveNicknameText::
 	text "?"
 	done
 
+_AllIVsMaxedText::
+	text "All IVs maxed out!"
+	prompt
+
 _ItemStatRoseText::
 	text_ram wStringBuffer1
 	text "'s"

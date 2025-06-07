@@ -38,7 +38,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
-	dw NoEffect            ; ITEM_19
+	dw IvMaxerEffect       ; IV_MAXER
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON
@@ -1133,6 +1133,34 @@ EvoStoneEffect:
 	xor a
 	ld [wItemEffectSucceeded], a
 	ret
+
+IVMaxerEffect:
+	ld b, PARTYMENUACTION_HEALING_ITEM
+	call UseItem_SelectMon
+	jp c, RareCandy_StatBooster_ExitMenu
+
+	call RareCandy_StatBooster_GetParameters
+
+	; Set IVs (DVs) to 15/15/15/15
+	ld a, MON_DVS
+	call GetPartyParamLocation
+	ld [hl], $FF      ; Atk/Def
+	inc hl
+	ld [hl], $FF      ; Spe/Spc
+
+	; Optional: Update stats after DV change
+	; If you're recalculating stats from IVs, include:
+	call UpdateStatsAfterItem
+
+	ld hl, AllIVsMaxedText
+	call PrintText
+
+	jp UseDisposableItem
+
+AllIVsMaxedText:
+	text_far _AllIVsMaxedText
+	text_end
+
 
 VitaminEffect:
 	ld b, PARTYMENUACTION_HEALING_ITEM

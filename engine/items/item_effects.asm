@@ -1134,7 +1134,7 @@ EvoStoneEffect:
 	ld [wItemEffectSucceeded], a
 	ret
 
-IVMaxerEffect:
+IvMaxerEffect:
 	ld b, PARTYMENUACTION_HEALING_ITEM
 	call UseItem_SelectMon
 	jp c, RareCandy_StatBooster_ExitMenu

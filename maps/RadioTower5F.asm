@@ -18,6 +18,7 @@ RadioTower5FNoop1Scene:
 	end
 
 RadioTower5FNoop2Scene:
+	clearevent EVENT_GIOVANNI_RADIOTOWER
 	end
 
 RadioTower5FNoop3Scene:
@@ -96,9 +97,9 @@ RadioTower5FRocketBossScript:
 	closetext
 
 	; Giovanni Event
-	showemote EMOTE_SHOCK, RADIOTOWER5F_ROCKET_GIRL, 10
 	appear RADIOTOWER5F_GIOVANNI
-	applymovement RADIOTOWER5F_GIOVANNI, GiovanniEnterenceMovement
+	showemote EMOTE_SHOCK, RADIOTOWER5F_ROCKET_GIRL, 10
+	applymovement RADIOTOWER5F_GIOVANNI, GiovanniEntranceMovement
 	faceobject RADIOTOWER5F_ROCKET, RADIOTOWER5F_GIOVANNI
 	showemote EMOTE_SHOCK, RADIOTOWER5F_ROCKET, 10
 	faceobject PLAYER, RADIOTOWER5F_GIOVANNI
@@ -300,7 +301,7 @@ LookRightMovement:
 	turn_head RIGHT
 	step_end
 
-GiovanniEnterenceMovement:
+GiovanniEntranceMovement:
 	slow_step DOWN
 	slow_step DOWN
 	slow_step RIGHT

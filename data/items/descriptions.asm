@@ -25,7 +25,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw IvMaxerDesc
+	dw DvMaxerDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc

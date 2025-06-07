@@ -648,7 +648,7 @@ RadioTower5FRocketBossDisbandText5:
 	text "Where will you"
 	line "go now?"
 
-	para "where will I go?"
+	para "Where will I go?"
 	done
 
 RadioTower5FRocketBossDisbandText6:
@@ -659,9 +659,9 @@ RadioTower5FRocketBossDisbandText6:
 
 RadioTower5FRocketBossDisbandText7:
 	text "If there is no"
-	line "future this way."
+	line "future this way,"
 
-	para "For this"
+	para "for this"
 	line "TEAM ROCKET."
 
 	para "There must be"

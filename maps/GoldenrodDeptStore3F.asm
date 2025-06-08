@@ -36,29 +36,34 @@ GoldenrodDeptStore3FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore3FSuperNerdText:
-	text "I, I, I'm really"
-	line "impatient!"
+	text "I, I, I'm not"
+	line "sure what to do!"
 
-	para "I use X SPEED in"
-	line "battle to speed up"
-	cont "my #MON."
+	para "Should I evolve"
+	line "my #MON now to"
+	cont "make it strong?"
+
+	para "Or do I wait"
+	line "until it has"
+	cont "more moves?"
+
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hey! When you bat-"
-	line "tle, do you use X"
-	cont "SPECIAL?"
+	text "I heard they get"
+	line "the stones from"
+	cont "CELADON CITY."
 
-	para "It's awesome. It"
-	line "really jacks up"
-	cont "SPECIAL ATTACK!"
+	para "Apparently they"
+	line "have even more"
+	cont "options there."
 	done
 
 GoldenrodDeptStore3FDirectoryText:
 	text "For Victory"
 	line "Seekers"
 
-	para "3F BATTLE"
+	para "3F EVOLUTION"
 	line "   COLLECTION"
 	done
 

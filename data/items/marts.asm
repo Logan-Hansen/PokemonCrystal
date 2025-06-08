@@ -80,12 +80,13 @@ MartAzalea:
 	db -1 ; end
 
 MartCianwood:
-	db 5 ; # items
+	db 6 ; # items
 	db POTION
 	db SUPER_POTION
 	db HYPER_POTION
 	db FULL_HEAL
 	db REVIVE
+	db SUPER_REPEL
 	db -1 ; end
 
 MartGoldenrod2F1:
@@ -123,13 +124,11 @@ MartGoldenrod3F:
 	db -1 ; end
 
 MartGoldenrod3F2:
-	db 7 ; # items
-	db FIRE_STONE
-	db THUNDERSTONE
-	db WATER_STONE
+	db 5 ; # items
 	db LEAF_STONE
 	db MOON_STONE
 	db SUN_STONE
+	db KINGS_ROCK
 	db EVERSTONE
 	db -1 ; end
 
@@ -150,15 +149,14 @@ MartGoldenrod5F:
 	db -1 ; end
 
 MartOlivine:
-	db 9 ; # items
+	db 8 ; # items
+	db POKE_BALL
 	db GREAT_BALL
 	db SUPER_POTION
 	db HYPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db ICE_HEAL
+	db FULL_HEAL
 	db SUPER_REPEL
+	db METAL_COAT
 	db SURF_MAIL
 	db -1 ; end
 
@@ -185,14 +183,12 @@ MartMahogany1:
 	db -1 ; end
 
 MartMahogany2:
-	db 10 ; # items
+	db 8 ; # items
 	db RAGECANDYBAR
+	db POKE_BALL
 	db GREAT_BALL
-	db HYPER_POTION
-	db DRAGON_SCALE
-	db UP_GRADE
-	db METAL_COAT
-	db KINGS_ROCK
+	db ULTRA_BALL
+	db HYPER_POTION	
 	db SUPER_REPEL
 	db REVIVE
 	db FLOWER_MAIL
@@ -200,15 +196,15 @@ MartMahogany2:
 
 MartBlackthorn:
 	db 9 ; # items
+	db POKE_BALL
 	db GREAT_BALL
 	db ULTRA_BALL
 	db HYPER_POTION
 	db MAX_POTION
 	db FULL_HEAL
 	db REVIVE
+	db DRAGON_SCALE
 	db MAX_REPEL
-	db X_DEFEND
-	db X_ATTACK
 	db -1 ; end
 
 MartViridian:
@@ -236,7 +232,7 @@ MartPewter:
 	db -1 ; end
 
 MartCerulean:
-	db 9 ; # items
+	db 10 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db SUPER_POTION
@@ -245,6 +241,7 @@ MartCerulean:
 	db X_DEFEND
 	db X_ATTACK
 	db DIRE_HIT
+	db LOVELY_MAIL ;moved here from Celadon 4th floor
 	db SURF_MAIL
 	db -1 ; end
 
@@ -307,10 +304,17 @@ MartCeladon3F:
 	db -1 ; end
 
 MartCeladon4F:
-	db 3 ; # items
-	db POKE_DOLL
-	db LOVELY_MAIL
-	db SURF_MAIL
+	db 10 ; # items
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
+	db MOON_STONE
+	db SUN_STONE
+	db UP_GRADE
+	db METAL_COAT
+	db KINGS_ROCK
+	db EVERSTONE
 	db -1 ; end
 
 MartCeladon5F1:
@@ -345,14 +349,15 @@ MartFuchsia:
 	db -1 ; end
 
 MartSaffron:
-	db 8 ; # items
+	db 9 ; # items
+	db POKE_BALL
 	db GREAT_BALL
 	db ULTRA_BALL
 	db HYPER_POTION
 	db MAX_POTION
 	db FULL_HEAL
-	db X_ATTACK
-	db X_DEFEND
+	db REVIVE
+	db DV_MAXER
 	db FLOWER_MAIL
 	db -1 ; end
 

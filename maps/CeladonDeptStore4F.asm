@@ -28,17 +28,18 @@ CeladonDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore4FSuperNerdText:
-	text "I'm here to buy"
-	line "SURF MAIL to send"
-	cont "to my girlfriend."
+	text "LOVELY MAIL used"
+	line "to be sold here."
+
+	para "Now it's in"
+	cont "CERULEAN CITY"
+	line "instead."
 	done
 
 CeladonDeptStore4FYoungsterText:
-	text "This is the only"
-	line "place where you"
-
-	para "can buy LOVELY"
-	line "MAIL."
+	text "I am saving up"
+	line "to evolve my"
+	cont "#MON!"
 	done
 
 CeladonDeptStore4FDirectoryText:

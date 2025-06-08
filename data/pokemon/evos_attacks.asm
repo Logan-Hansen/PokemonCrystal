@@ -2436,10 +2436,13 @@ HoothootEvosAttacks:
 	db 6, FORESIGHT
 	db 11, PECK
 	db 16, HYPNOSIS
+	db 18, CONFUSION ;was 34
 	db 22, REFLECT
+	db 26, WING_ATTACK ;added
 	db 28, TAKE_DOWN
-	db 34, CONFUSION
-	db 48, DREAM_EATER
+	db 34, PSYBEAM ;added
+	db 42, DREAM_EATER
+	db 47, PSYCHIC_M ;added
 	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
@@ -2451,10 +2454,13 @@ NoctowlEvosAttacks:
 	db 6, FORESIGHT
 	db 11, PECK
 	db 16, HYPNOSIS
+	db 18, CONFUSION ; was 41
 	db 25, REFLECT
-	db 33, TAKE_DOWN
-	db 41, CONFUSION
-	db 57, DREAM_EATER
+	db 31, WING_ATTACK ;added
+	db 33, PSYBEAM ;added
+	db 36, TAKE_DOWN
+	db 41, DREAM_EATER
+	db 47, PSYCHIC_M ;added
 	db 0 ; no more level-up moves
 
 LedybaEvosAttacks:

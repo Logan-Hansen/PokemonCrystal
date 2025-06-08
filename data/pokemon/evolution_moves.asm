@@ -185,7 +185,7 @@ EvolutionMoves::
     db NO_MOVE      ; MARILL
     db NO_MOVE      ; AZUMRILL
     db NO_MOVE      ; SUDOWOODO
-	db NO_MOVE      ; POLITOED
+	db BUBBLEBEAM   ; POLITOED
     db NO_MOVE      ; HOPPIP
     db NO_MOVE      ; SKIPLOOM
     db NO_MOVE      ; JUMPLUFF

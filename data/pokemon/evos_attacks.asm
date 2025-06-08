@@ -637,6 +637,7 @@ VileplumeEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 30, SLUDGE ;added
 	db 55, SLUDGE_BOMB ;added
 	db 0 ; no more level-up moves
 
@@ -882,6 +883,7 @@ PoliwhirlEvosAttacks:
 	db 29, LOVELY_KISS ;added
 	db 29, SWEET_KISS ;added
 	db 34, BODY_SLAM
+	db 38, ICE_PUNCH ;added
 	db 43, BELLY_DRUM
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2721,6 +2723,7 @@ BellossomEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 30, MEGA_DRAIN ;added
 	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -2771,9 +2774,11 @@ PolitoedEvosAttacks:
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
+	db 1, BUBBLEBEAM ;added
 	db 29, LOVELY_KISS ;added
 	db 29, SWEET_KISS ;added
 	db 35, PERISH_SONG
+	db 37, ICE_PUNCH ;added
 	db 43, BELLY_DRUM
 	db 47, NASTY_PLOT ;added
 	db 51, HYDRO_PUMP
@@ -2784,9 +2789,9 @@ HoppipEvosAttacks:
 	db EVOLVE_LEVEL, 18, SKIPLOOM
 	db 0 ; no more evolutions
 	db 1, SPLASH
-	db 5, SYNTHESIS
+	db 1, TACKLE
 	db 5, TAIL_WHIP
-	db 10, TACKLE
+	db 7, SYNTHESIS
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
@@ -2993,6 +2998,7 @@ MisdreavusEvosAttacks:
 	db 26, HYPNOSIS ;added
 	db 27, SHADOW_BALL ;added
 	db 32, PSYBEAM
+	db 34, NASTY_PLOT ;added
 	db 36, PAIN_SPLIT
 	db 46, PERISH_SONG
 	db 0 ; no more level-up moves
@@ -3598,8 +3604,8 @@ BlisseyEvosAttacks:
 
 RaikouEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
 	db 1, LEER
+	db 1, BITE
 	db 11, SPARK
 	db 21, REFLECT
 	db 31, QUICK_ATTACK
@@ -3611,8 +3617,8 @@ RaikouEvosAttacks:
 
 EnteiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
 	db 1, LEER
+	db 1, BITE
 	db 11, FLAME_WHEEL ;added
 	db 21, STOMP
 	db 31, FIRE_SPIN
@@ -3624,8 +3630,8 @@ EnteiEvosAttacks:
 
 SuicuneEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
 	db 1, LEER
+	db 1, BITE
 	db 11, BUBBLEBEAM
 	db 21, RAIN_DANCE
 	db 31, GUST
@@ -3723,8 +3729,11 @@ CelebiEvosAttacks:
 	db 1, RECOVER
 	db 1, HEAL_BELL
 	db 10, SAFEGUARD
+	db 15, MEGA_DRAIN ;added
 	db 20, ANCIENTPOWER
+	db 25, PSYBEAM ;added
 	db 30, FUTURE_SIGHT
+	db 35, GIGA_DRAIN ;added
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves

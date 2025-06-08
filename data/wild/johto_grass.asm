@@ -1395,21 +1395,21 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db  5, TEDDIURSA, 	  2,   4
+	db 10, TEDDIURSA, 	  2,   4
 	db 35, GEODUDE, 	  2,   4
-	db 50, ZUBAT, 		  2,   4
-	db  5, DUNSPARCE, 	  2,   4
-	db  5, LARVITAR, 	  5,   5 ; added
+	db 30, ZUBAT, 		  2,   4
+	db 15, DUNSPARCE, 	  2,   4
+	db 10, LARVITAR, 	  5,   5 ; added
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
 	; day
 	;  %, species,		min, max
-	db  1, TEDDIURSA, 	  2,   4
-	db 39, GEODUDE, 	  2,   4
-	db 50, ZUBAT, 		  2,   4
-	db  5, DUNSPARCE, 	  2,   4
-	db  5, LARVITAR, 	  5,   5
+	db  5, TEDDIURSA, 	  2,   4
+	db 35, GEODUDE, 	  2,   4
+	db 40, ZUBAT, 		  2,   4
+	db 10, DUNSPARCE, 	  2,   4
+	db 10, LARVITAR, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 	db  0, RATTATA, 	  5,   5
 
@@ -1417,10 +1417,10 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db  0, TEDDIURSA, 	  2,   4
 	db 40, GEODUDE, 	  2,   4
-	db 50, ZUBAT, 		  2,   4
+	db 30, ZUBAT, 		  2,   4
 	db  5, DUNSPARCE, 	  2,   4
 	db  5, LARVITAR, 	  5,   5
-	db  0, RATTATA, 	  5,   5
+	db 20, MISDREAVUS, 	  5,   5
 	db  0, RATTATA, 	  5,   5	
 	end_grass_wildmons
 
@@ -1527,23 +1527,23 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db  5, LEDYBA, 	      4,   5
+	db 10, LEDYBA, 	      4,   5
 	db 10, HOPPIP,	 	  4,   5
-	db 30, PIDGEY, 	 	  4,   5
+	db 15, PIDGEY, 	 	  4,   5
 	db 10, WEEDLE, 	 	  4,   5
 	db 20, CATERPIE, 	  4,   5
 	db 20, BELLSPROUT, 	  4,   5
-	db  5, PICHU,		  4,   5
+	db 15, PICHU,		  4,   5
 
 	; day
 	;  %, species,		min, max
 	db  0, LEDYBA, 	      4,   5
 	db 10, HOPPIP,	 	  4,   5
-	db 25, PIDGEY, 	 	  4,   5
+	db 20, PIDGEY, 	 	  4,   5
 	db 10, WEEDLE, 	 	  4,   5
 	db 25, CATERPIE, 	  4,   5
 	db 25, BELLSPROUT, 	  4,   5
-	db  5, PICHU,		  4,   5 ; added pichu
+	db 10, PICHU,		  4,   5 ; added pichu
 
 	; nite
 	;  %, species,		min, max
@@ -1552,7 +1552,7 @@ JohtoGrassWildMons:
 	db  5, ZUBAT, 	 	  4,   5
 	db 25, POLIWAG, 	  4,   5
 	db 20, HOOTHOOT, 	  4,   5
-	db  5, GASTLY, 		  4,   5
+	db  5, MISDREAVUS,	  4,   5
 	db  0, PICHU,		  4,   5
 	end_grass_wildmons
 
@@ -1564,19 +1564,19 @@ JohtoGrassWildMons:
 	db 20, HOPPIP, 	  	  4,   6
 	db  4, PIDGEY, 	 	  4,   7
 	db 10, RATTATA, 	  4,   7
-	db 20, BELLSPROUT, 	  4,   6
-	db 25, MAREEP, 		  4,   7
-	db  5, PICHU,	 	  4,   6 ; added
+	db 15, BELLSPROUT, 	  4,   6
+	db 20, MAREEP, 		  4,   7
+	db 15, PICHU,	 	  4,   6 ; added
 
 	; day
 	;  %, species,		min, max
-	db 16, EKANS,	  	  5,   7
+	db 21, EKANS,	  	  5,   7
 	db 20, HOPPIP, 	  	  4,   6
 	db  4, PIDGEY, 	 	  4,   7
 	db 10, RATTATA, 	  4,   7
-	db 20, BELLSPROUT, 	  4,   6
-	db 25, MAREEP, 		  4,   7
-	db  5, PICHU,	 	  4,   6 ; added
+	db 15, BELLSPROUT, 	  4,   6
+	db 20, MAREEP, 		  4,   7
+	db 10, PIKACHU,	 	  4,   6 ; added
 
 	; nite
 	;  %, species,		min, max

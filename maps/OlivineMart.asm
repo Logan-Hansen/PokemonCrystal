@@ -21,11 +21,12 @@ OlivineMartLassScript:
 	jumptextfaceplayer OlivineMartLassText
 
 OlivineMartCooltrainerFText:
-	text "Do your #MON"
-	line "already know the"
+	text "Do you have a"
+	line "SCYTHER or ONIX?"
 
-	para "move for carrying"
-	line "people on water?"
+	para "This shop sells"
+	line "a METAL COAT"
+	cont "to evolve them."
 	done
 
 OlivineMartLassText:

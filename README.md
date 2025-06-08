@@ -25,7 +25,13 @@ Completed Tutorials
 How to add a new...
 - [X] [Unique icons for each pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-party-menu-icon)
 - [X] [Pack pocket for berries](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
-- [X] [Mart (with new dialog and more items) - added evolution stone vendor to goldenrod dept store and trade evolution items in mahogony post rocket store](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
+- [X] [Mart (with new dialog and more items)](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
+     - Notable inclusions are:
+        - Goldenrod City 3rd floor sells Leaf, Moon, and Sun stones along with Kings Rock
+        - Olivine City sells Metal Coat
+        - Blackthorn City sells Dragon Scale
+        - Celadon 4th floor carries all evolution items except Dragon Scale
+        - Saffron City sells the DV Maxer (raises all DVs to 15)
 - [X] [New battle transition for team rocket](https://github.com/pret/pokecrystal/wiki/Add-a-new-battle-transition)
 - [X] [Additional wild pokemon slot for water (memory overfilled if did grass too)](https://github.com/pret/pokecrystal/wiki/Add-a-new-wild-Pok%C3%A9mon-slot)
 - [X] [Instant text speed option](https://github.com/pret/pokecrystal/wiki/Add-a-new-text-scrolling-speed)

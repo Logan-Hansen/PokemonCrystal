@@ -21,17 +21,13 @@ BlackthornMartBlackBeltScript:
 	jumptextfaceplayer BlackthornMartBlackBeltText
 
 BlackthornMartCooltrainerMText:
-	text "You can't buy MAX"
-	line "REVIVE, but it"
+	text "Our dragon-user"
+	line "clan sponsers"
+	cont "this store."
 
-	para "fully restores a"
-	line "fainted #MON."
-
-	para "Beware--it won't"
-	line "restore PP, the"
-
-	para "POWER POINTS"
-	line "needed for moves."
+	para "That is why they"
+	line "carry the rare"
+	cont "DRAGON SCALE."
 	done
 
 BlackthornMartBlackBeltText:

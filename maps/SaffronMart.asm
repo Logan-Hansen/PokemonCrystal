@@ -27,12 +27,11 @@ SaffronMartCooltrainerMText:
 	done
 
 SaffronMartCooltrainerFText:
-	text "I want to become"
-	line "stronger, but I'm"
-	cont "not good yet…"
+	text "Have you used a"
+	line "DV MAXER?"
 
-	para "Could you show me"
-	line "how sometime?"
+	para "It really ups"
+	line "#MON stats!"
 	done
 
 SaffronMart_MapEvents:

@@ -65,7 +65,8 @@ RadioTower3FCooltrainerFScript:
 .NoRockets:
 	writetext RadioTower3FCooltrainerFYoureMyHeroText
 	promptbutton
-	verbosegiveitem TM_SUNNY_DAY
+	;verbosegiveitem TM_SUNNY_DAY ;now for sale in Goldenrod
+	verbosegiveitem DV_MAXER
 	iffalse .NoRoom
 	writetext RadioTower3FCooltrainerFItsSunnyDayText
 	waitbutton
@@ -217,11 +218,14 @@ RadioTower3FCooltrainerFYoureMyHeroText:
 	done
 
 RadioTower3FCooltrainerFItsSunnyDayText:
-	text "It's SUNNY DAY."
-	line "It powers up fire-"
-	cont "type moves for a"
-	cont "while."
+	text "Thank you again,"
+	line "you saved us!"
 	done
+	;text "It's SUNNY DAY."
+	;line "It powers up fire-"
+	;cont "type moves for a"
+	;cont "while."
+	;done
 
 RadioTower3FCooltrainerFYouWereMarvelousText:
 	text "You were simply"

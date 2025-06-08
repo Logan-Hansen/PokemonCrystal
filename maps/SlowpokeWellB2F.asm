@@ -28,7 +28,7 @@ SlowpokeWellB2FGymGuideScript:
 	end
 
 SlowpokeWellB2FTMRainDance:
-	itemball TM_RAIN_DANCE
+	itemball DV_MAXER ;TM_RAIN_DANCE moved to Goldenrod store
 
 SlowpokeWellB2FGymGuideText:
 	text "I'm waiting to see"

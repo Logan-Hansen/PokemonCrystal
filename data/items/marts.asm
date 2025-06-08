@@ -143,9 +143,9 @@ MartGoldenrod4F:
 
 MartGoldenrod5F:
 	db 3 ; # items
-	db TM_THUNDERPUNCH
-	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
+	db TM_RAIN_DANCE
+	db TM_SUNNY_DAY
+	db TM_ICE_PUNCH ;should add a Hail TM at some point
 	db -1 ; end
 
 MartOlivine:

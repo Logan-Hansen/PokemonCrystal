@@ -6,7 +6,7 @@
 	const MOVERELEARNERTEXT_COMEAGAIN
 	const MOVERELEARNERTEXT_EGG
 	const MOVERELEARNERTEXT_NOTAPOKEMON
-	const MOVERELEARNERTEXT_NOTENOUGHMONEY
+	;const MOVERELEARNERTEXT_NOTENOUGHMONEY
 	const MOVERELEARNERTEXT_NOMOVESTOLEARN
 
 MoveReminder:
@@ -395,7 +395,7 @@ PrintMoveRelearnerText:
 	dw .ComeAgain
 	dw .Egg
 	dw .NotMon
-	dw .NotEnoughMoney
+	;dw .NotEnoughMoney
 	dw .NoMovesToLearn
 
 .Intro

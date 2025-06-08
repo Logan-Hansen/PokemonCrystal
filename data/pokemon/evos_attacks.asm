@@ -15,6 +15,8 @@ SECTION "Evolutions and Attacks", ROMX
 INCLUDE "data/pokemon/evolution_moves.asm"
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
++EvosAttacks::
+
 ; any evolution moves should be in learnset 1 level BEFORE they evolve
 
 BulbasaurEvosAttacks:

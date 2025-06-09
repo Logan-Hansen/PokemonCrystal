@@ -92,6 +92,7 @@ ChrisRefusedText: ;added
 	para "Well, let me know"
 	line "if you change"
 	cont "your mind..."
+	done
 
 ChrisFullPartyText: ;added
 	text "Oh, no. You can't"

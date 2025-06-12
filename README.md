@@ -112,7 +112,7 @@ Other Updates & Changes
 - [X] ~~[Battle palettes for different times of day and environments - not compatible with some features](https://github.com/pret/pokecrystal/wiki/Create-Battle-Palettes-for-Different-Times-of-Day-and-Environments)~~ Decided not to implement, it glitches a little as the battle starts and I don't think the darker color palette actually looks good.
 - [X] [Allow field moves if the pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It)
     - [X] Since you don't have to know the HM, lets make it easier to forget the ones you have learned!
-- [X] Trade evolutions that require item now work as if it was a stone, or can still trade while holding
+- [X] Trade evolutions that require item now evolve when level up holding that item, or can still trade while holding
 - [X] Trade evolutions by level - 36 for Haunter, Machoke, Graveler, and Kadabra. Can also still trade to evolve early
 - [X] odd egg has decent dvs - will either be 15/15/15/15 or 15/10/10/10 Shiny
 - [X] daycare man appears outside the fence

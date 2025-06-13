@@ -614,8 +614,8 @@ YoungsterGroup:
 
 	; YOUNGSTER (3) Route 32
 	db "ALBERT@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db  9, ZUBAT
+	db  9, RATTATA
+	db  10, ZUBAT
 	db -1 ; end
 
 	; YOUNGSTER (4) Route 32
